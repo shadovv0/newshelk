@@ -1,0 +1,468 @@
+html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, span, strong, form, label, input, button, select, table, thead, tbody, tfoot, tr, th, td, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+    vertical-align: baseline;
+    font: inherit
+}
+
+.logo{
+    position: absolute;
+    width: 348px;
+    height: 39px;
+    left: 76px;
+    top: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #232323;
+}
+
+.header-main {
+    position: absolute;
+    width: 1440px;
+    height: 172px;
+    left: 2px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.phone {
+    position: absolute;
+    width: 187px;
+    height: 29px;
+    left: 1174px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #232323;
+}
+
+.top-menu-btn {
+    position: absolute;
+    width: 939px;
+    height: 42px;
+    left: 61px;
+    top: 98px;
+    display: flex;
+    justify-content: center;
+}
+
+.usluga1 {
+    box-sizing: border-box;
+    width: 117px;
+    height: 42px;
+    margin-right: 17px;
+    border: 1px solid #232323;
+    border-radius: 22px;
+}
+
+.root-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 56px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #232323;
+}
+
+.usluga2 {
+    box-sizing: border-box;
+    width: 117px;
+    height: 42px;
+    left: 195px;
+    top: 98px;
+    border: 1px solid #232323;
+    border-radius: 22px;
+    margin-right: 17px;
+
+}
+
+.root-item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #232323;
+    text-decoration: none;
+
+}
+
+.usluga3 {
+    box-sizing: border-box;
+    width: 117px;
+    height: 42px;
+    left: 329px;
+    top: 98px;
+    border: 1px solid #232323;
+    border-radius: 22px;
+    margin-right: 17px;
+
+}
+.root-item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #232323;
+    text-decoration: none;
+
+}
+
+.usluga4{
+    box-sizing: border-box;
+    width: 179px;
+    height: 42px;
+    left: 463px;
+    top: 98px;
+    border: 1px solid #232323;
+    border-radius: 22px;
+    margin-right: 17px;
+
+}
+.root-item4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #232323;
+    text-decoration: none;
+
+}
+.usluga5{
+    box-sizing: border-box;
+    width: 179px;
+    height: 42px;
+    left: 659px;
+    top: 98px;
+    border: 1px solid #232323;
+    border-radius: 22px;
+    margin-right: 17px;
+
+}
+.root-item5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #232323;
+    text-decoration: none;
+
+}
+.usluga6{
+    box-sizing: border-box;
+    width: 145px;
+    height: 42px;
+    left: 855px;
+    top: 98px;
+    border: 1px solid #232323;
+    border-radius: 22px;
+    margin-right: 17px;
+
+}
+.root-item6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #232323;
+    text-decoration: none;
+}
+
+.search-btn, .search-form {
+    border-radius: 50%;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 -100%;
+    position: relative;
+    left: 7px
+}
+
+.search-form {
+    z-index: 50;
+    margin-top: 100px;
+    float: right;
+    background: 0 0;
+    width: 40px;
+    height: 40px;
+}
+
+.search-form form {
+    width: 324px;
+    border-radius: 20px;
+    background: #f6fafa;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.search-form input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.search-btn {
+    background: url('../img/search-btn.png') no-repeat;
+    float: left;
+    max-width: 20px;
+    margin: 0 0 0 -40px;
+    left: 0;
+    cursor: pointer
+}
+
+.sort {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 1385px;
+    height: 53px;
+    left: 70px;
+    top: 195px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 200px;
+}
+
+.sorting {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.clinics-container {
+    width: 1385px;
+    height: 354px;
+    left: 30px;
+    top: 272px;
+    border-bottom: #e8e8e8 2px solid;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.percent-human {
+    margin-top: 11px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.stars {
+    margin-top: 13px;
+}
+
+.percent-review {
+   text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.reviews {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+}
+
+.clinic-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    overflow: hidden;
+}
+
+.photo {
+    float: left;
+    text-align: center;
+}
+
+.clinic-info-left {
+    width: 100%;
+    padding: 0 54.5% 0 0;
+}
+
+.clinic-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.clinic-type {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.clinic-adress {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.clinic-text-block {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.clinic-info .right {
+    width: 51.5%;
+    margin: -18% 0 0 -51.5%;
+}
+
+.right {
+    float: right;
+}
+
+.clinic-schedule {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.clinic-metro {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+}
+
+.clinic-metro-further {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.clinic-phone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 15px;
+}
+
+.btn-zapis-napriem {
+    background: #FFF04B;
+    border-radius: 4px;
+    width: 241px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.button-record {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 50px;
+    color: #000000;
+}
