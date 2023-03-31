@@ -79,7 +79,7 @@
                     <a class="percent-review">4,7</a>
                 </div>
                 <div class="reviews">
-                    14 отзывов
+                    14 отзывовsdfgsdf
                 </div>
             </div>
             <div class="clinic-info">
