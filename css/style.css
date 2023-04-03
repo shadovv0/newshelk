@@ -289,6 +289,12 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     text-decoration: none;
     margin-right: 15px;
 }
+.wrap {
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
 
 .clinics-container {
     width: 1385px;
@@ -442,7 +448,7 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     line-height: 20px;
     /* identical to box height */
     color: rgba(0, 0, 0, 0.7);
-    margin-top: 15px;
+    margin: 20px 0;
 }
 
 .btn-zapis-napriem {
@@ -450,7 +456,6 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     border-radius: 4px;
     width: 241px;
     height: 50px;
-    margin-top: 20px;
 }
 
 .button-record {
@@ -465,4 +470,218 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     width: 240px;
     height: 50px;
     color: #000000;
+}
+.serv {
+    width: 100%;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.service {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #232323;
+}
+
+
+.service-name {
+    float: left;
+    text-decoration-line: underline;
+    width: 31.5%;
+    margin: 36px 17px 5px 1px;
+}
+
+.under-services-phone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 25px;
+}
+
+.under-services {
+    margin-top: 50px;
+}
+
+.near-phone {
+    float: right;
+    margin-top: -50px;
+}
+
+.uslovia {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+.footer {
+    height: 896px;
+    background: #F7EDDF;
+}
+
+.clinics-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 80px;
+}
+
+.clinic-about {
+    width: 100%;
+    display: flex;
+    min-height: 100%;
+    padding: 80px calc(3% + 15px);
+}
+
+.name-clinics-footer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #232323;
+}
+
+.head-block {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 25px;
+}
+
+.ul {
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #0C0C0C;
+}
+
+.mail-footer a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.linked-footer {
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #0C0C0C;
+    padding: 0;
+}
+
+.linked-name {
+    color: #0C0C0C;
+    margin-bottom: 25px;
+}
+
+.linked-footer li {
+    margin-bottom: 15px;
+}
+
+.first-block {
+    width: 25%;
+}
+
+.second-block {
+    width: 25%;
+}
+
+.third-block {
+    width: 25%;
+}
+
+.fourth-block {
+    width: 25%;
+}
+
+.link-seti img {
+    width: 28px;
+    margin: 4px;
+}
+
+.age-img img {
+    width: 35px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.link-seti a {
+    text-decoration: none;
+}
+
+.left-content-footer {
+    float: left;
+}
+
+.phone-footer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.soc-seti {
+    float: right;
+}
+
+.last-in-footer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ooo-inn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    width: 190px;
+    height: 80px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.44);
 }
