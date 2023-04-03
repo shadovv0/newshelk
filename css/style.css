@@ -1,44 +1,48 @@
-html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, span, strong, form, label, input, button, select, table, thead, tbody, tfoot, tr, th, td, textarea, blockquote {
+html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, span, strong, form, label, input, button, select, table, thead, tbody, tfoot, tr, th, td, textarea, blockquote {
     margin: 0;
     padding: 0;
     border: 0;
     outline: none;
     background: none;
     vertical-align: baseline;
-    font: inherit
+    font: inherit;
+    font-family: 'Montserrat';
 }
 
-.logo{
-    position: absolute;
-    width: 348px;
-    height: 39px;
-    left: 76px;
-    top: 39px;
+.div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+    vertical-align: baseline;
+    font: inherit;
+    height: 0;
+}
+
+.header .wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 10px 0;
+}
+
+.wrap {
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+.logo {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    /* identical to box height */
     color: #232323;
 }
 
-.header-main {
-    position: absolute;
-    width: 1440px;
-    height: 172px;
-    left: 2px;
-    top: 0px;
-    background: #FFFFFF;
-}
-
-.phone {
-    position: absolute;
-    width: 187px;
-    height: 29px;
-    left: 1174px;
-    top: 50px;
-    font-family: 'Montserrat';
+.header__phone {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -47,177 +51,35 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     color: #232323;
 }
 
-.top-menu-btn {
-    position: absolute;
-    width: 939px;
-    height: 42px;
-    left: 61px;
-    top: 98px;
+.menu-list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.usluga1 {
+.menu-item {
     box-sizing: border-box;
     width: 117px;
     height: 42px;
     margin-right: 17px;
     border: 1px solid #232323;
     border-radius: 22px;
-}
-
-.root-item1 {
+    list-style-type: none;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
-    width: 56px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #232323;
 }
 
-.usluga2 {
-    box-sizing: border-box;
-    width: 117px;
-    height: 42px;
-    left: 195px;
-    top: 98px;
-    border: 1px solid #232323;
-    border-radius: 22px;
-    margin-right: 17px;
-
-}
-
-.root-item2 {
+.top-menu__wrap {
+    max-width: 1230px;
+    margin: 25px auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 56px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
+    justify-content: space-between;
+}
+
+.root-item {
+    text-decoration-line: none;
     color: #232323;
-    text-decoration: none;
-
-}
-
-.usluga3 {
-    box-sizing: border-box;
-    width: 117px;
-    height: 42px;
-    left: 329px;
-    top: 98px;
-    border: 1px solid #232323;
-    border-radius: 22px;
-    margin-right: 17px;
-
-}
-.root-item3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 49px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #232323;
-    text-decoration: none;
-
-}
-
-.usluga4{
-    box-sizing: border-box;
-    width: 179px;
-    height: 42px;
-    left: 463px;
-    top: 98px;
-    border: 1px solid #232323;
-    border-radius: 22px;
-    margin-right: 17px;
-
-}
-.root-item4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 110px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #232323;
-    text-decoration: none;
-
-}
-.usluga5{
-    box-sizing: border-box;
-    width: 179px;
-    height: 42px;
-    left: 659px;
-    top: 98px;
-    border: 1px solid #232323;
-    border-radius: 22px;
-    margin-right: 17px;
-
-}
-.root-item5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 110px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #232323;
-    text-decoration: none;
-
-}
-.usluga6{
-    box-sizing: border-box;
-    width: 145px;
-    height: 42px;
-    left: 855px;
-    top: 98px;
-    border: 1px solid #232323;
-    border-radius: 22px;
-    margin-right: 17px;
-
-}
-.root-item6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #232323;
-    text-decoration: none;
 }
 
 .search-btn, .search-form {
@@ -232,24 +94,15 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 
 .search-form {
     z-index: 50;
-    margin-top: 100px;
-    float: right;
-    background: 0 0;
-    width: 40px;
-    height: 40px;
 }
 
 .search-form form {
     width: 324px;
     border-radius: 20px;
     background: #f6fafa;
-    position: absolute;
-    top: 0;
-    right: 0
 }
 
 .search-form input {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -258,7 +111,6 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 
 .search-btn {
     background: url('../img/search-btn.png') no-repeat;
-    float: left;
     max-width: 20px;
     margin: 0 0 0 -40px;
     left: 0;
@@ -266,152 +118,98 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 }
 
 .sort {
-    position: relative;
     display: flex;
     justify-content: flex-start;
-    width: 1385px;
-    height: 53px;
-    left: 70px;
-    top: 195px;
     background: #FFFFFF;
     border-radius: 4px;
-    margin-bottom: 200px;
 }
 
 .sorting {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     margin-right: 15px;
 }
-.wrap {
-    max-width: 1145px;
-    margin: 0 auto;
-    padding: 0 10px;
-    position: relative;
+
+.items {
+    margin-bottom: 60px;
 }
 
-.clinics-container {
-    width: 1385px;
-    height: 354px;
-    left: 30px;
-    top: 272px;
-    border-bottom: #e8e8e8 2px solid;
-    background: #FFFFFF;
-    border-radius: 4px;
+.clinic-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
-.percent-human {
+.clinic-info-left {
+    text-align: center;
+}
+
+.clinic-doctors {
     margin-top: 11px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 19px;
     line-height: 20px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.5);
 }
 
-.stars {
-    margin-top: 13px;
+.clinic-doctors img {
+    max-width: 18px;
+    margin-right: 5px;
 }
 
-.percent-review {
-   text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+.clinic-reviews img{
+    margin-top: 13px;
+    max-width: 25px;
+}
+
+.reviews-count {
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
 }
 
-.reviews {
-    font-family: 'Montserrat';
+.percent-review {
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+
     line-height: 20px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.7);
     margin-top: 5px;
 }
 
 .clinic-info {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 30px;
     line-height: 37px;
-    color: #000000;
-    overflow: hidden;
 }
 
-.photo {
-    float: left;
-    text-align: center;
+.clinic-info-center {
 }
 
-.clinic-info-left {
-    width: 100%;
-    padding: 0 54.5% 0 0;
+.photo-clinic img {
+    max-width: 60%;
 }
 
 .clinic-name {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 30px;
-    line-height: 37px;
-    color: #000000;
 }
 
 .clinic-type {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.8);
 }
 
-.clinic-adress {
+.clinic-address {
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: rgba(0, 0, 0, 0.7);
 }
 
 .clinic-text-block {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.clinic-info .right {
-    width: 51.5%;
-    margin: -18% 0 0 -51.5%;
-}
-
-.right {
-    float: right;
-}
 
 .clinic-schedule {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.5);
@@ -419,66 +217,56 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 
 
 .clinic-metro {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.7);
-    margin-top: 10px;
+
+}
+
+.clinic-metro-near {
+    margin-bottom: 11px;
 }
 
 .clinic-metro-further {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.5);
-    margin-top: 10px;
+    margin-bottom: 23px;
 }
 
 .clinic-phone {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
+    margin-bottom: 42px;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.7);
-    margin: 20px 0;
 }
 
-.btn-zapis-napriem {
+.btn_records {
     background: #FFF04B;
     border-radius: 4px;
     width: 241px;
     height: 50px;
-}
-
-.button-record {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 240px;
-    height: 50px;
-    color: #000000;
-}
-.serv {
-    width: 100%;
-    margin-left: 100px;
-    display: inline-block;
 }
 
-.service {
-    font-family: 'Montserrat';
+.btn_records a {
+    font-family: 'Rubik';
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.clinic-service-items {
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+}
+
+.clinic-service-text {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -489,14 +277,16 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 
 
 .service-name {
-    float: left;
     text-decoration-line: underline;
     width: 31.5%;
     margin: 36px 17px 5px 1px;
 }
 
+.first, .second, .third {
+    width: 33.3%;
+}
+
 .under-services-phone {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -505,30 +295,20 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     margin-bottom: 25px;
 }
 
-.under-services {
+.clinic-under-services {
+    display: flex;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
-.near-phone {
-    float: right;
-    margin-top: -50px;
-}
-
-.uslovia {
-    font-family: 'Montserrat';
+.condition-visit {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.3);
 }
-
-
-
-
-
 
 .footer {
     height: 896px;
@@ -551,55 +331,36 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 }
 
 .name-clinics-footer {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    /* identical to box height */
     color: #232323;
 }
 
 .head-block {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 25px;
 }
 
-.ul {
-    text-decoration: underline;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    color: #0C0C0C;
-}
-
 .mail-footer a {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: rgba(0, 0, 0, 0.7);
 }
 
 .linked-footer {
     list-style-type: none;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
     text-decoration-line: underline;
     color: #0C0C0C;
     padding: 0;
@@ -645,11 +406,9 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 }
 
 .left-content-footer {
-    float: left;
 }
 
 .phone-footer {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -660,22 +419,18 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
 }
 
 .soc-seti {
-    float: right;
 }
 
 .last-in-footer {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     text-align: center;
     color: rgba(0, 0, 0, 0.8);
 }
 
 .ooo-inn {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     width: 190px;
@@ -684,4 +439,9 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, 
     font-size: 14px;
     line-height: 17px;
     color: rgba(0, 0, 0, 0.44);
+}
+
+.under-clinic-about {
+    display: flex;
+    justify-content: space-between;
 }
