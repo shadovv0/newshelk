@@ -12,6 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
 <header>
     <div class="header">
         <div class="wrap clear">
@@ -66,7 +67,64 @@
         <div class="clinic-card">
             <div class="clinic-info-left">
                 <div class="photo-clinic">
-                    <img src="img/clinic.png">
+                    <img src="img/clinicbrand.png">
+                </div>
+                <div class="clinic-doctors">
+                    <img src="img/chel.png">
+                    <a>56 врачей в штате</a>
+                </div>
+                <div class="clinic-reviews">
+                    <img src="img/star.png">
+                    <a class="percent-review">4,7</a>
+                </div>
+                <div class="reviews-count">
+                    14 отзывов
+                </div>
+            </div>
+            <div class="clinic-info-center">
+                <div class="clinic-name">
+                    <p>
+                        Семейная клиника
+                    </p>
+                </div>
+                <div class="clinic-type">
+                    <p>Многопрофильная медицинская клиника, г .Москва</p>
+                </div>
+                <div class="clinic-address">
+                    <p>Москва, м. Щелковская, ул. Флотская, д.42</p>
+                </div>
+                <div class="clinic-text-block">
+                    <p>Многопрофильная медицинская клиника в Москве.<br>
+                        Наш центр предоставляет полный перечень медицинских услуг<br>
+                        и консультации лучших специалистов.</p>
+                </div>
+            </div>
+            <a href="#" class="scrollup">Наверх</a>
+            <div class="clinic-info right">
+                <div class="clinic-schedule">
+                    <p>Часы приёма:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </p>
+                </div>
+                <div class="clinic-metro">
+                    <div class="clinic-metro-near">Текстильщики (338м)</div>
+                    <div class="clinic-metro-further">
+                        Печатники (2,1км) Стахановская (2,2км)
+                    </div>
+                </div>
+                <div class="clinic-phone">
+                    <img src="img/phone.png" style="max-width: 100px">
+                    (499)123-45-67
+                </div>
+                <div class="btn_records">
+                    <a class="button-record">Запись на приём</a>
+                </div>
+            </div>
+        </div>
+        <div class="clinic-card">
+            <div class="clinic-info-left">
+                <div class="photo-clinic">
+                    <img src="img/clinicbrand.png">
                 </div>
                 <div class="clinic-doctors">
                     <img src="img/chel.png">
@@ -122,7 +180,7 @@
         <div class="clinic-card">
             <div class="clinic-info-left">
                 <div class="photo-clinic">
-                    <img src="img/clinic.png">
+                    <img src="img/clinicbrand.png">
                 </div>
                 <div class="clinic-doctors">
                     <img src="img/chel.png">
@@ -167,63 +225,7 @@
                     </div>
                 </div>
                 <div class="clinic-phone">
-                    <img src="img/phone.png" style="max-width: 100px">
-                    (499)123-45-67
-                </div>
-                <div class="btn_records">
-                    <a class="button-record">Запись на приём</a>
-                </div>
-            </div>
-        </div>
-        <div class="clinic-card">
-            <div class="clinic-info-left">
-                <div class="photo-clinic">
-                    <img src="img/clinic.png">
-                </div>
-                <div class="clinic-doctors">
-                    <img src="img/chel.png">
-                    <a>56 врачей в штате</a>
-                </div>
-                <div class="clinic-reviews">
-                    <img src="img/star.png">
-                    <a class="percent-review">4,7</a>
-                </div>
-                <div class="reviews-count">
-                    14 отзывов
-                </div>
-            </div>
-            <div class="clinic-info-center">
-                <div class="clinic-name">
-                    <p>
-                        Семейная клиника
-                    </p>
-                </div>
-                <div class="clinic-type">
-                    <p>Многопрофильная медицинская клиника, г .Москва</p>
-                </div>
-                <div class="clinic-address">
-                    <p>Москва, м. Щелковская, ул. Флотская, д.42</p>
-                </div>
-                <div class="clinic-text-block">
-                    <p>Многопрофильная медицинская клиника в Москве.<br>
-                        Наш центр предоставляет полный перечень медицинских услуг<br>
-                        и консультации лучших специалистов.</p>
-                </div>
-            </div>
-            <div class="clinic-info right">
-                <div class="clinic-schedule">
-                    <p>Часы приёма:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                    </p>
-                </div>
-                <div class="clinic-metro">
-                    <div class="clinic-metro-near">Текстильщики (338м)</div>
-                    <div class="clinic-metro-further">
-                        Печатники (2,1км) Стахановская (2,2км)
-                    </div>
-                </div>
-                <div class="clinic-phone">
-                    <img src="img/phone.png" style="max-width: 100px">
+                    <img src="img/phone.png">
                     (499)123-45-67
                 </div>
                 <div class="btn_records">
@@ -318,11 +320,338 @@
                 <span class="button-record">Запись на приём</span>
             </div>
         </div>
+        <div class="doctor-card">
+            <div class="swiper swiper-main">
+                <div class="swiper-main__wrapper swiper-wrapper">
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="popular-doctor">
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor-img">
+                                    <a class="doctor-img">
+                                        <img src="img/doctor.png">
+                                    </a>
+                                </div>
+                                <div class="doctor-rating">
+                                    <div class="rating-body">
+                                        <img src="img/star.png">
+                                        <a class="percent-review">4,9</a>
+                                    </div>
+                                    <div class="reviews-count">
+                                        14 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doctor-name">
+                                Сергеева<br>Анастасия Андреевна
+                            </div>
+                            <!--<div class="popular-doctor__left">
+                                <a href="#" class="popular-doctor__icon popular-doctor__icon--desktop">
+                                    <img src="img/doctor.png"/>
+                                </a>
+                                <div data-rating="4.9" class="popular-doctor__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="img/star.png"/>
+                                        <div class="rating__active"></div>
+                                    </div>
+                                    <b class="rating__value">4.9</b>
+                                </div>
+                                <a href="#" class="link-reviews">
+                                    <img loading="lazy" src="images/icons/messages-blue.svg"/>
+                                    <b>14 отзывов</b>
+                                </a>
+                            </div>
+                            <div class="popular-doctor__content">
+                                <div class="popular-doctor__top">
+                                    <a href="#" class="popular-doctor__icon popular-doctor__icon--mobile">
+                                        <img loading="lazy" src="images/doctors/1.jpg" alt title/>
+                                    </a>
+                                    <ul class="popular-doctor__specialties">
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Гинеколог</a>
+                                        </li>
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер врач
+                                                УЗИ</a></li>
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер врач
+                                                УЗИ</a></li>
+                                        <li class="popular-doctor__specialties-more">+4</li>
+                                    </ul>
+                                    <a href="#" class="popular-doctor__name"> <b>Манохина Дарья Дмитриевна</b> </a>
+                                </div>
+                                <ul class="popular-doctor__features features">
+                                    <li class="feature">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/clock.svg"/>
+                                        </div>
+                                        <div class="feature__text">Стаж 23 года</div>
+                                    </li>
+                                    <li class="feature feature--orange">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/star.svg"/>
+                                        </div>
+                                        <div class="feature__text">Врач высшей категории</div>
+                                    </li>
+                                    <li class="feature feature--green">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/hat.svg"/>
+                                        </div>
+                                        <div class="feature__text">Кандидат медицинских наук</div>
+                                    </li>
+                                </ul>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-review-clinic">
+        <div class="last-review-clinic_wrap">
+            <div class="">
+                <h1 class="clinic-service-text">Последние отзывы на клиники</h1>
+            </div>
+            <div class="review__clinics">
+                <div class="last-review-clinic__card-clinic">
+                    <div class="clinic-card-container">
+                        <div class="clinic-card-main">
+                            <div class="last-review-clinic__card-clinic__photo">
+                                <img src="img/clinicphoto.png">
+                            </div>
+                            <div class="last-review-clinic-count">
+                                <span class="abc">8 отзывов</span>
+                                <img src="img/star.png">
+                                <span>4,9</span>
+                                <div class="review-clinic-name">
+                                    Клиника "Название"
+                                </div>
+                                <div class="review-clinic-address">
+                                    ул.Люблинская, д.9, к.1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author-review-info">
+                            <div class="author-review">Мария +79213746292</div>
+                            <div class="comment-head">Комментарий</div>
+                            <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
+                                семьёй...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-review-clinic__card-clinic">
+                    <div class="clinic-card-container">
+                        <div class="clinic-card-main">
+                            <div class="last-review-clinic__card-clinic__photo">
+                                <img src="img/clinicphoto.png">
+                            </div>
+                            <div class="last-review-clinic-count">
+                                <span class="abc">8 отзывов</span>
+                                <img src="img/star.png">
+                                <span>4,9</span>
+                                <div class="review-clinic-name">
+                                    Клиника "Название"
+                                </div>
+                                <div class="review-clinic-address">
+                                    ул.Люблинская, д.9, к.1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author-review-info">
+                            <div class="author-review">Мария +79213746292</div>
+                            <div class="comment-head">Комментарий</div>
+                            <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
+                                семьёй...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-review-clinic__card-clinic">
+                    <div class="clinic-card-container">
+                        <div class="clinic-card-main">
+                            <div class="last-review-clinic__card-clinic__photo">
+                                <img src="img/clinicphoto.png">
+                            </div>
+                            <div class="last-review-clinic-count">
+                                <span class="abc">8 отзывов</span>
+                                <img src="img/star.png">
+                                <span>4,9</span>
+                                <div class="review-clinic-name">
+                                    Клиника "Название"
+                                </div>
+                                <div class="review-clinic-address">
+                                    ул.Люблинская, д.9, к.1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author-review-info">
+                            <div class="author-review">Мария +79213746292</div>
+                            <div class="comment-head">Комментарий</div>
+                            <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
+                                семьёй...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <h1 class="clinic-service-text">Последние отзывы на врачей</h1>
+            </div>
+            <div class="review__clinics">
+                <div class="last-review-clinic__card-clinic">
+                    <div class="clinic-card-container">
+                        <div class="clinic-card-main">
+                            <div class="last-review-clinic__card-clinic__photo">
+                                <img src="img/doctor.png">
+                            </div>
+                            <div class="last-review-clinic-count">
+                                <span class="abc">8 отзывов</span>
+                                <img src="img/star.png">
+                                <span>4,9</span>
+                                <div class="review-clinic-name">
+                                    Сергеева
+                                </div>
+                                <div class="review-clinic-address">
+                                    Анастасия Андреевна
+                                </div>
+                                <div class="review-doctor-spec">
+                                    Гинеколог
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author-review-info">
+                            <div class="author-review">Мария +79213746292</div>
+                            <div class="comment-head">Комментарий</div>
+                            <div class="comment">Очень понравился доктор. Ответила на все вопросы.Была внимательна.
+                                Назанчила анализы...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-review-clinic__card-clinic">
+                    <div class="clinic-card-container">
+                        <div class="clinic-card-main">
+                            <div class="last-review-clinic__card-clinic__photo">
+                                <img src="img/doctor.png">
+                            </div>
+                            <div class="last-review-clinic-count">
+                                <span class="abc">8 отзывов</span>
+                                <img src="img/star.png">
+                                <span>4,9</span>
+                                <div class="review-clinic-name">
+                                    Сергеева
+                                </div>
+                                <div class="review-clinic-address">
+                                    Анастасия Андреевна
+                                </div>
+                                <div class="review-doctor-spec">
+                                    Гинеколог
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author-review-info">
+                            <div class="author-review">Мария +79213746292</div>
+                            <div class="comment-head">Комментарий</div>
+                            <div class="comment">Очень понравился доктор. Ответила на все вопросы.Была внимательна.
+                                Назанчила анализы...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-review-clinic__card-clinic">
+                    <div class="clinic-card-container">
+                        <div class="clinic-card-main">
+                            <div class="last-review-clinic__card-clinic__photo">
+                                <img src="img/doctor.png">
+                            </div>
+                            <div class="last-review-clinic-count">
+                                <span class="abc">8 отзывов</span>
+                                <img src="img/star.png">
+                                <span>4,9</span>
+                                <div class="review-clinic-name">
+                                    Сергеева
+                                </div>
+                                <div class="review-clinic-address">
+                                    Анастасия Андреевна
+                                </div>
+                                <div class="review-doctor-spec">
+                                    Гинеколог
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author-review-info">
+                            <div class="author-review">Мария +79213746292</div>
+                            <div class="comment-head">Комментарий</div>
+                            <div class="comment">Очень понравился доктор. Ответила на все вопросы.Была внимательна.
+                                Назанчила анализы...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <h1>Информация о врачебной специальности</h1>
+        <div class="text-block">
+            <p>Чем занимается?</p>
+            <p>Самый первый человек, которого мы видим в своей жизни – акушер-гинеколог. В простонародье этого врача
+                называют «женский доктор». Именно этот врач несёт ответственность за здоровье будущей мамы и ещё не
+                рождённого ребёнка, находясь рядом всю беременность. Он принимает роды и наблюдает за женщиной после
+                них. Гинеколог занимается диагностикой и лечением воспалительных процессов женских половых органов, даёт
+                советы при выборе контрацептивов и помогает при проблемах с зачатием. Врач проводит профилактические
+                осмотры женщин для раннего выявления гинекологических заболеваний, так как большая их часть протекает
+                длительное время бессимптомно.
+            </p>
+            <p>Когда нужно посетить?</p>
+            <p>Обращаться к доктору следует в таких случаях:</p>
+            <li>при наступлении беременности, чтобы гинеколог мог контролировать её течение для предупреждения и
+                своевременного выявления возможных осложнений
+            </li>
+            <li>подозрение на беременность – для подтверждения диагноза;</li>
+            <li>если женщина планирует стать мамой - для подготовки к этому ответственному событию;</li>
+            <li>при нарушениях менструального цикла и изменении характера месячных – когда они становятся длительными,
+            <li> обильными или, наоборот, скудными;</li>
+            <li> при полном прекращении месячных;</li>
+            <li>появление болей в нижней части живота
+            <li>наличие белей, сопровождающихся неприятным запахом;</li>
+            <li>когда беспокоит болезненность при половом акте;</li>
+            <li>в случае бесплодия;</li>
+            <li> появление новообразований на наружных половых органах.</li>
+            <p> Даже если женщину ничего не тревожит, посещать гинеколога нужно минимум 1 раз в год для профилактики и
+                ранней диагностики скрытых болезней.
+            </p>
+            <p>
+                Как стать гинекологом?</p>
+            <p>«Чтобы стать гинекологом, нужно в первую очередь получить высшее медицинское образование на лечебном
+                факультете медицинского вуза. Их в городе на Неве несколько, но самый известный, славящийся сильной
+                школой – Санкт – Петербургский медицинский университет им. академика И.П. Павлова. С 5-го курса студенты
+                приступают к освоению специальности гинекологии. После окончания университета образование по
+                специальности продолжается в течение года в интернатуре. Но даже приступив к самостоятельной практике,
+                нужно быть готовым к постоянному, в течение всей жизни, повышению квалификации и совершенствованию
+                мастерства.»
+                (Фёдоров Михаил Сергеевич, Заведующий кафедрой медицинского университета им. академика И.П. Павлова)
+            </p>
+            <p>
+                Корифеи Санкт-Петербургской гинекологии</p>
+            <p> Уровень медицины на Руси в средние века был достаточно низок - роды у женщин принимали «повивальные
+                бабки», не отличавшиеся глубокими знаниями, а единственным средством помощи при патологических родах
+                были «заговоры». Только в 1754 г. был принят «Закон об упорядочении деятельности бабок-повитух» и в
+                Санкт-Петербурге открыта первая повивальная школа, организатором которой был П.З. Кондоиди.</p>
+            <p>Отцом русского акушерства считается знаменитый врач Н.М. Амбодик, написавший в 1808 г. первое в России
+                руководство «Искусство повивания». Вместе с ним в Санкт-Петербургской клинике врачей-гинекологов
+                работали С.А. Громов, Н.Н. Феноменов. Известными докторами были А.Я. Крассовский, основатель
+                Петербургского общества акушеров, и Д.О. Отт, чьё имя теперь носит современный институт.</p>
+            <p>В 20 веке большой вклад в развитие оперативной гинекологии сделали К.К. Скробанский и Л.Л. Окинчиц,
+                знаменитыми врачами - гинекологами были К.Н. Рабинович, М.А. Петров-Маслаков.
+            </p>
+        </div>
+        <div class="popularquestions">
+            <h1>Самые популярные вопросы</h1>
+        </div>
+
     </div>
 </div>
-<footer class="footer">
-    <div class="clear-footer">
-        <div class="clinics-footer">
+<footer>
+    <div class="footer">
+        <div class="footer-main">
             <div class="name-clinics-footer">
                 <h3>Клиника</h3>
             </div>
@@ -353,7 +682,7 @@
                     </div>
                 </div>
                 <div class="third-block">
-                    <div class="spravka">
+                    <div class="reference">
                         <h4 class="head-block">Справка</h4>
                         <ul class="linked-footer">
                             <li><a class="linked-name">Помощь</a></li>
@@ -382,38 +711,40 @@
                     <div class="phone-footer">
                         (499)123-45-67
                     </div>
-                    <div class="spravka-footer">
+                    <div class="reference-footer">
                         <span>справочная служба</span>
                     </div>
                     <div class="ooo-inn">
                         <span>2022 ⓒ ООО"МосМедПортал"<br>ИНН 7777777</span>
                     </div>
                 </div>
-                <div class="soc-seti">
+                <div class="social-media">
                     <div class="age-img">
                         <a class="">
                             <img src="img/18-plus.png">
                         </a>
                     </div>
-                    <div class="mail-footer">
-                        <a class="">info@mosmedportal.ru</a>
-                    </div>
-                    <div class="link-seti">
-                        <a class="">
-                            <img src="img/youtube.png">
-                        </a>
-                        <a class="">
-                            <img src="img/telegram.png">
-                        </a>
-                        <a class="">
-                            <img src="img/whatsapp.png">
-                        </a>
-                        <a class="">
-                            <img src="img/vk.png">
-                        </a>
-                        <a class="">
-                            <img src="img/OK.png" alt="">
-                        </a>
+                    <div class="email">
+                        <div class="email-footer">
+                            <a class="">info@mosmedportal.ru</a>
+                        </div>
+                        <div class="link-seti">
+                            <a class="">
+                                <img src="img/youtube.png">
+                            </a>
+                            <a class="">
+                                <img src="img/telegram.png">
+                            </a>
+                            <a class="">
+                                <img src="img/whatsapp.png">
+                            </a>
+                            <a class="">
+                                <img src="img/vk.png">
+                            </a>
+                            <a class="">
+                                <img src="img/OK.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

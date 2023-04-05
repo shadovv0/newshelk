@@ -30,7 +30,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     max-width: 1145px;
     margin: 0 auto;
     padding: 0 10px;
-    position: relative;
 }
 
 .logo {
@@ -148,6 +147,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     text-align: center;
 }
 
+.clinic-phone img {
+    max-width: 100px;
+}
+
 .clinic-doctors {
     margin-top: 11px;
     font-size: 19px;
@@ -160,9 +163,8 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-right: 5px;
 }
 
-.clinic-reviews img{
-    margin-top: 13px;
-    max-width: 25px;
+.clinic-reviews img {
+    max-width: 20px;
 }
 
 .reviews-count {
@@ -310,12 +312,206 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.3);
 }
 
+.popular-doctor-img img {
+    max-width: 35%;
+}
+
+.doctor-card {
+    width: 334px;
+    height: 442px;
+}
+
+.rating-body {
+    box-sizing: border-box;
+    width: 76px;
+    height: 31px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.rating-body img {
+    max-width: 18px;
+}
+
+.doctor-rating {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.popular-doctor__body {
+    display: flex;
+}
+
+.reviews-count {
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    display: none;
+    text-indent: -9999px;
+    z-index: 30;
+    background: url("../img/scroll.png") no-repeat;
+}
+
+
+
+
+.review-clinic-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.review-clinic-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.clinic-service-text {
+    margin: 60px;
+}
+
+.review-doctor-spec {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.last-review-clinic {
+    background: #F7EDDF;
+}
+
+.review__clinics {
+    display: flex;
+}
+
+.last-review-clinic_wrap {
+    height: 767px;
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.last-review-clinic__card-clinic {
+    width: 379px;
+    height: 204px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.last-review-clinic__card-clinic__photo img {
+    width: 81px;
+}
+
+.clinic-card-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.clinic-card-container {
+    padding: 17px 30px;
+    width: 100%;
+}
+
+.abc {
+    font-style: normal;
+    font-size: 12px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.last-review-clinic-count img {
+    width: 20px;
+}
+
+.last-review-clinic-count {
+    height: 25px;
+}
+
+.author-review {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.comment-head {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.comment {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     height: 896px;
     background: #F7EDDF;
 }
 
-.clinics-footer {
+.footer-main {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -396,6 +592,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin: 4px;
 }
 
+.age-img {
+    margin-right: 15px;
+}
+
 .age-img img {
     width: 35px;
     color: rgba(0, 0, 0, 0.8);
@@ -418,7 +618,23 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-bottom: 10px;
 }
 
-.soc-seti {
+.social-media {
+    display: flex;
+}
+
+.reference-footer {
+    margin-bottom: 31px;
+}
+
+.email-footer {
+    text-align: center;
+}
+
+.email-footer a {
+    text-decoration-line: none;
+    font-size: 20px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .last-in-footer {
