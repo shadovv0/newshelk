@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main/style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
@@ -46,8 +46,8 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="search-form" style="width: 324px">
-                    <form name="search-form" action="/search/" method="GET" style="width: 324px">
+                <div class="search-form">
+                    <form name="search-form" action="/search/" method="GET">
                         <input class="js-search-input" type="text" placeholder="Поиск" name="q" value=""/>
                         <button class="search-btn" href="#"></button>
                     </form>
@@ -67,14 +67,14 @@
         <div class="clinic-card">
             <div class="clinic-info-left">
                 <div class="photo-clinic">
-                    <img src="img/clinicbrand.png">
+                    <img src="../img/clinicbrand.png">
                 </div>
                 <div class="clinic-doctors">
-                    <img src="img/chel.png">
+                    <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
                 <div class="clinic-reviews">
-                    <img src="img/star.png">
+                    <img src="../img/star.png">
                     <a class="percent-review">4,7</a>
                 </div>
                 <div class="reviews-count">
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <a href="#" class="scrollup">Наверх</a>
-            <div class="clinic-info right">
+            <div class="clinic-info-right">
                 <div class="clinic-schedule">
                     <p>Часы приёма:<br>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="clinic-phone">
-                    <img src="img/phone.png" style="max-width: 100px">
+                    <img src="../img/phone.png" style="max-width: 100px">
                     (499)123-45-67
                 </div>
                 <div class="btn_records">
@@ -124,14 +124,14 @@
         <div class="clinic-card">
             <div class="clinic-info-left">
                 <div class="photo-clinic">
-                    <img src="img/clinicbrand.png">
+                    <img src="../img/clinicbrand.png">
                 </div>
                 <div class="clinic-doctors">
-                    <img src="img/chel.png">
+                    <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
                 <div class="clinic-reviews">
-                    <img src="img/star.png">
+                    <img src="../img/star.png">
                     <a class="percent-review">4,7</a>
                 </div>
                 <div class="reviews-count">
@@ -156,7 +156,7 @@
                         и консультации лучших специалистов.</p>
                 </div>
             </div>
-            <div class="clinic-info right">
+            <div class="clinic-info-right">
                 <div class="clinic-schedule">
                     <p>Часы приёма:<br>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <div class="clinic-phone">
-                    <img src="img/phone.png" style="max-width: 100px">
+                    <img src="../img/phone.png" style="max-width: 100px">
                     (499)123-45-67
                 </div>
                 <div class="btn_records">
@@ -180,14 +180,14 @@
         <div class="clinic-card">
             <div class="clinic-info-left">
                 <div class="photo-clinic">
-                    <img src="img/clinicbrand.png">
+                    <img src="../img/clinicbrand.png">
                 </div>
                 <div class="clinic-doctors">
-                    <img src="img/chel.png">
+                    <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
                 <div class="clinic-reviews">
-                    <img src="img/star.png">
+                    <img src="../img/star.png">
                     <a class="percent-review">4,7</a>
                 </div>
                 <div class="reviews-count">
@@ -212,7 +212,7 @@
                         и консультации лучших специалистов.</p>
                 </div>
             </div>
-            <div class="clinic-info right">
+            <div class="clinic-info-right">
                 <div class="clinic-schedule">
                     <p>Часы приёма:<br>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <div class="clinic-phone">
-                    <img src="img/phone.png">
+                    <img src="../img/phone.png">
                     (499)123-45-67
                 </div>
                 <div class="btn_records">
@@ -328,12 +328,12 @@
                             <div class="popular-doctor__body">
                                 <div class="popular-doctor-img">
                                     <a class="doctor-img">
-                                        <img src="img/doctor.png">
+                                        <img src="../img/doctor.png">
                                     </a>
                                 </div>
                                 <div class="doctor-rating">
                                     <div class="rating-body">
-                                        <img src="img/star.png">
+                                        <img src="../img/star.png">
                                         <a class="percent-review">4,9</a>
                                     </div>
                                     <div class="reviews-count">
@@ -341,62 +341,109 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="doctor-name">
-                                Сергеева<br>Анастасия Андреевна
-                            </div>
-                            <!--<div class="popular-doctor__left">
-                                <a href="#" class="popular-doctor__icon popular-doctor__icon--desktop">
-                                    <img src="img/doctor.png"/>
-                                </a>
-                                <div data-rating="4.9" class="popular-doctor__rating rating">
-                                    <div class="rating__body">
-                                        <img loading="lazy" src="img/star.png"/>
-                                        <div class="rating__active"></div>
-                                    </div>
-                                    <b class="rating__value">4.9</b>
+                            <div class="doctor-main-text">
+                                <div class="doctor-name">
+                                    Сергеева<br>Анастасия Андреевна
                                 </div>
-                                <a href="#" class="link-reviews">
-                                    <img loading="lazy" src="images/icons/messages-blue.svg"/>
-                                    <b>14 отзывов</b>
-                                </a>
+                                <div class="doctor-category">
+                                    Врач высшей категории.<br>
+                                    Кандидат медицинских наук. Стаж 12 лет.
+                                </div>
+                                <div class="doctor-spec">
+                                    Акушер, гинеколог, гинеколог-эндокринолог
+                                </div>
+                                <div class="doctor-address">
+                                    Ул.Люблинская, д.9 к.1<br>
+                                    ул.Фадеева, д.36 к.4
+                                </div>
+                                <div class="doctor-phone">
+                                    (499) 123-34-56
+                                </div>
+                                <div class="btn_records under-service-record">
+                                    <span class="button-record">Запись на приём</span>
+                                </div>
                             </div>
-                            <div class="popular-doctor__content">
-                                <div class="popular-doctor__top">
-                                    <a href="#" class="popular-doctor__icon popular-doctor__icon--mobile">
-                                        <img loading="lazy" src="images/doctors/1.jpg" alt title/>
+                        </div>
+                        <div class="popular-doctor">
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor-img">
+                                    <a class="doctor-img">
+                                        <img src="../img/doctor.png">
                                     </a>
-                                    <ul class="popular-doctor__specialties">
-                                        <li class="popular-doctor__specialties-speciality"><a href="#">Гинеколог</a>
-                                        </li>
-                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер врач
-                                                УЗИ</a></li>
-                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер врач
-                                                УЗИ</a></li>
-                                        <li class="popular-doctor__specialties-more">+4</li>
-                                    </ul>
-                                    <a href="#" class="popular-doctor__name"> <b>Манохина Дарья Дмитриевна</b> </a>
                                 </div>
-                                <ul class="popular-doctor__features features">
-                                    <li class="feature">
-                                        <div class="feature__icon">
-                                            <img loading="lazy" src="images/icons/features/clock.svg"/>
-                                        </div>
-                                        <div class="feature__text">Стаж 23 года</div>
-                                    </li>
-                                    <li class="feature feature--orange">
-                                        <div class="feature__icon">
-                                            <img loading="lazy" src="images/icons/features/star.svg"/>
-                                        </div>
-                                        <div class="feature__text">Врач высшей категории</div>
-                                    </li>
-                                    <li class="feature feature--green">
-                                        <div class="feature__icon">
-                                            <img loading="lazy" src="images/icons/features/hat.svg"/>
-                                        </div>
-                                        <div class="feature__text">Кандидат медицинских наук</div>
-                                    </li>
-                                </ul>
-                            </div>-->
+                                <div class="doctor-rating">
+                                    <div class="rating-body">
+                                        <img src="../img/star.png">
+                                        <a class="percent-review">4,9</a>
+                                    </div>
+                                    <div class="reviews-count">
+                                        14 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doctor-main-text">
+                                <div class="doctor-name">
+                                    Сергеева<br>Анастасия Андреевна
+                                </div>
+                                <div class="doctor-category">
+                                    Врач высшей категории.
+                                    Кандидат медицинских наук. Стаж 12 лет.
+                                </div>
+                                <div class="doctor-spec">
+                                    Акушер, гинеколог, гинеколог-эндокринолог
+                                </div>
+                                <div class="doctor-address">
+                                    Ул.Люблинская, д.9 к.1<br>
+                                    ул.Фадеева, д.36 к.4
+                                </div>
+                                <div class="doctor-phone">
+                                    (499) 123-34-56
+                                </div>
+                                <div class="btn_records under-service-record">
+                                    <span class="button-record">Запись на приём</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-doctor">
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor-img">
+                                    <a class="doctor-img">
+                                        <img src="../img/doctor.png">
+                                    </a>
+                                </div>
+                                <div class="doctor-rating">
+                                    <div class="rating-body">
+                                        <img src="../img/star.png">
+                                        <a class="percent-review">4,9</a>
+                                    </div>
+                                    <div class="reviews-count">
+                                        14 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doctor-main-text">
+                                <div class="doctor-name">
+                                    Сергеева<br>Анастасия Андреевна
+                                </div>
+                                <div class="doctor-category">
+                                    Врач высшей категории.
+                                    Кандидат медицинских наук. Стаж 12 лет.
+                                </div>
+                                <div class="doctor-spec">
+                                    Акушер, гинеколог, гинеколог-эндокринолог
+                                </div>
+                                <div class="doctor-address">
+                                    Ул.Люблинская, д.9 к.1<br>
+                                    ул.Фадеева, д.36 к.4
+                                </div>
+                                <div class="doctor-phone">
+                                    (499) 123-34-56
+                                </div>
+                                <div class="btn_records under-service-record">
+                                    <span class="button-record">Запись на приём</span>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -406,18 +453,18 @@
     <div class="last-review-clinic">
         <div class="last-review-clinic_wrap">
             <div class="">
-                <h1 class="clinic-service-text">Последние отзывы на клиники</h1>
+                <h1 class="review-clinic-text">Последние отзывы на клиники</h1>
             </div>
             <div class="review__clinics">
                 <div class="last-review-clinic__card-clinic">
                     <div class="clinic-card-container">
                         <div class="clinic-card-main">
                             <div class="last-review-clinic__card-clinic__photo">
-                                <img src="img/clinicphoto.png">
+                                <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
                                 <span class="abc">8 отзывов</span>
-                                <img src="img/star.png">
+                                <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
                                     Клиника "Название"
@@ -440,11 +487,11 @@
                     <div class="clinic-card-container">
                         <div class="clinic-card-main">
                             <div class="last-review-clinic__card-clinic__photo">
-                                <img src="img/clinicphoto.png">
+                                <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
                                 <span class="abc">8 отзывов</span>
-                                <img src="img/star.png">
+                                <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
                                     Клиника "Название"
@@ -467,11 +514,11 @@
                     <div class="clinic-card-container">
                         <div class="clinic-card-main">
                             <div class="last-review-clinic__card-clinic__photo">
-                                <img src="img/clinicphoto.png">
+                                <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
                                 <span class="abc">8 отзывов</span>
-                                <img src="img/star.png">
+                                <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
                                     Клиника "Название"
@@ -499,11 +546,11 @@
                     <div class="clinic-card-container">
                         <div class="clinic-card-main">
                             <div class="last-review-clinic__card-clinic__photo">
-                                <img src="img/doctor.png">
+                                <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
                                 <span class="abc">8 отзывов</span>
-                                <img src="img/star.png">
+                                <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
                                     Сергеева
@@ -529,11 +576,11 @@
                     <div class="clinic-card-container">
                         <div class="clinic-card-main">
                             <div class="last-review-clinic__card-clinic__photo">
-                                <img src="img/doctor.png">
+                                <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
                                 <span class="abc">8 отзывов</span>
-                                <img src="img/star.png">
+                                <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
                                     Сергеева
@@ -559,11 +606,11 @@
                     <div class="clinic-card-container">
                         <div class="clinic-card-main">
                             <div class="last-review-clinic__card-clinic__photo">
-                                <img src="img/doctor.png">
+                                <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
                                 <span class="abc">8 отзывов</span>
-                                <img src="img/star.png">
+                                <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
                                     Сергеева
@@ -589,7 +636,7 @@
         </div>
     </div>
     <div class="wrap clear">
-        <h1>Информация о врачебной специальности</h1>
+        <h1 class="info-docspec">Информация о врачебной специальности</h1>
         <div class="text-block">
             <p>Чем занимается?</p>
             <p>Самый первый человек, которого мы видим в своей жизни – акушер-гинеколог. В простонародье этого врача
@@ -644,7 +691,26 @@
             </p>
         </div>
         <div class="popularquestions">
-            <h1>Самые популярные вопросы</h1>
+            <h1 class="popup-questions">Самые популярные вопросы</h1>
+            <div>
+                <div>
+                    Что такое гинекология?
+                </div>
+                <div>
+                    Где лучше лечить женские заболевания?
+                </div>
+                <div>
+                    Посоветуйте центр гинекологии
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <div>
+                <a class="breadcrumbs-item">Главная  </a> >
+                <a class="breadcrumbs-item">Москва  </a> >
+                <a class="breadcrumbs-item">Клиники  </a> >
+                <a class="breadcrumbs-item">Гинекологи</a>
+            </div>
         </div>
 
     </div>
@@ -721,7 +787,7 @@
                 <div class="social-media">
                     <div class="age-img">
                         <a class="">
-                            <img src="img/18-plus.png">
+                            <img src="../img/18-plus.png">
                         </a>
                     </div>
                     <div class="email">
@@ -730,19 +796,19 @@
                         </div>
                         <div class="link-seti">
                             <a class="">
-                                <img src="img/youtube.png">
+                                <img src="../img/youtube.png">
                             </a>
                             <a class="">
-                                <img src="img/telegram.png">
+                                <img src="../img/telegram.png">
                             </a>
                             <a class="">
-                                <img src="img/whatsapp.png">
+                                <img src="../img/whatsapp.png">
                             </a>
                             <a class="">
-                                <img src="img/vk.png">
+                                <img src="../img/vk.png">
                             </a>
                             <a class="">
-                                <img src="img/OK.png" alt="">
+                                <img src="../img/OK.png" alt="">
                             </a>
                         </div>
                     </div>

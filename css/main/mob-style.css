@@ -1,0 +1,105 @@
+html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, span, strong, form, label, input, button, select, table, thead, tbody, tfoot, tr, th, td, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+    vertical-align: baseline;
+    font: inherit;
+    font-family: 'Montserrat';
+}
+
+.div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+    vertical-align: baseline;
+    font: inherit;
+    height: 0;
+}
+
+.header .wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 10px 0;
+}
+
+.wrap {
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.btn_records {
+    background: #FFF04B;
+    border-radius: 4px;
+    width: 241px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_records a {
+    font-family: 'Rubik';
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+@media (min-width: 800px) {
+    .logo {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 24px;
+        color: #232323;
+    }
+
+    .main-wrap {
+        text-align: center;
+    }
+
+    .photo-clinic {
+
+    }
+
+    .clinic-reviews-items {
+
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .menu-btn {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background: url("../../img/menu-btn.png") no-repeat;
+    }
+
+    .search-form {
+        font-size: 35px;
+    }
+    .sort {
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+    .sorting {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
