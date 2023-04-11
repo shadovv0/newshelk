@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
-    <link rel="stylesheet" type="text/css" href="/css/main/mob-style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/clinic/mob-style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
@@ -67,109 +67,128 @@
                 </div>
             </div>
         </div>
-        <div class="clinic_container">
-            <div class="clinic-card">
-                <div class="clinic-info-head">
-                    <div class="photo-clinic">
-                        <img src="../img/clinicbrand.png">
-                    </div>
-                    <div class="clinic_main-text">
-                        <div class="clinic-name">
-                            <p>
-                                Семейная клиника
-                            </p>
-                        </div>
-                        <div class="clinic-address">
-                            <p>Москва, м. Щелковская,<br> ул. Флотская, д.42</p>
-                        </div>
-                        <div class="clinic-reviews">
-                            <img src="../img/star.png">
-                            <a class="percent-review">4,7</a>
-                        </div>
-                        <div class="reviews-count">
-                            14 отзывов
-                        </div>
-                    </div>
+        <div class="clinic-card">
+            <div class="clinic-info-head">
+                <div class="photo-clinic">
+                    <img src="../img/clinicbrand.png">
                 </div>
-                <div class="clinic-info-center">
-                    <div class="clinic-schedule">
-                        <p>Часы приёма:<br>
-                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                <div class="clinic_main-text">
+                    <div class="clinic-name">
+                        <p>
+                            Семейная клиника
                         </p>
                     </div>
-                    <div class="clinic-metro">
-                        <div class="clinic-metro-near">Текстильщики (338м)</div>
-                        <div class="clinic-metro-further">
-                            Печатники (2,1км) Стахановская (2,2км)
-                        </div>
+                    <div class="clinic-address">
+                        <p>Москва, м. Щелковская,<br> ул. Флотская, д.42</p>
                     </div>
-                    <div class="clinic-phone">
-                        <img src="../img/phone.png">
-                        (499)123-45-67
+                    <div class="clinic-reviews">
+                        <img src="../img/star.png">
+                        <a class="percent-review">4,7</a>
                     </div>
-                    <div class="clinic-text-block">
-                        <p>Многопрофильная медицинская клиника в Москве.
-                            Наш центр предоставляет полный перечень медицинских услуг
-                            и консультации лучших специалистов.</p>
-                    </div>
-                    <div class="clinic-card-button">
-                        <div class="btn_records">
-                            <a class="button-record">Запись на приём</a>
-                        </div>
+                    <div class="reviews-count">
+                        14 отзывов
                     </div>
                 </div>
             </div>
-            <div class="clinic-card">
-                <div class="clinic-info-head">
-                    <div class="photo-clinic">
-                        <img src="../img/clinicbrand.png">
-                    </div>
-                    <div class="clinic_main-text">
-                        <div class="clinic-name">
-                            <p>
-                                Семейная клиника
-                            </p>
-                        </div>
-                        <div class="clinic-address">
-                            <p>Москва, м. Щелковская,<br> ул. Флотская, д.42</p>
-                        </div>
-                        <div class="clinic-reviews">
-                            <img src="../img/star.png">
-                            <a class="percent-review">4,7</a>
-                        </div>
-                        <div class="reviews-count">
-                            14 отзывов
-                        </div>
+            <div class="clinic-info-center">
+                <div class="clinic-schedule">
+                    <p>Часы приёма:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </p>
+                </div>
+                <div class="clinic-metro">
+                    <div class="clinic-metro-near">Текстильщики (338м)</div>
+                    <div class="clinic-metro-further">
+                        Печатники (2,1км) Стахановская (2,2км)
                     </div>
                 </div>
-                <div class="clinic-info-center">
-                    <div class="clinic-schedule">
-                        <p>Часы приёма:<br>
-                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                        </p>
-                    </div>
-                    <div class="clinic-metro">
-                        <div class="clinic-metro-near">Текстильщики (338м)</div>
-                        <div class="clinic-metro-further">
-                            Печатники (2,1км) Стахановская (2,2км)
-                        </div>
-                    </div>
-                    <div class="clinic-phone">
-                        <img src="../img/phone.png">
-                        (499)123-45-67
-                    </div>
-                    <div class="clinic-text-block">
-                        <p>Многопрофильная медицинская клиника в Москве.
-                            Наш центр предоставляет полный перечень медицинских услуг
-                            и консультации лучших специалистов.</p>
-                    </div>
-                    <div class="clinic-card-button">
-                        <div class="btn_records">
-                            <a class="button-record">Запись на приём</a>
-                        </div>
+                <div class="clinic-phone">
+                    <img src="../img/phone.png">
+                    (499)123-45-67
+                </div>
+                <div class="clinic-text-block">
+                    <p>Многопрофильная медицинская клиника в Москве.
+                        Наш центр предоставляет полный перечень медицинских услуг
+                        и консультации лучших специалистов.</p>
+                </div>
+                <div class="clinic_service-item">
+                    <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
+                    <div class="clinic_service-popular_item"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>10 800 руб.</a></div>
+                    <div class="clinic_service-popular_item"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>100 800 руб.</a></div>
+                </div>
+                <div class="clinic-card-button">
+                    <div class="btn_records">
+                        <a class="button-record">Запись на приём</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="clinic-card">
+            <div class="clinic-info-head">
+                <div class="photo-clinic">
+                    <img src="../img/clinicbrand.png">
+                </div>
+                <div class="clinic_main-text">
+                    <div class="clinic-name">
+                        <p>
+                            Семейная клиника
+                        </p>
+                    </div>
+                    <div class="clinic-address">
+                        <p>Москва, м. Щелковская,<br> ул. Флотская, д.42</p>
+                    </div>
+                    <div class="clinic-reviews">
+                        <img src="../img/star.png">
+                        <a class="percent-review">4,7</a>
+                    </div>
+                    <div class="reviews-count">
+                        14 отзывов
+                    </div>
+                </div>
+            </div>
+            <div class="clinic-info-center">
+                <div class="clinic-schedule">
+                    <p>Часы приёма:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </p>
+                </div>
+                <div class="clinic-metro">
+                    <div class="clinic-metro-near">Текстильщики (338м)</div>
+                    <div class="clinic-metro-further">
+                        Печатники (2,1км) Стахановская (2,2км)
+                    </div>
+                </div>
+                <div class="clinic-phone">
+                    <img src="../img/phone.png">
+                    (499)123-45-67
+                </div>
+                <div class="clinic-text-block">
+                    <p>Многопрофильная медицинская клиника в Москве.
+                        Наш центр предоставляет полный перечень медицинских услуг
+                        и консультации лучших специалистов.</p>
+                </div>
+                <div class="clinic_service-item">
+                    <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
+                    <div class="clinic_service-popular_item"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>10 800 руб.</a></div>
+                    <div class="clinic_service-popular_item"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>100 800 руб.</a></div>
+                </div>
+                <div class="clinic-card-button">
+                    <div class="btn_records">
+                        <a class="button-record">Запись на приём</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listing_bottom">
+            <ul class="pagination_listing">
+                <li class="pagination_item"><a class="pagination_link-back"><</a></li>
+                <li class="pagination_item"><a class="pagination_link-active">1</a></li>
+                <li class="pagination_item"><a class="pagination_link">2</a></li>
+                <li class="pagination_item"><a class="pagination_link">3</a></li>
+                <li class="pagination_item"><a class="pagination_link">...</a></li>
+                <li class="pagination_item"><a class="pagination_link">32</a></li>
+                <li class="pagination_item"><a class="pagination_link-back">></a></li>
+            </ul>
         </div>
         <div class="clinic-services_container">
             <div class="clinic-services">
@@ -216,58 +235,6 @@
                 </div>
             </div>
         </div>
-        <div class="doctor-card">
-            <div class="swiper swiper-main">
-                <div class="swiper-main__wrapper swiper-wrapper">
-                    <div class="swiper-main__slide swiper-slide">
-                        <div class="popular-doctor">
-                            <div class="popular-doctor__body">
-                                <div class="popular-doctor-img">
-                                    <a class="doctor-img">
-                                        <img src="../img/doctor.png">
-                                    </a>
-                                </div>
-                                <div class="doctor_head-text">
-                                    <div class="doctor-rating">
-                                        <div class="rating-body">
-                                            <img src="../img/star.png">
-                                            <a class="doctor_percent-review">4,9</a>
-                                        </div>
-                                        <div class="doctor_reviews-count">
-                                            14 отзывов
-                                        </div>
-                                    </div>
-                                    <div class="doctor-name">
-                                        Сергеева<br>Анастасия Андреевна
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="doctor-main-text">
-                                <div class="doctor-category">
-                                    Врач высшей категории.<br>
-                                    Кандидат медицинских наук. Стаж 12 лет.
-                                </div>
-                                <div class="doctor-spec">
-                                    Акушер, гинеколог, гинеколог-эндокринолог
-                                </div>
-                                <div class="doctor-address">
-                                    Ул.Люблинская, д.9 к.1<br>
-                                    ул.Фадеева, д.36 к.4
-                                </div>
-                                <div class="doctor-phone">
-                                    (499) 123-34-56
-                                </div>
-                                <div class="button-mobile">
-                                    <div class="btn_records">
-                                        <a class="button-record">Запись на приём</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="last-review-clinic">
             <div class="last-review-clinic_wrap">
                 <div class="">
@@ -297,6 +264,8 @@
                                 </div>
                             </div>
                             <div class="author-review-info">
+                                <div class="review_on_doctor">Отзыв на врача:<a class="review_doctor_name"> Сергееву Аллу
+                                        Владимировну</a></div>
                                 <div class="author-review">Мария +79213746292</div>
                                 <div class="comment-head">Комментарий</div>
                                 <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
@@ -306,44 +275,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
-                    <h1 class="review-doctor-text">Последние отзывы о врачах</h1>
+            </div>
+        </div>
+        <div class="attention-for-patient">
+            <div class="attention-container">
+                <div class="alert-for-view">
+                    <img src="../img/alerting.png">
+                    <span>Обратите внимание!</span>
                 </div>
-                <div class="review__clinics">
-                    <div class="last-review-clinic__card-clinic">
-                        <div class="clinic-card-container">
-                            <div class="clinic-card-main">
-                                <div class="last-review-clinic__card-clinic__photo">
-                                    <img src="../img/doctor.png">
-                                </div>
-                                <div class="last-review-clinic-count">
-                                    <div class="doctor-review-count">
-                                        <a class="abcde">8 отзывов</a>
-                                        <img src="../img/star.png">
-                                        <span>4,9</span>
-                                    </div>
-                                    <div class="card-doctor-review-center">
-                                        <div class="review-clinic-name">
-                                            Сергеева
-                                        </div>
-                                        <div class="review-clinic-address">
-                                            Анастасия Андреевна
-                                        </div>
-                                        <div class="review-doctor-spec">
-                                            Гинеколог
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="author-review-info">
-                                <div class="author-review">Мария +79213746292</div>
-                                <div class="comment-head">Комментарий</div>
-                                <div class="comment">Очень понравился доктор. Ответила на все вопросы.Была внимательна.
-                                    Назанчила анализы...
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="alert-info">
+                    <span>Информация на странице прелставоена для ознакомления. Для назначения лечения обратитесь к врачу.</span>
                 </div>
             </div>
         </div>
@@ -361,7 +302,7 @@
                     протекает
                     длительное время бессимптомно.
                 </p>
-                <p>Когда нужно посетить?</p>
+                <!--<p>Когда нужно посетить?</p>
                 <p>Обращаться к доктору следует в таких случаях:</p>
                 <li>при наступлении беременности, чтобы гинеколог мог контролировать её течение для предупреждения и
                     своевременного выявления возможных осложнений
@@ -407,28 +348,16 @@
                     Петербургского общества акушеров, и Д.О. Отт, чьё имя теперь носит современный институт.</p>
                 <p>В 20 веке большой вклад в развитие оперативной гинекологии сделали К.К. Скробанский и Л.Л. Окинчиц,
                     знаменитыми врачами - гинекологами были К.Н. Рабинович, М.А. Петров-Маслаков.
-                </p>
-            </div>
-            <div class="popularquestions">
-                <h1 class="popup-questions">Самые популярные вопросы</h1>
-                <div>
-                    <div>
-                        Что такое гинекология?
-                    </div>
-                    <div>
-                        Где лучше лечить женские заболевания?
-                    </div>
-                    <div>
-                        Посоветуйте центр гинекологии
-                    </div>
-                </div>
+                </p>-->
             </div>
             <div class="breadcrumbs">
-                <a class="breadcrumbs-item">Главная </a> >
-                <a class="breadcrumbs-item">Москва </a> >
-                <a class="breadcrumbs-item">Клиники </a> >
-                <a class="breadcrumbs-item">Гинекологи</a>
+                <div>
+                    <a class="breadcrumbs-item">Главная </a> >
+                    <a class="breadcrumbs-item">Москва </a> >
+                    <a class="breadcrumbs-item">Клиники </a>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
