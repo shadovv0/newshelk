@@ -7,12 +7,13 @@
     <link rel="stylesheet" type="text/css" href="/css/main/style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
-<script src="../js/main.js"></script>
 <header>
     <div class="header">
         <div class="wrap clear">
@@ -58,6 +59,7 @@
 </header>
 <div class="content">
     <div class="wrap clear">
+        <div class="scrollup">^Наверх</div>
         <div class="items">
             <div class="sort">
                 <a href="" class="sorting">Популярность ↑ ↓</a>
@@ -100,7 +102,6 @@
                         и консультации лучших специалистов.</p>
                 </div>
             </div>
-            <a href="#" class="scrollup">Наверх</a>
             <div class="clinic-info-right">
                 <div class="clinic-schedule">
                     <p>Часы приёма:<br>
@@ -469,7 +470,7 @@
                                 <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -496,7 +497,7 @@
                                 <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -523,7 +524,7 @@
                                 <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -555,7 +556,7 @@
                                 <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -585,7 +586,7 @@
                                 <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -615,7 +616,7 @@
                                 <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -703,29 +704,107 @@
                 знаменитыми врачами - гинекологами были К.Н. Рабинович, М.А. Петров-Маслаков.
             </p>
         </div>
+        <div class="modal_window">
+            <div class="modal_container">
+                <div class="registration">
+                    <h1 class="appointment">Запись на приём</h1>
+                </div>
+                <div class="window_main-text">
+                    <div class="spec">
+                        <p>Специальность</p>
+                        <div class="doctor-clinics">
+                            <span>Гинеколог-эндокринолог - 900р</span>
+                            <span>˅</span>
+                        </div>
+                    </div>
+                    <div class="doctor">
+                        <p>Врач</p>
+                        <div class="doctor-clinics">
+                            <span>Сергеева А.А.</span>
+                            <span>˅</span>
+                        </div>
+                        <div class="change">
+                            Карточка врача
+                        </div>
+                    </div>
+                    <div class="date">
+                        <p>Дата и время приёма</p>
+                        <div class="doctor-clinics">
+                            <span>15 марта, 17:30</span>
+                            <div class="change">Изменить</div>
+                        </div>
+                    </div>
+                    <div class="birth">
+                        <p>Дата рождения</p>
+                        <div class="doctor-clinics">
+                            <span>ДД-ММ-ГГГГ</span>
+                            <span>.</span>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>Имя пациента</p>
+                        <div class="doctor-clinics">
+                            <span>Имя</span>
+                        </div>
+                    </div>
+                    <div class="surname">
+                        <p>Фамилия пациента</p>
+                        <div class="doctor-clinics">
+                            <span>Фамилия</span>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <p>Номер телефона</p>
+                        <div class="doctor-clinics">
+                            <span> +7 (___) ___-__-__</span>
+                        </div>
+                    </div>
+                    <div class="sms">
+                        На этот номер вы получите SMS с кодом<br>
+                        подтверждения и информацию о записи
+                    </div>
+                </div>
+                <div class="form">
+                    Отправляя форму, вы соглашаетесь с политикой обработки персональных данных
+                </div>
+                <div class="record_escape_btn">
+                    <div class="btn_escape modal_btn">
+                        <span class="button-escape">Отмена</span>
+                    </div>
+                    <div class="btn_records modal_btn">
+                        <span class="button-record">Запись на приём</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="popularquestions">
             <h1 class="popup-questions">Самые популярные вопросы</h1>
             <div>
-                <div>
-                    Что такое гинекология?
-                </div>
-                <div>
-                    Где лучше лечить женские заболевания?
-                </div>
-                <div>
-                    Посоветуйте центр гинекологии
-                </div>
-            </div>
-        </div>
-        <div class="breadcrumbs">
-            <div>
-                <a class="breadcrumbs-item">Главная </a> >
-                <a class="breadcrumbs-item">Москва </a> >
-                <a class="breadcrumbs-item">Клиники </a> >
-                <a class="breadcrumbs-item">Гинекологи</a>
-            </div>
-        </div>
+                <div class="first-question">
+                    <p>Что такое гинекология?</p>
+                    <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением и
+                    профилактикой заболеваний женской половой системы. Гинеколог это исключительно «женский» врач.
+                        Гинекология неразрывно связана с акушерством.</span>
 
+                </div>
+                <div class="second-question">
+                    <span>Где лучше лечить женские заболевания?</span>
+                    <span>˅</span>
+                </div>
+                <div class="third-question">
+                    <span>Посоветуйте центр гинекологии</span>
+                    <span>˅</span>
+                </div>
+            </div>
+            <div class="breadcrumbs">
+                <div>
+                    <a class="breadcrumbs-item">Главная </a> >
+                    <a class="breadcrumbs-item">Москва </a> >
+                    <a class="breadcrumbs-item">Клиники </a> >
+                    <a class="breadcrumbs-item">Гинекологи</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <footer>

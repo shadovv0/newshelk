@@ -9,6 +9,20 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     font-family: 'Montserrat';
 }
 
+.scrollup {
+    position: fixed;
+    cursor: pointer;
+    display: none;
+    width: 100px;
+    height: 100px;
+    bottom: 30px;
+    right: 15px;
+    text-align: center;
+    z-index: 30;
+    background: #FFF04B;
+    border-radius: 50%;
+}
+
 .div {
     margin: 0;
     padding: 0;
@@ -273,6 +287,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .btn_records a {
@@ -281,6 +296,32 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     line-height: 21px;
     text-decoration-line: none;
     color: #000000;
+}
+
+.btn_escape {
+    border-radius: 4px;
+    width: 241px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #E4E4E4;
+    margin-right: 15px;
+}
+
+.btn_escape a {
+    font-family: 'Rubik';
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: none;
+    color: #AAAAAA;
+}
+
+.record_escape_btn {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .clinic-service-items {
@@ -460,25 +501,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 
-
-
-
-.scrollup {
-    width: 40px;
-    height: 40px;
-    opacity: 0.3;
-    position: fixed;
-    bottom: 30px;
-    right: 15px;
-    display: none;
-    text-indent: -9999px;
-    z-index: 30;
-    background: url("../../img/scroll.png") no-repeat;
-}
-
-
-
-
 .review-clinic-address {
     font-family: 'Montserrat';
     font-style: normal;
@@ -547,7 +569,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     width: 100%;
 }
 
-.abc {
+.counts-reviews {
     font-style: normal;
     font-size: 12px;
     text-decoration-line: underline;
@@ -578,40 +600,54 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.7);
 }
 
+.first-question {
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    height: auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 25px;
+}
 
+.first-question span {
 
+}
 
+.second-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    height: 34px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 25px;
+}
 
+.second-question span {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
 
+.third-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    height: 34px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.third-question span {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
 
 
 .footer {
@@ -768,4 +804,77 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .under-clinic-about {
     display: flex;
     justify-content: space-between;
+}
+
+
+.modal_window {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.window_main-text {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.window_main-text p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.appointment {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.doctor-clinics {
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 552px;
+    height: 53px;
+    padding: 10px;
+    display: flex;
+    margin: 0 10px 15px 0;
+    justify-content: space-between;
+}
+
+.doctor-clinics span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.doctor {
+    margin-bottom: 15px;
+}
+
+.change {
+    color: #FF6472;
+}
+
+.sms {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8B8D93;
+}
+
+.form {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8B8D93;
 }

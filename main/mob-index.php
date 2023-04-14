@@ -282,7 +282,7 @@
                                 </div>
                                 <div class="last-review-clinic-count">
                                     <div class="clinic-review-count">
-                                        <a class="abcde">8 отзывов</a>
+                                        <a class="counts-reviews">8 отзывов</a>
                                         <img src="../img/star.png">
                                         <span>4,9</span>
                                     </div>
@@ -318,7 +318,7 @@
                                 </div>
                                 <div class="last-review-clinic-count">
                                     <div class="doctor-review-count">
-                                        <a class="abcde">8 отзывов</a>
+                                        <a class="counts-reviews">8 отзывов</a>
                                         <img src="../img/star.png">
                                         <span>4,9</span>
                                     </div>

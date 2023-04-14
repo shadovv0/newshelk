@@ -20,7 +20,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     height: 0;
 }
 
-.header .wrap {
+.head_container .wrap {
     display: flex;
     justify-content: space-between;
     padding: 37px 10px 0;
@@ -174,28 +174,28 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     max-width: 100px;
 }
 
-.clinic-doctors {
+.card-clinic__count-doctors {
     margin-top: 11px;
     font-size: 19px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.clinic-doctors img {
+.card-clinic__count-doctors img {
     max-width: 18px;
     margin-right: 5px;
 }
 
-.clinic-reviews img {
+.card-clinic__percent-reviews img {
     max-width: 20px;
 }
 
-.reviews-count {
+.card-clinic__reviews-count {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
 }
 
-.percent-review {
+.card-clinic__percent-reviews a {
     font-style: normal;
     text-decoration-line: none;
     line-height: 20px;
@@ -275,6 +275,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .btn_records a {
@@ -471,7 +472,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     width: 100%;
 }
 
-.abc {
+.counts-reviews {
     font-style: normal;
     font-size: 12px;
     text-decoration-line: underline;
@@ -565,7 +566,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 
 
-.footer {
+.site-footer {
     height: 896px;
     background: #F7EDDF;
 }

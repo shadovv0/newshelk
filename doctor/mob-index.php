@@ -258,7 +258,7 @@
                                 </div>
                                 <div class="last-review-clinic-count">
                                     <div class="review-doctor-count">
-                                        <span class="abcde">8 отзывов</span>
+                                        <span class="counts-reviews">8 отзывов</span>
                                         <img src="../img/star.png">
                                         <span>4,9</span>
                                     </div>

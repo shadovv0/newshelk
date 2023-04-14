@@ -14,7 +14,7 @@
         crossorigin="anonymous"></script>
 <script src="../js/main.js"></script>
 <header>
-    <div class="header">
+    <div class="head_container">
         <div class="wrap clear">
             <div class="logo">
                 ЛОГО/Название сайта
@@ -70,15 +70,15 @@
                 <div class="photo-clinic">
                     <img src="../img/clinicbrand.png">
                 </div>
-                <div class="clinic-doctors">
+                <div class="card-clinic__count-doctors">
                     <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
-                <div class="clinic-reviews">
+                <div class="card-clinic__percent-reviews">
                     <img src="../img/star.png">
                     <a class="percent-review">4,7</a>
                 </div>
-                <div class="reviews-count">
+                <div class="card-clinic__reviews-count">
                     14 отзывов
                 </div>
             </div>
@@ -131,15 +131,15 @@
                 <div class="photo-clinic">
                     <img src="../img/clinicbrand.png">
                 </div>
-                <div class="clinic-doctors">
+                <div class="card-clinic__count-doctors">
                     <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
-                <div class="clinic-reviews">
+                <div class="card-clinic__percent-reviews">
                     <img src="../img/star.png">
                     <a class="percent-review">4,7</a>
                 </div>
-                <div class="reviews-count">
+                <div class="card-clinic__reviews-count">
                     14 отзывов
                 </div>
             </div>
@@ -192,15 +192,15 @@
                 <div class="photo-clinic">
                     <img src="../img/clinicbrand.png">
                 </div>
-                <div class="clinic-doctors">
+                <div class="card-clinic__count-doctors">
                     <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
-                <div class="clinic-reviews">
+                <div class="card-clinic__percent-reviews">
                     <img src="../img/star.png">
                     <a class="percent-review">4,7</a>
                 </div>
-                <div class="reviews-count">
+                <div class="card-clinic__reviews-count">
                     14 отзывов
                 </div>
             </div>
@@ -360,7 +360,7 @@
                                 <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abcde">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -389,7 +389,7 @@
                                 <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -418,7 +418,7 @@
                                 <img src="../img/clinicphoto.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -498,8 +498,6 @@
                 знаменитыми врачами - гинекологами были К.Н. Рабинович, М.А. Петров-Маслаков.
             </p>
         </div>
-
-
         <div class="attention-for-patient">
             <div class="attention-container">
                 <div class="alert-for-view">
@@ -511,7 +509,6 @@
                 </div>
             </div>
         </div>
-
         <div class="breadcrumbs">
             <div>
                 <a class="breadcrumbs-item">Главная </a> >
@@ -519,11 +516,10 @@
                 <a class="breadcrumbs-item">Клиники </a>
             </div>
         </div>
-
     </div>
 </div>
 <footer>
-    <div class="footer">
+    <div class="site-footer">
         <div class="footer-main">
             <div class="name-clinics-footer">
                 <h3>Клиника</h3>

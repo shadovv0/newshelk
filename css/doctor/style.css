@@ -524,7 +524,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     width: 100%;
 }
 
-.abc {
+.counts-reviews {
     font-style: normal;
     font-size: 12px;
     text-decoration-line: underline;
@@ -587,6 +587,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     text-align: center;
     display: flex;
     align-items: center;
+    cursor: pointer;
     justify-content: center;
 }
 

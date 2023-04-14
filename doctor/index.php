@@ -300,7 +300,7 @@
                                 <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -330,7 +330,7 @@
                                 <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
@@ -360,7 +360,7 @@
                                 <img src="../img/doctor.png">
                             </div>
                             <div class="last-review-clinic-count">
-                                <span class="abc">8 отзывов</span>
+                                <span class="counts-reviews">8 отзывов</span>
                                 <img src="../img/star.png">
                                 <span>4,9</span>
                                 <div class="review-clinic-name">
