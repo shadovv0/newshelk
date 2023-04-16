@@ -68,215 +68,202 @@
             </div>
         </div>
         <div class="doctor-card">
-            <div class="doctor-info">
-                <div class="doctor-info-head">
-                    <div class="doctor-photo-review">
-                        <div class="photo-doctor">
-                            <img src="../img/doctor.png">
-                        </div>
-                        <div class="clinic-reviews">
-                            <img src="../img/star.png">
-                            <a class="percent-review">4,7</a>
-                        </div>
-                        <div class="reviews-count">
-                            14 отзывов
-                        </div>
+            <div class="doctor-card__container">
+                <div class="doctor-card__head">
+                    <div class="photo-doctor">
+                        <img src="../img/doctor.png">
                     </div>
-                    <div class="doctor_main-text">
-                        <div class="doctor-name">
-                            <p>Сергеева Анастасия<br>Андреевна</p>
+                    <div class="doctor-card__clinic-reviews">
+                        <img src="../img/star.png">
+                        <a class="percent-review">4,7</a>
+                    </div>
+                    <div class="reviews-count">
+                        14 отзывов
+                    </div>
+                </div>
+                <div class="doctor-card__body">
+                    <div class="doctor-card__doctor-name">
+                        <p>Сергеева Анастасия<br>Андреевна</p>
+                    </div>
+                    <div class="doctor-card__doctor-category">
+                        <p>Врач высшей категории.<br>
+                            Кандидат медицинских наук.</p>
+                    </div>
+                    <div class="doctor-card__doctor-spec">
+                        <p>Акушер, гинеколог, гинеколог-эндокринолог</p>
+                    </div>
+                    <div class="doctor-card__doctor-experience">
+                        <p>Стаж - 15 лет.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-card__body">
+                <div class="doctor-clinics_active">
+                    <div class="doctor_clinic-name">
+                        <span>Клиника на Текстильщиках</span>
+                        <span>^</span>
+                    </div>
+                    <div class="doctor-card__clinic-items">
+                        <div class="doctor-card__clinic-schedule">
+                            <p>Часы приёма:<br>
+                                Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                            </p>
                         </div>
-                        <div class="doctor-category">
-                            <p>Врач высшей категории.<br>
-                                Кандидат медицинских наук.</p>
-                        </div>
-                        <div class="doctor-spec">
-                            <p>Акушер, гинеколог, гинеколог-эндокринолог</p>
-                        </div>
-                        <div class="doctor-experience">
-                            <p>Стаж - 15 лет.</p>
+                        <div class="doctor-card__-metro">
+                            <div class="doctor-card__metro-near">Текстильщики (338м)</div>
+                            <div class="doctor-card__metro-further">
+                                Печатники (2,1км) Стахановская (2,2км)
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="doctor-info-center">
-                    <div class="doctor-clinics_active">
-                        <div class="doctor_clinic-name">
-                            <span>Клиника на Текстильщиках</span>
-                            <span>^</span>
-                        </div>
-                        <div class="doctor_clinic-items">
-                            <div class="clinic-schedule">
-                                <p>Часы приёма:<br>
-                                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                                </p>
-                            </div>
-                            <div class="clinic-metro">
-                                <div class="clinic-metro-near">Текстильщики (338м)</div>
-                                <div class="clinic-metro-further">
-                                    Печатники (2,1км) Стахановская (2,2км)
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="doctor-date">
-                        <span><</span>
-                        <span>Понедельник 21.03</span>
-                        <span>></span>
-                    </div>
-                    <div class="clinic-active">
-                        <img>
-                        <span>Клиника на Текстильщиках</span>
-                        <span>˅</span>
-                    </div>
-                    <div class="clinic-free-time-container">
-                        <div class="free-time">13:00</div>
-                        <div class="free-time">13:00</div>
-                        <div class="free-time">13:00</div>
-                        <div class="free-time">13:00</div>
-                        <div class="free-time">13:00</div>
-                        <div class="free-time">˅</div>
-                    </div>
-                    <div class="clinic-phone">
-                        <img src="../img/phone.png" style="max-width: 100px">
-                        (499)123-45-67
-                    </div>
-                    <div class="doctor-clinics">
-                        <span>Клиника на Петровско-Разумовской</span>
-                        <span>˅</span>
-                    </div>
+                <div class="doctor-card__doctor-date">
+                    <span><</span>
+                    <span>Понедельник 21.03</span>
+                    <span>></span>
+                </div>
+                <div class="doctor-card__clinic-active">
+                    <img>
+                    <span>Клиника на Текстильщиках</span>
+                    <span>˅</span>
+                </div>
+                <div class="doctor-card__clinic-free-time">
+                    <div class="free-time">13:00</div>
+                    <div class="free-time">13:00</div>
+                    <div class="free-time">13:00</div>
+                    <div class="free-time">13:00</div>
+                    <div class="free-time">13:00</div>
+                    <div class="free-time">˅</div>
+                </div>
+                <div class="doctor-card__clinic-phone">
+                    <img src="../img/phone.png" style="max-width: 100px">
+                    (499)123-45-67
+                </div>
+                <div class="doctor-card__doctor-clinics">
+                    <span>Клиника на Петровско-Разумовской</span>
+                    <span>˅</span>
                 </div>
             </div>
         </div>
         <div class="doctor-card">
-            <div class="doctor-info">
-                <div class="doctor-info-head">
-                    <div class="doctor-photo-review">
-                        <div class="photo-doctor">
-                            <img src="../img/doctor.png">
-                        </div>
-                        <div class="clinic-reviews">
-                            <img src="../img/star.png">
-                            <a class="percent-review">4,7</a>
-                        </div>
-                        <div class="reviews-count">
-                            14 отзывов
-                        </div>
+            <div class="doctor-card__container">
+                <div class="doctor-card__head">
+                    <div class="photo-doctor">
+                        <img src="../img/doctor.png">
                     </div>
-                    <div class="doctor_main-text">
-                        <div class="doctor-name">
-                            <p>Сергеева Анастасия<br>Андреевна</p>
-                        </div>
-                        <div class="doctor-category">
-                            <p>Врач высшей категории.<br>
-                                Кандидат медицинских наук.</p>
-                        </div>
-                        <div class="doctor-spec">
-                            <p>Акушер, гинеколог, гинеколог-эндокринолог</p>
-                        </div>
-                        <div class="doctor-experience">
-                            <p>Стаж - 15 лет.</p>
-                        </div>
+                    <div class="doctor-card__clinic-reviews">
+                        <img src="../img/star.png">
+                        <a class="percent-review">4,7</a>
+                    </div>
+                    <div class="reviews-count">
+                        14 отзывов
                     </div>
                 </div>
-                <div class="doctor-info-center">
-                    <div class="clinic-phone">
-                        <img src="../img/phone.png" style="max-width: 100px">
-                        (499)123-45-67
+                <div class="doctor-card__body">
+                    <div class="doctor-card__doctor-name">
+                        <p>Сергеева Анастасия<br>Андреевна</p>
                     </div>
-                    <div class="doctor-clinics">
-                        <span>Клиника на Текстильщиках</span>
-                        <span>˅</span>
+                    <div class="doctor-card__doctor-category">
+                        <p>Врач высшей категории.<br>
+                            Кандидат медицинских наук.</p>
                     </div>
-                    <div class="doctor-clinics">
-                        <span>Клиника на Петровско-Разумовской</span>
-                        <span>˅</span>
+                    <div class="doctor-card__doctor-spec">
+                        <p>Акушер, гинеколог, гинеколог-эндокринолог</p>
                     </div>
-                    <div class="doctor-card-button">
-                        <div class="btn_records">
-                            <a class="button-record">Запись на приём</a>
-                        </div>
+                    <div class="doctor-card__doctor-experience">
+                        <p>Стаж - 15 лет.</p>
                     </div>
+                </div>
+            </div>
+            <div class="doctor-card__body">
+                <div class="doctor-card__doctor-clinics">
+                    <span>Клиника на Текстильщиках</span>
+                    <span>˅</span>
+                </div>
+                <div class="doctor-card__doctor-clinics">
+                    <span>Клиника на Петровско-Разумовской</span>
+                    <span>˅</span>
+                </div>
+            </div>
+            <div class="doctor-card__button-mobile">
+                <div class="btn_records">
+                    <a class="button-record">Запись на приём</a>
                 </div>
             </div>
         </div>
-        <div class="clinic-services_container">
-            <div class="clinic-services">
-                <h1 class="clinic-service-text">Услуги клиники</h1>
-                <div class="clinic-service-items">
-                    <div class="first">
-                        <div class="service-name">
-                            <a>Гинекология</a>
-                        </div>
-                        <div class="service-name">
-                            <a>Урология</a>
-                        </div>
-                        <div class="service-name">
-                            <a>Венерология</a>
-                        </div>
-                        <div class="service-name">
-                            <a>Дерматология</a>
-                        </div>
-                        <div class="service-name">
-                            <a>Эндокринология</a>
-                        </div>
-                        <div class="service-name">
-                            <a>Терапия</a>
-                        </div>
-                        <div class="service-name">
-                            <a>Маммология</a>
-                        </div>
-                    </div>
+        <div class="services">
+            <h1 class="service__title">Услуги клиники</h1>
+            <div class="service__body">
+                <div class="service-item">
+                    <a>Гинекология</a>
+                </div>
+                <div class="service-item">
+                    <a>Урология</a>
+                </div>
+                <div class="service-item">
+                    <a>Венерология</a>
+                </div>
+                <div class="service-item">
+                    <a>Дерматология</a>
+                </div>
+                <div class="service-item">
+                    <a>Эндокринология</a>
+                </div>
+                <div class="service-item">
+                    <a>Терапия</a>
+                </div>
+                <div class="service-item">
+                    <a>Маммология</a>
                 </div>
             </div>
-            <div class="clinic-under-services">
-                <div class="clinic-phone-visit">
-                    <div class="under-services-phone">
-                        (499)123-45-67
+            <div class="service__footer">
+                <div class="service__clinic-phone">
+                    (499)123-45-67
+                </div>
+                <div class="service__button-mobile">
+                    <div class="btn_records">
+                        <a class="button-record">Запись на приём</a>
                     </div>
-                    <div class="button-mobile">
-                        <div class="btn_records">
-                            <a class="button-record">Запись на приём</a>
-                        </div>
-                    </div>
-                    <div class="condition-visit">
-                        Условия для посещения
-                    </div>
+                </div>
+                <div class="service__condition-visit">
+                    Условия для посещения
                 </div>
             </div>
         </div>
-        <div class="last-review-clinic">
-            <div class="last-review-clinic_wrap">
-                <div class="">
-                    <h1 class="clinic-service-text">Последние отзывы на врачей</h1>
-                </div>
-                <div class="review__clinics">
-                    <div class="last-review-clinic__card-clinic">
-                        <div class="clinic-card-container">
-                            <div class="clinic-card-main">
-                                <div class="last-review-clinic__card-clinic__photo">
+        <div class="last-review">
+            <div class="last-review_wrap">
+                <h1 class="last-review__doctor-title">Последние отзывы о врачах</h1>
+                <div class="review__doctors">
+                    <div class="last-review__doctor-card">
+                        <div class="last-review__doctor-card__container">
+                            <div class="last-review__doctor-card__head">
+                                <div class="last-review__card-doctor__photo">
                                     <img src="../img/doctor.png">
                                 </div>
-                                <div class="last-review-clinic-count">
-                                    <div class="review-doctor-count">
-                                        <span class="counts-reviews">8 отзывов</span>
+                                <div class="last-review__doctor-body">
+                                    <div class="last-review__count-reviews">
+                                        <a class="counts-reviews">8 отзывов</a>
                                         <img src="../img/star.png">
                                         <span>4,9</span>
                                     </div>
-                                    <div class="review-clinic-name">
-                                        Сергеева
-                                    </div>
-                                    <div class="review-clinic-address">
-                                        Анастасия Андреевна
-                                    </div>
-                                    <div class="review-doctor-spec">
-                                        Гинеколог
+                                    <div class="last-review__doctor-name-spec">
+                                        <div class="last-review__doctor-surname">
+                                            Сергеева
+                                        </div>
+                                        <div class="last-review__doctor-name">
+                                            Анастасия Андреевна
+                                        </div>
+                                        <div class="last-review__doctor-spec">
+                                            Гинеколог
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="author-review-info">
-                                <div class="author-review">Мария +79213746292</div>
-                                <div class="comment-head">Комментарий</div>
-                                <div class="comment">Очень понравился доктор. Ответила на все вопросы.Была внимательна.
+                                <div class="last-review__doctor-author">Мария +79213746292</div>
+                                <div class="last-review__doctor-comment-head">Комментарий</div>
+                                <div class="last-review__doctor-comment">Очень понравился доктор. Ответила на все
+                                    вопросы.Была внимательна.
                                     Назанчила анализы...
                                 </div>
                             </div>
@@ -292,7 +279,8 @@
                     <span>Обратите внимание!</span>
                 </div>
                 <div class="alert-info">
-                    <span>Информация на странице прелставоена для ознакомления. Для назначения лечения обратитесь к врачу.</span>
+                    <span>Информация на странице<br>предоставлена для ознакомления.<br>
+                        Для назначения лечения<br>обратитесь к врачу.</span>
                 </div>
             </div>
         </div>
@@ -300,13 +288,19 @@
             <h1 class="info-docspec">Информация о врачебной специальности</h1>
             <div class="text-block">
                 <p>Чем занимается?</p>
-                <p>Самый первый человек, которого мы видим в своей жизни – акушер-гинеколог. В простонародье этого врача
-                    называют «женский доктор». Именно этот врач несёт ответственность за здоровье будущей мамы и ещё не
-                    рождённого ребёнка, находясь рядом всю беременность. Он принимает роды и наблюдает за женщиной после
-                    них. Гинеколог занимается диагностикой и лечением воспалительных процессов женских половых органов,
+                <p>Самый первый человек, которого мы видим в своей жизни – акушер-гинеколог. В простонародье
+                    этого врача
+                    называют «женский доктор». Именно этот врач несёт ответственность за здоровье будущей
+                    мамы и ещё не
+                    рождённого ребёнка, находясь рядом всю беременность. Он принимает роды и наблюдает за
+                    женщиной после
+                    них. Гинеколог занимается диагностикой и лечением воспалительных процессов женских
+                    половых органов,
                     даёт
-                    советы при выборе контрацептивов и помогает при проблемах с зачатием. Врач проводит профилактические
-                    осмотры женщин для раннего выявления гинекологических заболеваний, так как большая их часть
+                    советы при выборе контрацептивов и помогает при проблемах с зачатием. Врач проводит
+                    профилактические
+                    осмотры женщин для раннего выявления гинекологических заболеваний, так как большая их
+                    часть
                     протекает
                     длительное время бессимптомно.
                 </p>
@@ -370,102 +364,87 @@
     </div>
 </div>
 <footer>
-    <div class="footer-head">
-        <div class="footer-main">
-            <div class="clinic-about">
-                <div class="first-block">
-                    <div class="about-clinic">
-                        <h4 class="head-block">О нас</h4>
-                        <div class="linked-footer">
-                            <a class="linked-name">О проекте · </a>
-                            <a class="linked-name">Информация для пациентов · </a>
-                            <a class="linked-name">Отзывы · </a>
-                            <a class="linked-name">Контакты · </a>
-                            <a class="linked-name">Авторы</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="second-block">
-                    <div class="for-patient">
-                        <h4 class="head-block">Пациентам</h4>
-                        <div class="linked-footer">
-                            <a class="linked-name">Клиники · </a>
-                            <a class="linked-name">Врачи · </a>
-                            <a class="linked-name">Услуги · </a>
-                            <a class="linked-name">Диагностика · </a>
-                            <a class="linked-name">Заболевания · </a>
-                            <a class="linked-name">Симптомы · </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="third-block">
-                    <div class="reference">
-                        <h4 class="head-block">Справка</h4>
-                        <div class="linked-footer">
-                            <a class="linked-name">Помощь · </a>
-                            <a class="linked-name">Пациенту · </a>
-                            <a class="linked-name">Врачу · </a>
-                            <a class="linked-name">Клинике · </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="fourth-block">
-                    <div class="technical-info">
-                        <h4 class="head-block">Техническая информация</h4>
-                        <div class="linked-footer">
-                            <a class="linked-name">Политика конфиденциальности · </a>
-                            <a class="linked-name">Пользовательское соглашение · </a>
-                            <a class="linked-name">Политика cookies · </a>
-                            <a class="linked-name">Согласие на обработку<br>персональных данных · </a>
-                            <a class="linked-name">Заболевания · </a>
-                            <a class="linked-name">Симптомы</a>
-
-                        </div>
-                    </div>
+    <div class="footer__container">
+        <div class="footer__body">
+            <div class="footer__about-clinic">
+                <h4 class="footer__about-clinic-title">О нас</h4>
+                <div class="linked-footer">
+                    <a class="linked-name">О проекте · </a>
+                    <a class="linked-name">Информация для пациентов · </a>
+                    <a class="linked-name">Отзывы · </a>
+                    <a class="linked-name">Контакты · </a>
+                    <a class="linked-name">Авторы</a>
                 </div>
             </div>
-            <div class="under-clinic-about">
-                <div class="content-footer">
-                    <div class="phone-footer">
-                        (499)123-45-67
-                    </div>
-                    <div class="reference-footer">
-                        <span>справочная служба</span>
-                    </div>
-                    <div class="footer_name-clinic"><span>Клиника</span></div>
-                    <div class="email-footer">
-                        <a>info@mosmedportal.ru</a>
-                    </div>
-                    <div class="ooo-inn">
-                        <span>2022 ⓒ ООО"МосМедПортал"<br>ИНН 7777777</span>
-                    </div>
-                    <div class="link-seti">
-                        <a class="">
-                            <img src="../img/youtube.png">
-                        </a>
-                        <a class="">
-                            <img src="../img/telegram.png">
-                        </a>
-                        <a class="">
-                            <img src="../img/whatsapp.png">
-                        </a>
-                        <a class="">
-                            <img src="../img/vk.png">
-                        </a>
-                        <a class="">
-                            <img src="../img/OK.png" alt="">
-                        </a>
-                    </div>
-                    <div class="age-img">
-                        <a class="">
-                            <img src="../img/18-plus.png">
-                        </a>
-                    </div>
-                    <div class="last-in-footer">
-                        <span>Информация: предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача</span>
-                    </div>
+            <div class="footer__for-patient">
+                <h4 class="footer__for-patient-title">Пациентам</h4>
+                <div class="linked-footer">
+                    <a class="linked-name">Клиники · </a>
+                    <a class="linked-name">Врачи · </a>
+                    <a class="linked-name">Услуги · </a>
+                    <a class="linked-name">Диагностика · </a>
+                    <a class="linked-name">Заболевания · </a>
+                    <a class="linked-name">Симптомы</a>
+                </div>
+            </div>
+            <div class="footer__reference">
+                <h4 class="footer__reference-title">Справка</h4>
+                <div class="linked-footer">
+                    <a class="linked-name">Помощь · </a>
+                    <a class="linked-name">Пациенту · </a>
+                    <a class="linked-name">Врачу · </a>
+                    <a class="linked-name">Клинике</a>
+                </div>
+            </div>
+            <div class="footer__technical-info">
+                <h4 class="footer__reference-title">Техническая информация</h4>
+                <div class="linked-footer">
+                    <a class="linked-name">Политика конфиденциальности · </a>
+                    <a class="linked-name">Пользовательское соглашение · </a>
+                    <a class="linked-name">Политика cookies · </a>
+                    <a class="linked-name">Согласие на обработку персональных данных · </a>
+                    <a class="linked-name">Заболевания · </a>
+                    <a class="linked-name">Симптомы</a>
+                </div>
+            </div>
+            <div class="footer__communication">
+                <div class="phone-footer">
+                    (499)123-45-67
+                </div>
+                <div class="reference-footer">
+                    справочная служба
+                </div>
+                <div class="footer__name-clinic">Клиника</div>
+                <div class="email-footer">
+                    <a>info@mosmedportal.ru</a>
+                </div>
+                <div class="ooo-inn">
+                    <span>2022 ⓒ ООО"МосМедПортал"<br>ИНН 7777777</span>
+                </div>
+                <div class="link-seti">
+                    <a class="">
+                        <img src="../img/youtube.png">
+                    </a>
+                    <a class="">
+                        <img src="../img/telegram.png">
+                    </a>
+                    <a class="">
+                        <img src="../img/whatsapp.png">
+                    </a>
+                    <a class="">
+                        <img src="../img/vk.png">
+                    </a>
+                    <a class="">
+                        <img src="../img/OK.png" alt="">
+                    </a>
+                </div>
+                <div class="age-img">
+                    <a class="">
+                        <img src="../img/18-plus.png">
+                    </a>
+                </div>
+                <div class="last-in-footer">
+                    <span>Информация: предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача</span>
                 </div>
             </div>
         </div>

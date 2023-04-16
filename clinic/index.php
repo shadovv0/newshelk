@@ -58,46 +58,42 @@
 </header>
 <div class="content">
     <div class="wrap clear">
-        <div class="items">
-            <div class="sort">
-                <a href="" class="sorting">Популярность ↑ ↓</a>
-                <a href="" class="sorting">Рейтинг ↑ ↓</a>
-                <a href="" class="sorting">Количество отзывов ↑ ↓</a>
-            </div>
+        <div class="sort">
+            <a href="" class="sorting">Популярность ↑ ↓</a>
+            <a href="" class="sorting">Рейтинг ↑ ↓</a>
+            <a href="" class="sorting">Количество отзывов ↑ ↓</a>
         </div>
         <div class="clinic-card">
-            <div class="clinic-info-left">
-                <div class="photo-clinic">
+            <div class="clinic-card__left">
+                <div class="clinic-card__photo-clinic">
                     <img src="../img/clinicbrand.png">
                 </div>
-                <div class="card-clinic__count-doctors">
+                <div class="clinic-card__doctors">
                     <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
-                <div class="card-clinic__percent-reviews">
+                <div class="clinic-card__reviews">
                     <img src="../img/star.png">
-                    <a class="percent-review">4,7</a>
+                    <a href="#" class="clinic-card__percent-review">4,7</a>
                 </div>
-                <div class="card-clinic__reviews-count">
+                <div class="clinic-card__reviews-count">
                     14 отзывов
                 </div>
             </div>
-            <div class="clinic-info-center">
-                <div class="clinic-name">
-                    <p>
-                        Семейная клиника
-                    </p>
+            <div class="clinic-card__center">
+                <div class="clinic-card__name">
+                    Семейная клиника
                 </div>
-                <div class="clinic-type">
-                    <p>Многопрофильная медицинская клиника, г .Москва</p>
+                <div class="clinic-card__type">
+                    Многопрофильная медицинская клиника, г .Москва
                 </div>
-                <div class="clinic-address">
-                    <p>Москва, м. Щелковская, ул. Флотская, д.42</p>
+                <div class="clinic-card__address">
+                    Москва, м. Щелковская, ул. Флотская, д.42
                 </div>
-                <div class="clinic-text-block">
-                    <p>Многопрофильная медицинская клиника в Москве.<br>
-                        Наш центр предоставляет полный перечень медицинских услуг<br>
-                        и консультации лучших специалистов.</p>
+                <div class="clinic-card__text-block">
+                    Многопрофильная медицинская клиника в Москве.<br>
+                    Наш центр предоставляет полный перечень медицинских услуг<br>
+                    и консультации лучших специалистов.
                 </div>
                 <div class="clinic_service-item">
                     <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
@@ -105,60 +101,58 @@
                     <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>100 800 руб.</a></div>
                 </div>
             </div>
-            <div class="clinic-info-right">
+            <div class="clinic-card__right">
                 <div class="clinic-schedule">
-                    <p>Часы приёма:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                    </p>
+                    Часы приёма:<br>
+                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+
                 </div>
-                <div class="clinic-metro">
-                    <div class="clinic-metro-near">Текстильщики (338м)</div>
-                    <div class="clinic-metro-further">
+                <div class="clinic-card__metro">
+                    <div class="clinic-card__metro-near">Текстильщики (338м)</div>
+                    <div class="clinic-card__metro-further">
                         Печатники (2,1км) Стахановская (2,2км)
                     </div>
                 </div>
-                <div class="clinic-phone">
+                <div class="clinic-card__phone">
                     <img src="../img/phone.png" style="max-width: 100px">
                     (499)123-45-67
                 </div>
                 <div class="btn_records">
-                    <a class="button-record">Запись на приём</a>
+                    <a href="#" class="button-record">Запись на приём</a>
                 </div>
             </div>
         </div>
         <div class="clinic-card">
-            <div class="clinic-info-left">
-                <div class="photo-clinic">
+            <div class="clinic-card__left">
+                <div class="clinic-card__photo-clinic">
                     <img src="../img/clinicbrand.png">
                 </div>
-                <div class="card-clinic__count-doctors">
+                <div class="clinic-card__doctors">
                     <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
-                <div class="card-clinic__percent-reviews">
+                <div class="clinic-card__reviews">
                     <img src="../img/star.png">
-                    <a class="percent-review">4,7</a>
+                    <a href="#" class="clinic-card__percent-review">4,7</a>
                 </div>
-                <div class="card-clinic__reviews-count">
+                <div class="clinic-card__reviews-count">
                     14 отзывов
                 </div>
             </div>
-            <div class="clinic-info-center">
-                <div class="clinic-name">
-                    <p>
-                        Семейная клиника
-                    </p>
+            <div class="clinic-card__center">
+                <div class="clinic-card__name">
+                    Семейная клиника
                 </div>
-                <div class="clinic-type">
-                    <p>Многопрофильная медицинская клиника, г .Москва</p>
+                <div class="clinic-card__type">
+                    Многопрофильная медицинская клиника, г .Москва
                 </div>
-                <div class="clinic-address">
-                    <p>Москва, м. Щелковская, ул. Флотская, д.42</p>
+                <div class="clinic-card__address">
+                    Москва, м. Щелковская, ул. Флотская, д.42
                 </div>
-                <div class="clinic-text-block">
-                    <p>Многопрофильная медицинская клиника в Москве.<br>
-                        Наш центр предоставляет полный перечень медицинских услуг<br>
-                        и консультации лучших специалистов.</p>
+                <div class="clinic-card__text-block">
+                    Многопрофильная медицинская клиника в Москве.<br>
+                    Наш центр предоставляет полный перечень медицинских услуг<br>
+                    и консультации лучших специалистов.
                 </div>
                 <div class="clinic_service-item">
                     <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
@@ -166,60 +160,58 @@
                     <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>100 800 руб.</a></div>
                 </div>
             </div>
-            <div class="clinic-info-right">
+            <div class="clinic-card__right">
                 <div class="clinic-schedule">
-                    <p>Часы приёма:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                    </p>
+                    Часы приёма:<br>
+                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+
                 </div>
-                <div class="clinic-metro">
-                    <div class="clinic-metro-near">Текстильщики (338м)</div>
-                    <div class="clinic-metro-further">
+                <div class="clinic-card__metro">
+                    <div class="clinic-card__metro-near">Текстильщики (338м)</div>
+                    <div class="clinic-card__metro-further">
                         Печатники (2,1км) Стахановская (2,2км)
                     </div>
                 </div>
-                <div class="clinic-phone">
+                <div class="clinic-card__phone">
                     <img src="../img/phone.png" style="max-width: 100px">
                     (499)123-45-67
                 </div>
                 <div class="btn_records">
-                    <a class="button-record">Запись на приём</a>
+                    <a href="#" class="button-record">Запись на приём</a>
                 </div>
             </div>
         </div>
         <div class="clinic-card">
-            <div class="clinic-info-left">
-                <div class="photo-clinic">
+            <div class="clinic-card__left">
+                <div class="clinic-card__photo-clinic">
                     <img src="../img/clinicbrand.png">
                 </div>
-                <div class="card-clinic__count-doctors">
+                <div class="clinic-card__doctors">
                     <img src="../img/chel.png">
                     <a>56 врачей в штате</a>
                 </div>
-                <div class="card-clinic__percent-reviews">
+                <div class="clinic-card__reviews">
                     <img src="../img/star.png">
-                    <a class="percent-review">4,7</a>
+                    <a class="clinic-card__percent-review">4,7</a>
                 </div>
-                <div class="card-clinic__reviews-count">
+                <div class="clinic-card__reviews-count">
                     14 отзывов
                 </div>
             </div>
-            <div class="clinic-info-center">
-                <div class="clinic-name">
-                    <p>
-                        Семейная клиника
-                    </p>
+            <div class="clinic-card__center">
+                <div class="clinic-card__name">
+                    Семейная клиника
                 </div>
-                <div class="clinic-type">
-                    <p>Многопрофильная медицинская клиника, г .Москва</p>
+                <div class="clinic-card__type">
+                    Многопрофильная медицинская клиника, г .Москва
                 </div>
-                <div class="clinic-address">
-                    <p>Москва, м. Щелковская, ул. Флотская, д.42</p>
+                <div class="clinic-card__address">
+                    Москва, м. Щелковская, ул. Флотская, д.42
                 </div>
-                <div class="clinic-text-block">
-                    <p>Многопрофильная медицинская клиника в Москве.<br>
-                        Наш центр предоставляет полный перечень медицинских услуг<br>
-                        и консультации лучших специалистов.</p>
+                <div class="clinic-card__text-block">
+                    Многопрофильная медицинская клиника в Москве.<br>
+                    Наш центр предоставляет полный перечень медицинских услуг<br>
+                    и консультации лучших специалистов.
                 </div>
                 <div class="clinic_service-item">
                     <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
@@ -227,19 +219,19 @@
                     <div class="clinic_service-popular_item"><a>Акушер(от 18 лет)</a><a>100 800 руб.</a></div>
                 </div>
             </div>
-            <div class="clinic-info-right">
+            <div class="clinic-card__right">
                 <div class="clinic-schedule">
-                    <p>Часы приёма:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                    </p>
+                    Часы приёма:<br>
+                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+
                 </div>
-                <div class="clinic-metro">
-                    <div class="clinic-metro-near">Текстильщики (338м)</div>
-                    <div class="clinic-metro-further">
+                <div class="clinic-card__metro">
+                    <div class="clinic-card__metro-near">Текстильщики (338м)</div>
+                    <div class="clinic-card__metro-further">
                         Печатники (2,1км) Стахановская (2,2км)
                     </div>
                 </div>
-                <div class="clinic-phone">
+                <div class="clinic-card__phone">
                     <img src="../img/phone.png" style="max-width: 100px">
                     (499)123-45-67
                 </div>
@@ -259,182 +251,191 @@
                 <li class="pagination_item"><a class="pagination_link-back">></a></li>
             </ul>
         </div>
-        <div class="clinic-services">
-            <h1 class="clinic-service-text">Услуги клиники</h1>
-            <div class="clinic-service-items">
-                <div class="first">
-                    <div class="service-name">
-                        <a>Гинекология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Урология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Венерология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Дерматология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Эндокринология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Терапия</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Маммология</a>
-                    </div>
+        <div class="services">
+            <h1 class="service__title">Услуги клиники</h1>
+            <div class="service__body">
+                <div class="service-item">
+                    <a href="#">Гинекология</a>
                 </div>
-                <div class="second">
-                    <div class="service-name">
-                        <a>Гинекология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Урология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Венерология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Дерматология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Эндокринология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Терапия</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Маммология</a>
-                    </div>
+                <div class="service-item">
+                    <a href="#">Урология</a>
                 </div>
-                <div class="third">
-                    <div class="service-name">
-                        <a>Гинекология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Урология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Венерология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Дерматология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Эндокринология</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Терапия</a>
-                    </div>
-                    <div class="service-name">
-                        <a>Маммология</a>
-                    </div>
+                <div class="service-item">
+                    <a href="#">Венерология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Дерматология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Эндокринология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Терапия</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Маммология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Гинекология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Урология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Венерология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Дерматология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Эндокринология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Терапия</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Маммология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Гинекология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Урология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Венерология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Дерматология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Эндокринология</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Терапия</a>
+                </div>
+                <div class="service-item">
+                    <a href="#">Маммология</a>
                 </div>
             </div>
-        </div>
-        <div class="clinic-under-services">
-            <div class="clinic-phone-visit">
-                <div class="under-services-phone">
-                    (499)123-45-67
+            <div class="service__footer">
+                <div class="service__phone-visit">
+                    <div class="service__clinic-phone">
+                        <img>
+                        (499)123-45-67
+                    </div>
+                    <div class="service__condition-visit">
+                        <img>
+                        Условия для посещения
+                    </div>
                 </div>
-                <div class="condition-visit">
-                    Условия для посещения
+                <div class="btn_records">
+                    <span class="button-record">Запись на приём</span>
                 </div>
-            </div>
-            <div class="btn_records under-service-record">
-                <span class="button-record">Запись на приём</span>
             </div>
         </div>
     </div>
-    <div class="last-review-clinic">
-        <div class="last-review-clinic_wrap">
-            <div class="">
-                <h1 class="review-clinic-text">Последние отзывы на клиники</h1>
-            </div>
+    <div class="last-review">
+        <div class="last-review_wrap">
+            <h1 class="last-review__clinic-title">Последние отзывы на клиники</h1>
             <div class="review__clinics">
-                <div class="last-review-clinic__card-clinic">
-                    <div class="clinic-card-container">
-                        <div class="clinic-card-main">
-                            <div class="last-review-clinic__card-clinic__photo">
+                <div class="last-review__card-clinic">
+                    <div class="last-review__clinic-card-container">
+                        <div class="last-review__clinic-card__head">
+                            <div class="last-review__card-clinic__photo">
                                 <img src="../img/clinicphoto.png">
                             </div>
-                            <div class="last-review-clinic-count">
-                                <span class="counts-reviews">8 отзывов</span>
-                                <img src="../img/star.png">
-                                <span>4,9</span>
-                                <div class="review-clinic-name">
-                                    Клиника "Название"
+                            <div class="last-review__clinic-count-review">
+                                <div class="last-review__clinic-count-reviews">
+                                    <span class="counts-reviews">8 отзывов</span>
+                                    <img src="../img/star.png">
+                                    <span>4,9</span>
                                 </div>
-                                <div class="review-clinic-address">
-                                    ул.Люблинская, д.9, к.1
+                                <div class="last-review__clinic">
+                                    <div class="last-review__clinic-name">
+                                        Клиника "Название"
+                                    </div>
+                                    <div class="last-review__clinic-address">
+                                        ул.Люблинская, д.9, к.1
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="author-review-info">
-                            <div class="review_on_doctor">Отзыв на врача:<a class="review_doctor_name"> Сергееву Аллу
-                                    Владимировну</a></div>
-                            <div class="author-review">Мария +79213746292</div>
-                            <div class="comment-head">Комментарий</div>
-                            <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
+                            <div class="review_on_doctor">Отзыв на врача:
+                                <a href="#" class="review_doctor_name"> Сергееву Аллу Владимировну</a></div>
+                            <div class="last-review__clinic__author-review">Мария +79213746292</div>
+                            <div class="last-review__clinic__comment-head">Комментарий</div>
+                            <div class="last-review__clinic__comment">Отличная клиника. Внимательные и компетентные
+                                врачи. Посещяем всей
                                 семьёй...
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="last-review-clinic__card-clinic">
-                    <div class="clinic-card-container">
-                        <div class="clinic-card-main">
-                            <div class="last-review-clinic__card-clinic__photo">
+                <div class="last-review__card-clinic">
+                    <div class="last-review__clinic-card-container">
+                        <div class="last-review__clinic-card__head">
+                            <div class="last-review__card-clinic__photo">
                                 <img src="../img/clinicphoto.png">
                             </div>
-                            <div class="last-review-clinic-count">
-                                <span class="counts-reviews">8 отзывов</span>
-                                <img src="../img/star.png">
-                                <span>4,9</span>
-                                <div class="review-clinic-name">
-                                    Клиника "Название"
+                            <div class="last-review__clinic-count-review">
+                                <div class="last-review__clinic-count-reviews">
+                                    <span class="counts-reviews">8 отзывов</span>
+                                    <img src="../img/star.png">
+                                    <span>4,9</span>
                                 </div>
-                                <div class="review-clinic-address">
-                                    ул.Люблинская, д.9, к.1
+                                <div class="last-review__clinic">
+                                    <div class="last-review__clinic-name">
+                                        Клиника "Название"
+                                    </div>
+                                    <div class="last-review__clinic-address">
+                                        ул.Люблинская, д.9, к.1
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="author-review-info">
-                            <div class="review_on_doctor">Отзыв на врача:<a class="review_doctor_name"> Сергееву Аллу
-                                    Владимировну</a></div>
-                            <div class="author-review">Мария +79213746292</div>
-                            <div class="comment-head">Комментарий</div>
-                            <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
+                            <div class="review_on_doctor">Отзыв на врача:
+                                <a href="#" class="review_doctor_name"> Сергееву Аллу Владимировну</a></div>
+                            <div class="last-review__clinic__author-review">Мария +79213746292</div>
+                            <div class="last-review__clinic__comment-head">Комментарий</div>
+                            <div class="last-review__clinic__comment">Отличная клиника. Внимательные и компетентные
+                                врачи. Посещяем всей
                                 семьёй...
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="last-review-clinic__card-clinic">
-                    <div class="clinic-card-container">
-                        <div class="clinic-card-main">
-                            <div class="last-review-clinic__card-clinic__photo">
+                <div class="last-review__card-clinic">
+                    <div class="last-review__clinic-card-container">
+                        <div class="last-review__clinic-card__head">
+                            <div class="last-review__card-clinic__photo">
                                 <img src="../img/clinicphoto.png">
                             </div>
-                            <div class="last-review-clinic-count">
-                                <span class="counts-reviews">8 отзывов</span>
-                                <img src="../img/star.png">
-                                <span>4,9</span>
-                                <div class="review-clinic-name">
-                                    Клиника "Название"
+                            <div class="last-review__clinic-count-review">
+                                <div class="last-review__clinic-count-reviews">
+                                    <span class="counts-reviews">8 отзывов</span>
+                                    <img src="../img/star.png">
+                                    <span>4,9</span>
                                 </div>
-                                <div class="review-clinic-address">
-                                    ул.Люблинская, д.9, к.1
+                                <div class="last-review__clinic">
+                                    <div class="last-review__clinic-name">
+                                        Клиника "Название"
+                                    </div>
+                                    <div class="last-review__clinic-address">
+                                        ул.Люблинская, д.9, к.1
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="author-review-info">
-                            <div class="review_on_doctor">Отзыв на врача:<a class="review_doctor_name"> Сергееву Аллу
-                                    Владимировну</a></div>
-                            <div class="author-review">Мария +79213746292</div>
-                            <div class="comment-head">Комментарий</div>
-                            <div class="comment">Отличная клиника. Внимательные и компетентные врачи. Посещяем всей
+                            <div class="review_on_doctor">Отзыв на врача:
+                                <a href="#" class="review_doctor_name"> Сергееву Аллу Владимировну</a></div>
+                            <div class="last-review__clinic__author-review">Мария +79213746292</div>
+                            <div class="last-review__clinic__comment-head">Комментарий</div>
+                            <div class="last-review__clinic__comment">Отличная клиника. Внимательные и компетентные
+                                врачи. Посещяем всей
                                 семьёй...
                             </div>
                         </div>
@@ -450,9 +451,11 @@
             <p>Самый первый человек, которого мы видим в своей жизни – акушер-гинеколог. В простонародье этого врача
                 называют «женский доктор». Именно этот врач несёт ответственность за здоровье будущей мамы и ещё не
                 рождённого ребёнка, находясь рядом всю беременность. Он принимает роды и наблюдает за женщиной после
-                них. Гинеколог занимается диагностикой и лечением воспалительных процессов женских половых органов, даёт
+                них. Гинеколог занимается диагностикой и лечением воспалительных процессов женских половых органов,
+                даёт
                 советы при выборе контрацептивов и помогает при проблемах с зачатием. Врач проводит профилактические
-                осмотры женщин для раннего выявления гинекологических заболеваний, так как большая их часть протекает
+                осмотры женщин для раннего выявления гинекологических заболеваний, так как большая их часть
+                протекает
                 длительное время бессимптомно.
             </p>
             <p>Когда нужно посетить?</p>
@@ -462,7 +465,8 @@
             </li>
             <li>подозрение на беременность – для подтверждения диагноза;</li>
             <li>если женщина планирует стать мамой - для подготовки к этому ответственному событию;</li>
-            <li>при нарушениях менструального цикла и изменении характера месячных – когда они становятся длительными,
+            <li>при нарушениях менструального цикла и изменении характера месячных – когда они становятся
+                длительными,
             <li> обильными или, наоборот, скудными;</li>
             <li> при полном прекращении месячных;</li>
             <li>появление болей в нижней части живота
@@ -470,16 +474,19 @@
             <li>когда беспокоит болезненность при половом акте;</li>
             <li>в случае бесплодия;</li>
             <li> появление новообразований на наружных половых органах.</li>
-            <p> Даже если женщину ничего не тревожит, посещать гинеколога нужно минимум 1 раз в год для профилактики и
+            <p> Даже если женщину ничего не тревожит, посещать гинеколога нужно минимум 1 раз в год для профилактики
+                и
                 ранней диагностики скрытых болезней.
             </p>
             <p>
                 Как стать гинекологом?</p>
             <p>«Чтобы стать гинекологом, нужно в первую очередь получить высшее медицинское образование на лечебном
                 факультете медицинского вуза. Их в городе на Неве несколько, но самый известный, славящийся сильной
-                школой – Санкт – Петербургский медицинский университет им. академика И.П. Павлова. С 5-го курса студенты
+                школой – Санкт – Петербургский медицинский университет им. академика И.П. Павлова. С 5-го курса
+                студенты
                 приступают к освоению специальности гинекологии. После окончания университета образование по
-                специальности продолжается в течение года в интернатуре. Но даже приступив к самостоятельной практике,
+                специальности продолжается в течение года в интернатуре. Но даже приступив к самостоятельной
+                практике,
                 нужно быть готовым к постоянному, в течение всей жизни, повышению квалификации и совершенствованию
                 мастерства.»
                 (Фёдоров Михаил Сергеевич, Заведующий кафедрой медицинского университета им. академика И.П. Павлова)
@@ -490,7 +497,8 @@
                 бабки», не отличавшиеся глубокими знаниями, а единственным средством помощи при патологических родах
                 были «заговоры». Только в 1754 г. был принят «Закон об упорядочении деятельности бабок-повитух» и в
                 Санкт-Петербурге открыта первая повивальная школа, организатором которой был П.З. Кондоиди.</p>
-            <p>Отцом русского акушерства считается знаменитый врач Н.М. Амбодик, написавший в 1808 г. первое в России
+            <p>Отцом русского акушерства считается знаменитый врач Н.М. Амбодик, написавший в 1808 г. первое в
+                России
                 руководство «Искусство повивания». Вместе с ним в Санкт-Петербургской клинике врачей-гинекологов
                 работали С.А. Громов, Н.Н. Феноменов. Известными докторами были А.Я. Крассовский, основатель
                 Петербургского общества акушеров, и Д.О. Отт, чьё имя теперь носит современный институт.</p>
@@ -519,107 +527,95 @@
     </div>
 </div>
 <footer>
-    <div class="site-footer">
-        <div class="footer-main">
-            <div class="name-clinics-footer">
-                <h3>Клиника</h3>
+    <div class="footer__container">
+        <h3 class="footer__head">Клиника</h3>
+        <div class="footer__body">
+            <div class="footer__about-clinic">
+                <h4 class="footer__about-clinic-title">О нас</h4>
+                <ul class="linked-footer">
+                    <li><a class="linked-name">О проекте</a></li>
+                    <li><a class="linked-name">Информация для<br>пациентов</a></li>
+                    <li><a class="linked-name">Отзывы</a></li>
+                    <li><a class="linked-name">Контакты</a></li>
+                    <li><a class="linked-name">Авторы</a></li>
+                </ul>
             </div>
-            <div class="clinic-about">
-                <div class="first-block">
-                    <div class="about-clinic">
-                        <h4 class="head-block">О нас</h4>
-                        <ul class="linked-footer">
-                            <li><a class="linked-name">О проекте</a></li>
-                            <li><a class="linked-name">Информация для<br>пациентов</a></li>
-                            <li><a class="linked-name">Отзывы</a></li>
-                            <li><a class="linked-name">Контакты</a></li>
-                            <li><a class="linked-name">Авторы</a></li>
-                        </ul>
-                    </div>
+            <div class="footer__for-patient">
+                <h4 class="footer__for-patient-title">Пациентам</h4>
+                <ul class="linked-footer">
+                    <li><a class="linked-name">Клиники</a></li>
+                    <li><a class="linked-name">Врачи</a></li>
+                    <li><a class="linked-name">Услуги</a></li>
+                    <li><a class="linked-name">Диагностика</a></li>
+                    <li><a class="linked-name">Заболевания</a></li>
+                    <li><a class="linked-name">Симптомы</a></li>
+                </ul>
+            </div>
+            <div class="footer__reference">
+                <h4 class="footer__reference-title">Справка</h4>
+                <ul class="linked-footer">
+                    <li><a class="linked-name">Помощь</a></li>
+                    <li><a class="linked-name">Пациенту</a></li>
+                    <li><a class="linked-name">Врачу</a></li>
+                    <li><a class="linked-name">Клинике</a></li>
+                </ul>
+            </div>
+            <div class="footer__technical-info">
+                <h4 class="footer__reference-title">Техническая информация</h4>
+                <ul class="linked-footer">
+                    <li><a class="linked-name">Политика конфиденциальности</a></li>
+                    <li><a class="linked-name">Пользовательское соглашение</a></li>
+                    <li><a class="linked-name">Политика cookies</a></li>
+                    <li><a class="linked-name">Согласие на обработку<br>персональных данных</a></li>
+                    <li><a class="linked-name">Заболевания</a></li>
+                    <li><a class="linked-name">Симптомы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__communication">
+            <div>
+                <div class="phone-footer">
+                    (499)123-45-67
                 </div>
-                <div class="second-block">
-                    <div class="for-patient">
-                        <h4 class="head-block">Пациентам</h4>
-                        <ul class="linked-footer">
-                            <li><a class="linked-name">Клиники</a></li>
-                            <li><a class="linked-name">Врачи</a></li>
-                            <li><a class="linked-name">Услуги</a></li>
-                            <li><a class="linked-name">Диагностика</a></li>
-                            <li><a class="linked-name">Заболевания</a></li>
-                            <li><a class="linked-name">Симптомы</a></li>
-                        </ul>
-                    </div>
+                <div class="reference-footer">
+                    <span>справочная служба</span>
                 </div>
-                <div class="third-block">
-                    <div class="reference">
-                        <h4 class="head-block">Справка</h4>
-                        <ul class="linked-footer">
-                            <li><a class="linked-name">Помощь</a></li>
-                            <li><a class="linked-name">Пациенту</a></li>
-                            <li><a class="linked-name">Врачу</a></li>
-                            <li><a class="linked-name">Клинике</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="fourth-block">
-                    <div class="technical-info">
-                        <h4 class="head-block">Техническая информация</h4>
-                        <ul class="linked-footer">
-                            <li><a class="linked-name">Политика конфиденциальности</a></li>
-                            <li><a class="linked-name">Пользовательское соглашение</a></li>
-                            <li><a class="linked-name">Политика cookies</a></li>
-                            <li><a class="linked-name">Согласие на обработку<br>персональных данных</a></li>
-                            <li><a class="linked-name">Заболевания</a></li>
-                            <li><a class="linked-name">Симптомы</a></li>
-                        </ul>
-                    </div>
+                <div class="ooo-inn">
+                    <span>2022 ⓒ ООО"МосМедПортал"<br>ИНН 7777777</span>
                 </div>
             </div>
-            <div class="under-clinic-about">
-                <div class="left-content-footer">
-                    <div class="phone-footer">
-                        (499)123-45-67
-                    </div>
-                    <div class="reference-footer">
-                        <span>справочная служба</span>
-                    </div>
-                    <div class="ooo-inn">
-                        <span>2022 ⓒ ООО"МосМедПортал"<br>ИНН 7777777</span>
-                    </div>
+            <div class="social-media">
+                <div class="age-img">
+                    <a class="">
+                        <img src="../img/18-plus.png">
+                    </a>
                 </div>
-                <div class="social-media">
-                    <div class="age-img">
+                <div class="email">
+                    <div class="email-footer">
+                        <a class="">info@mosmedportal.ru</a>
+                    </div>
+                    <div class="link-seti">
                         <a class="">
-                            <img src="../img/18-plus.png">
+                            <img src="../img/youtube.png">
+                        </a>
+                        <a class="">
+                            <img src="../img/telegram.png">
+                        </a>
+                        <a class="">
+                            <img src="../img/whatsapp.png">
+                        </a>
+                        <a class="">
+                            <img src="../img/vk.png">
+                        </a>
+                        <a class="">
+                            <img src="../img/OK.png" alt="">
                         </a>
                     </div>
-                    <div class="email">
-                        <div class="email-footer">
-                            <a class="">info@mosmedportal.ru</a>
-                        </div>
-                        <div class="link-seti">
-                            <a class="">
-                                <img src="../img/youtube.png">
-                            </a>
-                            <a class="">
-                                <img src="../img/telegram.png">
-                            </a>
-                            <a class="">
-                                <img src="../img/whatsapp.png">
-                            </a>
-                            <a class="">
-                                <img src="../img/vk.png">
-                            </a>
-                            <a class="">
-                                <img src="../img/OK.png" alt="">
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="last-in-footer">
-                <span>Информация: предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача</span>
-            </div>
+        </div>
+        <div class="last-in-footer">
+            <span>Информация: предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача</span>
         </div>
     </div>
 </footer>

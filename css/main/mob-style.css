@@ -31,7 +31,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .wrap {
-    max-width: 1145px;
+    max-width: 850px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -93,15 +93,12 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-right: 33px;
 }
 
+
 .clinic-card {
-    margin-top: 50px;
+    margin: 50px 0 100px;
 }
 
-.clinic_container {
-    margin-bottom: 100px;
-}
-
-.clinic-info-head {
+.clinic-card__container {
     display: flex;
 }
 
@@ -111,17 +108,18 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .photo-clinic img{
     width: 400px;
+    margin-right: 20px;
 }
 
 
-.clinic-name {
+.clinic-card__clinic-name {
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     color: #000000;
 }
 
-.clinic-address {
+.clinic-card__clinic-address {
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -143,64 +141,64 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.7);
 }
 
-.clinic-schedule {
+.clinic-card__clinic-schedule {
     color: rgba(0, 0, 0, 0.5);
     font-size: 30px;
 }
 
-.clinic-metro-near {
+.clinic-card__clinic-metro-near {
     font-size: 35px;
     color: rgba(0, 0, 0, 0.7);
     margin-bottom: 10px;
 }
 
-.clinic-metro-further {
+.clinic-card__clinic-metro-further {
     color: rgba(0, 0, 0, 0.5);
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.clinic-phone {
+.clinic-card__clinic-phone {
     font-size: 37px;
     color: rgba(0, 0, 0, 0.7);
     margin-bottom: 35px;
 }
 
-.clinic-text-block {
+.clinic-card__clinic-text-block {
     color: rgba(0, 0, 0, 0.5);
     font-size: 33px;
     margin-bottom: 50px;
 }
 
-.clinic-services_container {
+.services {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
 }
 
-.clinic-service-text {
+.service__title {
     font-size: 50px;
     margin-bottom: 50px;
 }
 
-.service-name {
+.service-item {
     font-size: 40px;
     text-decoration-line: underline;
     margin-bottom: 35px;
 }
 
-.clinic-service-items {
+.service__body {
     padding: 0 40px;
 }
 
-.under-services-phone {
+.service__clinic-phone {
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.condition-visit {
+.service__condition-visit {
     font-size: 30px;
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
@@ -212,11 +210,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     padding: 40px 80px;
 }
 
-.popular-doctor__body {
+.popular-doctor__container {
     display: flex;
 }
 
-.popular-doctor-img img {
+.popular-doctor__img img {
     border-radius: 50%;
 }
 
@@ -231,7 +229,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.5);
 }
 
-.doctor-name {
+.popular-doctor__doctor-name {
     font-size: 35px;
 }
 
@@ -240,24 +238,24 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 }
 
-.doctor-category {
+.popular-doctor__doctor-category {
     color: rgba(0, 0, 0, 0.3);
     font-size: 30px;
 }
 
-.doctor-spec {
+.popular-doctor__doctor-spec {
     color: rgba(0, 0, 0, 0.5);
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-.doctor-address {
+.popular-doctor__doctor-address {
     color: rgba(0, 0, 0, 0.7);
     font-size: 38px;
     margin-bottom: 35px;
 }
 
-.doctor-phone {
+.popular-doctor__doctor-phone {
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -265,11 +263,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-bottom: 40px;
 }
 
-.clinic-card-container {
-    padding: 40px 80px;
-}
-
-.clinic-card-button {
+.clinic-card__button {
     display: flex;
     justify-content: center;
 }
@@ -292,13 +286,9 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: #000000;
 }
 
-.button-mobile {
+.popular-doctor__button-mobile {
     display: flex;
     justify-content: center;
-}
-
-.clinic-card-main {
-    display: flex;
 }
 
 .clinic-review-count {
@@ -314,62 +304,149 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     padding: 40px 80px;
 }
 
-.review-clinic-text {
+.last-review__clinic-card__head {
+    display: flex;
+}
+
+.last-review__clinic-card__container {
+    padding: 40px 50px;
+}
+
+.last-review__count-reviews {
+    font-size: 35px;
+    margin: 0 0 30px 240px;
+}
+
+.last-review__clinic-body {
+    margin-left: 20px;
+}
+
+.last-review__card-clinic__photo img {
+    width: 200px;
+}
+
+.last-review__clinic-title {
     font-weight: 500;
     font-size: 60px;
     color: #232323;
     text-align: center;
 }
 
-.review-clinic-name {
+.last-review__clinic-name {
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
     color: #000000;
 }
 
-.review-clinic-address {
+.last-review__clinic-geo {
+    margin-left: 50px;
+}
+
+.last-review__clinic-address {
     font-size: 33px;
 }
 
-.author-review {
+.last-review__clinic-author{
     color: rgba(0, 0, 0, 0.7);
     font-size: 35px;
 }
 
-.comment-head {
+.last-review__clinic-comment-head {
     color: rgba(0, 0, 0, 0.8);
     font-size: 35px;
     font-weight: 500;
 }
 
-.comment {
+.last-review__clinic-comment {
     color: rgba(0, 0, 0, 0.7);
     font-size: 35px;
 }
 
-.clinic-service-text {
-    text-align: center;
+.last-review__clinic-card {
+    border: 1px solid #BCBCBC;
 }
 
-.review-doctor-text {
+
+.last-review {
+    margin-bottom: 100px;
+}
+
+.last-review__doctor-title {
     font-weight: 500;
     font-size: 60px;
     color: #232323;
     text-align: center;
 }
 
+.last-review__doctor-card {
+    border: 1px solid #BCBCBC;
+}
+
+.last-review__doctor-card__head {
+    display: flex;
+}
+
+.last-review__doctor-card__container {
+    padding: 40px 50px;
+}
+
+.last-review__doctor-title {
+    font-weight: 500;
+    font-size: 60px;
+    color: #232323;
+    text-align: center;
+}
+
+.last-review__card-doctor__photo img {
+    width: 200px;
+}
+
+.last-review__doctor-spec {
+    font-size: 30px;
+}
+
+.last-review__doctor-surname {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #000000;
+}
+
+.last-review__doctor-name-spec {
+    margin-left: 40px;
+}
+
+.last-review__doctor-name {
+    font-size: 30px;
+}
+
+.last-review__doctor-address {
+    font-size: 33px;
+}
+
+.last-review__doctor-author{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+}
+
+.last-review__doctor-comment-head {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.last-review__doctor-comment {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+}
+
 .doctor-review-count {
     font-size: 35px;
 }
 
-
-.last-review-clinic {
-    margin-bottom: 100px;
-}
-
-.last-review-clinic__card-clinic {
-    border: 1px solid #BCBCBC;
+.clinic-service-text {
+    text-align: center;
 }
 
 .info-docspec {
@@ -382,6 +459,66 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .text-block {
     font-size: 35px;
+}
+
+.popup-questions-title {
+    text-align: center;
+    margin: 40px;
+    font-weight: 500;
+    font-size: 60px;
+    color: #232323;
+}
+
+.first-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    height: auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.first-question span {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.second-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    height: auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.second-question span {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.third-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    height: auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.third-question span {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .breadcrumbs {
@@ -399,21 +536,17 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 
 
-
-.footer-head {
+.footer__container {
     height: auto;
     background: #F7EDDF;
 }
 
-.footer-main {
+.footer__body {
     width: 100%;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     padding: 40px 80px;
-}
-
-.footer-main {
     font-size: 30px;
 }
 
@@ -424,14 +557,54 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .linked-name {
     text-decoration-line: none;
     color: rgba(12, 12, 12, 0.8);
-    font-size: 31px;
+    font-size: 36px;
 }
 
-.clinic-about {
-    margin-bottom: 50px;
+.footer__about-clinic {
+    margin-bottom: 30px;
 }
 
-.content-footer {
+.footer__about-clinic-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer__for-patient {
+    margin-bottom: 30px;
+}
+
+.footer__for-patient-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer__reference {
+    margin-bottom: 30px;
+}
+
+.footer__reference-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer__technical-info {
+    margin-bottom: 30px;
+}
+
+.footer__reference-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer__communication {
     text-align: center;
 }
 
@@ -442,7 +615,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: #000000;
 }
 
-.footer_name-clinic {
+.footer__name-clinic {
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
@@ -477,6 +650,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     width: 80px;
 }
 
+.last-in-footer {
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.6);
+}
 
 
 
