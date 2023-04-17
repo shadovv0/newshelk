@@ -48,10 +48,10 @@
                     </ul>
                 </nav>
                 <div class="search-form">
-                    <form name="search-form" action="/search/" method="GET">
-                        <input class="js-search-input" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn" href="#"></button>
-                    </form>
+                    <div class="search">
+                        <img src="../../img/search-btn.png">
+                        Поиск
+                    </div>
                 </div>
             </div>
         </div>

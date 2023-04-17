@@ -102,40 +102,16 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: #232323;
 }
 
-.search-btn, .search-form {
-    border-radius: 50%;
-    float: left;
-    width: 40px;
-    height: 40px;
-    margin: 0 0 0 -100%;
-    position: relative;
-    left: 7px
-}
-
 .search-form {
-    z-index: 50;
-    width: 324px;
+    border-bottom: 1px solid #BCBCBC;
+    width: 274px;
+    height: 35px;
+    background: no-repeat;
+    color: #8A8A8E;
 }
 
-.search-form form {
-    width: 324px;
-    border-radius: 20px;
-    background: #f6fafa;
-}
-
-.search-form input {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
-}
-
-.search-btn {
-    background: url('../../img/search-btn.png') no-repeat;
-    max-width: 20px;
-    margin: 0 0 0 -40px;
-    left: 0;
-    cursor: pointer
+.search img {
+    width: 20px;
 }
 
 .sort {

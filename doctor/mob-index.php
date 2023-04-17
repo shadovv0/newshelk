@@ -17,7 +17,7 @@
     <div class="head_container">
         <div class="wrap clear">
             <div class="burger-menu">
-                <a class="menu-btn" href="#"></a>
+                <img src="../../img/menu-btn.png">
                 <div class="top-menu-btn">
                     <!--<ul class="justify">
                         <li class="menu-item">
@@ -44,6 +44,7 @@
                 Название
             </div>
             <div class="search-form">
+                <img src="../../img/search-btn.png">
                 Поиск
             </div>
         </div>

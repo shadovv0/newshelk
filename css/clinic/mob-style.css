@@ -31,16 +31,13 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .wrap {
-    max-width: 1145px;
+    max-width: 850px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-.burger-menu {
-    background: url("../../img/menu-btn.png") no-repeat;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+.burger-menu img {
+    width: 70px;
 }
 
 .logo {
@@ -54,6 +51,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .search-form {
     font-size: 35px;
+    text-decoration-line: underline;
+}
+
+.search-form img {
+    margin-right: 30px;
 }
 
 .main_wrap {
