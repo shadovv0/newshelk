@@ -159,6 +159,14 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-right: 5px;
 }
 
+.clinic-card__reviews {
+    font-style: normal;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+    text-decoration-line: none;
+}
+
 .clinic-card__reviews img {
     max-width: 20px;
 }
@@ -166,14 +174,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .clinic-card__reviews-count {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
-}
-
-.clinic-card__percent-review {
-    font-style: normal;
-    line-height: 20px;
-    color: rgba(0, 0, 0, 0.7);
-    margin-top: 5px;
-    text-decoration-line: none;
 }
 
 .clinic_service-popular_item {
@@ -228,6 +228,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 }
 
+.clinic-card__metro img {
+    width: 10px;
+}
+
 .clinic-card__metro-near {
     margin-bottom: 11px;
 }
@@ -237,6 +241,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     line-height: 17px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 23px;
+}
+
+.clinic-card__phone img {
+    max-width: 17px;
+    margin-right: 15px;
 }
 
 .clinic-card__phone {
@@ -294,7 +303,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.8);
 }
 
-
 .service__clinic-phone {
     font-style: normal;
     font-weight: 600;
@@ -304,19 +312,29 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-bottom: 25px;
 }
 
+.service__clinic-phone img {
+    width: 20px;
+    margin-right: 13px;
+}
+
 .service__footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 
-.service__condition-visit {
+.service__condition-visit a {
+    color: rgba(0, 0, 0, 0.3);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 17px;
     text-decoration-line: underline;
-    color: rgba(0, 0, 0, 0.3);
+}
+
+.service__condition-visit img {
+    width: 20px;
+    margin-right: 20px;
 }
 
 .pagination_listing {
@@ -369,7 +387,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: #185BC3;
     text-decoration-line: none;
 }
-
 
 .attention-for-patient {
     margin: 40px 0;
@@ -460,7 +477,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     padding: 50px;
 }
 
-.review__clinics {
+.last-review__clinics {
     display: flex;
 }
 
@@ -471,16 +488,16 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     padding: 0 10px;
 }
 
-.last-review__card-clinic {
+.last-review__clinic-card {
     width: 379px;
-    height: 225px;
+    height: 235px;
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     margin-right: 15px;
 }
 
-.last-review__card-clinic__photo img {
+.last-review__clinic-card__photo img {
     width: 81px;
 }
 
@@ -513,8 +530,13 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .last-review__clinic__author-review {
     font-size: 12px;
     color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
 }
 
+.last-review__clinic__author-review img {
+    width: 13px;
+    margin-right: 5px;
+}
 .last-review__clinic__comment-head {
     font-weight: 500;
     font-size: 12px;

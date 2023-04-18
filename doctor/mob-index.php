@@ -17,7 +17,7 @@
     <div class="head_container">
         <div class="wrap clear">
             <div class="burger-menu">
-                <img src="../../img/menu-btn.png">
+                <img src="../img/menu-btn.png">
                 <div class="top-menu-btn">
                     <!--<ul class="justify">
                         <li class="menu-item">
@@ -44,7 +44,7 @@
                 Название
             </div>
             <div class="search-form">
-                <img src="../../img/search-btn.png">
+                <img src="../img/search-btn.png">
                 Поиск
             </div>
         </div>
@@ -52,20 +52,18 @@
 </header>
 <div class="content">
     <div class="main_wrap">
-        <div class="items">
-            <div class="sort">
-                <div class="sort_popular">
-                    <a href="" class="sorting">Популярность</a>
-                    <a href="" class="sorting"> ↑ ↓</a>
-                </div>
-                <div class="sort_rating">
-                    <a href="" class="sorting">Рейтинг</a>
-                    <a href="" class="sorting"> ↑ ↓</a>
-                </div>
-                <div class="sort_count_review">
-                    <a href="" class="sorting">Количество отзывов</a>
-                    <a href="" class="sorting"> ↑ ↓</a>
-                </div>
+        <div class="sort">
+            <div class="sort_popular">
+                <a href="#" class="sorting">Популярность</a>
+                <a href="#" class="sorting"> ↑ ↓</a>
+            </div>
+            <div class="sort_rating">
+                <a href="#" class="sorting">Рейтинг</a>
+                <a href="#" class="sorting"> ↑ ↓</a>
+            </div>
+            <div class="sort_count_review">
+                <a href="#" class="sorting">Количество отзывов</a>
+                <a href="#" class="sorting"> ↑ ↓</a>
             </div>
         </div>
         <div class="doctor-card">
@@ -76,7 +74,7 @@
                     </div>
                     <div class="doctor-card__clinic-reviews">
                         <img src="../img/star.png">
-                        <a class="percent-review">4,7</a>
+                        4,7
                     </div>
                     <div class="reviews-count">
                         14 отзывов
@@ -84,17 +82,17 @@
                 </div>
                 <div class="doctor-card__body">
                     <div class="doctor-card__doctor-name">
-                        <p>Сергеева Анастасия<br>Андреевна</p>
+                        Сергеева Анастасия<br>Андреевна
                     </div>
                     <div class="doctor-card__doctor-category">
-                        <p>Врач высшей категории.<br>
-                            Кандидат медицинских наук.</p>
+                        Врач высшей категории.<br>
+                        Кандидат медицинских наук.
                     </div>
                     <div class="doctor-card__doctor-spec">
-                        <p>Акушер, гинеколог, гинеколог-эндокринолог</p>
+                        Акушер, гинеколог, гинеколог-эндокринолог
                     </div>
                     <div class="doctor-card__doctor-experience">
-                        <p>Стаж - 15 лет.</p>
+                        Стаж - 15 лет.
                     </div>
                 </div>
             </div>
@@ -106,14 +104,20 @@
                     </div>
                     <div class="doctor-card__clinic-items">
                         <div class="doctor-card__clinic-schedule">
-                            <p>Часы приёма:<br>
-                                Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                            </p>
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+
                         </div>
-                        <div class="doctor-card__-metro">
-                            <div class="doctor-card__metro-near">Текстильщики (338м)</div>
-                            <div class="doctor-card__metro-further">
-                                Печатники (2,1км) Стахановская (2,2км)
+                        <div class="doctor-card__clinic-metro">
+                            <div class="doctor-card__clinic-metro-near">
+                                <img src="../img/dot-purple.png">
+                                Текстильщики (338м)
+                            </div>
+                            <div class="doctor-card__clinic-metro-further">
+                                <img src="../img/dot-green.png">
+                                Печатники (2,1км)
+                                <img src="../img/dot-pink.png">
+                                Стахановская (2,2км)
                             </div>
                         </div>
                     </div>
@@ -124,7 +128,7 @@
                     <span>></span>
                 </div>
                 <div class="doctor-card__clinic-active">
-                    <img>
+                    <img src="../img/geo-grey.png">
                     <span>Клиника на Текстильщиках</span>
                     <span>˅</span>
                 </div>
@@ -137,7 +141,7 @@
                     <div class="free-time">˅</div>
                 </div>
                 <div class="doctor-card__clinic-phone">
-                    <img src="../img/phone.png" style="max-width: 100px">
+                    <img src="../img/mobilephone.png">
                     (499)123-45-67
                 </div>
                 <div class="doctor-card__doctor-clinics">
@@ -154,7 +158,7 @@
                     </div>
                     <div class="doctor-card__clinic-reviews">
                         <img src="../img/star.png">
-                        <a class="percent-review">4,7</a>
+                        4,7
                     </div>
                     <div class="reviews-count">
                         14 отзывов
@@ -162,17 +166,17 @@
                 </div>
                 <div class="doctor-card__body">
                     <div class="doctor-card__doctor-name">
-                        <p>Сергеева Анастасия<br>Андреевна</p>
+                        Сергеева Анастасия<br>Андреевна
                     </div>
                     <div class="doctor-card__doctor-category">
-                        <p>Врач высшей категории.<br>
-                            Кандидат медицинских наук.</p>
+                        Врач высшей категории.<br>
+                        Кандидат медицинских наук.
                     </div>
                     <div class="doctor-card__doctor-spec">
-                        <p>Акушер, гинеколог, гинеколог-эндокринолог</p>
+                        Акушер, гинеколог, гинеколог-эндокринолог
                     </div>
                     <div class="doctor-card__doctor-experience">
-                        <p>Стаж - 15 лет.</p>
+                        Стаж - 15 лет.
                     </div>
                 </div>
             </div>
@@ -185,10 +189,10 @@
                     <span>Клиника на Петровско-Разумовской</span>
                     <span>˅</span>
                 </div>
-            </div>
-            <div class="doctor-card__button-mobile">
-                <div class="btn_records">
-                    <a class="button-record">Запись на приём</a>
+                <div class="doctor-card__button-mobile">
+                    <div class="btn_records">
+                        <a href="#" class="button-record">Запись на приём</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -196,37 +200,39 @@
             <h1 class="service__title">Услуги клиники</h1>
             <div class="service__body">
                 <div class="service-item">
-                    <a>Гинекология</a>
+                    <a href="#">Гинекология</a>
                 </div>
                 <div class="service-item">
-                    <a>Урология</a>
+                    <a href="#">Урология</a>
                 </div>
                 <div class="service-item">
-                    <a>Венерология</a>
+                    <a href="#">Венерология</a>
                 </div>
                 <div class="service-item">
-                    <a>Дерматология</a>
+                    <a href="#">Дерматология</a>
                 </div>
                 <div class="service-item">
-                    <a>Эндокринология</a>
+                    <a href="#">Эндокринология</a>
                 </div>
                 <div class="service-item">
-                    <a>Терапия</a>
+                    <a href="#">Терапия</a>
                 </div>
                 <div class="service-item">
-                    <a>Маммология</a>
+                    <a href="#">Маммология</a>
                 </div>
             </div>
             <div class="service__footer">
                 <div class="service__clinic-phone">
+                    <img src="../img/mobilephone.png">
                     (499)123-45-67
                 </div>
                 <div class="service__button-mobile">
                     <div class="btn_records">
-                        <a class="button-record">Запись на приём</a>
+                        <a href="#" class="button-record">Запись на приём</a>
                     </div>
                 </div>
                 <div class="service__condition-visit">
+                    <img src="../img/grey-alert.png">
                     Условия для посещения
                 </div>
             </div>
@@ -234,11 +240,11 @@
         <div class="last-review">
             <div class="last-review_wrap">
                 <h1 class="last-review__doctor-title">Последние отзывы о врачах</h1>
-                <div class="review__doctors">
+                <div class="last-review__doctors">
                     <div class="last-review__doctor-card">
                         <div class="last-review__doctor-card__container">
                             <div class="last-review__doctor-card__head">
-                                <div class="last-review__card-doctor__photo">
+                                <div class="last-review__doctor-card__photo">
                                     <img src="../img/doctor.png">
                                 </div>
                                 <div class="last-review__doctor-body">
@@ -261,7 +267,10 @@
                                 </div>
                             </div>
                             <div class="author-review-info">
-                                <div class="last-review__doctor-author">Мария +79213746292</div>
+                                <div class="last-review__doctor-author">
+                                    <img src="../img/author-review.png">
+                                    Мария +79213746292
+                                </div>
                                 <div class="last-review__doctor-comment-head">Комментарий</div>
                                 <div class="last-review__doctor-comment">Очень понравился доктор. Ответила на все
                                     вопросы.Была внимательна.
@@ -354,13 +363,12 @@
                 </p>-->
             </div>
             <div class="breadcrumbs">
-                <div>
-                    <a class="breadcrumbs-item">Главная </a> >
-                    <a class="breadcrumbs-item">Москва </a> >
-                    <a class="breadcrumbs-item">Врачи </a>
-                </div>
+                <a href="#" class="breadcrumbs-item">Главная </a>
+                <a href="#" class="breadcrumbs-item1">></a>
+                <a href="#" class="breadcrumbs-item">Москва </a>
+                <a href="#" class="breadcrumbs-item1">></a>
+                <a href="#" class="breadcrumbs-item">Клиники</a>
             </div>
-
         </div>
     </div>
 </div>
@@ -370,42 +378,42 @@
             <div class="footer__about-clinic">
                 <h4 class="footer__about-clinic-title">О нас</h4>
                 <div class="linked-footer">
-                    <a class="linked-name">О проекте · </a>
-                    <a class="linked-name">Информация для пациентов · </a>
-                    <a class="linked-name">Отзывы · </a>
-                    <a class="linked-name">Контакты · </a>
-                    <a class="linked-name">Авторы</a>
+                    <a href="#" class="linked-name">О проекте · </a>
+                    <a href="#" class="linked-name">Информация для пациентов · </a>
+                    <a href="#" class="linked-name">Отзывы · </a>
+                    <a href="#" class="linked-name">Контакты · </a>
+                    <a href="#" class="linked-name">Авторы</a>
                 </div>
             </div>
             <div class="footer__for-patient">
                 <h4 class="footer__for-patient-title">Пациентам</h4>
                 <div class="linked-footer">
-                    <a class="linked-name">Клиники · </a>
-                    <a class="linked-name">Врачи · </a>
-                    <a class="linked-name">Услуги · </a>
-                    <a class="linked-name">Диагностика · </a>
-                    <a class="linked-name">Заболевания · </a>
-                    <a class="linked-name">Симптомы</a>
+                    <a href="#" class="linked-name">Клиники · </a>
+                    <a href="#" class="linked-name">Врачи · </a>
+                    <a href="#" class="linked-name">Услуги · </a>
+                    <a href="#" class="linked-name">Диагностика · </a>
+                    <a href="#" class="linked-name">Заболевания · </a>
+                    <a href="#" class="linked-name">Симптомы</a>
                 </div>
             </div>
             <div class="footer__reference">
                 <h4 class="footer__reference-title">Справка</h4>
                 <div class="linked-footer">
-                    <a class="linked-name">Помощь · </a>
-                    <a class="linked-name">Пациенту · </a>
-                    <a class="linked-name">Врачу · </a>
-                    <a class="linked-name">Клинике</a>
+                    <a href="#" class="linked-name">Помощь · </a>
+                    <a href="#" class="linked-name">Пациенту · </a>
+                    <a href="#" class="linked-name">Врачу · </a>
+                    <a href="#" class="linked-name">Клинике</a>
                 </div>
             </div>
             <div class="footer__technical-info">
                 <h4 class="footer__reference-title">Техническая информация</h4>
                 <div class="linked-footer">
-                    <a class="linked-name">Политика конфиденциальности · </a>
-                    <a class="linked-name">Пользовательское соглашение · </a>
-                    <a class="linked-name">Политика cookies · </a>
-                    <a class="linked-name">Согласие на обработку персональных данных · </a>
-                    <a class="linked-name">Заболевания · </a>
-                    <a class="linked-name">Симптомы</a>
+                    <a href="#" class="linked-name">Политика конфиденциальности · </a>
+                    <a href="#" class="linked-name">Пользовательское соглашение · </a>
+                    <a href="#" class="linked-name">Политика cookies · </a>
+                    <a href="#" class="linked-name">Согласие на обработку персональных данных · </a>
+                    <a href="#" class="linked-name">Заболевания · </a>
+                    <a href="#" class="linked-name">Симптомы</a>
                 </div>
             </div>
             <div class="footer__communication">
@@ -417,32 +425,30 @@
                 </div>
                 <div class="footer__name-clinic">Клиника</div>
                 <div class="email-footer">
-                    <a>info@mosmedportal.ru</a>
+                    <a href="#">info@mosmedportal.ru</a>
                 </div>
                 <div class="ooo-inn">
                     <span>2022 ⓒ ООО"МосМедПортал"<br>ИНН 7777777</span>
                 </div>
                 <div class="link-seti">
-                    <a class="">
+                    <a href="#" class="">
                         <img src="../img/youtube.png">
                     </a>
-                    <a class="">
+                    <a href="#" class="">
                         <img src="../img/telegram.png">
                     </a>
-                    <a class="">
+                    <a href="#" class="">
                         <img src="../img/whatsapp.png">
                     </a>
-                    <a class="">
+                    <a href="#" class="">
                         <img src="../img/vk.png">
                     </a>
-                    <a class="">
+                    <a href="#" class="">
                         <img src="../img/OK.png" alt="">
                     </a>
                 </div>
                 <div class="age-img">
-                    <a class="">
-                        <img src="../img/18-plus.png">
-                    </a>
+                    <img src="../img/18-plus.png">
                 </div>
                 <div class="last-in-footer">
                     <span>Информация: предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача</span>

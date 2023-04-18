@@ -100,8 +100,9 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin: 50px 0 100px;
 }
 
-.clinic-card__container {
+.clinic-card__head {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .photo-clinic {
@@ -128,7 +129,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.7);
 }
 
-.percent-review {
+.clinic-card__clinic-reviews {
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
@@ -146,6 +147,15 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .clinic-card__clinic-schedule {
     color: rgba(0, 0, 0, 0.5);
     font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.clinic-card__clinic-metro {
+    margin-bottom: 25px;
+}
+
+.clinic-card__clinic-metro img {
+    width: 15px;
 }
 
 .clinic-card__clinic-metro-near {
@@ -163,7 +173,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .clinic-card__clinic-phone {
     font-size: 37px;
     color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 35px;
+    margin-bottom: 50px;
+}
+
+.clinic-card__clinic-phone img {
+    margin-right: 20px;
 }
 
 .clinic-card__clinic-text-block {
@@ -190,6 +204,18 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-bottom: 35px;
 }
 
+.service-item a {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.service__clinic-phone img {
+    margin-right: 20px;
+}
+
+.service__condition-visit img {
+    margin-right: 20px;
+}
+
 .service__body {
     padding: 0 40px;
 }
@@ -208,11 +234,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-top: 50px;
 }
 
-.popular-doctor {
+.popular-doctor__container {
     padding: 40px 80px;
 }
 
-.popular-doctor__container {
+.popular-doctor__head {
     display: flex;
 }
 
@@ -220,13 +246,18 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     border-radius: 50%;
 }
 
+.doctor-rating {
+    margin-bottom: 25px;
+}
+
 .doctor_percent-review {
+    margin-left: 175px;
     font-size: 30px;
     color: #000000;
 }
 
 .doctor_reviews-count {
-    font-size: 25px;
+    font-size: 30px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -243,6 +274,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .popular-doctor__doctor-category {
     color: rgba(0, 0, 0, 0.3);
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .popular-doctor__doctor-spec {
@@ -255,6 +287,13 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.7);
     font-size: 38px;
     margin-bottom: 35px;
+    display: flex;
+}
+
+.popular-doctor__doctor-address img {
+    margin-right: 50px;
+    width: 40px;
+    height: 60px;
 }
 
 .popular-doctor__doctor-phone {
@@ -263,6 +302,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     font-size: 40px;
     color: rgba(0, 0, 0, 0.7);
     margin-bottom: 40px;
+}
+
+.popular-doctor__doctor-phone img {
+    margin-right: 50px;
+    width: 38px;
 }
 
 .clinic-card__button {
@@ -308,22 +352,23 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .last-review__clinic-card__head {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .last-review__clinic-card__container {
     padding: 40px 50px;
 }
 
-.last-review__count-reviews {
+.last-review__clinic-count-reviews {
     font-size: 35px;
     margin: 0 0 30px 240px;
 }
 
-.last-review__clinic-body {
+.last-review__clinic-top {
     margin-left: 20px;
 }
 
-.last-review__card-clinic__photo img {
+.last-review__clinic-card__photo img {
     width: 200px;
 }
 
@@ -352,12 +397,19 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .last-review__clinic-author{
     color: rgba(0, 0, 0, 0.7);
     font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.last-review__clinic-author img {
+    width: 30px;
+    margin-right: 15px;
 }
 
 .last-review__clinic-comment-head {
     color: rgba(0, 0, 0, 0.8);
     font-size: 35px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .last-review__clinic-comment {
@@ -387,6 +439,12 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .last-review__doctor-card__head {
     display: flex;
+    margin-bottom: 20px;
+}
+
+.last-review__doctor-count-reviews {
+    font-size: 35px;
+    margin: 0 0 10px 260px;
 }
 
 .last-review__doctor-card__container {
@@ -400,7 +458,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     text-align: center;
 }
 
-.last-review__card-doctor__photo img {
+.last-review__doctor-card__photo img {
     width: 200px;
 }
 
@@ -430,12 +488,19 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .last-review__doctor-author{
     color: rgba(0, 0, 0, 0.7);
     font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.last-review__doctor-author img {
+    width: 30px;
+    margin-right: 15px;
 }
 
 .last-review__doctor-comment-head {
     color: rgba(0, 0, 0, 0.8);
     font-size: 35px;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .last-review__doctor-comment {
@@ -525,17 +590,25 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .breadcrumbs {
     margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .breadcrumbs-item {
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 24px;
+    font-size: 34px;
+    line-height: 30px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.8);
 }
 
+.breadcrumbs-item1 {
+    font-size: 30px;
+    line-height: 24px;
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, 0.8);
+}
 
 
 .footer__container {
@@ -624,7 +697,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: #000000;
 }
 
-.email-footer {
+.email-footer a {
     color: rgba(0, 0, 0, 0.7);
     text-decoration-line: none;
     font-size: 45px;
