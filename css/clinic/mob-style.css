@@ -23,6 +23,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .head_container .wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 37px 10px 0;
 }
 
@@ -347,6 +348,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     font-size: 35px;
 }
 
+.clinic-card__service-popular a {
+    margin-top: 45px;
+}
+
 .clinic-review-count {
     font-size: 35px;
 }
@@ -461,23 +466,22 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .attention-container {
-    padding: 10px 70px;
+    padding: 30px 70px;
 }
 
-.alert-for-view {
+.attention-for-view {
     font-size: 35px;
     color: #FF6472;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-.alert-for-view img {
+.attention-for-view img {
     width: 40px;
     margin-right: 30px;
 }
 
-.alert-info {
+.attention-info {
     font-size: 35px;
-    text-align: center;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -489,17 +493,19 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     line-height: 30px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.8);
+    margin-right: 20px;
 }
 
-.breadcrumbs-item1 {
-    font-size: 35px;
-    line-height: 24px;
-    text-decoration-line: none;
-    color: rgba(0, 0, 0, 0.8);
+.breadcrumbs img {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .breadcrumbs {
-    margin-bottom: 30px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
 }
 
 .info-docspec {

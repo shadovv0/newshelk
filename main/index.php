@@ -59,7 +59,6 @@
 </header>
 <div class="content">
     <div class="wrap clear">
-        <div class="scrollup">^Наверх</div>
         <div class="sort">
             <a href="#" class="sorting">Популярность ↑ ↓</a>
             <a href="#" class="sorting">Рейтинг ↑ ↓</a>
@@ -76,65 +75,9 @@
                 </div>
                 <div class="clinic-card__reviews">
                     <img src="../img/star.png">
-                    4,7
-                </div>
-                <div class="clinic-card__reviews-count">
-                    14 отзывов
-                </div>
-            </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    Семейная клиника
-                </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г .Москва
-                </div>
-                <div class="clinic-card__address">
-                    Москва, м. Щелковская, ул. Флотская, д.42
-                </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника в Москве.<br>
-                    Наш центр предоставляет полный перечень медицинских услуг<br>
-                    и консультации лучших специалистов.
-                </div>
-            </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        <img src="../img/dot-purple.png">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-further">
-                        <img src="../img/dot-green.png">
-                        Печатники (2,1км)
-                        <img src="../img/dot-pink.png">
-                        Стахановская (2,2км)
-                    </div>
-                </div>
-                <div class="clinic-card__phone">
-                    <img src="../img/mobilephone.png">
-                    (499)123-45-67
-                </div>
-                <div class="btn_records">
-                    <a href="#" class="button-record">Запись на приём</a>
-                </div>
-            </div>
-        </div>
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <img src="../img/clinicbrand.png">
-                </div>
-                <div class="clinic-card__doctors">
-                    <img src="../img/chel.png">
-                    56 врачей в штате
-                </div>
-                <div class="clinic-card__reviews">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
                     <img src="../img/star.png">
                     4,7
                 </div>
@@ -196,6 +139,75 @@
                 </div>
                 <div class="clinic-card__reviews">
                     <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    4,7
+                </div>
+                <div class="clinic-card__reviews-count">
+                    14 отзывов
+                </div>
+            </div>
+            <div class="clinic-card__center">
+                <div class="clinic-card__name">
+                    Семейная клиника
+                </div>
+                <div class="clinic-card__type">
+                    Многопрофильная медицинская клиника, г .Москва
+                </div>
+                <div class="clinic-card__address">
+                    Москва, м. Щелковская, ул. Флотская, д.42
+                </div>
+                <div class="clinic-card__text-block">
+                    Многопрофильная медицинская клиника в Москве.<br>
+                    Наш центр предоставляет полный перечень медицинских услуг<br>
+                    и консультации лучших специалистов.
+                </div>
+            </div>
+            <div class="clinic-card__right">
+                <div class="clinic-card__clinic-schedule">
+                    Часы приёма:<br>
+                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+
+                </div>
+                <div class="clinic-card__metro">
+                    <div class="clinic-card__metro-near">
+                        <img src="../img/dot-purple.png">
+                        Текстильщики (338м)
+                    </div>
+                    <div class="clinic-card__metro-further">
+                        <img src="../img/dot-green.png">
+                        Печатники (2,1км)
+                        <img src="../img/dot-pink.png">
+                        Стахановская (2,2км)
+                    </div>
+                </div>
+                <div class="clinic-card__phone">
+                    <img src="../img/mobilephone.png">
+                    (499)123-45-67
+                </div>
+                <div class="btn_records">
+                    <a href="#" class="button-record">Запись на приём</a>
+                </div>
+            </div>
+        </div>
+        <div class="clinic-card">
+            <div class="clinic-card__left">
+                <div class="clinic-card__photo-clinic">
+                    <img src="../img/clinicbrand.png">
+                </div>
+                <div class="clinic-card__doctors">
+                    <img src="../img/chel.png">
+                    56 врачей в штате
+                </div>
+                <div class="clinic-card__reviews">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/img.png">
                     4,7
                 </div>
                 <div class="clinic-card__reviews-count">
@@ -846,23 +858,31 @@
                     <p>Что такое гинекология?</p>
                     <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением и
                     профилактикой заболеваний женской половой системы. Гинеколог это исключительно «женский» врач.
-                        Гинекология неразрывно связана с акушерством.</span>
-
+                        Гинекология неразрывно связана с акушерством.
+                    <img src="../img/top.png">
+                    </span>
                 </div>
                 <div class="second-question">
                     <span>Где лучше лечить женские заболевания?</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="third-question">
                     <span>Посоветуйте центр гинекологии</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
             </div>
         </div>
+        <div class="scrollup">
+            <img src="../img/top.png">
+            <span>Наверх</span>
+        </div>
         <div class="breadcrumbs">
-            <a href="#" class="breadcrumbs-item">Главная </a> >
-            <a href="#" class="breadcrumbs-item">Москва </a> >
-            <a href="#" class="breadcrumbs-item">Клиники </a> >
+            <a href="#" class="breadcrumbs-item">Главная </a>
+            <img src="../img/right.png">
+            <a href="#" class="breadcrumbs-item">Москва </a>
+            <img src="../img/right.png">
+            <a href="#" class="breadcrumbs-item">Клиники </a>
+            <img src="../img/right.png">
             <a href="#" class="breadcrumbs-item">Гинекологи</a>
         </div>
     </div>

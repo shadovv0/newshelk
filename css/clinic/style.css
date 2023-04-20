@@ -27,7 +27,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .wrap {
-    max-width: 1145px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -91,7 +91,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .top-menu__wrap {
-    max-width: 1230px;
+    max-width: 1500px;
     margin: 25px auto;
     display: flex;
     justify-content: space-between;
@@ -141,6 +141,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .clinic-card__left {
     text-align: center;
+}
+
+.clinic-card__right {
+    margin-top: 10px;
 }
 
 .clinic-phone img {
@@ -217,6 +221,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .clinic-card__clinic-schedule {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -362,6 +367,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: #BCBCBC;
 }
 
+.pagination_link-back img {
+    width: 10px;
+    height: 15px;
+}
+
 .pagination_link-back {
     border: 1px solid #BCBCBC;
     border-radius: 50%;
@@ -389,11 +399,12 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .attention-for-patient {
-    margin: 40px 0;
-    width: 1156px;
+    margin: 40px 60px;
     height: 79px;
+    display: flex;
     border: 1px solid #FF6472;
     border-radius: 4px;
+    justify-content: center;
 }
 
 .attention-container {
@@ -401,16 +412,17 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     padding: 10px 70px;
 }
 
-.alert-for-view {
+.attention-for-view {
     color: #FF6472;
+    margin-bottom: 5px;
 }
 
-.alert-for-view img {
+.attention-for-view img {
     width: 20px;
     color: red;
 }
 
-.alert-info {
+.attention-info {
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -483,18 +495,18 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .last-review_wrap {
     height: 450px;
-    max-width: 1145px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 .last-review__clinic-card {
-    width: 379px;
-    height: 235px;
+    width: 400px;
+    height: 240px;
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    margin-right: 15px;
+    margin-right: 99px;
 }
 
 .last-review__clinic-card__photo img {
@@ -570,10 +582,18 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     line-height: 24px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.8);
+    margin-right: 10px;
+}
+
+.breadcrumbs img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
 
 .breadcrumbs {
     margin-bottom: 30px;
+    align-items: center;
 }
 
 
@@ -584,7 +604,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    padding: 80px 300px;
+    padding: 80px 200px;
 }
 
 .footer__body {

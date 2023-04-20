@@ -70,6 +70,10 @@
                 </div>
                 <div class="doctor-card__doctor-reviews">
                     <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
                     4,7
                 </div>
                 <div class="reviews-count">
@@ -93,6 +97,7 @@
                 <div class="doctor-card__doctor-clinics_active">
                     <div class="doctor-card__doctor_clinic-name">
                         Клиника на Текстильщиках
+                        <img src="../img/top.png">
                     </div>
                     <div class="doctor-card__doctor_clinic-items">
                         <div class="doctor-card__clinic-schedule">
@@ -115,19 +120,19 @@
                 </div>
                 <div class="doctor-card__doctor-clinics">
                     <span>Клиника на Петровско-Разумовской</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
             </div>
             <div class="doctor-card__right">
                 <div class="doctor-card__doctor-date">
-                    <span><</span>
+                    <img src="../img/left.png">
                     <span>Понедельник 21.03</span>
-                    <span>></span>
+                    <img src="../img/right.png">
                 </div>
                 <div class="doctor-card__clinic-active">
                     <img src="../img/geo-grey.png">
                     <span>Клиника на Текстильщиках</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="doctor-card__clinic-free-time-container">
                     <div class="free-time">13:00</div>
@@ -135,7 +140,7 @@
                     <div class="free-time">13:00</div>
                     <div class="free-time">13:00</div>
                     <div class="free-time">13:00</div>
-                    <div class="free-time">˅</div>
+                    <div class="free-time"><img src="../img/bottom.png"></div>
                 </div>
                 <div class="doctor-card__clinic-phone">
                     <img src="../img/mobilephone.png">
@@ -172,11 +177,11 @@
                 </div>
                 <div class="doctor-card__doctor-clinics">
                     <span>Клиника на Текстильщиках</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="doctor-card__doctor-clinics">
                     <span>Клиника на Петровско-Разумовской</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
             </div>
             <div class="doctor-card__right">
@@ -185,7 +190,7 @@
                 <div class="doctor-card__clinic-active">
                     <img src="../img/geo-grey.png">
                     <span>Клиника на Текстильщиках</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="doctor-card__doctor-registration">
                     <div class="btn_records">
@@ -200,13 +205,13 @@
         </div>
         <div class="listing_bottom">
             <ul class="pagination_listing">
-                <li class="pagination_item"><a href="#" class="pagination_link-back"><</a></li>
+                <li class="pagination_item"><a href="#" class="pagination_link-back"><img src="../img/left.png"></a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link-active">1</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">2</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">3</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">...</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">32</a></li>
-                <li class="pagination_item"><a href="#" class="pagination_link-back">></a></li>
+                <li class="pagination_item"><a href="#" class="pagination_link-back"><img src="../img/right.png"></a></li>
             </ul>
         </div>
         <div class="services">
@@ -478,19 +483,22 @@
         </div>
         <div class="attention-for-patient">
             <div class="attention-container">
-                <div class="alert-for-view">
+                <div class="attention-for-view">
                     <img src="../img/alerting.png">
                     <span>Обратите внимание!</span>
                 </div>
-                <div class="alert-info">
-                    <span>Информация на странице прелставоена для ознакомления. Для назначения лечения обратитесь к врачу.</span>
+                <div class="attention-info">
+                    <span>Информация на странице предоставлена для ознакомления. Для назначения лечения обратитесь к врачу.</span>
                 </div>
             </div>
         </div>
         <div class="breadcrumbs">
-            <a href="#" class="breadcrumbs-item">Главная </a> >
-            <a href="#" class="breadcrumbs-item">Москва </a> >
-            <a href="#" class="breadcrumbs-item">Клиники </a> >
+            <a href="#" class="breadcrumbs-item">Главная </a>
+            <img src="../img/right.png">
+            <a href="#" class="breadcrumbs-item">Москва </a>
+            <img src="../img/right.png">
+            <a href="#" class="breadcrumbs-item">Клиники </a>
+            <img src="../img/right.png">
             <a href="#" class="breadcrumbs-item">Гинекологи</a>
         </div>
     </div>

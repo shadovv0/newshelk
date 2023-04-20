@@ -80,6 +80,10 @@
                     </div>
                     <div class="clinic-card__clinic-reviews">
                         <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
                         4,7
                     </div>
                     <div class="reviews-count">
@@ -133,6 +137,10 @@
                         Москва, м. Щелковская,<br> ул. Флотская, д.42
                     </div>
                     <div class="clinic-card__clinic-reviews">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
                         <img src="../img/star.png">
                         4,7
                     </div>
@@ -416,24 +424,102 @@
                 <h1 class="popup-questions-title">Самые популярные вопросы</h1>
                 <div class="first-question">
                     <span>Что такое гинекология?</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="second-question">
                     <span>Где лучше лечить женские заболевания?</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="third-question">
                     <span>Посоветуйте центр гинекологии</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
+            </div>
+            <!--<div class="modal_window">
+                <div class="modal_container">
+                    <div class="registration">
+                        <h1 class="appointment">Запись на приём</h1>
+                    </div>
+                    <div class="window_main-modal">
+                        <div class="spec">
+                            <p>Специальность</p>
+                            <div class="doctor-clinics">
+                                <span>Гинеколог-эндокринолог - 900р</span>
+                                <img src="../img/bottom.png">
+                            </div>
+                        </div>
+                        <div class="date">
+                            <p>Дата и время приёма</p>
+                            <div class="doctor-clinics">
+                                <span>15 марта, 17:30</span>
+                                <div class="change">Изменить</div>
+                            </div>
+                        </div>
+                        <div class="doctor">
+                            <p>Врач</p>
+                            <div class="doctor-clinics">
+                                <span>Сергеева А.А.</span>
+                                <img src="../img/bottom.png">
+                            </div>
+                            <div class="change">
+                                Карточка врача
+                            </div>
+                        </div>
+                        <div class="name">
+                            <p>Имя пациента</p>
+                            <div class="name-patient">
+                                <span>Имя</span>
+                            </div>
+                        </div>
+                        <div class="surname">
+                            <p>Фамилия пациента</p>
+                            <div class="name-patient">
+                                <span>Фамилия</span>
+                            </div>
+                        </div>
+                        <div class="birth">
+                            <p>Дата рождения</p>
+                            <div class="name-patient">
+                                <span>ДД-ММ-ГГГГ</span>
+                                <span>.</span>
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <p>Номер телефона</p>
+                            <div class="name-patient">
+                                <span> +7 (___) ___-__-__</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sms">
+                        На этот номер вы получите SMS с кодом<br>
+                        подтверждения и информацию о записи
+                    </div>
+                    <div class="form">
+                        Отправляя форму, вы соглашаетесь с
+                        <br><p>политикой обработки персональных данных</p>
+                    </div>
+                    <div class="record_escape_btn">
+                        <div class="btn_records modal_btn">
+                            <span class="button-record">Запись на приём</span>
+                        </div>
+                        <div class="btn_escape modal_btn">
+                            <span class="button-escape">Отмена</span>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="scrollup">
+                <img src="../img/top.png">
+                <span>Наверх</span>
             </div>
             <div class="breadcrumbs">
                 <a class="breadcrumbs-item">Главная </a>
-                <a class="breadcrumbs-item1">></a>
+                <img src="../img/right.png">
                 <a class="breadcrumbs-item">Москва </a>
-                <a class="breadcrumbs-item1">></a>
+                <img src="../img/right.png">
                 <a class="breadcrumbs-item">Клиники </a>
-                <a class="breadcrumbs-item1">></a>
+                <img src="../img/right.png">
                 <a class="breadcrumbs-item">Гинекологи</a>
             </div>
         </div>

@@ -100,13 +100,12 @@
                 <div class="doctor-clinics_active">
                     <div class="doctor_clinic-name">
                         <span>Клиника на Текстильщиках</span>
-                        <span>^</span>
+                        <img src="../img/top.png">
                     </div>
                     <div class="doctor-card__clinic-items">
                         <div class="doctor-card__clinic-schedule">
                             Часы приёма:<br>
                             Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-
                         </div>
                         <div class="doctor-card__clinic-metro">
                             <div class="doctor-card__clinic-metro-near">
@@ -123,14 +122,14 @@
                     </div>
                 </div>
                 <div class="doctor-card__doctor-date">
-                    <span><</span>
+                    <img src="../img/left1.png">
                     <span>Понедельник 21.03</span>
-                    <span>></span>
+                    <img src="../img/right1.png">
                 </div>
                 <div class="doctor-card__clinic-active">
                     <img src="../img/geo-grey.png">
                     <span>Клиника на Текстильщиках</span>
-                    <span>˅</span>
+                    <img src="../img/top.png">
                 </div>
                 <div class="doctor-card__clinic-free-time">
                     <div class="free-time">13:00</div>
@@ -138,7 +137,7 @@
                     <div class="free-time">13:00</div>
                     <div class="free-time">13:00</div>
                     <div class="free-time">13:00</div>
-                    <div class="free-time">˅</div>
+                    <div class="free-time"><img src="../img/bottom.png"></div>
                 </div>
                 <div class="doctor-card__clinic-phone">
                     <img src="../img/mobilephone.png">
@@ -146,7 +145,7 @@
                 </div>
                 <div class="doctor-card__doctor-clinics">
                     <span>Клиника на Петровско-Разумовской</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
             </div>
         </div>
@@ -183,11 +182,11 @@
             <div class="doctor-card__body">
                 <div class="doctor-card__doctor-clinics">
                     <span>Клиника на Текстильщиках</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="doctor-card__doctor-clinics">
                     <span>Клиника на Петровско-Разумовской</span>
-                    <span>˅</span>
+                    <img src="../img/bottom.png">
                 </div>
                 <div class="doctor-card__button-mobile">
                     <div class="btn_records">
@@ -364,10 +363,10 @@
             </div>
             <div class="breadcrumbs">
                 <a href="#" class="breadcrumbs-item">Главная </a>
-                <a href="#" class="breadcrumbs-item1">></a>
+                <img src="../img/right.png">
                 <a href="#" class="breadcrumbs-item">Москва </a>
-                <a href="#" class="breadcrumbs-item1">></a>
-                <a href="#" class="breadcrumbs-item">Клиники</a>
+                <img src="../img/right.png">
+                <a href="#" class="breadcrumbs-item">Врачи</a>
             </div>
         </div>
     </div>

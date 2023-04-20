@@ -17,7 +17,7 @@
     <div class="head_container">
         <div class="wrap clear">
             <div class="burger-menu">
-                <img src="../../img/menu-btn.png">
+                <img src="../img/menu-btn.png">
                 <div class="top-menu-btn">
                     <!--<ul class="justify">
                         <li class="menu-item">
@@ -44,7 +44,7 @@
                 Название
             </div>
             <div class="search-form">
-                <img src="../../img/search-btn.png">
+                <img src="../img/search-btn.png">
                 Поиск
             </div>
         </div>
@@ -80,6 +80,10 @@
                     </div>
                     <div class="clinic-card__clinic-reviews">
                         <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
                         4,7
                     </div>
                     <div class="reviews-count">
@@ -94,13 +98,13 @@
                 </div>
                 <div class="clinic-card__clinic-metro">
                     <div class="clinic-card__clinic-metro-near">
-                        <img src="../../img/dot-purple.png">
+                        <img src="../img/dot-purple.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__clinic-metro-further">
-                        <img src="../../img/dot-green.png">
+                        <img src="../img/dot-green.png">
                         Печатники (2,1км)
-                        <img src="../../img/dot-pink.png">
+                        <img src="../img/dot-pink.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
@@ -114,11 +118,10 @@
                     и консультации лучших специалистов.
                 </div>
                 <div class="clinic-card__service-item">
-                    <div class="clinic-card__service-popular"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
-                    <div class="clinic-card__service-popular"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>10 800 руб.</a>
+                    <div class="clinic-card__service-popular"><a>Акушер(от 18 лет)</a><a>10 800 руб.</a></div>
+                    <div class="clinic-card__service-popular"><span>Гинеколог<br>-эндокринолог(от 18 лет)</span><a>10 800 руб.</a>
                     </div>
-                    <div class="clinic-card__service-popular"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>100 800
-                            руб.</a>
+                    <div class="clinic-card__service-popular"><span>Гинеколог<br>-эндокринолог(от 18 лет)</span><a>10 800 руб.</a>
                     </div>
                 </div>
                 <div class="clinic-card__button">
@@ -142,6 +145,10 @@
                     </div>
                     <div class="clinic-card__clinic-reviews">
                         <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
+                        <img src="../img/star.png">
                         4,7
                     </div>
                     <div class="reviews-count">
@@ -156,13 +163,13 @@
                 </div>
                 <div class="clinic-card__clinic-metro">
                     <div class="clinic-card__clinic-metro-near">
-                        <img src="../../img/dot-purple.png">
+                        <img src="../img/dot-purple.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__clinic-metro-further">
-                        <img src="../../img/dot-green.png">
+                        <img src="../img/dot-green.png">
                         Печатники (2,1км)
-                        <img src="../../img/dot-pink.png">
+                        <img src="../img/dot-pink.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
@@ -176,11 +183,10 @@
                     и консультации лучших специалистов.
                 </div>
                 <div class="clinic-card__service-item">
-                    <div class="clinic-card__service-popular"><a>Акушер(от 18 лет)</a><a>1 800 руб.</a></div>
-                    <div class="clinic-card__service-popular"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>10 800 руб.</a>
+                    <div class="clinic-card__service-popular"><a>Акушер(от 18 лет)</a><a>10 800 руб.</a></div>
+                    <div class="clinic-card__service-popular"><span>Гинеколог<br>-эндокринолог(от 18 лет)</span><a>10 800 руб.</a>
                     </div>
-                    <div class="clinic-card__service-popular"><a>Гинеколог-эндокринолог(от 18 лет)</a><a>100 800
-                            руб.</a>
+                    <div class="clinic-card__service-popular"><span>Гинеколог<br>-эндокринолог(от 18 лет)</span><a>10 800 руб.</a>
                     </div>
                 </div>
                 <div class="clinic-card__button">
@@ -192,13 +198,13 @@
         </div>
         <div class="listing_bottom">
             <ul class="pagination_listing">
-                <li class="pagination_item"><a href="#" class="pagination_link-back"><</a></li>
+                <li class="pagination_item"><a href="#" class="pagination_link-back"><img src="../img/left.png"></a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link-active">1</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">2</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">3</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">...</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">32</a></li>
-                <li class="pagination_item"><a href="#" class="pagination_link-back">></a></li>
+                <li class="pagination_item"><a href="#" class="pagination_link-back"><img src="../img/right.png"></a></li>
             </ul>
         </div>
         <div class="services">
@@ -288,12 +294,12 @@
         </div>
         <div class="attention-for-patient">
             <div class="attention-container">
-                <div class="alert-for-view">
+                <div class="attention-for-view">
                     <img src="../img/alerting.png">
                     Обратите внимание!
                 </div>
-                <div class="alert-info">
-                    Информация на странице прелставоена для ознакомления. Для назначения лечения обратитесь к врачу.
+                <div class="attention-info">
+                    Информация на странице предоставлена для ознакомления. Для назначения лечения обратитесь к врачу.
                 </div>
             </div>
         </div>
@@ -361,9 +367,9 @@
             </div>
             <div class="breadcrumbs">
                 <a href="#" class="breadcrumbs-item">Главная </a>
-                <a class="breadcrumbs-item1">></a>
+                <img src="../img/right.png">
                 <a href="#" class="breadcrumbs-item">Москва </a>
-                <a class="breadcrumbs-item1">></a>
+                <img src="../img/right.png">
                 <a href="#" class="breadcrumbs-item">Клиники</a>
             </div>
         </div>

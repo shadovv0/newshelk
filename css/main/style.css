@@ -10,17 +10,22 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .scrollup {
-    position: fixed;
     cursor: pointer;
-    display: none;
     width: 100px;
     height: 100px;
-    bottom: 30px;
-    right: 15px;
     text-align: center;
-    z-index: 30;
     background: #FFF04B;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    flex-direction: column;
+    float: right;
 }
 
 .div {
@@ -41,7 +46,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .wrap {
-    max-width: 1230px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -104,7 +109,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .top-menu__wrap {
-    max-width: 1230px;
+    max-width: 1500px;
     margin: 25px auto;
     display: flex;
     justify-content: space-between;
@@ -482,7 +487,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .popular-doctor-container {
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
 .reviews-count {
@@ -512,10 +517,18 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     line-height: 24px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.8);
+    margin-right: 10px;
+}
+
+.breadcrumbs img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
 }
 
 .breadcrumbs {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
+    align-items: center;
 }
 
 
@@ -523,7 +536,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     color: #000000;
 }
@@ -534,10 +547,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-}
-
-.last-review__clinic-count-reviews {
-    margin-left: 80px;
+    margin-bottom: 7px;
 }
 
 .last-review__doctor-count-reviews {
@@ -545,7 +555,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .last-review__clinic {
-    margin: 10px 40px 0 0;
+    margin: 10px 90px 0 0;
 }
 
 .review-clinic-text {
@@ -580,12 +590,12 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .last-review__clinic-card {
-    width: 379px;
-    height: 210px;
+    width: 400px;
+    height: 230px;
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    margin-right: 15px;
+    margin-right: 99px;
 }
 
 .last-review__clinic-card__photo img {
@@ -605,7 +615,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .counts-reviews {
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -615,6 +625,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 .last-review__clinic-count-reviews {
+    margin-left: 120px;
     height: 25px;
 }
 
@@ -651,33 +662,8 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     padding: 40px;
 }
 
-.last-review__clinic-address {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
-}
-
-.last-review__clinic-name {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-}
-
-.last-review__clinic-count-reviews {
-    margin-left: 80px;
-}
-
 .last-review__doctor-count-reviews {
     margin-left: 80px;
-}
-
-.last-review__clinic {
-    margin: 10px 40px 0 0;
 }
 
 .review-clinic-text {
@@ -692,39 +678,24 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.5);
 }
 
-.last-review {
-    margin-top: 50px;
-    background: #F7EDDF;
-}
-
-.last-review__clinic-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    text-align: center;
-    color: #232323;
-    padding: 50px;
-}
-
 .last-review__doctors {
     display: flex;
 }
 
 .last-review_wrap {
-    height: 767px;
-    max-width: 1145px;
+    height: 800px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 .last-review__doctor-card {
-    width: 379px;
-    height: 215px;
+    width: 400px;
+    height: 230px;
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    margin-right: 15px;
+    margin-right: 99px;
 }
 
 .last-review__doctor-card__photo img {
@@ -740,13 +711,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .last-review__doctor-card-container {
     padding: 17px 30px;
     width: 100%;
-}
-
-.counts-reviews {
-    font-style: normal;
-    font-size: 12px;
-    text-decoration-line: underline;
-    color: rgba(0, 0, 0, 0.7);
 }
 
 .last-review__doctor-count-reviews img {
@@ -792,15 +756,27 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .first-question {
     background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
+    border-radius: 10px;
     height: auto;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 10px 25px;
     margin-bottom: 25px;
 }
 
-.first-question span {
+.first-question p {
+    font-weight: 300;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
 
+.first-question span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-question img {
+    width: 13px;
+    height: 10px;
 }
 
 .second-question {
@@ -808,17 +784,21 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     justify-content: space-between;
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    height: 34px;
+    border-radius: 10px;
+    height: 50px;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    padding: 10px 25px;
     margin-bottom: 25px;
 }
 
 .second-question span {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 19px;
     color: rgba(0, 0, 0, 0.8);
+}
+
+.second-question img {
+    width: 13px;
 }
 
 .third-question {
@@ -826,18 +806,23 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     justify-content: space-between;
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    height: 34px;
+    border-radius: 10px;
+    height: 50px;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    padding: 10px 25px;
     margin-bottom: 25px;
 }
 
 .third-question span {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 19px;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.third-question img {
+    width: 13px;
+}
+
 
 .footer__container{
     height: 800px;
@@ -846,7 +831,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    padding: 80px 300px;
+    padding: 80px 200px;
 }
 
 .footer__body {

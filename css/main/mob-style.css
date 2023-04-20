@@ -20,9 +20,173 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     height: 0;
 }
 
+.scrollup {
+    cursor: pointer;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    background: #FFF04B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    flex-direction: column;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal_window {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.window_main-modal {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.window_main-modal p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.appointment {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.doctor-clinics {
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 812px;
+    height: 80px;
+    padding: 10px 25px;
+    display: flex;
+    margin: 0 10px 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doctor-clinics span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.name-patient {
+    background: rgba(217, 217, 217, 0.15);
+    border-radius: 4px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 812px;
+    height: 80px;
+    padding: 10px 25px;
+    display: flex;
+    margin: 0 10px 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-patient span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #AAAAAA;
+}
+
+.doctor {
+    margin-bottom: 15px;
+}
+
+.change {
+    color: #FF6472;
+    font-size: 30px;
+}
+
+.sms {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #8B8D93;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #8B8D93;
+    text-align: center;
+}
+
+.btn_escape {
+    border-radius: 4px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #E4E4E4;
+    margin: 50px;
+    color: #AAAAAA;
+
+}
+
+.btn_escape a {
+    font-family: 'Rubik';
+    font-size: 30px;
+    text-decoration-line: none;
+    color: #AAAAAA;
+}
+
+.record_escape_btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form p {
+    text-decoration-line: underline;
+}
+
+.modal_btn {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
 .head_container .wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 37px 10px 0;
 }
 
@@ -542,16 +706,20 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
     border-radius: 4px;
-    height: auto;
+    height: 100px;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin-bottom: 25px;
+    padding: 30px;
+    margin-bottom: 45px;
     font-size: 40px;
 }
 
 .first-question span {
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 45px;
+    color: #000000;
 }
 
 .second-question {
@@ -560,15 +728,19 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
     border-radius: 4px;
-    height: auto;
+    height: 100px;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 15px;
-    margin-bottom: 25px;
+    padding: 25px;
+    margin-bottom: 45px;
 }
 
 .second-question span {
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 45px;
+    color: #000000;
 }
 
 .third-question {
@@ -577,21 +749,26 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
     border-radius: 4px;
-    height: auto;
+    height: 100px;
     border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin-bottom: 25px;
+    padding: 30px;
+    margin-bottom: 45px;
 }
 
 .third-question span {
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 45px;
+    color: #000000;
 }
 
 .breadcrumbs {
-    margin: 30px 0;
+    margin: 100px 0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .breadcrumbs-item {
@@ -603,11 +780,9 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.8);
 }
 
-.breadcrumbs-item1 {
-    font-size: 30px;
-    line-height: 24px;
-    text-decoration-line: none;
-    color: rgba(0, 0, 0, 0.8);
+.breadcrumbs img {
+    width: 25px;
+    height: 25px;
 }
 
 

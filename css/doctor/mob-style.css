@@ -23,6 +23,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 .head_container .wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 37px 10px 0;
 }
 
@@ -172,11 +173,20 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     justify-content: space-between;
 }
 
+.doctor_clinic-name img {
+    width: 30px;
+    height: 20px;
+}
+
 .doctor_clinic-items {
     padding: 20px;
 }
 
 .doctor-card__clinic-metro-further {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.doctor-card__clinic-schedule {
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -195,6 +205,12 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     height: 58px;
     font-size: 40px;
     margin-bottom: 50px;
+    padding: 0 30px;
+}
+
+.doctor-card__doctor-date img {
+    width: 20px;
+    height: 20px;
 }
 
 .doctor-card__clinic-active {
@@ -208,6 +224,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     height: 58px;
     font-size: 40px;
     margin-bottom: 50px;
+    padding: 0 30px;
 }
 
 .doctor-card__clinic-free-time {
@@ -394,6 +411,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     color: rgba(0, 0, 0, 0.7);
 }
 
+
 .breadcrumbs-item {
     font-style: normal;
     font-weight: 400;
@@ -401,17 +419,19 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     line-height: 30px;
     text-decoration-line: underline;
     color: rgba(0, 0, 0, 0.8);
+    margin-right: 20px;
 }
 
-.breadcrumbs-item1 {
-    font-size: 35px;
-    line-height: 24px;
-    text-decoration-line: none;
-    color: rgba(0, 0, 0, 0.8);
+.breadcrumbs img {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .breadcrumbs {
-    margin-bottom: 30px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
 }
 
 .info-docspec {

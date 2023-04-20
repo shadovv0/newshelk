@@ -75,6 +75,10 @@
                 </div>
                 <div class="clinic-card__reviews">
                     <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
                     4,7
                 </div>
                 <div class="clinic-card__reviews-count">
@@ -138,6 +142,10 @@
                     56 врачей в штате
                 </div>
                 <div class="clinic-card__reviews">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
                     <img src="../img/star.png">
                     4,7
                 </div>
@@ -203,6 +211,10 @@
                     56 врачей в штате
                 </div>
                 <div class="clinic-card__reviews">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
+                    <img src="../img/star.png">
                     <img src="../img/star.png">
                     4,7
                 </div>
@@ -260,13 +272,13 @@
         </div>
         <div class="listing_bottom">
             <ul class="pagination_listing">
-                <li class="pagination_item"><a href="#" class="pagination_link-back"><</a></li>
+                <li class="pagination_item"><a href="#" class="pagination_link-back"><img src="../img/left.png"></a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link-active">1</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">2</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">3</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">...</a></li>
                 <li class="pagination_item"><a href="#" class="pagination_link">32</a></li>
-                <li class="pagination_item"><a href="#" class="pagination_link-back">></a></li>
+                <li class="pagination_item"><a href="#" class="pagination_link-back"><img src="../img/right.png"></a></li>
             </ul>
         </div>
         <div class="services">
@@ -535,18 +547,20 @@
         </div>
         <div class="attention-for-patient">
             <div class="attention-container">
-                <div class="alert-for-view">
+                <div class="attention-for-view">
                     <img src="../img/alerting.png">
                     <span>Обратите внимание!</span>
                 </div>
-                <div class="alert-info">
-                    <span>Информация на странице прелставоена для ознакомления. Для назначения лечения обратитесь к врачу.</span>
+                <div class="attention-info">
+                    <span>Информация на странице предоставлена для ознакомления. Для назначения лечения обратитесь к врачу.</span>
                 </div>
             </div>
         </div>
         <div class="breadcrumbs">
-            <a class="breadcrumbs-item">Главная </a> >
-            <a class="breadcrumbs-item">Москва </a> >
+            <a class="breadcrumbs-item">Главная </a>
+            <img src="../img/right.png">
+            <a class="breadcrumbs-item">Москва </a>
+            <img src="../img/right.png">
             <a class="breadcrumbs-item">Клиники </a>
         </div>
     </div>
