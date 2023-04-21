@@ -315,13 +315,13 @@
                                     <span>4,9</span>
                                 </div>
                                 <div class="last-review__doctor">
-                                    <div class="review-doctor-name">
+                                    <div class="last-review__doctor-name">
                                         Сергеева
                                     </div>
-                                    <div class="review-doctor-address">
+                                    <div class="last-review__doctor-surname">
                                         Анастасия Андреевна
                                     </div>
-                                    <div class="review-doctor-spec">
+                                    <div class="last-review__doctor-spec">
                                         Гинеколог
                                     </div>
                                 </div>
@@ -353,13 +353,13 @@
                                     <span>4,9</span>
                                 </div>
                                 <div class="last-review__doctor">
-                                    <div class="review-doctor-name">
+                                    <div class="last-review__doctor-name">
                                         Сергеева
                                     </div>
-                                    <div class="review-doctor-address">
+                                    <div class="last-review__doctor-surname">
                                         Анастасия Андреевна
                                     </div>
-                                    <div class="review-doctor-spec">
+                                    <div class="last-review__doctor-spec">
                                         Гинеколог
                                     </div>
                                 </div>
@@ -391,13 +391,13 @@
                                     <span>4,9</span>
                                 </div>
                                 <div class="last-review__doctor">
-                                    <div class="review-doctor-name">
+                                    <div class="last-review__doctor-name">
                                         Сергеева
                                     </div>
-                                    <div class="review-doctor-address">
+                                    <div class="last-review__doctor-surname">
                                         Анастасия Андреевна
                                     </div>
-                                    <div class="review-doctor-spec">
+                                    <div class="last-review__doctor-spec">
                                         Гинеколог
                                     </div>
                                 </div>

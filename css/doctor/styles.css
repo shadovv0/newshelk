@@ -497,10 +497,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin-left: 80px;
 }
 
-.last-review__doctor-count-reviews {
-    margin-left: 80px;
-}
-
 .last-review__clinic {
     margin: 10px 40px 0 0;
 }
@@ -509,7 +505,28 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     margin: 60px;
 }
 
-.review-doctor-spec {
+
+.last-review__doctor {
+    margin-top: 20px;
+}
+
+.last-review__doctor-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.last-review__doctor-surname {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.last-review__doctor-spec {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -581,6 +598,11 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 .last-review__doctor-count-reviews {
     height: 25px;
+}
+
+.last-review__doctor-count-review {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .last-review__doctor-author-review {
