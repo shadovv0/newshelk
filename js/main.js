@@ -1,16 +1,26 @@
-$(document).ready(function () {
+function initFoldElements() {
+    const spoilers = document.querySelectorAll('[data-fold]');
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.scrollup').fadeIn();
-        } else {
-            $('.scrollup').fadeOut();
+    if (!spoilers) return;
+
+    spoilers.forEach(spoiler => {
+        const spoilerBtn = spoiler.querySelector('[data-fold-btn]');
+        const spoilerBtnText = spoilerBtn.querySelector('.more__text');
+        const spoilerContent = spoiler.querySelectorAll('[data-fold-content]');
+
+        spoilerContent.forEach(content => {
+            heightToggleElement(spoilerBtn, content);
+        })
+
+        if (spoilerBtnText) {
+            spoilerBtn.addEventListener('click', (e) => {
+                if (spoilerBtn.classList.contains('is-active')) {
+                    spoilerBtnText.textContent = spoilerBtnText.dataset.closeText;
+                } else {
+                    spoilerBtnText.textContent = spoilerBtnText.dataset.openText
+                }
+            })
         }
-    });
+    })
 
-    $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 600);
-        return false;
-    });
-
-});
+}

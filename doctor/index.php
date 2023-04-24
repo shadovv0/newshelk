@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Щелковская/Врачи</title>
     <meta name="description" content="Описание страницы"/>
-    <link rel="stylesheet" type="text/css" href="/css/doctor/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
@@ -14,7 +14,7 @@
         crossorigin="anonymous"></script>
 <script src="../js/main.js"></script>
 <header>
-    <div class="header">
+    <div class="head_container">
         <div class="wrap clear">
             <div class="logo">
                 ЛОГО/Название сайта
@@ -299,7 +299,7 @@
         </div>
     </div>
     <div class="last-review">
-        <div class="last-review_wrap">
+        <div class="last-review-clinics_wrap">
             <h1 class="last-review__doctor-title">Последние отзывы на врачей</h1>
             <div class="last-review__doctors">
                 <div class="last-review__doctor-card">

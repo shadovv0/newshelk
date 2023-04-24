@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
-    <link rel="stylesheet" type="text/css" href="/css/doctor/styles_mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
@@ -66,7 +66,7 @@
                 <a href="#" class="sorting"> ↑ ↓</a>
             </div>
         </div>
-        <div class="doctor-card">
+        <div class="doctors-card">
             <div class="doctor-card__container">
                 <div class="doctor-card__head">
                     <div class="photo-doctor">
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="doctor-card__body">
-                <div class="doctor-clinics_active">
+                <div class="doctor-card__clinics_active">
                     <div class="doctor_clinic-name">
                         <span>Клиника на Текстильщиках</span>
                         <img src="../img/top.png">
@@ -149,7 +149,7 @@
                 </div>
             </div>
         </div>
-        <div class="doctor-card">
+        <div class="doctors-card">
             <div class="doctor-card__container">
                 <div class="doctor-card__head">
                     <div class="photo-doctor">
@@ -283,11 +283,11 @@
         </div>
         <div class="attention-for-patient">
             <div class="attention-container">
-                <div class="alert-for-view">
+                <div class="attention-for-view">
                     <img src="../img/alerting.png">
                     <span>Обратите внимание!</span>
                 </div>
-                <div class="alert-info">
+                <div class="attention-info">
                     <span>Информация на странице<br>предоставлена для ознакомления.<br>
                         Для назначения лечения<br>обратитесь к врачу.</span>
                 </div>
