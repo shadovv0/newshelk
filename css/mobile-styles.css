@@ -20,1169 +20,912 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     height: 0;
 }
 
-.scrollup {
-    cursor: pointer;
-    width: 140px;
-    height: 140px;
+body {
+    background: #e5ebe0 !important;
+    /* background:  #F7F9FA !important;*/
+}
+
+.menu-btn {
+    width: 40px;
+    height: 40px;
     text-align: center;
-    background: #FFF04B;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #000000;
-    flex-direction: column;
-    float: right;
 }
 
-
-.modal_window {
-    background: #FFFFFF;
-    border-radius: 4px;
+.logo img {
+    width: 175px;
 }
 
-.window_main-modal {
+.head__container .wrap {
     display: flex;
+    justify-content: space-between;
     align-items: flex-start;
+    padding: 35px 15px 0;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
 }
 
-.window_main-modal p {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 30px;
-    color: #000000;
-}
-
-.appointment {
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 37px;
-    line-height: 37px;
-    color: #000000;
-}
-
-.doctor-clinics {
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    border: 0.5px solid rgba(0, 0, 0, 0.2);
-    width: 812px;
-    height: 80px;
-    padding: 10px 25px;
-    display: flex;
-    margin: 0 10px 15px 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.doctor-clinics span {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 35px;
-}
-
-.name-patient {
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    border: 0.5px solid rgba(0, 0, 0, 0.2);
-    width: 812px;
-    height: 80px;
-    padding: 10px 25px;
-    display: flex;
-    margin: 0 10px 15px 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.name-patient span {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 35px;
-    color: #AAAAAA;
-}
-
-.doctor {
-    margin-bottom: 15px;
-}
-
-.change {
-    color: #FF6472;
-    font-size: 30px;
-}
-
-.sms {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    color: #8B8D93;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.form {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    color: #8B8D93;
-    text-align: center;
-}
-
-.btn_escape {
-    border-radius: 4px;
-    width: 250px;
-    height: 90px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 2px solid #E4E4E4;
-    margin: 50px;
-    color: #AAAAAA;
-
-}
-
-.btn_escape a {
-    font-family: 'Rubik';
-    font-size: 30px;
-    text-decoration-line: none;
-    color: #AAAAAA;
-}
-
-.record_escape_btn {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.form p {
-    text-decoration-line: underline;
-}
-
-.modal_btn {
-    font-size: 40px;
-    margin-top: 40px;
-}
-
-.head_container .wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 37px 10px 0;
-}
-
-.head_container {
+.head__container {
     margin-bottom: 35px;
+    background: #FFFFFF;
 }
 
 .wrap {
-    max-width: 850px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
-.burger-menu img {
-    width: 70px;
-}
-
-.logo {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 24px;
-    color: #232323;
+.head__search {
+    width: 100px;
 }
 
 .search-form {
-    font-size: 35px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search__head {
     text-decoration-line: underline;
+    color: #516FA6;
 }
 
-.search-form img {
-    margin-right: 30px;
+.search__clinic-doctor {
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    max-width: 340px;
+    width: 100%;
 }
 
-.main_wrap {
-    max-width: 850px;
-    margin: 0 auto;
-    padding: 0 10px;
+.search__clinic-doctor img {
+    width: 20px;
 }
 
-.sort {
+.search__search-form {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search__docclinic {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 13px;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.sort_popular {
+.search__city-metro {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 340px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.search__city-text {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align: center;
 }
 
-.sort_rating {
+.actions__doctors {
+    margin: 15px 0;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    border-radius: 4px;
+    background: rgba(81, 111, 166, 0.13);
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
 }
 
-.sort_count_review {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.sorting {
-    color: rgba(0, 0, 0, 0.5);
-    text-decoration-line: none;
-    margin-right: 33px;
-}
-
-
-.clinic-card {
-    margin: 50px 0 100px;
-}
-
-.clinic-card__head {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.photo-clinic {
-    width: auto;
-}
-
-.photo-clinic img{
-    width: 400px;
-    margin-right: 20px;
-}
-
-
-.clinic-card__clinic-name {
+.actions__doctors h5 {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 15px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    color: #000000;
+    line-height: 91.9%;
 }
 
-.clinic-card__clinic-address {
+.actions__doctors-text {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.actions__doctors p {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+    line-height: 91.9%;
 }
 
-.clinic-card__clinic-reviews {
+.search__btn {
+    width: 135px;
+    height: 22px;
+    border-radius: 22px;
+    background: rgba(252, 91, 93, 0.80);
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions__doctors-image img {
+    width: 167px;
+}
+
+.actions__doctors-house {
+    border-radius: 4px;
+    background: rgba(255, 186, 127, 0.22);
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
+    margin: 15px 0;
+    display: flex;
+}
+
+.actions__doctors-house-text {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.actions__doctors-house-text h5 {
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-size: 16px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    text-decoration-line: none;
-    color: rgba(0, 0, 0, 0.7);
+    line-height: 91.9%;
 }
 
-.reviews-count {
+.actions__doctors-house-text p {
+    color: #000;
+    text-align: right;
+    font-size: 14px;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+    line-height: 108%;
 }
 
-.clinic-card__clinic-schedule {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 30px;
-    margin-bottom: 20px;
+.actions__services {
+    border-radius: 4px;
+    background: rgba(255, 186, 127, 0.22);
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
 }
 
-.clinic-card__clinic-metro {
-    margin-bottom: 25px;
+.actions__services-text {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 10px 15px;
+    flex-direction: column;
 }
 
-.clinic-card__clinic-metro img {
-    width: 15px;
+.actions__services-text h5 {
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.9%;
 }
 
-.clinic-card__clinic-metro-near {
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 10px;
+.actions__services-image {
+    display: flex;
 }
 
-.clinic-card__clinic-metro-further {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 30px;
-    margin-bottom: 10px;
+.actions__services-text p {
+    color: #000;
+    text-align: right;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 108%;
 }
 
-.clinic-card__clinic-phone {
-    font-size: 37px;
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 50px;
+.actions__mid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
 }
 
-.clinic-card__clinic-phone img {
-    margin-right: 20px;
+.actions__symptoms {
+    border-radius: 4px;
+    background: rgba(83, 166, 81, 0.13);
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+    width: 177px;
+    height: 149px;
+    margin-right: 10px;
 }
 
-.clinic-card__clinic-text-block {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 33px;
-    margin-bottom: 50px;
-}
-
-.services {
+.actions__symptoms-text {
+    height: 100%;
+    padding: 15px 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 
-.service__title {
-    font-size: 50px;
-    margin-bottom: 50px;
+.actions__symptoms img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    width: 71px;
+    height: 110px;
+    opacity: 0.800000011920929;
 }
 
-.service-item {
-    font-size: 40px;
-    text-decoration-line: underline;
-    margin-bottom: 35px;
+.actions__symptoms-text p {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 108%;
 }
 
-.service-item a {
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.service__clinic-phone img {
-    margin-right: 20px;
-}
-
-.service__condition-visit img {
-    margin-right: 20px;
-}
-
-.service__body {
-    padding: 0 40px;
-}
-
-.service__clinic-phone {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.service__condition-visit {
-    font-size: 30px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.5);
-    text-decoration-line: underline;
-    margin-top: 50px;
-}
-
-.popular-doctor__container {
-    padding: 40px 80px;
-}
-
-.popular-doctor__head {
-    display: flex;
-}
-
-.popular-doctor__img img {
-    border-radius: 50%;
-}
-
-.doctor-rating {
-    margin-bottom: 25px;
-}
-
-.doctor_percent-review {
-    margin-left: 175px;
-    font-size: 30px;
-    color: #000000;
-}
-
-.doctor_reviews-count {
-    font-size: 30px;
-    text-decoration-line: underline;
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.popular-doctor__doctor-name {
-    font-size: 35px;
-}
-
-.doctor-card {
-    border: 1px solid #BCBCBC;
-
-}
-
-.popular-doctor__doctor-category {
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-.popular-doctor__doctor-spec {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-.popular-doctor__doctor-address {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 38px;
-    margin-bottom: 35px;
-    display: flex;
-}
-
-.popular-doctor__doctor-address img {
-    margin-right: 50px;
-    width: 40px;
-    height: 60px;
-}
-
-.popular-doctor__doctor-phone {
+.actions__symptoms-text h5 {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 40px;
+    line-height: 103.4%;
 }
 
-.popular-doctor__doctor-phone img {
-    margin-right: 50px;
-    width: 38px;
-}
-
-.clinic-card__button {
-    display: flex;
-    justify-content: center;
-}
-
-.btn_records {
-    background: #FFF04B;
+.actions__disease {
     border-radius: 4px;
-    width: 500px;
-    height: 100px;
-    text-align: center;
+    background: rgba(149, 81, 166, 0.13);
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+    width: 177px;
+    height: 149px;
+}
+
+.actions__disease-text {
+    height: 100%;
+    padding: 15px 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn_records a {
-    font-family: 'Rubik';
-    font-size: 50px;
-    text-decoration-line: none;
-    color: #000000;
-}
-
-.popular-doctor__button-mobile {
-    display: flex;
-    justify-content: center;
-}
-
-.clinic-review-count {
-    font-size: 35px;
-}
-
-.counts-reviews {
-    text-decoration-line: underline;
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.review_clinics {
-    padding: 40px 80px;
-}
-
-.last-review__clinic-card__head {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.last-review__clinic-card__container {
-    padding: 40px 50px;
-}
-
-.last-review__clinic-count-reviews {
-    font-size: 35px;
-}
-
-.last-review__clinic-top {
-    margin-left: 20px;
-}
-
-.last-review__clinic-card__photo img {
-    width: 200px;
-}
-
-.last-review__clinic-title {
-    font-weight: 500;
-    font-size: 60px;
-    color: #232323;
-    text-align: center;
-}
-
-.last-review__clinic-name {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    color: #000000;
-}
-
-.last-review__clinic-address {
-    font-size: 33px;
-}
-
-.last-review__clinic-author{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
-.last-review__clinic-author img {
-    width: 30px;
-    margin-right: 15px;
-}
-
-.last-review__clinic-comment-head {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 35px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.last-review__clinic-comment {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 35px;
-}
-
-.last-review__clinic-card {
-    border: 1px solid #BCBCBC;
-}
-
-
-.last-review {
-    margin-bottom: 100px;
-}
-
-.last-review__doctor-title {
-    font-weight: 500;
-    font-size: 60px;
-    color: #232323;
-    text-align: center;
-}
-
-.last-review__doctor-card {
-    border: 1px solid #BCBCBC;
-}
-
-.last-review__doctor-card__head {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.last-review__doctor-count-reviews {
-    font-size: 35px;
-    margin: 0 0 10px 260px;
-}
-
-.last-review__doctor-card__container {
-    padding: 40px 50px;
-}
-
-.last-review__doctor-title {
-    font-weight: 500;
-    font-size: 60px;
-    color: #232323;
-    text-align: center;
-}
-
-.last-review__doctor-card__photo img {
-    width: 200px;
-}
-
-.last-review__doctor-spec {
-    font-size: 30px;
-}
-
-.last-review__doctor-surname {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    color: #000000;
-}
-
-.last-review__doctor-name {
-    font-size: 30px;
-}
-
-.last-review__doctor-address {
-    font-size: 33px;
-}
-
-.last-review__doctor-author{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 35px;
-    margin-bottom: 15px;
-}
-
-.last-review__doctor-author img {
-    width: 30px;
-    margin-right: 15px;
-}
-
-.last-review__doctor-comment-head {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 35px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.last-review__doctor-comment {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 35px;
-}
-
-.doctor-review-count {
-    font-size: 35px;
-}
-
-.clinic-service-text {
-    text-align: center;
-}
-
-.info-docspec {
-    text-align: center;
-    font-weight: 500;
-    font-size: 60px;
-    color: #232323;
-}
-
-
-.text-block {
-    font-size: 35px;
-}
-
-.popup-questions-title {
-    text-align: center;
-    margin: 40px;
-    font-weight: 500;
-    font-size: 60px;
-    color: #232323;
-}
-
-.first-question {
-    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    height: 100px;
-    border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 30px;
-    margin-bottom: 45px;
-    font-size: 40px;
+    align-content: flex-start;
 }
 
-.first-question span {
-    font-family: 'Montserrat';
+.actions__disease-text h5 {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103.4%;
+}
+
+.actions__disease-text p {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 108%;
+}
+
+.actions__disease img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    width: 94px;
+    height: 95px;
+    opacity: 0.800000011920929;
+}
+
+.actions__all-count {
+    border-radius: 13px;
+    background: linear-gradient(136deg, rgba(147, 179, 244, 0.13) 0%, rgba(147, 179, 244, 0.00) 100%);
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.10);
+    padding: 15px 20px;
+    margin: 15px 0;
+}
+
+.actions__all-count span {
+    color: #FD7583;
+    font-size: 24px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 43px;
-    line-height: 45px;
-    color: #000000;
+    line-height: normal;
 }
 
-.second-question {
+.actions__all-count p {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.actions__brand {
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.10);
+    padding: 15px 20px;
+    margin: 15px 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    height: 100px;
-    border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 25px;
-    margin-bottom: 45px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
 
-.second-question span {
-    font-family: 'Montserrat';
+.actions__brand h5 {
+    color: #000;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.actions__brand p {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.4%;
+}
+
+.popular-doctor {
+    border-radius: 13px;
+    background: #FFF;
+}
+
+.popular-doctor__title {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 41px;
-    line-height: 45px;
-    color: #000000;
+    line-height: normal;
+    margin: 15px 0;
 }
 
-.third-question {
+.popular-doctor__title h4 {
+    margin: 10px 0;
+}
+
+
+.popular-doctor__doctors {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    height: 100px;
-    border: 0.5px solid rgba(0, 0, 0, 0.2);
-    padding: 30px;
-    margin-bottom: 45px;
-}
-
-.third-question span {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 43px;
-    line-height: 45px;
-    color: #000000;
-}
-
-.breadcrumbs {
-    margin: 100px 0;
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: space-around;
     align-items: center;
 }
 
-.breadcrumbs-item {
+.popular-doctor__container {
+    max-width: 350px;
+    width: 100%;
+}
+
+.popular-doctor__doctor-card {
+    padding: 17px 30px;
+    border-radius: 13px;
+    background: #FFF;
+}
+
+.popular-doctor__head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.popular-doctor__doctor-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.popular-doctor__name {
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popular-doctor__price {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
-    line-height: 30px;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-doctor__price p {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px 10px;
+}
+
+.popular-doctor__price span {
+    color: #FC5B5D;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.popular-doctor__star {
+    border-radius: 10px;
+    background: rgba(81, 111, 166, 0.80);
+    width: 54px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px 2px;
+    margin-right: 10px;
+}
+
+.popular-doctor__star p {
+    margin: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.popular-doctor__count-review {
+    display: flex;
+    align-items: center;
+}
+
+.popular-doctor__count-review a {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-decoration-line: underline;
-    color: rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
 }
 
-.breadcrumbs img {
-    width: 25px;
-    height: 25px;
+.popular-doctor__body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 
+.popular-doctor__metro {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.popular-doctor__address {
+    color: #000;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.popular-doctor__spec {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.popular-doctor__category-experience {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.other-clinics {
+    margin-bottom: 40px;
+    border-radius: 13px;
+    background: #FFF;
+}
+
+.other-clinics__title {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.other-clinics__photo img {
+    margin-right: 15px;
+}
+
+.other-clinics__clinics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other-clinics__head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.other-clinics__container {
+    max-width: 379px;
+    width: 100%;
+}
+
+.other-clinics__clinic-card {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.other-clinics__clinic-info {
+    padding: 0 20px;
+}
+
+.other-clinics__clinic-name {
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.other-clinics__clinic-address {
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.other-clinics__clinic-metro {
+    color: rgba(0, 0, 0, 0.30);
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.other-clinics__star {
+    border-radius: 10px;
+    background: rgba(81, 111, 166, 0.80);
+    width: 54px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px 2px;
+    margin-right: 10px;
+}
+
+.other-clinics__star p {
+    margin: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.other-clinics__clinic-reviews a {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 10px;
+}
+
+.other-clinics__clinic-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-wrap {
+    background: #FFFFFF;
+}
+
+.footer__about-clinic, .footer__for-patient, .footer__technical-info {
+    color: #000;
+    font-size: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 5px 0;
+}
 
 .footer__container {
     height: auto;
-    background: #F7EDDF;
 }
 
 .footer__body {
-    width: 100%;
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    width: 100%;
     min-height: 100%;
-    padding: 40px 80px;
-    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.linked-footer li {
+    list-style-type: none;
+    margin: 5px 0;
 }
 
 .linked-footer {
-    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 .linked-name {
+    color: rgba(81, 111, 166, 0.80);
+    font-size: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 4px;
     text-decoration-line: none;
-    color: rgba(12, 12, 12, 0.8);
-    font-size: 36px;
-}
-
-.footer__about-clinic {
-    margin-bottom: 30px;
-}
-
-.footer__about-clinic-title {
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.footer__for-patient {
-    margin-bottom: 30px;
-}
-
-.footer__for-patient-title {
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.footer__reference {
-    margin-bottom: 30px;
-}
-
-.footer__reference-title {
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.footer__technical-info {
-    margin-bottom: 30px;
-}
-
-.footer__reference-title {
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.footer__communication {
-    text-align: center;
 }
 
 .phone-footer {
-    font-weight: 600;
-    font-size: 45px;
-    text-decoration-line: underline;
-    color: #000000;
-}
-
-.footer__name-clinic {
+    color: #516FA6;
+    font-size: 24px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    color: #000000;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.reference-footer {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.footer__communication {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 255px;
+    height: 34px;
+}
+
+.link-seti a {
+    text-decoration: none;
+    margin: 10px 0;
 }
 
 .email-footer a {
-    color: rgba(0, 0, 0, 0.7);
-    text-decoration-line: none;
-    font-size: 45px;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .ooo-inn {
     color: rgba(0, 0, 0, 0.44);
-    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.link-seti {
-    margin-bottom: 40px;
-}
-
-.link-seti a {
-    text-decoration-line: none;
-}
-
-.link-seti img {
-    width: 60px;
-    margin-right: 25px;
-}
-
-.age-img img {
-    width: 80px;
+.age-img {
+    width: 37px;
+    height: 37px;
 }
 
 .last-in-footer {
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-
-
-
-.clinic-card__text-block {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 33px;
-    margin-bottom: 50px;
-}
-
-.clinic-card__service-item {
-    list-style-type: none;
-    margin-bottom: 40px;
-}
-
-
-.clinic-card__service-popular {
-    display: flex;
-    border-bottom: #e8e8e8 2px solid;
-    justify-content: space-between;
-    font-size: 35px;
-}
-
-.clinic-card__service-popular a {
-    margin-top: 45px;
-}
-
-
-.pagination_listing {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.pagination_item {
-    font-family: 'Inter';
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #BCBCBC;
-    margin: 0 25px
-}
-
-.pagination_link {
-    text-decoration-line: none;
-    color: #BCBCBC;
-}
-
-.pagination_link-back {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #BCBCBC;
-    text-decoration-line: none;
-}
-
-.pagination_link-active {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #185BC3;
-    text-decoration-line: none;
-}
-
-.review_on_doctor {
-    font-size: 33px;
-    margin-bottom: 9px;
+    font-weight: 200;
+    line-height: normal;
 }
 
 
-.attention-for-patient {
-    border: 1px solid #FF6472;
-    border-radius: 4px;
-    width: auto;
-    height: auto;
-    margin-bottom: 25px;
-}
-
-.attention-container {
-    padding: 30px 70px;
-}
-
-.attention-for-view {
-    font-size: 35px;
-    color: #FF6472;
-    margin-bottom: 20px;
-}
-
-.attention-for-view img {
-    width: 40px;
-    margin-right: 30px;
-}
-
-.attention-info {
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.7);
-}
 
 
-.doctors-card {
-    margin: 50px 0 150px;
-}
-
-.doctor-card__head {
-    text-align: center;
-}
-
-.doctor-card__container {
-    display: flex;
-}
-
-.doctor-card__clinic-reviews {
-    font-size: 40px;
-    text-decoration-line: none;
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.doctor-card__clinic-items {
-    padding: 10px;
-}
-
-.clinic-review img {
-    width: 30px;
-}
-
-.doctor-card__doctor-name {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-}
-
-.photo-doctor {
-    margin-right: 25px;
-}
-
-.photo-doctor img {
-    width: 300px;
-    margin-bottom: 40px;
-}
-
-.doctor-card__doctor-category {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 30px;
-}
-
-.reviews-count {
-    font-size: 30px;
-}
-
-.doctor-card__doctor-spec {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 30px;
-}
-
-.doctor-card__doctor-experience {
-    color: #FF6472;
-    font-size: 30px;
-}
-
-.doctor-card__clinics_active {
-    width: 832px;
-    height: 330px;
-    background: rgba(255, 240, 75, 0.15);
-    border-radius: 4px;
-    font-size: 30px;
-    padding: 40px;
-    margin-bottom: 30px;
-}
-
-.doctor_clinic-name {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 37px;
-}
-
-.doctor_clinic-name img {
-    width: 30px;
-    height: 20px;
-}
-
-.doctor_clinic-items {
-    padding: 20px;
-}
-
-.doctor-card__clinic-metro-further {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.doctor-card__clinic-schedule {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.clinic-schedule {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.doctor-card__doctor-date {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    width: 832px;
-    height: 58px;
-    font-size: 40px;
-    margin-bottom: 50px;
-    padding: 0 30px;
-}
-
-.doctor-card__doctor-date img {
-    width: 20px;
-    height: 20px;
-}
-
-.doctor-card__clinic-active {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    width: 832px;
-    height: 58px;
-    font-size: 40px;
-    margin-bottom: 50px;
-    padding: 0 30px;
-}
-
-.doctor-card__clinic-free-time {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
-}
-
-.free-time {
-    width: 255px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #FFF04B;
-    border-radius: 4px;
-    font-size: 35px;
-    margin: 10px;
-}
-
-.doctor-card__clinic-phone {
-    text-align: center;
-    font-size: 35px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 50px;
-}
-
-.doctor-card__doctor-clinics {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background: rgba(217, 217, 217, 0.15);
-    border-radius: 4px;
-    width: 832px;
-    height: 58px;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-
-.doctor-clinics span {
-    font-size: 40px;
-}
-
-.doctor-card-button {
-    display: flex;
-    justify-content: center;
-}
-
-.doctor-card__button-mobile {
-    display: flex;
-    justify-content: center;
-}
 
 
-.last-review__count-reviews {
-    font-size: 35px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+    .actions__doctors, .actions__doctors-house, .actions__services, .actions__all-count, .actions__brand {
+        max-width: 340px;
+        width: 100%;
+        margin: 10px 5px;
+    }
+
+    .actions__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .search__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search__clinic-doctor {
+        margin: 0 10px;
+    }
 }

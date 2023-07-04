@@ -16,18 +16,55 @@
         <br>
         <a href="/main/mob-index.php">Главная Мобилка</a>
 
+        <hr>
+
+        <a href="/clinic/index.php">Листинг клиник Десктоп</a>
+        <br>
+        <a href="/clinic/mob-index.php">Листинг клиник Мобилка</a>
 
         <hr>
 
-        <a href="/clinic/index.php">Клиника Десктоп</a>
+        <a href="/doctor/index.php">Листинг врач Десктоп</a>
         <br>
-        <a href="/clinic/mob-index.php">Клиника Мобилка</a>
+        <a href="/doctor/mob-index.php">Листинг врач Мобилка</a>
 
         <hr>
 
-        <a href="/doctor/index.php">Врач Десктоп</a>
+        <a href="/main/index.php">Карточка врача Десктоп</a>
         <br>
-        <a href="/doctor/mob-index.php">Врач Мобилка</a>
+        <a href="/main/mob-index.php">Карточка врача Мобилка</a>
+
+        <hr>
+
+        <a href="/main/index.php">Карточка клиники Десктоп</a>
+        <br>
+        <a href="/main/mob-index.php">Карточка клиники Мобилка</a>
+
+        <hr>
+
+        <a href="/main/index.php">Контакты Десктоп</a>
+        <br>
+        <a href="/main/mob-index.php">Контакты Мобилка</a>
+
+        <hr>
+
+        <a href="/main/index.php">Хабовая страница Десктоп</a>
+        <br>
+        <a href="/main/mob-index.php">Хабовая страница Мобилка</a>
+
+        <hr>
+
+        <a href="/clinic/index.php">Листинг клиник по категориям Десктоп</a>
+        <br>
+        <a href="/clinic/mob-index.php">Листинг клиник по категориям Мобилка</a>
+
+        <hr>
+
+        <a href="/clinic/index.php">О проекте Десктоп</a>
+        <br>
+        <a href="/clinic/mob-index.php">О проекте Мобилка</a>
+
+        <hr>
     </div>
 </body>
 </html>
