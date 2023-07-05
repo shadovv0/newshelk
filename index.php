@@ -12,9 +12,9 @@
 </head>
 <body>
     <div>
-        <a href="/main/index.php">Главная Десктоп</a>
+        <a href="/main/index.php">Главная Десктоп</a> +
         <br>
-        <a href="/main/mob-index.php">Главная Мобилка</a>
+        <a href="/main/mob-index.php">Главная Мобилка</a> +
 
         <hr>
 
@@ -54,15 +54,15 @@
 
         <hr>
 
-        <a href="/clinic/index.php">Листинг клиник по категориям Десктоп</a>
+        <a href="/clinic/index.php">Листинг клиник по категориям Десктоп</a> -
         <br>
-        <a href="/clinic/mob-index.php">Листинг клиник по категориям Мобилка</a>
+        <a href="/clinic/mob-index.php">Листинг клиник по категориям Мобилка</a> -
 
         <hr>
 
-        <a href="/clinic/index.php">О проекте Десктоп</a>
+        <a href="/clinic/index.php">О проекте Десктоп</a>?
         <br>
-        <a href="/clinic/mob-index.php">О проекте Мобилка</a>
+        <a href="/clinic/mob-index.php">О проекте Мобилка</a>?
 
         <hr>
     </div>
