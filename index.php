@@ -42,21 +42,27 @@
 
         <hr>
 
-        <a href="/main/index.php">Контакты Десктоп</a>
+        <a href="/contact/index.php">Контакты Десктоп</a> - +
         <br>
-        <a href="/main/mob-index.php">Контакты Мобилка</a>
+        <a href="/contact/mob-index.php">Контакты Мобилка</a> - +
 
         <hr>
 
-        <a href="/hub/index.php">Хабовая страница Десктоп</a> -
+        <a href="/text-page/index.php">Текстовая страница Десктоп</a> - +
         <br>
-        <a href="/hub/mob-index.php">Хабовая страница Мобилка</a> -
+        <a href="/text-page/mob-index.php">Текстовая страница Мобилка</a> - +
 
         <hr>
 
-        <a href="/clinic-category/index.php">Листинг клиник по категориям Десктоп</a> - +
+        <a href="/hub/index.php">Хабовая страница Десктоп</a> +
         <br>
-        <a href="/clinic-category/mob-index.php">Листинг клиник по категориям Мобилка</a> - +
+        <a href="/hub/mob-index.php">Хабовая страница Мобилка</a> +
+
+        <hr>
+
+        <a href="/clinic-category/index.php">Листинг клиник по категориям Десктоп</a> +
+        <br>
+        <a href="/clinic-category/mob-index.php">Листинг клиник по категориям Мобилка</a> +
 
         <hr>
 

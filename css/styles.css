@@ -21,8 +21,8 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 body {
-    background: #699a40 !important;
-    /*background:  #F7F9FA !important;*/
+    /*background: #699a40 !important;*/
+    background:  #F7F9FA !important;
 }
 
 .head__container .wrap {
