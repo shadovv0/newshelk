@@ -83,6 +83,17 @@ body {
     color: #516FA6;
 }
 
+.search__title-service {
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin: 15px 0;
+}
+
 .search__clinic-doctor {
     padding: 10px;
     background: #FFFFFF;
@@ -1041,6 +1052,33 @@ body {
     z-index: -2;
 }
 
+.text-banner__text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: right;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.text-banner__text-block a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px 0;
+}
+
+
 
 
 
@@ -1263,11 +1301,39 @@ body {
     margin: 0;
 }
 
+.services__block {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 13px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+}
 
+.services__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15px;
+}
 
+.services__link {
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.9%;
+}
 
-
-
+.services__more {
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 147.9%;
+    text-decoration-line: underline;
+}
 
 
 
@@ -1389,9 +1455,14 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 10px 0;
 }
 
-.age-img {
+.social-media {
+    margin: 10px 0;
+}
+
+.age-img img {
     width: 37px;
     height: 37px;
 }
@@ -1399,11 +1470,12 @@ body {
 .last-in-footer {
     color: #000;
     text-align: center;
-    font-size: 14px;
     font-family: Montserrat;
+    font-size: 14px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
+    padding: 10px 0;
 }
 
 

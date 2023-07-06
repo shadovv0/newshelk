@@ -286,12 +286,12 @@
         </div>
 
         <div class="text-banner">
-            <img src="/images/banner-notebook.jpg">
+            <img src="/images/Vector%201.png">
+            <img src="/images/sloi2.png">
             <div class="text-banner__text-block">
                 <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div>Подберем хорошую и недорогую организацию в удобном для вас районе за 1 минуту</div>
-                <div>(499) 123-45-67</div>
-                <div>*Услуга бесплатная</div>
+                <div><b>Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</b></div>
+                <div><b><a href="#">(499) 123-45-67</a></b> *Услуга бесплатная</div>
             </div>
         </div>
 

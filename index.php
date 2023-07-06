@@ -48,15 +48,15 @@
 
         <hr>
 
-        <a href="/main/index.php">Хабовая страница Десктоп</a>
+        <a href="/hub/index.php">Хабовая страница Десктоп</a> -
         <br>
-        <a href="/main/mob-index.php">Хабовая страница Мобилка</a>
+        <a href="/hub/mob-index.php">Хабовая страница Мобилка</a> -
 
         <hr>
 
-        <a href="/clinic/index.php">Листинг клиник по категориям Десктоп</a> -
+        <a href="/clinic-category/index.php">Листинг клиник по категориям Десктоп</a> - +
         <br>
-        <a href="/clinic/mob-index.php">Листинг клиник по категориям Мобилка</a> -
+        <a href="/clinic-category/mob-index.php">Листинг клиник по категориям Мобилка</a> - +
 
         <hr>
 
