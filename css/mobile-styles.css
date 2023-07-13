@@ -21,8 +21,8 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 body {
-    /*background: #e5ebe0 !important;*/
-     background:  #F7F9FA !important;
+    background: #619f2d !important;
+    /*background:  #F7F9FA !important;*/
     overflow-x: hidden;
 }
 
@@ -785,10 +785,6 @@ body {
     margin: 5px;
 }
 
-.category__sort {
-    padding-bottom: 15px;
-}
-
 .category__sort ul {
     margin: 10px;
     padding: 0;
@@ -1142,7 +1138,9 @@ body {
     border-radius: 13px;
     background: #FFF;
     margin: 15px 0;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .review-card h5 {
@@ -1153,6 +1151,7 @@ body {
     font-weight: 600;
     line-height: normal;
     text-align: center;
+    padding: 15px 0 10px;
 }
 
 .review-card__name-patient {
@@ -1183,6 +1182,18 @@ body {
     line-height: normal;
     text-decoration-line: underline;
     margin: 8px 0;
+}
+
+.review__btn {
+    border-radius: 22px;
+    background: rgba(252, 91, 93, 0.80);
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    margin: 15px;
 }
 
 .review-card__source-review {
@@ -1252,6 +1263,8 @@ body {
     margin: 0;
     color: #FFFFFF;
 }
+
+
 
 .relinks__column {
     border-radius: 13px;
@@ -1333,16 +1346,254 @@ body {
     font-weight: 500;
     line-height: 147.9%;
     text-decoration-line: underline;
+    text-align: center;
 }
 
+.disease__top {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 13px;
+}
 
+.disease__top-head {
+    padding: 10px 10px 0;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.4%;
+}
 
+.disease__top-footer {
+    padding: 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
 
+.disease__nav  {
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 5px;
+}
 
+.disease__top-right {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.4%;
+    padding: 10px;
+}
 
+.disease__main {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 20px;
+    margin: 15px 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.4%;
+}
 
+.disease__center-text {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.4%;
+}
 
+.disease__center-text ul {
+    padding-left: 1rem;
+}
 
+.disease__footer {
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.44);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.4%;
+    display: flex;
+}
+
+.disease__footer-date a {
+    color: #516FA6CC;
+}
+
+.popular-doctor__doctors {
+    border-radius: 13px;
+    background: #FFF;
+}
+
+.popular-doctor__title {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #0000001A;
+}
+
+.disease__review-card__name-patient span {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.disease__review-card__shield {
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 10px 0;
+}
+
+.disease__review-card__name-patient p {
+    margin: 10px 0 0;
+}
+
+.disease__review-card__comment p {
+    margin: 10px 0;
+}
+
+.second-container {
+   background: rgba(81, 111, 166, 0.13);
+}
+
+.disease__review-card__container {
+    padding: 5px 15px;
+}
+
+.contact__container h2 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact__head {
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.contact__address {
+    padding: 10px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.contact__text-about {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.contact__schedule {
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact__map img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.contact__footer {
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact__footer {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__phone a, .contact__mail a {
+    color: #516FA6;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.4%;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0;
+}
+
+.contact__phone, .contact__mail {
+    margin: 5px 0;
+}
+
+.feedback__container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+    margin: 10px 0 20px;
+}
+
+.feedback__container h2 {
+    text-align: center;
+}
+
+.feedback__name-patient {
+    margin: 10px 0;
+}
+
+.feedback__phone-patient {
+    margin: 10px 0;
+}
+
+.feedback__sms-patient {
+    margin: 10px 0;
+}
 
 
 

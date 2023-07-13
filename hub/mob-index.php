@@ -175,12 +175,12 @@
                     обратитесь к врачу.</span>
         </div>
         <div class="text-banner">
-            <img src="/images/Vector%201.png">
-            <img src="/images/sloi2.png">
+            <img src="/images/img.png" style="width: 434px;height: 280px;">
+            <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <p>Подберем хорошую и недорогую<br> организацию в удобном для вас<br> районе за 1 минуту</p>
-                <a href="#">(499) 123-45-67</a>
-                <p>*Услуга бесплатная</p>
+                <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+                <div><b>Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</b></div>
+                <div><b><a href="#">(499) 123-45-67</a></b> *Услуга бесплатная</div>
             </div>
         </div>
         <div class="breadcrumbs">

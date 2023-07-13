@@ -45,10 +45,78 @@
 </header>
 <div class="content">
     <div class="wrap">
+        <div class="contact__container">
+            <h2>Контакты</h2>
+            <div class="contact__body">
+                <div class="contact__left">
+                    <div class="contact__address">
+                        г. Москва, ул. Давыдковская, д. 5
+                    </div>
+                    <div class="contact__metro">
+                        <p><img src="/images/Ellipse%2027.png">Славянский бульвар (770 м)</p>
+                        <p><img src="/images/Ellipse%2028.png">Пионерская (1,73 км)</p>
+                        <p><img src="/images/Ellipse%2029.png">Минская (2,09 км)</p>
+                    </div>
+                    <div class="contact__text-about">
+                        МосМедПортал — это медицинский сервис, помогающий выбрать врача и записаться,
+                        проконсультироваться онлайн 24/7 и держать свое здоровье под контролем
+                    </div>
+                    <div class="contact__footer">
+                        <div class="contact__phone">
+                            Телефоны
+                            <a href="#">+ 7 (999) 999-99-99</a>
+                            <a href="#">+ 7 (999) 999-99-99</a>
+                            <a href="#">+ 7 (999) 999-99-99</a>
+                        </div>
+                        <div class="contact__mail">
+                            E-mail
+                            <a href="#">info@mosmedportal.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__right">
+                    <div class="contact__map">
+                        <img src="/images/image%2017.png">
+                    </div>
+                    <div class="contact__schedule">
+                        Часы работы офиса:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="feedback__container">
+            <h2>Форма обратной связи</h2>
+            <div class="feedback__body">
+                <div class="feedback__head">
+                    <div class="feedback__name-patient">
+                        <input required placeholder="Ваше имя*" class="form-control"
+                               id="name-patient"
+                               type="text"
+                               maxlength="500"
+                               value="">
 
-
-
+                    </div>
+                    <div class="feedback__phone-patient">
+                        <input required placeholder="Ваш телефон*" class="form-control"
+                               id="phone-patient"
+                               type="text"
+                               maxlength="500"
+                               value="">
+                    </div>
+                </div>
+                <div class="feedback__footer">
+                    <div class="feedback__sms-patient">
+                        <textarea required placeholder="Ваше сообщение*" class="form-control"
+                               id="sms-patient"
+                               maxlength="500">
+                        </textarea>
+                    </div>
+                </div>
+                <a href="#" class="search__btn">Отправить</a>
+            </div>
+        </div>
     </div>
 </div>
 <footer>

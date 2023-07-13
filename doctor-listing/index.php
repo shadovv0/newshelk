@@ -45,244 +45,231 @@
 </header>
 <div class="content">
     <div class="wrap">
-        <div class="category__container">
-            <h5>Контрацепция в Москве (114 клиник)</h5>
-            <div class="category__body">
+        <div class="sort__container">
+            <h5>Гинекологи (114)</h5>
+            <div class="sort__body">
                 <span>Обновлено 30.03.22</span>
-                <div class="category__sort">
-                    <div class="category__filter">Фильтровать список по:</div>
-                    <ul>
-                        <li class="category__filter-item"><a href="#">Клинике</a></li>
-                        <li class="category__filter-item"><a href="#">Району</a></li>
-                    </ul>
-                </div>
-                <div class="category__items">
-                    <div class="category__item"><a href="#">Перевязка маточных труб</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Перевязка маточных труб</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Перевязка маточных труб</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
-                </div>
-            </div>
-        </div>
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <a href="">
-                        <img src="/images/clinic-image.png">
-                    </a>
-                </div>
-                <div class="clinic-card__reviews">
-                    <div class="clinic-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
+                <div class="sort__head">
+                    <div class="sort__items">
+                        <div class="sort__filter">Сортировать список по:</div>
+                        <ul>
+                            <li class="sort__filter-item"><a href="#">Рейтингу</a></li>
+                            <li class="sort__filter-item"><a href="#">Стажу</a></li>
+                            <li class="sort__filter-item"><a href="#">Цене приёма</a></li>
+                            <li class="sort__filter-item"><a href="#">Популярности</a></li>
+                        </ul>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <a href="#">Сбросить фильтр</a>
                 </div>
-            </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    <a href="">
-                        Клиника на Текстильщиках
-                    </a>
-                </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г. Москва
-                </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
-                </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
-                </div>
-                <div class="clinic-card__doctors">
-                    <a href="#doctors">
-                        56 врачей в штате
-                    </a>
-                </div>
-                <!--<div class="clinic-card__popular-procedure">
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                </div>-->
-            </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-far">
-                        Печатники (2,1км)
-                        Стахановская (2,2км)
-                    </div>
-                </div>
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    (499) 123-45-67
-                </div>
-                <a class="search__btn">
-                    Запись на приём
-                </a>
             </div>
         </div>
 
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <a href="">
-                        <img src="/images/clinic-image.png">
-                    </a>
-                </div>
-                <div class="clinic-card__reviews">
-                    <div class="clinic-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
+        <div class="doctor-card__container">
+            <div class="doctor-card">
+                <div class="doctor-card__left">
+                    <div class="photo-doctor">
+                        <a href="#">
+                            <img src="/images/card-doc.png">
+                        </a>
                     </div>
-                    <a href="#">8 отзывов</a>
+                </div>
+                <div class="doctor-card__center">
+                    <div class="doctor-card__doctor-name">
+                        <a href="#">
+                            Манохина Дарья Дмитриевна
+                        </a>
+                    </div>
+                    <div class="reviews-count doctors__clinic">
+                        <div class="doctor-review-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
+                        <a href="#reviews">
+                            14 отзывов
+                        </a>
+                    </div>
+                    <div class="doctor-card__doctor-spec">
+                        Гинеколог • акушер врач УЗИ
+                    </div>
+                    <div class="doctor-card__doctor-experiences">
+                        <ul>
+                            <li class="doctor-card__doctor-category">Врач высшей категории</li>
+                            <li class="doctor-card__doctor-degree"> Кандидат медицинских наук</li>
+                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
+                        </ul>
+
+                    </div>
+                    <div class="doctor-card__doctor-prices">
+                        Стоимость приема
+                        <p>1520₽</p>
+                        <span>1900₽</span>
+                    </div>
+
+                </div>
+                <div class="doctor-card__right">
+                    <span>Выберите клинику сети:</span>
+                    <div class="doctor-card__record-clinic">
+                        Клиника в Текстильщиках
+                    </div>
+                    <div class="doctor-card__geo">
+                        <p>ул. Люблинская, д. 9 к. 1</p>
+                        <ul>
+                            <li class="doctor-card__metro">
+                                <img src="/images/Ellipse%2027.png">
+                                Текстильщики (338м)
+                            </li>
+                            <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                Печатники (2,1км)
+                            </li>
+                            <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                Стахановская (2,2км)
+                            </li>
+                        </ul>
+                        <img src="/images/phone_24px.png">
+                        <a href="#">(499) 123-45-67</a>
+                    </div>
+                    <span>Выберите удобное время для записи онлайн:</span>
+                    <div class="doctor-card__time-slot">
+
+                    </div>
+
                 </div>
             </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    <a href="">
-                        Клиника на Текстильщиках
-                    </a>
-                </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г. Москва
-                </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
-                </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
-                </div>
-                <div class="clinic-card__doctors">
-                    <a href="#doctors">
-                        56 врачей в штате
-                    </a>
-                </div>
-                <!--<div class="clinic-card__popular-procedure">
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
+
+            <div class="doctor-card">
+                <div class="doctor-card__left">
+                    <div class="photo-doctor">
+                        <a href="#">
+                            <img src="/images/card-doc.png">
+                        </a>
                     </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
+                </div>
+                <div class="doctor-card__center">
+                    <div class="doctor-card__doctor-name">
+                        <a href="#">
+                            Манохина Дарья Дмитриевна
+                        </a>
                     </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
+                    <div class="reviews-count doctors__clinic">
+                        <div class="doctor-review-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
+                        <a href="#reviews">
+                            14 отзывов
+                        </a>
                     </div>
-                </div>-->
+                    <div class="doctor-card__doctor-spec">
+                        Гинеколог • акушер врач УЗИ
+                    </div>
+                    <div class="doctor-card__doctor-experiences">
+                        <ul>
+                            <li class="doctor-card__doctor-degree"> Кандидат медицинских наук</li>
+                        </ul>
+
+                    </div>
+                    <div class="doctor-card__doctor-prices">
+                        Стоимость приема
+                        <p>1520₽</p>
+                        <span>1900₽</span>
+                    </div>
+
+                </div>
+                <div class="doctor-card__right">
+                    <div class="doctor-card__record-clinic">
+                        Клиника в Текстильщиках
+                    </div>
+                    <div class="doctor-card__geo">
+                        <p>ул. Люблинская, д. 9 к. 1</p>
+                        <ul>
+                            <li class="doctor-card__metro">
+                                <img src="/images/Ellipse%2027.png">
+                                Текстильщики (338м)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-far">
-                        Печатники (2,1км)
-                        Стахановская (2,2км)
+
+            <div class="doctor-card">
+                <div class="doctor-card__left">
+                    <div class="photo-doctor">
+                        <a href="#">
+                            <img src="/images/doctor-full.png">
+                        </a>
                     </div>
                 </div>
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    (499) 123-45-67
+                <div class="doctor-card__center">
+                    <div class="doctor-card__doctor-name">
+                        <a href="#">
+                            Манохина Дарья Дмитриевна
+                        </a>
+                    </div>
+                    <div class="reviews-count doctors__clinic">
+                        <div class="doctor-review-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
+                        <a href="#reviews">
+                            14 отзывов
+                        </a>
+                    </div>
+                    <div class="doctor-card__doctor-spec">
+                        Гинеколог • акушер врач УЗИ
+                    </div>
+                    <div class="doctor-card__doctor-prices">
+                        Стоимость приема
+                        <p>1520₽</p>
+                        <span>1900₽</span>
+                    </div>
+                    <div class="doctor-card__doctor-experiences">
+                        <ul>
+                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
+                        </ul>
+                    </div>
                 </div>
-                <a class="search__btn">
-                    Запись на приём
-                </a>
+                <div class="doctor-card__right">
+                    <div class="doctor-card__record-clinic">
+                        Клиника в Текстильщиках
+                    </div>
+                    <div class="doctor-card__geo">
+                        <p>ул. Люблинская, д. 9 к. 1</p>
+                        <ul>
+                            <li class="doctor-card__metro">
+                                <img src="/images/Ellipse%2027.png">
+                                Текстильщики (338м)
+                            </li>
+                            <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                Печатники (2,1км)
+                            </li>
+                            <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                Стахановская (2,2км)
+                            </li>
+                        </ul>
+                        <img src="/images/phone_24px.png">
+                        <a href="#">(499) 123-45-67</a>
+                    </div>
+                    <div class="doctor-card__time-slot">
+
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <a href="">
-                        <img src="/images/clinic-image.png">
-                    </a>
-                </div>
-                <div class="clinic-card__reviews">
-                    <div class="clinic-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
-                    </div>
-                    <a href="#">8 отзывов</a>
-                </div>
-            </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    <a href="">
-                        Клиника на Текстильщиках
-                    </a>
-                </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г. Москва
-                </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
-                </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
-                </div>
-                <div class="clinic-card__doctors">
-                    <a href="#doctors">
-                        56 врачей в штате
-                    </a>
-                </div>
-                <!--<div class="clinic-card__popular-procedure">
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                </div>-->
-            </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-far">
-                        Печатники (2,1км)
-                        Стахановская (2,2км)
-                    </div>
-                </div>
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    (499) 123-45-67
-                </div>
-                <a class="search__btn">
-                    Запись на приём
-                </a>
-            </div>
+        <div class="listing">
+            <ul>
+                <li>
+                    <img src="/images/flat_right.png">
+                </li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>
+                    <img src="/images/flat_left.png">
+                </li>
+            </ul>
         </div>
 
         <div class="text-banner">
@@ -307,7 +294,6 @@
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
         </div>
-
         <div class="info-about-project">
             <div class="info-about-project__left">
                 <p>Гинекологические клиники Москвы:
@@ -333,14 +319,21 @@
 
         <div class="review-card">
             <h5>Отзывы</h5>
-            <div class="review-card__container">
+            <div class="doctor-review-card__container">
+                <div class="doctor-review-card__photo-name">
+                    <img src="/images/doctor.png">
+                    <div class="doctor-review-card__name">
+                        Манохина<br>
+                        Дарья Даниловна
+                    </div>
+                    <div class="doctor-review-card__star">
+                        <img src="/images/Star1.png">
+                        <p>4,7</p>
+                    </div>
+                </div>
                 <div class="review-card__left">
                     <div class="review-card__name-patient">
                         Имя пациента
-                        <p class="review-card__mark">
-                            <img src="/images/Star1.png">
-                            5
-                        </p>
                     </div>
                     <div class="review-card__date">
                         14.02.2022
@@ -364,12 +357,9 @@
                             ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
                     </div>
                 </div>
-                <div class="review-card__right">
-                    <div class="review-card__photo-clinic">
-                        <img src="/images/image%2033.png">
-                        Клиника
-                        АльтерМед
-                    </div>
+                <div class="review-card__marks">
+                    <img src="/images/Star1.png">
+                    <p>5</p>
                 </div>
             </div>
         </div>
@@ -490,14 +480,6 @@
 
             </div>
         </div>
-
-        <div class="breadcrumbs">
-            <a href="#">Главная</a>
-            <a href="#">Москва</a>
-            <a href="#">Клиники</a>
-            <p>Многопрофильные клиники</p>
-        </div>
-
     </div>
 </div>
 <footer>

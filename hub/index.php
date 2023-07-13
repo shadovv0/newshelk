@@ -267,8 +267,8 @@
 
 
         <div class="text-banner">
-            <img src="/images/Vector%201.png">
-            <img src="/images/sloi2.png">
+            <img src="/images/img.png" style="width: 434px;height: 280px;">
+            <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
                 <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
                 <div><b>Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</b></div>

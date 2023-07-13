@@ -73,6 +73,207 @@
                 </div>
             </div>
         </div>
+
+        <div class="disease__container">
+            <div class="disease__top">
+                <h2>Гайморит</h2>
+                <div class="disease__top-head">
+                    Гайморит — это воспалительный процесс в верхнечелюстных придаточных пазухах носа.
+                    Заболевание вызывает затруднение носового дыхания, проявляется выраженными болями в области
+                    переносицы,
+                    гнойными выделениями из носовых ходов, отеком век.
+                </div>
+                <div class="disease__top-footer">
+                    <a href="#" class="disease__nav">1. Причины</a>
+                    <a href="#" class="disease__nav">2. Симптомы</a>
+                    <a href="#" class="disease__nav">3. Диагностика</a>
+                    <a href="#" class="disease__nav">4. Лечение</a>
+                    <a href="#" class="disease__nav">5. Профилактика</a>
+                    <a href="#" class="disease__nav">6. Прием врача</a>
+                </div>
+                <div class="disease__top-left">
+                    <img src="/images/imagedisease.png">
+                </div>
+                <div class="disease__top-right">
+                    Гайморит — это воспалительный процесс в верхнечелюстных придаточных пазухах носа.
+                    Заболевание вызывает затруднение носового дыхания, проявляется выраженными болями в области
+                    переносицы,
+                    гнойными выделениями из носовых ходов, отеком век.
+                </div>
+            </div>
+
+            <div class="disease__main">
+                <div class="disease__center-text">
+                    <p><b>Устройство и значение носовых пазух</b></p>
+                    Носовые пазухи расположены вокруг полости носа. Они соединены с носовыми ходами. Самые большие из
+                    них — гайморовы — локализуются в верхней челюсти. Немного поменьше — по двум сторонам спинки носа и
+                    в лобной кости. Остальные носовые пазухи (клиновидная, решетчатые ячейки) находятся сзади носовых
+                    костей. Они как бы вдаются внутрь черепной коробки. Гайморит — это воспаление именно гайморовых
+                    пазух.
+                    <br>
+                    <p><i>Носовые пазухи выполняют важные функции:</i></p>
+                    <ul>
+                        <li>Они увлажняют и согревают воздух, вдыхаемый человеком. Обеспечивается это за счет
+                            специальной слизистой, покрытой небольшими ворсинками. Они выделяют влагу, делающую воздух
+                            комфортным
+                            для человека. Что касается нагрева, то он возможен из-за хорошего кровоснабжения слизистой,
+                            поддерживающего внутри синусов постоянную температуру воздуха.
+                        </li>
+                        <li>Задают тембр голоса.</li>
+                    </ul>
+                </div>
+                <div class="disease__center-img">
+                    <img src="/images/image%2018.png">
+                </div>
+
+                <div class="disease__main-botoom">
+                    <div class="disease__bottom-text">
+                        <p><b>Классификация гайморита</b></p>
+                        <p>Гайморит бывает острым и хроническим. По типу воспалительного процесса острая форма
+                            заболевания
+                            классифицируется на:</p>
+                        1. Катаральную (напоминает обычный насморк, может проявляться ощущением тяжести в области глаз
+                        и щек).
+                        <br>
+                        2. Гнойную (в гайморовых пазухах накапливается гной, в результате боль становится очень
+                        сильной).
+                        <br>
+                        <p><b>Хронический гайморит принято разделять на:</b></p>
+                        <p>1.Катаральный (проявляется периодическими обострениями в виде заложенности носа).<br>
+                            2.Гнойный (из носа во время обострений, помимо слизи, выделяется гной).<br>
+                            3.Кистозный (в пазухах образуются полости с жидкостью, превращающиеся в кисты).<br>
+                            4.Полипозный (в гайморовых пазухах появляются и разрастаются полипы).</p>
+                    </div>
+                    <div class="disease__bottom-img">
+                        <img src="/images/image%2019%20(1).png">
+                    </div>
+                </div>
+                <div class="disease__footer">
+                    <div class="disease__footer-date">
+                        <p>Дата публикации: 26.07.22</p>
+                        <p>Дата публикации: 26.07.22</p>
+                        <p>Автор: <a href="#">Аймураз Дуру-Заде Михайлович</a></p>
+                        <p>Редактор: <a href="#">Зульфия Ахматовна Переяславская</a></p>
+                    </div>
+                    <div class="disease__footer-photo">
+                        <img src="/images/image%2016.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="disease__popular-doctor">
+            <div class="popular-doctor__doctors">
+                <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
+                <div class="popular-doctor__container">
+                    <div class="popular-doctor__doctor-card">
+                        <div class="popular-doctor__head">
+                            <div class="popular-doctor__photo">
+                                <img src="/images/doctor.png">
+                            </div>
+                            <div class="popular-doctor__doctor-info">
+                                <div class="popular-doctor__name">
+                                    Манохина Д.Д.
+                                </div>
+                                <div class="popular-doctor__price">
+                                    Стоимость приема
+                                    <p>1520₽</p>
+                                    <span>1900₽</span>
+                                </div>
+                                <div class="popular-doctor__count-review">
+                                    <div class="popular-doctor__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
+                                    </div>
+                                    <a href="#">8 отзывов</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-doctor__body">
+                            <div class="popular-doctor__category-experience">
+                                Врач высшей категории,<br>
+                                Кандидат медицинских наук.<br>
+                                Стаж 12 лет.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <h5>Комментарии</h5>
+            <div class="disease__review-card__container">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p><b>Имя +79225678902</b></p>
+                        <span>14.02.2022</span>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        <b>Комментарий</b>
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="disease__review-card__container second-container">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p><b>Имя +79225678902</b></p>
+                        <span>14.02.2022</span>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        <b>Комментарий</b>
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="disease__review-card__container">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p><b>Имя +79225678902</b></p>
+                        <span>14.02.2022</span>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        <b>Комментарий</b>
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button data-fold-btn class="services__more more">
+                        <span data-open-text="Показать еще" data-close-text="Свернуть"
+                              class="more__text">Показать еще</span>
+                <span class="more__arrow icon-arrow-more"></span>
+            </button>
+            <a class="review__btn">
+                Оставить комментарий
+            </a>
+        </div>
+
+
         <div class="info-about-project__right">
             <p>
                 <img src="/images/blue-alert.png">
