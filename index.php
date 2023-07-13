@@ -30,15 +30,15 @@
 
         <hr>
 
-        <a href="/main/index.php">Карточка врача Десктоп</a>
+        <a href="/doctor/index.php">Карточка врача Десктоп</a>
         <br>
-        <a href="/main/mob-index.php">Карточка врача Мобилка</a>
+        <a href="/doctor/mob-index.php">Карточка врача Мобилка</a>
 
         <hr>
 
-        <a href="/main/index.php">Карточка клиники Десктоп</a>
+        <a href="/clinic/index.php">Карточка клиники Десктоп</a>
         <br>
-        <a href="/main/mob-index.php">Карточка клиники Мобилка</a>
+        <a href="/clinic/mob-index.php">Карточка клиники Мобилка</a>
 
         <hr>
 

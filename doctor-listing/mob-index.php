@@ -54,7 +54,191 @@
     </div>
 </header>
 <div class="content">
-        <div class="wrap">
+    <div class="wrap">
+        <div class="sort__container">
+            <h5>Гинекологи (114)</h5>
+            <div class="sort__body">
+                <span>Обновлено 30.03.22</span>
+                <div class="sort__head">
+                    <div class="sort__items">
+                        <div class="sort__filter">Сортировать</div>
+                        <ul>
+                            <li class="sort__filter-item"><a href="#">По рейтингу</a></li>
+                            <li class="sort__filter-item"><a href="#">По стажу</a></li>
+                            <li class="sort__filter-item"><a href="#">По цене приёма</a></li>
+                            <li class="sort__filter-item"><a href="#">По популярности</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category__sort">
+                    <ul>
+                        <li class="category__filter-item"><a href="#">Клиника</a></li>
+                        <li class="category__filter-item"><a href="#">Район</a></li>
+                        <li class="category__filter-item"><a href="#">Опыт</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="doctors-card">
+            <div class="doctor-card__container">
+                <div class="doctor-card__head">
+                    <div class="photo-doctor">
+                        <a href="#">
+                            <img src="/images/doctor.png">
+                        </a>
+                    </div>
+                    <div class="doctor-card__doctor-head-right">
+                        <div class="doctor-card__doctor-name">
+                            <a href="#">
+                                Манохина Дарья Дмитриевна
+                            </a>
+                        </div>
+                        <div class="doctor-card__doctor-prices">
+                            Стоимость приема
+                            <p>1520₽</p>
+                            <span>1900₽</span>
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
+                            <a href="#reviews">
+                                14 отзывов
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card__body">
+                    <div class="doctor-card__doctor-spec">
+                        Гинеколог
+                    </div>
+                    <div class="doctor-card__doctor-experiences">
+                        <ul>
+                            <li class="doctor-card__doctor-category">Врач высшей категории</li>
+                            <li class="doctor-card__doctor-degree"> Кандидат медицинских наук</li>
+                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
+                        </ul>
+                    </div>
+                    <div class="doctor-card__right">
+                        <span>Выберите клинику сети:</span>
+                        <div class="doctor-card__record-clinic">
+                            Клиника в Текстильщиках
+                        </div>
+                        <div class="doctor-card__geo">
+                            <p>ул. Люблинская, д. 9 к. 1</p>
+                            <ul>
+                                <li class="doctor-card__metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                            <img src="/images/phone_24px.png">
+                            <a href="#">(499) 123-45-67</a>
+                        </div>
+                        <span>Выберите удобное время для записи онлайн:</span>
+                        <div class="doctor-card__time-slot">
+
+                        </div>
+                        <a class="search__btn">
+                            Записаться на приём
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="doctors-card">
+            <div class="doctor-card__container">
+                <div class="doctor-card__head">
+                    <div class="photo-doctor">
+                        <a href="#">
+                            <img src="/images/doctor.png">
+                        </a>
+                    </div>
+                    <div class="doctor-card__doctor-head-right">
+                        <div class="doctor-card__doctor-name">
+                            <a href="#">
+                                Манохина Дарья Дмитриевна
+                            </a>
+                        </div>
+                        <div class="doctor-card__doctor-prices">
+                            Стоимость приема
+                            <p>1520₽</p>
+                            <span>1900₽</span>
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
+                            <a href="#reviews">
+                                14 отзывов
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card__body">
+                    <div class="doctor-card__doctor-spec">
+                        Гинеколог
+                    </div>
+                    <div class="doctor-card__doctor-experiences">
+                        <ul>
+                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
+                        </ul>
+                    </div>
+                    <div class="doctor-card__right">
+                        <div class="doctor-card__record-clinic">
+                            Клиника в Текстильщиках
+                        </div>
+                        <div class="doctor-card__geo">
+                            <p>ул. Люблинская, д. 9 к. 1</p>
+                            <ul>
+                                <li class="doctor-card__metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                            <img src="/images/phone_24px.png">
+                            <a href="#">(499) 123-45-67</a>
+                        </div>
+                        <a class="search__btn">
+                            Записаться на приём
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="listing">
+            <ul>
+                <li>
+                    <img src="/images/left-page.png">
+                </li>
+                <li>1</li>
+                <li>2</li>
+                <li>...</li>
+                <li>9</li>
+                <li>10</li>
+                <li>
+                    <img src="/images/right-page.png">
+                </li>
+            </ul>
+        </div>
+
 
         <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
         <div class="text-banner">
@@ -146,41 +330,41 @@
         <div class="relinks">
             <div class="relinks__body">
                 <div data-fold class="relinks__column">
-                    <b class="relinks__column-title">Направления</b>
+                    <b class="relinks__column-title">Врачи по районам:</b>
                     <ul class="relinks__list relinks__list--mobile-row">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Акушерство
+                                Арбат
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Гинекология
+                                Басманный
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Аллергология
+                                Замоскворечье
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Андрология
+                                Красносельский
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Анестезиология
+                                Мещанский
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Аритмолог
+                                Пресненский
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Артролог
+                                Таганский
                             </a>
                         </li>
                     </ul>
@@ -191,31 +375,31 @@
                     </button>
                 </div>
                 <div data-fold class="relinks__column">
-                    <b class="relinks__column-title">Услуги</b>
+                    <b class="relinks__column-title">Врачи рядом с метро:</b>
                     <ul class="relinks__list relinks__list--mobile-row">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Акушер (от 18 лет)
+                               Авиамоторная
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Гинеколог (от 18 лет)
+                                Автозаводская
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Гинеколог-эндокринолог (от 18 лет)
+                                Академическая
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Акушер (от 18 лет)
+                                Александровский сад
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                Гинеколог (от 18 лет)
+                                Алексеевская
                             </a>
                         </li>
                     </ul>

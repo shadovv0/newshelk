@@ -180,8 +180,8 @@ html, body {
 }
 
 .search__btn {
-    width: 135px;
-    height: 30px;
+    padding: 10px 20px;
+    z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
     color: #FFF;
@@ -788,6 +788,12 @@ html, body {
     margin: 5px;
 }
 
+.sort__container {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+}
+
 .category__sort ul {
     margin: 10px;
     padding: 0;
@@ -796,6 +802,55 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.sort__filter {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 0;
+}
+
+.sort__container h5 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sort__body span {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sort__items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sort__filter-item {
+    border-bottom: 1px solid #00000019;
+}
+
+.sort__filter-item a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: none;
 }
 
 .category__item span {
@@ -1488,6 +1543,10 @@ html, body {
     padding: 5px 15px;
 }
 
+.review-card__container {
+    padding: 0 15px 10px;
+}
+
 .contact__container h2 {
     color: #000;
     text-align: center;
@@ -1597,6 +1656,290 @@ html, body {
 .feedback__sms-patient {
     margin: 10px 0;
 }
+
+.doctors-card {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.doctor-card__head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.doctor-card__body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.doctor-card__doctor-name a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+
+.doctor-card__doctor-prices {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.doctor-card__doctor-prices p {
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px 10px;
+}
+
+.doctor-card__doctor-prices span {
+    color: #FC5B5D;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+
+.doctor-review-card__star {
+    border-radius: 10px;
+    background: rgba(81, 111, 166, 0.80);
+    width: 54px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px 2px;
+    margin-right: 10px;
+}
+
+.doctor-review-card__star p {
+    margin: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.doctor-card__doctor-head-right {
+    padding-left: 15px;
+}
+
+.doctors__clinic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.doctors__clinic a {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.doctor-card__doctor-spec {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.doctor-card__doctor-experiences {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.doctor-card__doctor-experiences ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.doctor-card__doctor-category {
+    border-radius: 4px;
+    background: rgba(205, 189, 47, 0.29);
+}
+
+.doctor-card__doctor-degree {
+    border-radius: 4px;
+    background: rgba(102, 189, 122, 0.40);
+}
+
+.doctor-card__doctor-experiences ul li {
+    margin: 10px 0;
+}
+
+.doctor-card__right span {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.doctor-card__record-clinic {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 4px;
+    background: rgba(81, 111, 166, 0.29);
+}
+
+.doctor-card__geo p {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.doctor-card__geo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.doctor-card__metro {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px 0;
+}
+
+.doctor-card__geo a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.listing {
+
+}
+
+.listing ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.listing li {
+    border-radius: 4px;
+    border: 1px solid #DFE3E8;
+    background: #FFF;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    color: #516FA6;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.listing img {
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

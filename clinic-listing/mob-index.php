@@ -273,6 +273,22 @@
             </div>
         </div>
 
+        <div class="listing">
+            <ul>
+                <li>
+                    <img src="/images/left-page.png">
+                </li>
+                <li>1</li>
+                <li>2</li>
+                <li>...</li>
+                <li>9</li>
+                <li>10</li>
+                <li>
+                    <img src="/images/right-page.png">
+                </li>
+            </ul>
+        </div>
+
         <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
         <div class="text-banner">
             <img src="/images/Vector%201.png">

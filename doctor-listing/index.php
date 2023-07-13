@@ -132,7 +132,6 @@
                     <div class="doctor-card__time-slot">
 
                     </div>
-
                 </div>
             </div>
 
