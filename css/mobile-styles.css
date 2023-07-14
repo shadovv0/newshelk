@@ -623,10 +623,59 @@ html, body {
 }
 
 
+.other-clinics__photos {
+    margin-right: 15px;
+}
+
 .other-clinics {
     margin-bottom: 40px;
     border-radius: 13px;
     background: #FFF;
+}
+
+.other-clinic__container {
+    border-radius: 13px;
+    background: #FFF;
+    margin: 20px 0;
+}
+
+.other-clinics__title-mob {
+    border-radius: 13px 13px 0px 0px;
+    background: #516FA6;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.other-clinics__clinic-record-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.other-clinics__clinic-record-phone a {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .other-clinics__title {
@@ -668,9 +717,7 @@ html, body {
 }
 
 .other-clinics__clinic-card {
-    border-radius: 13px;
-    background: #FFF;
-    padding: 15px;
+    padding: 15px 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -970,6 +1017,125 @@ html, body {
     margin: 10px 0;
 }
 
+.clinic-card__type-clinic {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clinic-additional {
+
+}
+
+.clinic-additional ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.clinic-additional li {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    max-width: 100px;
+    width: 100%;
+    height: 85px;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.clinic-additional img {
+    width: 30px;
+}
+
+.clinic-card__container {
+    background: #FFF;
+}
+
+.clinic-additional p {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clinic-card__about-clinic {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}
+
+.clinic-card__email {
+    padding: 0 15px;
+}
+
+.clinic-card__popular-service ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clinic-card__popular-service li {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    max-width: 102px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clinic-card__popular-service h3 {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.clinic-card__email a {
+    color: #516FA6;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clinic-card__about-clinic p {
+    margin: 10px 0;
+}
+
 .clinic-card__text-block {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
@@ -1018,6 +1184,34 @@ html, body {
     font-weight: 400;
     line-height: normal;
     margin: 5px 0;
+}
+
+.clinic-card__phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.clinic-card__ambulance-house {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clinic-card__ambulance-house img {
+    width: 50px;
+}
+
+.clinic-card__phones {
+    margin: 10px 0;
+}
+
+.clinic-card__phones a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .clinic-card__phone {
@@ -1106,6 +1300,50 @@ html, body {
     z-index: -2;
 }
 
+.clinic-card__container span {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mobile-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-menu a {
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.mobile-menu img {
+    width: 40px;
+}
+
+.mob-map img {
+    max-width: 350px;
+    width: 100%;
+    margin-top: 15px;
+}
+
 .text-banner__text-block {
     display: flex;
     flex-direction: column;
@@ -1131,6 +1369,139 @@ html, body {
     line-height: normal;
     padding: 5px 0;
 }
+
+.price-clinic__title {
+    border-radius: 13px 13px 0px 0px;
+    background: #516FA6;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin: 0;
+}
+
+.clinic-phone {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.price-clinic__container {
+    margin: 20px 0;
+}
+
+
+.price-clinic__price-card {
+    background: #FFF;
+    padding: 0 10px 15px;
+}
+
+.price-clinic__footer a {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.price-clinic__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-clinic__head span {
+    margin: 15px 0;
+}
+
+.price-clinic__name-service {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1px solid #0000001A;
+    border-top: 1px solid #0000001A;
+    padding: 5px 0;
+}
+
+.price-clinic__name-service:first-child {
+    border-top: none;
+}
+
+.price-clinic__body {
+    padding: 15px;
+}
+
+.price__item {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prices {
+    display: flex;
+}
+
+.price__item p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 8px;
+}
+
+.price__item span {
+    color: #FC5B5D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
+
+.price-clinic__body ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

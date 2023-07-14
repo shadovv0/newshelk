@@ -1187,6 +1187,12 @@ body {
     width: 30px;
 }
 
+.clinic-card__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .clinic-card__body-left p {
     color: #000;
     font-family: Montserrat;
@@ -1318,6 +1324,8 @@ body {
     line-height: normal;
     text-decoration-line: none;
 }
+
+
 
 .clinic-card__type {
     color: #000;
@@ -1913,7 +1921,6 @@ body {
 .services__list {
     margin: 0;
     list-style-type: none;
-    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -3661,3 +3668,508 @@ body {
 .users_btn {
     display: flex;
 }
+.record__btn {
+    padding: 10px 20px;
+    z-index: 5;
+    border-radius: 22px;
+    background: rgba(252, 91, 93, 0.80);
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+}
+
+
+.specialisations__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.specialisations__phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.specialisations__phone span {
+    margin: 5px 0;
+}
+
+.phone {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+    margin-left: 10px;
+}
+
+.visiting-conditions {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 10px;
+}
+
+.specialisations-body {
+    padding: 20px 35px 0;
+
+}
+
+.specialisations__body {
+
+}
+
+.specialisations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #00000019;
+}
+
+.title-specialisations {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 13px 13px 0px 0px;
+    background: #516FA6;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialisations-container {
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 1px 5px 15px -8px rgba(0, 0, 0, 0.25);
+}
+
+
+.services__block {
+
+}
+
+.service-name a {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 121%;
+    margin-bottom: 48px;
+    color: #0C0C0C;
+}
+
+.services__block--in-listing {
+
+}
+
+.services__block--in-listing .services__item {
+
+}
+
+.services__block--in-listing .services__more {
+
+}
+
+.services__block--in-listing .services__more .more__arrow {
+
+}
+
+.services__block--in-listing .services__more::before {
+    top: -32px;
+}
+
+.services__block h2 span {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.services__block:not(:last-child) {
+    margin-bottom: 24.9px;
+}
+
+.services__count {
+    color: #8b8d93;
+}
+
+.services__list {
+    display: -ms-grid;
+    display: grid;
+    -webkit-column-gap: 96px;
+    -moz-column-gap: 96px;
+    column-gap: 96px;
+}
+
+
+.services__item a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-bottom: 12px;
+    color: #0C0C0C;
+}
+
+.services__item:last-child {
+    margin: 0;
+}
+
+.services__item.is-folded {
+    margin: 0;
+    height: 0;
+    will-change: height;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.services__item.is-folded.is-expanded {
+    margin-bottom: 12px;
+}
+
+.services__item::before {
+    display: none;
+}
+
+.services__item--folded {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top: -8px;
+}
+
+.services__item--folded.is-expanded {
+    margin: 0;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid #00000019;
+}
+
+.services__item:first-child {
+    border-top: none;
+}
+
+.radio__input {
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.services__link {
+    color: #181b27;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.services__folded {
+    height: 0;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 96px;
+}
+
+.services__folded.is-expanded {
+    margin-top: 12px;
+}
+
+.services__more {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 38px;
+    position: relative;
+    right: -1px;
+}
+
+.services__more.is-active::before {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.services__more::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 36px;
+    top: -48px;
+    left: -1px;
+    -webkit-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.services__price {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    font-size: inherit;
+    line-height: inherit;
+    color: #8b8d93;
+}
+
+.services__search {
+    margin-bottom: 24px;
+}
+
+.specialisations__services {
+    max-width: 800px;
+    width: 100%;
+}
+
+.specialisations__item {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px 0;
+}
+
+.radio__label {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 13px 15px;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    line-height: 143%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.listing-container {
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 1px 5px 15px -8px rgba(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+
+.listing__header h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 13px 13px 0px 0px;
+    background: #516FA6;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-card__listing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.doctor-card__clinic {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.doctor-card__clinic-address {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px 0 10px;
+}
+
+.doctor-card__doctor-spec-listing {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 0;
+}
+
+.doctor-card__doctor-experiences-listing {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.other-clinics__photos img {
+    width: 100px;
+}
+
+.other-clinics__title {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.other-clinics__clinic-record-phone {
+    display: flex;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.section-with-slider__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.arrow.arrow--prev {
+    will-change: width, margin;
+}
+.arrow {
+    color: #35a7ff;
+    width: 48px;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid rgba(24, 27, 39, 0.1);
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    font-size: 0.4375rem;
+}
+
+.arrow.arrow--prev span {
+    margin: 1px 0 0 -5px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.arrow.arrow--prev span {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-left: -2px;
+}
+.arrow span {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.arrow span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-top: -1px;
+}
+
+
+
+
+
+
+
