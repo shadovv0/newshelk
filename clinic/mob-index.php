@@ -112,10 +112,10 @@
             </div>
             <div class="mobile-menu">
                 <ul>
-                    <li><img src="/images/burger.png"><a href="#">Меню</a></li>
-                    <li><img src="/images/doctor-icon.png"><a href="#">Врачи</a></li>
-                    <li><img src="/images/review-icon.png"><a href="#">Отзывы</a></li>
-                    <li><img src="/images/record-icon.png"><a href="#">Записаться</a></li>
+                    <li><a href="#"><img src="/images/burger.png">Меню</a></li>
+                    <li><a href="#"><img src="/images/doctor-icon.png">Врачи</a></li>
+                    <li><a href="#"><img src="/images/review-icon.png">Отзывы</a></li>
+                    <li><a href="#"><img src="/images/record-icon.png">Записаться</a></li>
                 </ul>
             </div>
             <p class="mob-map">
@@ -172,7 +172,7 @@
                         <li class="price__item">Гинеколог (от 18 лет)
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
-                        <li class="price__item">Гинеколог-эндокринолог (от 18 лет)
+                        <li class="price__item">Гинеколог-эндокринолог<br> (от 18 лет)
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
                         <li class="price__item">Маммолог (от 18 лет)

@@ -1318,12 +1318,6 @@ html, body {
     justify-content: space-around;
 }
 
-.mobile-menu li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .mobile-menu a {
     color: rgba(81, 111, 166, 0.80);
     font-family: Montserrat;
@@ -1332,6 +1326,9 @@ html, body {
     font-weight: 500;
     line-height: normal;
     text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mobile-menu img {
@@ -1611,6 +1608,13 @@ html, body {
     line-height: normal;
     text-decoration-line: underline;
     margin: 8px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-card__shield img {
+    margin-right: 8px;
 }
 
 .review__btn {
@@ -1670,7 +1674,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .review-card__bottom {
@@ -1916,6 +1920,8 @@ html, body {
 
 .review-card__container {
     padding: 0 15px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact__container h2 {
@@ -2040,6 +2046,33 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 15px;
+}
+
+.doctor-card__container-background {
+    border-radius: 13px;
+    background: #FFF;
+}
+
+.doctor-card__title {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #00000019;
+    padding: 10px 0;
+}
+
+.doctor-card__walking-metro {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
 
 .doctor-card__body {
@@ -2266,48 +2299,409 @@ html, body {
     width: 20px;
 }
 
+.review-doctor__container {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+    margin: 15px 0;
+}
 
+.users__side-link {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 15px 0;
+}
 
+.review-doctor__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.review-doctor__marks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.review-doctor__mark-item a {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.review-doctor__mark-item img {
+    width: 35px;
+}
 
+.review-doctor__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
+.review-card__head__bottom {
+    display: flex;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: row;
+    align-items: center;
+}
 
+.review-card__head__bottom img {
+    width: 30px;
+    margin: 10px 10px 10px 0;
+}
 
+.user__answers {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
 
+.user__answer {
+    display: flex;
+    margin: 15px 0;
+}
 
+.user__block p, .user__answer-place, .user__answer-date, .user__answer-content {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.user__avatar--no-photo {
+    background: #C4C4C4;
+}
 
+.user__avatar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    font-size: 1.375rem;
+    line-height: 136%;
+    color: #FFF;
+}
 
+.info-about-doctor {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+}
 
+.info-about-doctor__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
 
+.info-about-doctor__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1px solid #00000019;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
 
+.info-about-doctor__head span {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.info-about-doctor__body {
+    display: flex;
+    flex-direction: column;
+}
 
+.info-about-doctor__body-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
 
+.information__card-date {
+    border-radius: 4px;
+    background: rgba(81, 111, 166, 0.30);
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px;
+    width: max-content;
+}
 
+.information__card-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.information__card-name {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 
+.doctor-card-view__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
 
+.doctor-card__photo-doctor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
 
+.doctor-card__photo-doctor img {
+    max-width: 230px;
+    width: 100%;
+    padding-bottom: 15px;
+}
 
+.doctor-card {
+    border-radius: 13px;
+    background: #FFF;
+    padding: 15px;
+}
 
+.doctor-card__surname-doctor {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
+.doctor-card__name-doctor {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
 
+.doctor-card__experience-doctor {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.doctor-card-view__doctor-spec p, .doctor-card-view__doctor-category p, .doctor-card-view__doctor-degree p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2px 0;
+}
 
+.doctor-card-view__doctor-spec span, .doctor-card-view__doctor-category span, .doctor-card-view__doctor-degree span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.doctor-card-view__ambulance-house img {
+    width: 50px;
+}
 
+.doctor-card-view__ambulance-house {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 5px 0;
+}
 
+.doctor-card-view__doctor-price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 10px 0;
+}
 
+.doctor-card-view__doctor-price p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 10px;
+}
 
+.doctor-card-view__doctor-price span {
+    color: #FC5B5D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
 
+.doctor-card-view__footer {
+    margin: 10px 0;
+}
 
+.doctor-card-view__footer span {
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.price-doctor-clinic__container {
+    padding: 15px;
+    border-radius: 13px;
+    background: #FFF;
+    margin: 15px 0;
+}
 
+.price-doctor-clinic__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
 
+.price-doctor-clinic__title p {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.price-doctor-clinic__title a {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price-doctor-clinic__footer a {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price-doctor__item {
+    border-bottom: 1px solid #00000019;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.price-doctor__item:last-child {
+    border-bottom: none;
+}
+
+.price-doctor-clinic__body ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.prices p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 8px;
+}
+
+.prices span {
+    color: #FC5B5D;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
 
 
 
