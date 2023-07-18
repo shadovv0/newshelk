@@ -121,8 +121,8 @@
             <p class="mob-map">
                 <img src="/images/mob-map.png">
             </p>
-            <span>Обновлено 30.03.22</span>
             <div class="clinic-additional">
+                <span>Обновлено 30.03.22</span>
                 <ul>
                     <li><img src="/images/grey-parking.png">
                         <p>Большая<br> парковка</p></li>
@@ -160,7 +160,7 @@
                     <a href="#" class="clinic-phone">(499) 123-45-67</a>
                     </span>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться на приём
                     </a>
                 </div>
                 <div class="price-clinic__body">
@@ -179,16 +179,290 @@
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
                     </ul>
-                    <h4 class="price-clinic__name-service">Урология</h4>
-                    <h4 class="price-clinic__name-service">Венерология</h4>
-                    <h4 class="price-clinic__name-service">Отоларингология</h4>
+                    <a href="#">Показать все цены</a>
                 </div>
+                <h4 class="price-clinic__name-service">Урология</h4>
+                <h4 class="price-clinic__name-service">Венерология</h4>
+                <h4 class="price-clinic__name-service">Отоларингология</h4>
                 <div class="price-clinic__footer">
                     <img src="/images/grey-alert.png">
                     <a href="#">Условия для посещения</a>
                 </div>
             </div>
         </div>
+
+        <section id="doctors">
+            <div class="listing-container">
+                <div class="listing__header listing__header--clinic">
+                    <h2>Врачи клиники</h2>
+                </div>
+                <div class="listing__body">
+                    <div class="doctor-card__listing__item">
+                        <form action="#" data-appointment class="doctor-card__body">
+                            <div class="doctor-card__listing-title">
+                                <h5>Гинекологи</h5>
+                                <span>126 гинекологов</span>
+                            </div>
+                            <div class="doctor-card__listing">
+                                <div class="doctor-card-clinic__head">
+                                    <div class="photo-doctor">
+                                        <a href="#">
+                                            <img src="/images/image%2016.png">
+                                        </a>
+                                    </div>
+                                    <div class="doctor-card__listing-right">
+                                        <div class="doctor-card__doctor-name">
+                                            <a href="#">
+                                                Манохина Дарья Дмитриевна
+                                            </a>
+                                        </div>
+                                        <div class="popular-doctor__price">
+                                            Стоимость приема
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                        <div class="reviews-count doctors__clinic">
+                                            <div class="doctor-review-card__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#reviews">
+                                                14 отзывов
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="doctor-card-clinic__center">
+                                    <div class="doctor-card-clinic__clinic-name">
+                                        Клиника на Текстильщиках
+                                    </div>
+                                    <div class="doctor-card-clinic__clinic-address">
+                                        г. Москва ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                    <div class="doctor-card-clinic__phone">
+                                        <img src="/images/phone_24px.png">
+                                        <a href="#" class="doctor-clinic-phone">(499) 123-45-67</a>
+                                    </div>
+                                    <div class="doctor-card-clinic__doctor-spec-listing">
+                                        Гинеколог • акушер врач УЗИ
+                                    </div>
+                                    <div class="doctor-card-clinic__doctor-experiences-listing">
+                                        Врач высшей категории.<br>
+                                        Кандидат медицинских наук.<br>
+                                        Стаж 12 лет
+                                    </div>
+                                </div>
+                                <div class="doctor-card__right-record">
+                                    <div class="doctor-card-record__container">
+                                        <div class="doctor-card__dates dates">
+                                            <p>Сегодня</p>
+                                        </div>
+                                        <div class="doctor-card__schedule schedule">
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label">
+                                                    <input type="radio" value="09:30" name="time-appointment"
+                                                           class="radio__input"/>
+                                                    09:30
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label"><input type="radio" value="10:00"
+                                                                                   name="time-appointment"
+                                                                                   class="radio__input"/> 10:00
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label">
+                                                    <input type="radio" value="10:30" name="time-appointment"
+                                                           class="radio__input"/>
+                                                    10:30
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label"> <input type="radio" value="11:00"
+                                                                                    name="time-appointment"
+                                                                                    class="radio__input"/> 11:00
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button data-appointment="btn" class="is-hidden"></button>
+                        </form>
+                        <h6>Урологи</h6>
+                        <h6>Венерологи</h6>
+                        <h6>Отоларингологи</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="listing-container">
+            <div class="listing__header listing__header--clinic">
+                <h2>Отзывы</h2>
+            </div>
+            <div class="listing__container-body">
+                <div class="listing-doctor-btn">
+                    <a data-popup-btn="review" href="#" class="users__btn search__btn">Оставить отзыв</a>
+                    <a href="#" class="users__side-link">Как мы проверяем отзывы?</a>
+                </div>
+                <div data-tabs-container class="users__wrapper">
+                    <div class="users__side">
+                        <h4><b>Отзывы (14)</b></h4>
+                        <div data-tabs class="users__tabs-marks mobile-overflow">
+                            <a href="#" class="disable">Все</a>
+                            <a href="#" class="green"><img src="/images/Star1.png">5</a>
+                            <a href="#" class="disable"><img src="/images/grey-star.png">4</a>
+                            <a href="#" class="red"><img src="/images/Star1.png">3</a>
+                            <a href="#" class="disable"><img src="/images/grey-star.png">2</a>
+                            <a href="#" class="disable"><img src="/images/grey-star.png">1</a>
+                        </div>
+                    </div>
+                    <div class="users__body">
+                        <div data-tabcontent="positive" class="users__tabcontent is-active">
+                            <div class="user">
+                                <div class="user__info">
+                                    <div class="user__info-top">
+                                        <div class="user__info-top-right">
+                                            <div class="user__social">
+                                                <b>Имя пациента</b><br>
+                                                <span>14.02.2022</span>
+                                            </div>
+                                            <div class="review-card__mark">
+                                                <img src="/images/Star1.png">
+                                                5
+                                            </div>
+                                        </div>
+                                        <div class="user__status">
+                                            <p>
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </p>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-card__about-doctor">
+                                    <p>Отзыв о враче:
+                                        <br><b>Манохина Дарья Даниловная</b>
+                                    </p>
+                                </div>
+                                <div class="user__content">
+                                    <div class="user__blocks">
+                                        <div class="user__positive">
+                                            <b>Плюсы</b>
+                                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и
+                                                тщательно разбирается в проблеме пациента!</p>
+                                        </div>
+                                    </div>
+                                    <div class="user__block">
+                                        <b>Минусы</b>
+                                        <p>Сложно записаться.</p>
+                                    </div>
+                                    <div class="user__answer-clinic">
+                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                        <div class="user__answers-clinic">
+                                            <div class="user__answer-place">
+                                                <b>Клиника на Рязанском проспекте</b>
+                                            </div>
+                                            <div class="user__answer-date">
+                                                16 февраля 22 в 09:48
+                                            </div>
+                                            <div class="user__answer-content">
+                                                <p>Спасибо Вам за отзыв!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-tabcontent="negative" class="users__tabcontent is-active">
+                            <div class="user">
+                                <div class="user__info">
+                                    <div class="user__info-top">
+                                        <div class="user__info-top-right">
+                                            <div class="user__social">
+                                                <b>Имя пациента</b><br>
+                                                <span>14.02.2022</span>
+                                            </div>
+                                            <div class="review-card__mark">
+                                                <img src="/images/Star1.png">
+                                                5
+                                            </div>
+                                        </div>
+                                        <div class="user__status">
+                                            <p>
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </p>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-card__about-doctor">
+                                    <p>Отзыв о враче:
+                                        <br><b>Манохина Дарья Даниловная</b>
+                                    </p>
+                                </div>
+                                <div class="user__content">
+                                    <div class="user__blocks">
+                                        <div class="user__positive">
+                                            <b>Плюсы</b>
+                                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и
+                                                тщательно разбирается в проблеме пациента!</p>
+                                        </div>
+                                    </div>
+                                    <div class="user__block">
+                                        <b>Минусы</b>
+                                        <p>Сложно записаться.</p>
+                                    </div>
+                                    <div class="user__answer-clinic">
+                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                        <div class="user__answers-clinic">
+                                            <div class="user__answer-place">
+                                                <b>Клиника на Рязанском проспекте</b>
+                                            </div>
+                                            <div class="user__answer-date">
+                                                16 февраля 22 в 09:48
+                                            </div>
+                                            <div class="user__answer-content">
+                                                <p>Спасибо Вам за отзыв!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="more-review">Показать ещё</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="media-clinic">
+            <h3 class="license-clinic-title">Лицензии клиники</h3>
+            <div class="license-container">
+                <img src="/images/license-clinic.png">
+
+            </div>
+            <h3 class="photo-clinic__title">Фотографии клиники</h3>
+            <div class="photo-clinic__container">
+                <img src="/images/photo-clinic-1.png">
+            </div>
+            <h3 class="video-clinic__title">Видео обзор клиники</h3>
+            <div class="video-clinic__container">
+                <img src="/images/video-clinic.png">
+            </div>
+        </div>
+
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Другие клиники сети</h3>
             <div class="other-clinics__clinic-card">

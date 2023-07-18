@@ -108,7 +108,7 @@
                         (499) 123-45-67
                     </div>
                 </div>
-                <div class="clinic-card__right">
+                <div class="clinic-card__right-map">
                     <img src="/images/image%2017.png">
                 </div>
             </div>
@@ -177,22 +177,22 @@
                             <div class="specialisations__item radio">
                                 <input id="gynecology" type="radio" value="Гинекология" name="specialisations"
                                        class="radio__input"/>
-                                <label for="gynecology" class="radio__label">Гинекология</label>
+                                <label for="gynecology" class="radio__label-spec">Гинекология</label>
                             </div>
                             <div class="specialisations__item radio">
                                 <input id="otoloringolog" type="radio" value="Отоларингология" name="specialisations"
                                        class="radio__input"/>
-                                <label for="otoloringolog" class="radio__label">Отоларингология</label>
+                                <label for="otoloringolog" class="radio__label-spec">Отоларингология</label>
                             </div>
                             <div class="specialisations__item radio">
                                 <input id="urology" type="radio" value="Урология" name="specialisations"
                                        class="radio__input"/>
-                                <label for="urology" class="radio__label">Урология</label>
+                                <label for="urology" class="radio__label-spec">Урология</label>
                             </div>
                             <div class="specialisations__item radio">
                                 <input id="venerolog" type="radio" value="Венерология" name="specialisations"
                                        class="radio__input"/>
-                                <label for="venerolog" class="radio__label">Венерология</label>
+                                <label for="venerolog" class="radio__label-spec">Венерология</label>
                             </div>
                         </div>
                         <div class="specialisations__services services">
@@ -267,7 +267,7 @@
             </div>
         </section>
 
-        <section id="doctors" class="listing">
+        <section id="doctors">
             <div class="listing-container">
                 <div class="listing__header listing__header--clinic">
                     <h2>Врачи в клинике</h2>
@@ -275,6 +275,7 @@
                 <div class="listing__body">
                     <div class="doctor-card__listing__item">
                         <form action="#" data-appointment class="doctor-card__body">
+                            <h5>Гинекологи<span>(4 гинеколога)</span></h5>
                             <div class="doctor-card__listing">
                                 <div class="doctor-card__left">
                                     <div class="photo-doctor">
@@ -311,25 +312,19 @@
                                         Врач высшей категории. Кандидат медицинских наук.<br>
                                         Стаж 12 лет
                                     </div>
-                                    <div class="doctor-card__doctor-prices">
+                                    <div class="doctor-card__doctor-clinic-prices">
                                         Стоимость приема
                                         <p>1520₽</p>
                                         <span>1900₽</span>
                                     </div>
                                 </div>
-                                <div class="doctor-card__right">
-                                    <div class="doctor-card__dates dates">
-                                        <div class="dates__prev arrow arrow--prev arrow--small arrow arrow--prev arrow--small--small"><span
-                                                    class="icon-arrow-more"></span></div>
-                                        <div class="swiper slider-dates">
-                                            <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                                <div class="doctor-card__right-record">
+                                    <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                    <div class="doctor-card-record__container">
+                                        <div class="doctor-card__dates dates">
+                                            <p>Понедельник 21.03.</p>
                                         </div>
-                                        <div class="dates__next arrow arrow--next arrow--small arrow arrow--next arrow--small--small"><span
-                                                    class="icon-arrow-more"></span></div>
-                                    </div>
-                                    <div class="doctor-card__schedule schedule">
-                                        <b class="schedule__date">Выбрать дату</b>
-                                        <div data-radios class="schedule__body mobile-overflow">
+                                        <div class="doctor-card__schedule schedule">
                                             <div class="schedule__item radio">
                                                 <label class="radio__label">
                                                     <input type="radio" value="09:30" name="time-appointment"
@@ -340,7 +335,8 @@
                                             <div class="schedule__item radio">
                                                 <label class="radio__label"><input type="radio" value="10:00"
                                                                                    name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
+                                                                                   class="radio__input"/> 10:00
+                                                </label>
                                             </div>
                                             <div class="schedule__item radio">
                                                 <label class="radio__label">
@@ -391,9 +387,14 @@
                                                 </label>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="clinic-card__phone">
+                                        <img src="/images/phone_24px.png">
+                                        <a href="#" class="doctor-clinic-phone">(499) 123-45-67</a>
                                     </div>
                                 </div>
                             </div>
+                            <h5>Гинекологи<span>(4 гинеколога)</span></h5>
                             <div class="doctor-card__listing">
                                 <div class="doctor-card__left">
                                     <div class="photo-doctor">
@@ -430,25 +431,19 @@
                                         Врач высшей категории. Кандидат медицинских наук.<br>
                                         Стаж 12 лет
                                     </div>
-                                    <div class="doctor-card__doctor-prices">
+                                    <div class="doctor-card__doctor-clinic-prices">
                                         Стоимость приема
                                         <p>1520₽</p>
                                         <span>1900₽</span>
                                     </div>
                                 </div>
-                                <div class="doctor-card__right">
-                                    <div class="doctor-card__dates dates">
-                                        <div class="dates__prev arrow arrow--prev arrow--small arrow arrow--prev arrow--small--small"><span
-                                                    class="icon-arrow-more"></span></div>
-                                        <div class="swiper slider-dates">
-                                            <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                                <div class="doctor-card__right-record">
+                                    <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                    <div class="doctor-card-record__container">
+                                        <div class="doctor-card__dates dates">
+                                            <p>Понедельник 21.03.</p>
                                         </div>
-                                        <div class="dates__next arrow arrow--next arrow--small arrow arrow--next arrow--small--small"><span
-                                                    class="icon-arrow-more"></span></div>
-                                    </div>
-                                    <div class="doctor-card__schedule schedule">
-                                        <b class="schedule__date">Выбрать дату</b>
-                                        <div data-radios class="schedule__body mobile-overflow">
+                                        <div class="doctor-card__schedule schedule">
                                             <div class="schedule__item radio">
                                                 <label class="radio__label">
                                                     <input type="radio" value="09:30" name="time-appointment"
@@ -459,7 +454,8 @@
                                             <div class="schedule__item radio">
                                                 <label class="radio__label"><input type="radio" value="10:00"
                                                                                    name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
+                                                                                   class="radio__input"/> 10:00
+                                                </label>
                                             </div>
                                             <div class="schedule__item radio">
                                                 <label class="radio__label">
@@ -510,11 +506,18 @@
                                                 </label>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="clinic-card__phone">
+                                        <img src="/images/phone_24px.png">
+                                        <a href="#" class="doctor-clinic-phone">(499) 123-45-67</a>
                                     </div>
                                 </div>
                             </div>
                             <button data-appointment="btn" class="is-hidden"></button>
                         </form>
+                        <h6>Урологи<span>(2 уролога)</span></h6>
+                        <h6>Венерологи<span>(3 венеролога)</span></h6>
+                        <h6>Отоларингологи<span>(2 отоларинголога)</span></h6>
                     </div>
                 </div>
             </div>
@@ -919,22 +922,39 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <button class="users__more btn-more">Показать ещё отзывы</button>
-                            <button class="users__more btn-more">Оставить отзыв</button>
+                            <a class="users__more-review">Показать ещё отзывы</a>
+                            <a class="users__record">Оставить отзыв</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div class="section-with-slider__header section-with-slider__header--clinics">
-                <h2 class="other-clinics__title">Другие клиники сети</h2>
-                <div class="section-with-slider__navigation">
-                    <div class="arrow arrow--prev"><span class="icon-arrow-more"></span></div>
-                    <div class="arrow arrow--next"><span class="icon-arrow-more"></span></div>
-                </div>
+        <div class="media-clinic">
+            <h3 class="license-clinic-title">Лицензии клиники</h3>
+            <div class="license-container">
+                <img src="/images/license-clinic.png">
+                <img src="/images/license-clinic.png">
+                <img src="/images/license-clinic.png">
+                <img src="/images/license-clinic.png">
+                <img src="/images/license-clinic.png">
             </div>
+            <h3 class="photo-clinic__title">Фотографии клиники</h3>
+            <div class="photo-clinic__container">
+                <img src="/images/photo-clinic-1.png">
+                <img src="/images/photo-clinic-2.png">
+                <img src="/images/photo-clinic-1.png">
+                <img src="/images/photo-clinic-2.png">
+                <img src="/images/photo-clinic-1.png">
+            </div>
+            <h3 class="video-clinic__title">Видео обзор клиники</h3>
+            <div class="video-clinic__container">
+                <img src="/images/video-clinic.png">
+            </div>
+        </div>
+
+        <section>
+            <h2 class="other-clinics__title">Другие клиники сети</h2>
             <div class="other-clinics__clinics">
                 <div class="other-clinics__container">
                     <div class="other-clinics__clinic-card">
@@ -1040,350 +1060,124 @@
                 </div>
             </div>
         </section>
-        <section class="section-with-slider">
-            <div class="container">
-                <div class="section-with-slider__header section-with-slider__header--clinics">
-                    <h2>Похожие клиники</h2>
-                    <div class="section-with-slider__navigation">
-                        <div class="arrow arrow--prev"><span class="icon-arrow-more"></span></div>
-                        <div class="arrow arrow--next"><span class="icon-arrow-more"></span></div>
-                    </div>
-                </div>
-                <div class="swiper swiper-main">
-                    <div class="swiper-main__wrapper swiper-wrapper">
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="clinic-card">
-                                <div class="clinic-card__top">
-                                    <a href="#" class="clinic-card__logo">
-                                        <picture>
-                                            <source srcset="images/clinics/paliha-mobile.svg"
-                                                    media="(max-width: 768px)"/>
-                                            <img loading="lazy" src="images/clinics/paliha.svg" alt title/>
-                                        </picture>
-                                    </a>
-                                    <div class="clinic-card__estimates">
-                                        <div data-rating="4.8" class="clinic-card__rating rating">
-                                            <img class="clinic-card__rating-star" loading="lazy"
-                                                 src="images/icons/star-red.svg" alt title/>
-                                            <div class="rating__body">
-                                                <img loading="lazy" src="images/icons/stars-empty.svg" alt title/>
-                                                <div class="rating__active"></div>
-                                            </div>
-                                            <b class="rating__value">4.8</b>
-                                        </div>
-                                        <a href="#" class="clinic-card__reviews link-reviews">
-                                            <img loading="lazy" src="images/icons/messages-blue.svg" alt title/>
-                                            <b>68 отзывов</b>
-                                        </a>
-                                    </div>
-                                    <a href="#" class="clinic-card__name"> <b>Медицинский центр Палиха </b></a>
-                                    <div class="clinic-card__category">Многопрофильный медицинский центр</div>
-                                    <ul class="clinic-card__info">
-                                        <li class="clinic-card__info-item">11 врачей
-                                        </li>
-                                        <li class="clinic-card__info-item">Оплата наличными и картами
-                                        </li>
-                                        <li class="clinic-card__info-item">Большая парковка
-                                        </li>
 
-                                    </ul>
+        <section>
+            <h2 class="other-clinics__title">Другие клиники сети</h2>
+            <div class="other-clinics__clinics">
+                <div class="other-clinics__container">
+                    <div class="other-clinics__clinic-card">
+                        <div class="other-clinics__head">
+                            <div class="other-clinics__photos">
+                                <img src="/images/other_clinic.png">
+                            </div>
+                            <div class="oher-clinics__clinic-info">
+                                <div class="other-clinics__clinic-name">
+                                    Клиника “Название”
                                 </div>
-                                <div class="clinic-card__bottom place-info">
-                                    <div class="place-info__contacts">
-                                        <div class="place-info__contacts-icon">
-                                            <img loading="lazy" src="images/icons/location.svg" alt title/>
-                                        </div>
-                                        <div class="place-info__contacts-body">
-                                            <address class="place-info__address">г. Москва, ул. Палиха, д. 13/1
-                                            </address>
-                                            <a href="tel:+74996543210" class="place-info__phone"><b>8 (499)
-                                                    519-32-88</b></a>
-                                        </div>
+                                <div class="other-clinics__clinic-address">
+                                    ул. Люблинская, д. 9 к. 1
+                                </div>
+                                <div class="other-clinics__clinic-reviews">
+                                    <div class="other-clinics__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
                                     </div>
-                                    <div class="metros">
-                                        <div href="#" class="metro--distance metro">
-                                            <span class="metro__color metro__color--serpuhov"></span>Менделеевская
-
-                                            <div class="metro__distance">570 м</div>
-
-                                        </div>
-                                        <div href="#" class="metro--distance metro">
-                                            <span class="metro__color metro__color--kolcevaya"></span>Новослободская
-
-                                            <div class="metro__distance">660 м</div>
-
-                                        </div>
-                                    </div>
+                                    <a href="#">8 отзывов</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="clinic-card">
-                                <div class="clinic-card__top">
-                                    <a href="#" class="clinic-card__logo">
-                                        <picture>
-                                            <source srcset="images/clinics/euromed-mobile.svg"
-                                                    media="(max-width: 768px)"/>
-                                            <img loading="lazy" src="images/clinics/euromed.svg" alt title/>
-                                        </picture>
-                                    </a>
-                                    <div class="clinic-card__estimates">
-                                        <div data-rating="4.7" class="clinic-card__rating rating">
-                                            <img class="clinic-card__rating-star" loading="lazy"
-                                                 src="images/icons/star-red.svg" alt title/>
-                                            <div class="rating__body">
-                                                <img loading="lazy" src="images/icons/stars-empty.svg" alt title/>
-                                                <div class="rating__active"></div>
-                                            </div>
-                                            <b class="rating__value">4.7</b>
-                                        </div>
-                                        <a href="#" class="clinic-card__reviews link-reviews">
-                                            <img loading="lazy" src="images/icons/messages-blue.svg" alt title/>
-                                            <b>68 отзывов</b>
-                                        </a>
-                                    </div>
-                                    <a href="#" class="clinic-card__name"> <b>Евромед </b></a>
-                                    <div class="clinic-card__category">Многопрофильный медицинский центр</div>
-                                    <ul class="clinic-card__info">
-                                        <li class="clinic-card__info-item">11 врачей
-                                        </li>
-                                        <li class="clinic-card__info-item">Оплата наличными и картами
-                                        </li>
-                                        <li class="clinic-card__info-item">Большая парковка
-                                        </li>
-
-                                    </ul>
-                                </div>
-                                <div class="clinic-card__bottom place-info">
-                                    <div class="place-info__contacts">
-                                        <div class="place-info__contacts-icon">
-                                            <img loading="lazy" src="images/icons/location.svg" alt title/>
-                                        </div>
-                                        <div class="place-info__contacts-body">
-                                            <address class="place-info__address">г. Москва, ул. Красина, д. 14, стр. 2
-                                            </address>
-                                            <a href="tel:+74996543210" class="place-info__phone"><b>8 (499)
-                                                    519-32-88</b></a>
-                                        </div>
-                                    </div>
-                                    <div class="metros">
-                                        <div href="#" class="metro--distance metro">
-                                            <span class="metro__color metro__color--zamoskvoretskaya"></span>Маяковская
-
-                                            <div class="metro__distance">870 м</div>
-
-                                        </div>
-                                        <div href="#" class="metro--distance metro">
-                                            <span class="metro__color metro__color--tagansk"></span>Народное ополчение
-
-                                            <div class="metro__distance">1,3 км</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="other-clinics__clinic-metro">
+                            380м от метро “Рязанский проспект”
                         </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="clinic-card">
-                                <div class="clinic-card__top">
-                                    <a href="#" class="clinic-card__logo">
-                                        <picture>
-                                            <source srcset="images/clinics/paliha-mobile.svg"
-                                                    media="(max-width: 768px)"/>
-                                            <img loading="lazy" src="images/clinics/moscow.svg" alt title/>
-                                        </picture>
-                                    </a>
-                                    <div class="clinic-card__estimates">
-                                        <div data-rating="4.9" class="clinic-card__rating rating">
-                                            <img class="clinic-card__rating-star" loading="lazy"
-                                                 src="images/icons/star-red.svg" alt title/>
-                                            <div class="rating__body">
-                                                <img loading="lazy" src="images/icons/stars-empty.svg" alt title/>
-                                                <div class="rating__active"></div>
-                                            </div>
-                                            <b class="rating__value">4.9</b>
-                                        </div>
-                                        <a href="#" class="clinic-card__reviews link-reviews">
-                                            <img loading="lazy" src="images/icons/messages-blue.svg" alt title/>
-                                            <b>68 отзывов</b>
-                                        </a>
-                                    </div>
-                                    <a href="#" class="clinic-card__name"> <b>Московская Клиника </b></a>
-                                    <div class="clinic-card__category">Многопрофильный медицинский центр</div>
-                                    <ul class="clinic-card__info">
-                                        <li class="clinic-card__info-item">45 врачей
-                                        </li>
-                                        <li class="clinic-card__info-item">Оплата наличными и картами
-                                        </li>
-                                        <li class="clinic-card__info-item">Большая парковка
-                                        </li>
-
-                                    </ul>
-                                </div>
-                                <div class="clinic-card__bottom place-info">
-                                    <div class="place-info__contacts">
-                                        <div class="place-info__contacts-icon">
-                                            <img loading="lazy" src="images/icons/location.svg" alt title/>
-                                        </div>
-                                        <div class="place-info__contacts-body">
-                                            <address class="place-info__address">г. Москва, ул. Кожевническая, д.1Б,
-                                                с1
-                                            </address>
-                                            <a href="tel:+74996543210" class="place-info__phone"><b>8 (499)
-                                                    519-32-88</b></a>
-                                        </div>
-                                    </div>
-                                    <div class="metros">
-                                        <div href="#" class="metro--distance metro">
-                                            <span class="metro__color metro__color--lublino"></span>Марьина Роща
-
-                                            <div class="metro__distance">570 м</div>
-
-                                        </div>
-                                        <div href="#" class="metro--distance metro">
-                                            <span class="metro__color metro__color--kahovskaya"></span>Савеловская
-
-                                            <div class="metro__distance">660 м</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination swiper-main__pagination"></div>
-                </div>
-            </div>
-        </section>
-        <section class="section-with-slider">
-            <div class="container">
-                <div class="section-with-slider__header section-with-slider__header--clinics">
-                    <h2>Похожие клиники</h2>
-                    <div class="section-with-slider__navigation">
-                        <div class="arrow arrow--prev"><span class="icon-arrow-more"></span></div>
-                        <div class="arrow arrow--next"><span class="icon-arrow-more"></span></div>
-                    </div>
-                </div>
-                <div class="swiper swiper-main">
-                    <div class="swiper-main__wrapper swiper-wrapper">
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="other-clinics__container">
-                                <div class="other-clinics__clinic-card">
-                                    <div class="other-clinics__head">
-                                        <div class="other-clinics__photos">
-                                            <img src="/images/other_clinic.png">
-                                        </div>
-                                        <div class="oher-clinics__clinic-info">
-                                            <div class="other-clinics__clinic-name">
-                                                Клиника “Название”
-                                            </div>
-                                            <div class="other-clinics__clinic-address">
-                                                ул. Люблинская, д. 9 к. 1
-                                            </div>
-                                            <div class="other-clinics__clinic-reviews">
-                                                <div class="other-clinics__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="other-clinics__clinic-metro">
-                                        380м от метро “Рязанский проспект”
-                                    </div>
-                                    <div class="other-clinics__clinic-record-phone">
-                                        Телефон для записи
-                                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="other-clinics__container">
-                                <div class="other-clinics__clinic-card">
-                                    <div class="other-clinics__head">
-                                        <div class="other-clinics__photos">
-                                            <img src="/images/other_clinic.png">
-                                        </div>
-                                        <div class="oher-clinics__clinic-info">
-                                            <div class="other-clinics__clinic-name">
-                                                Клиника “Название”
-                                            </div>
-                                            <div class="other-clinics__clinic-address">
-                                                ул. Люблинская, д. 9 к. 1
-                                            </div>
-                                            <div class="other-clinics__clinic-reviews">
-                                                <div class="other-clinics__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="other-clinics__clinic-metro">
-                                        380м от метро “Рязанский проспект”
-                                    </div>
-                                    <div class="other-clinics__clinic-record-phone">
-                                        Телефон для записи
-                                        <span>
+                        <div class="other-clinics__clinic-record-phone">
+                            Телефон для записи
+                            <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-clinics__container">
+                    <div class="other-clinics__clinic-card">
+                        <div class="other-clinics__head">
+                            <div class="other-clinics__photos">
+                                <img src="/images/other_clinic.png">
+                            </div>
+                            <div class="oher-clinics__clinic-info">
+                                <div class="other-clinics__clinic-name">
+                                    Клиника “Название”
+                                </div>
+                                <div class="other-clinics__clinic-address">
+                                    ул. Люблинская, д. 9 к. 1
+                                </div>
+                                <div class="other-clinics__clinic-reviews">
+                                    <div class="other-clinics__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
                                     </div>
+                                    <a href="#">8 отзывов</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="other-clinics__container">
-                                <div class="other-clinics__clinic-card">
-                                    <div class="other-clinics__head">
-                                        <div class="other-clinics__photos">
-                                            <img src="/images/other_clinic.png">
-                                        </div>
-                                        <div class="oher-clinics__clinic-info">
-                                            <div class="other-clinics__clinic-name">
-                                                Клиника “Название”
-                                            </div>
-                                            <div class="other-clinics__clinic-address">
-                                                ул. Люблинская, д. 9 к. 1
-                                            </div>
-                                            <div class="other-clinics__clinic-reviews">
-                                                <div class="other-clinics__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="other-clinics__clinic-metro">
-                                        380м от метро “Рязанский проспект”
-                                    </div>
-                                    <div class="other-clinics__clinic-record-phone">
-                                        Телефон для записи
-                                        <span>
+                        <div class="other-clinics__clinic-metro">
+                            380м от метро “Рязанский проспект”
+                        </div>
+                        <div class="other-clinics__clinic-record-phone">
+                            Телефон для записи
+                            <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-clinics__container">
+                    <div class="other-clinics__clinic-card">
+                        <div class="other-clinics__head">
+                            <div class="other-clinics__photos">
+                                <img src="/images/other_clinic.png">
+                            </div>
+                            <div class="oher-clinics__clinic-info">
+                                <div class="other-clinics__clinic-name">
+                                    Клиника “Название”
+                                </div>
+                                <div class="other-clinics__clinic-address">
+                                    ул. Люблинская, д. 9 к. 1
+                                </div>
+                                <div class="other-clinics__clinic-reviews">
+                                    <div class="other-clinics__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
                                     </div>
+                                    <a href="#">8 отзывов</a>
                                 </div>
                             </div>
                         </div>
+                        <div class="other-clinics__clinic-metro">
+                            380м от метро “Рязанский проспект”
+                        </div>
+                        <div class="other-clinics__clinic-record-phone">
+                            Телефон для записи
+                            <span>
+                                <img src="/images/phone_24px.png">
+                            <a class="phone" href="#">(499) 123-45-67</a>
+                            </span>
+                        </div>
                     </div>
-                    <div class="swiper-pagination swiper-main__pagination"></div>
                 </div>
             </div>
         </section>
-
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Клиники</a>
-            <a href="#">Гинекологи</a>
-            <p>Манохина Дарья Дмитриевна</p>
+            <img src="/images/bread-dot.png">
+            <a href="#">Многопрофильные клиники</a>
+            <p>Клиника на Текстильщиках</p>
         </div>
 
     </div>

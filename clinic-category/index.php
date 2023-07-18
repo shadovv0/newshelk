@@ -67,221 +67,229 @@
                     <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
                     <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
                 </div>
-            </div>
-        </div>
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <a href="">
-                        <img src="/images/clinic-image.png">
-                    </a>
-                </div>
-                <div class="clinic-card__reviews">
-                    <div class="clinic-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
-                    </div>
-                    <a href="#">8 отзывов</a>
-                </div>
-            </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    <a href="">
-                        Клиника на Текстильщиках
-                    </a>
-                </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г. Москва
-                </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
-                </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
-                </div>
-                <div class="clinic-card__doctors">
-                    <a href="#doctors">
-                        56 врачей в штате
-                    </a>
-                </div>
-                <!--<div class="clinic-card__popular-procedure">
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                </div>-->
-            </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-far">
-                        Печатники (2,1км)
-                        Стахановская (2,2км)
-                    </div>
-                </div>
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    (499) 123-45-67
-                </div>
-                <a class="search__btn">
-                    Запись на приём
-                </a>
+                <a href="">Показать все услуги контрацепции</a>
             </div>
         </div>
 
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <a href="">
-                        <img src="/images/clinic-image.png">
-                    </a>
-                </div>
-                <div class="clinic-card__reviews">
-                    <div class="clinic-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
+        <div class="clinic-card-category__container">
+            <div class="clinic-card">
+                <div class="clinic-card__left">
+                    <div class="clinic-card__photo-clinic">
+                        <a href="">
+                            <img src="/images/clinic-image.png">
+                        </a>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <div class="clinic-card__reviews">
+                        <div class="clinic-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
+                        <a href="#">14 отзывов</a>
+                    </div>
+                </div>
+                <div class="clinic-card__center">
+                    <div class="clinic-card__name">
+                        <a href="">
+                            Клиника на Текстильщиках
+                        </a>
+                    </div>
+                    <div class="clinic-card__type">
+                        Многопрофильная медицинская клиника, г. Москва
+                    </div>
+                    <div class="clinic-card__address">
+                        г. Москва ул. Люблинская, д. 9 к. 1
+                    </div>
+                    <div class="clinic-card__text-block">
+                        Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                    </div>
+                    <div class="clinic-card__doctors">
+                        <a href="#doctors">
+                            56 врачей в штате
+                        </a>
+                    </div>
+                </div>
+                <div class="clinic-card__right">
+                    <div class="clinic-card__clinic-schedule">
+                        Часы приёма:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </div>
+                    <div class="clinic-card__metro">
+                        <div class="clinic-card__metro-near">
+                            Текстильщики (338м)
+                        </div>
+                        <div class="clinic-card__metro-far">
+                            Печатники (2,1км)
+                            Стахановская (2,2км)
+                        </div>
+                    </div>
+                    <div class="clinic-card__phone">
+                        <img src="/images/phone_24px.png">
+                        (499) 123-45-67
+                    </div>
+                    <a class="search__btn">
+                        Записаться в клинику
+                    </a>
                 </div>
             </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    <a href="">
-                        Клиника на Текстильщиках
-                    </a>
+            <div class="clinic-card__popular-procedure">
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г. Москва
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
-                </div>
-                <div class="clinic-card__doctors">
-                    <a href="#doctors">
-                        56 врачей в штате
-                    </a>
-                </div>
-                <!--<div class="clinic-card__popular-procedure">
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                </div>-->
-            </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-far">
-                        Печатники (2,1км)
-                        Стахановская (2,2км)
-                    </div>
-                </div>
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    (499) 123-45-67
-                </div>
-                <a class="search__btn">
-                    Запись на приём
-                </a>
             </div>
         </div>
 
-        <div class="clinic-card">
-            <div class="clinic-card__left">
-                <div class="clinic-card__photo-clinic">
-                    <a href="">
-                        <img src="/images/clinic-image.png">
-                    </a>
-                </div>
-                <div class="clinic-card__reviews">
-                    <div class="clinic-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
+        <div class="clinic-card-category__container">
+            <div class="clinic-card">
+                <div class="clinic-card__left">
+                    <div class="clinic-card__photo-clinic">
+                        <a href="">
+                            <img src="/images/clinic-image.png">
+                        </a>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <div class="clinic-card__reviews">
+                        <div class="clinic-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
+                        <a href="#">14 отзывов</a>
+                    </div>
+                </div>
+                <div class="clinic-card__center">
+                    <div class="clinic-card__name">
+                        <a href="">
+                            Клиника на Текстильщиках
+                        </a>
+                    </div>
+                    <div class="clinic-card__type">
+                        Многопрофильная медицинская клиника, г. Москва
+                    </div>
+                    <div class="clinic-card__address">
+                        г. Москва ул. Люблинская, д. 9 к. 1
+                    </div>
+                    <div class="clinic-card__text-block">
+                        Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                    </div>
+                    <div class="clinic-card__doctors">
+                        <a href="#doctors">
+                            56 врачей в штате
+                        </a>
+                    </div>
+                </div>
+                <div class="clinic-card__right">
+                    <div class="clinic-card__clinic-schedule">
+                        Часы приёма:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </div>
+                    <div class="clinic-card__metro">
+                        <div class="clinic-card__metro-near">
+                            Текстильщики (338м)
+                        </div>
+                        <div class="clinic-card__metro-far">
+                            Печатники (2,1км)
+                            Стахановская (2,2км)
+                        </div>
+                    </div>
+                    <div class="clinic-card__phone">
+                        <img src="/images/phone_24px.png">
+                        (499) 123-45-67
+                    </div>
+                    <a class="search__btn">
+                        Записаться в клинику
+                    </a>
                 </div>
             </div>
-            <div class="clinic-card__center">
-                <div class="clinic-card__name">
-                    <a href="">
-                        Клиника на Текстильщиках
-                    </a>
+            <div class="clinic-card__popular-procedure">
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
-                <div class="clinic-card__type">
-                    Многопрофильная медицинская клиника, г. Москва
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
-                <div class="clinic-card__text-block">
-                    Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
-                </div>
-                <div class="clinic-card__doctors">
-                    <a href="#doctors">
-                        56 врачей в штате
-                    </a>
-                </div>
-                <!--<div class="clinic-card__popular-procedure">
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                    <div class="clinic-card__popular-procedure-price">
-                        УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                    </div>
-                </div>-->
             </div>
-            <div class="clinic-card__right">
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        Текстильщики (338м)
+        </div>
+
+        <div class="clinic-card-category__container">
+            <div class="clinic-card">
+                <div class="clinic-card__left">
+                    <div class="clinic-card__photo-clinic">
+                        <a href="">
+                            <img src="/images/clinic-image.png">
+                        </a>
                     </div>
-                    <div class="clinic-card__metro-far">
-                        Печатники (2,1км)
-                        Стахановская (2,2км)
+                    <div class="clinic-card__reviews">
+                        <div class="clinic-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
+                        <a href="#">14 отзывов</a>
                     </div>
                 </div>
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    (499) 123-45-67
+                <div class="clinic-card__center">
+                    <div class="clinic-card__name">
+                        <a href="">
+                            Клиника на Текстильщиках
+                        </a>
+                    </div>
+                    <div class="clinic-card__type">
+                        Многопрофильная медицинская клиника, г. Москва
+                    </div>
+                    <div class="clinic-card__address">
+                        г. Москва ул. Люблинская, д. 9 к. 1
+                    </div>
+                    <div class="clinic-card__text-block">
+                        Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                    </div>
+                    <div class="clinic-card__doctors">
+                        <a href="#doctors">
+                            56 врачей в штате
+                        </a>
+                    </div>
                 </div>
-                <a class="search__btn">
-                    Запись на приём
-                </a>
+                <div class="clinic-card__right">
+                    <div class="clinic-card__clinic-schedule">
+                        Часы приёма:<br>
+                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    </div>
+                    <div class="clinic-card__metro">
+                        <div class="clinic-card__metro-near">
+                            Текстильщики (338м)
+                        </div>
+                        <div class="clinic-card__metro-far">
+                            Печатники (2,1км)
+                            Стахановская (2,2км)
+                        </div>
+                    </div>
+                    <div class="clinic-card__phone">
+                        <img src="/images/phone_24px.png">
+                        (499) 123-45-67
+                    </div>
+                    <a class="search__btn">
+                        Записаться в клинику
+                    </a>
+                </div>
+            </div>
+            <div class="clinic-card__popular-procedure">
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                </div>
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                </div>
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                </div>
             </div>
         </div>
 
@@ -299,10 +307,12 @@
             <h5>Самые популярные вопросы</h5>
             <div class="first-questions">
                 <p>Что такое гинекология?</p>
+                <div class="answer-first-questions">
                 <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
                     лечением и профилактикой заболеваний женской половой системы.
                     Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
                 </span>
+                </div>
             </div>
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
@@ -337,10 +347,10 @@
                 <div class="review-card__left">
                     <div class="review-card__name-patient">
                         Имя пациента
-                        <p class="review-card__mark">
+                        <div class="review-card__marks">
                             <img src="/images/Star1.png">
-                            5
-                        </p>
+                            <p>5</p>
+                        </div>
                     </div>
                     <div class="review-card__date">
                         14.02.2022

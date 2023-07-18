@@ -145,7 +145,9 @@
             </div>
         </div>
         <div class="popular-doctor">
-            <h4 class="popular-doctor__title">Популярные специалисты</h4>
+            <div class="popular-doctor-main__title">
+                <h4>Популярные специалисты</h4>
+            </div>
             <div class="popular-doctor__doctors">
                 <div class="popular-doctor__container">
                     <div class="popular-doctor__doctor-card">
@@ -279,7 +281,9 @@
             </div>
         </div>
         <div class="other-clinics">
-            <h4 class="other-clinics__title">Другие клиники сети</h4>
+            <div class="other-clinics-main__title">
+                <h4>Другие клиники сети</h4>
+            </div>
             <div class="other-clinics__clinics">
                 <div class="other-clinics__container">
                     <div class="other-clinics__clinic-card">

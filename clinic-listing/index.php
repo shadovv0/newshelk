@@ -83,17 +83,6 @@
                             56 врачей в штате
                         </a>
                     </div>
-                    <!--<div class="clinic-card__popular-procedure">
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                    </div>-->
                 </div>
                 <div class="clinic-card__right">
                     <div class="clinic-card__clinic-schedule">
@@ -114,16 +103,16 @@
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#"> (499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="clinic-card__container">
+        <div class="clinic-card-listing__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -180,10 +169,10 @@
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#"> (499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                 </div>
             </div>
@@ -229,7 +218,7 @@
         </div>
 
 
-        <div class="clinic-card__container">
+        <div class="clinic-card-listing__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -286,14 +275,14 @@
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#"> (499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                 </div>
             </div>
-            <div class="clinic-card__footer">
+            <div class="clinic-card-listing__footer">
                 <h3>Другие клиники сети</h3>
                 <div class="clinic-card__footer-container">
                     <div class="clinic-card__footer-clinic">
@@ -407,17 +396,6 @@
                             56 врачей в штате
                         </a>
                     </div>
-                    <div class="clinic-card__popular-procedure">
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                    </div>
                 </div>
                 <div class="clinic-card__right">
                     <div class="clinic-card__clinic-schedule">
@@ -445,6 +423,17 @@
                     </a>
                 </div>
             </div>
+            <div class="clinic-card__popular-procedure">
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                </div>
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                </div>
+                <div class="clinic-card__popular-procedure-price">
+                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                </div>
+            </div>
         </div>
 
         <div class="text-banner">
@@ -461,10 +450,12 @@
             <h5>Самые популярные вопросы</h5>
             <div class="first-questions">
                 <p>Что такое гинекология?</p>
-                <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
+                <div class="answer-first-questions">
+                  <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
                     лечением и профилактикой заболеваний женской половой системы.
                     Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
-                </span>
+                  </span>
+                </div>
             </div>
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
@@ -621,25 +612,25 @@
                     <ul class="relinks__list">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/euromed.png">
                                 «Евромед»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/open-clinic.png">
                                 «Открытая клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/moscow-clinic.png">
                                 «Московская клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/sinay.png">
                                 «Синай»
                             </a>
                         </li>

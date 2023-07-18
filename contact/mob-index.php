@@ -129,7 +129,9 @@
                         </textarea>
                     </div>
                 </div>
-                <a href="#" class="search__btn">Отправить</a>
+                <div class="contact-btn">
+                    <a href="#" class="search__btn">Отправить</a>
+                </div>
             </div>
         </div>
     </div>

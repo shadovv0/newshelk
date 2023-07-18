@@ -45,7 +45,7 @@
                     <form name="search-form" class="search-form" action="/search/" method="GET">
                         <img src="/images/zoom.png">
                         <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn" href="#"></button>
+                        <button class="search-btn"></button>
                     </form>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                         <h5>Прием врача в клинике</h5>
                         <p>Врачи с проверенными отзывами в любом районе города и быстрая запись
                             на нужное время</p>
-                        <a href="#" class="search__btn">Выбрать врача</a>
+                            <a href="#" class="actions__btn">Выбрать врача</a>
                     </div>
                     <div class="actions__doctors-image">
                         <img src="/images/action-doctor.png">
@@ -93,7 +93,7 @@
                     <div class="actions__doctors-house-text">
                         <h5>Выезд врача на дом</h5>
                         <p>Врачи с проверенными отзывами в любом районе города и быстрый выезд</p>
-                        <a href="#" class="search__btn">Вызвать врача</a>
+                        <a href="#" class="actions__btn">Вызвать врача</a>
                     </div>
                 </div>
                 <div class="actions__mid">
@@ -101,7 +101,7 @@
                         <div class="actions__symptoms-text">
                             <h5>База данных всех симптомов</h5>
                             <p>Поиск по самой полной базе симптомов</p>
-                            <a href="#" class="search__btn">Найти симптом</a>
+                            <a href="#" class="actions__btn">Найти симптом</a>
                             <img src="/images/action-symptom.png">
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                         <div class="actions__disease-text">
                             <h5>Справочник заболеваний</h5>
                             <p>Единый список различных заболеваний</p>
-                            <a href="#" class="search__btn">Найти заболевание</a>
+                            <a href="#" class="actions__btn">Найти заболевание</a>
                             <img src="/images/action-disease.png">
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         <p>Медицинские
                             и косметологические услуги
                             в клинике и на дому</p>
-                        <a href="#" class="search__btn">Выбрать услугу</a>
+                        <a href="#" class="actions__btn">Выбрать услугу</a>
                     </div>
                 </div>
                 <div class="actions__all-count">

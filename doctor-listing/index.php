@@ -130,7 +130,37 @@
                     </div>
                     <span>Выберите удобное время для записи онлайн:</span>
                     <div class="doctor-card__time-slot">
-
+                        <div class="doctor-card__date">
+                            <p>Сегодня</p>
+                        </div>
+                        <div class="doctor-card__time">
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" value="09:30" name="time-appointment"
+                                           class="radio__input"/>
+                                    09:30
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label"><input type="radio" value="10:00"
+                                                                   name="time-appointment"
+                                                                   class="radio__input"/> 10:00 </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" value="10:30" name="time-appointment"
+                                           class="radio__input"/>
+                                    10:30
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" name="time-appointment"
+                                           class="radio__input"/>
+                                    <img src="/images/bot-page.png">
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,7 +193,8 @@
                     </div>
                     <div class="doctor-card__doctor-experiences">
                         <ul>
-                            <li class="doctor-card__doctor-degree"> Кандидат медицинских наук</li>
+                            <li class="doctor-card__doctor-category">Врач высшей категории</li>
+                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
                         </ul>
 
                     </div>
@@ -175,6 +206,7 @@
 
                 </div>
                 <div class="doctor-card__right">
+                    <span>Выберите клинику сети:</span>
                     <div class="doctor-card__record-clinic">
                         Клиника в Текстильщиках
                     </div>
@@ -185,7 +217,19 @@
                                 <img src="/images/Ellipse%2027.png">
                                 Текстильщики (338м)
                             </li>
+                            <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                Печатники (2,1км)
+                            </li>
+                            <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                Стахановская (2,2км)
+                            </li>
                         </ul>
+                        <img src="/images/phone_24px.png">
+                        <a href="#">(499) 123-45-67</a>
+                    </div>
+                    <span>Выберите удобное время для записи онлайн:</span>
+                    <div class="doctor-card__time-slot">
+
                     </div>
                 </div>
             </div>
@@ -249,7 +293,37 @@
                         <a href="#">(499) 123-45-67</a>
                     </div>
                     <div class="doctor-card__time-slot">
-
+                        <div class="doctor-card__date">
+                            <p>Сегодня</p>
+                        </div>
+                        <div class="doctor-card__time">
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" value="09:30" name="time-appointment"
+                                           class="radio__input"/>
+                                    09:30
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label"><input type="radio" value="10:00"
+                                                                   name="time-appointment"
+                                                                   class="radio__input"/> 10:00 </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" value="10:30" name="time-appointment"
+                                           class="radio__input"/>
+                                    10:30
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" name="time-appointment"
+                                           class="radio__input"/>
+                                    <img src="/images/bot-page.png">
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -257,16 +331,16 @@
 
         <div class="listing">
             <ul>
-                <li>
-                    <img src="/images/flat_right.png">
+                <li><a href="#">
+                        <img src="/images/flat_right.png"></a>
                 </li>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>
-                    <img src="/images/flat_left.png">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">
+                        <img src="/images/flat_left.png"></a>
                 </li>
             </ul>
         </div>
@@ -285,10 +359,12 @@
             <h5>Самые популярные вопросы</h5>
             <div class="first-questions">
                 <p>Что такое гинекология?</p>
+                <div class="answer-first-questions">
                 <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
                     лечением и профилактикой заболеваний женской половой системы.
                     Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
                 </span>
+                </div>
             </div>
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
@@ -448,25 +524,25 @@
                     <ul class="relinks__list">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/euromed.png">
                                 «Евромед»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/open-clinic.png">
                                 «Открытая клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/moscow-clinic.png">
                                 «Московская клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/sinay.png">
                                 «Синай»
                             </a>
                         </li>
@@ -479,6 +555,16 @@
 
             </div>
         </div>
+
+        <div class="breadcrumbs">
+            <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
+            <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
+            <a href="#">Врачи</a>
+            <p>Многопрофильные клиники</p>
+        </div>
+
     </div>
 </div>
 <footer>

@@ -80,6 +80,7 @@
                 </div>
             </div>
         </div>
+
         <div class="clinic-card">
             <div class="clinic-card__head">
                 <div class="clinic-card__photo-clinic">
@@ -97,7 +98,7 @@
                         <img src="/images/Star1.png">
                         <p>4,7</p>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <a href="#">14 отзывов</a>
                 </div>
                 <div class="clinic-card__address">
                     г. Москва ул. Люблинская, д. 9 к. 1
@@ -123,30 +124,33 @@
                 </div>
                 <div class="clinic-card__metro">
                     <div class="clinic-card__metro-near">
+                        <img src="/images/Ellipse%2027.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__metro-far">
+                        <img src="/images/Ellipse%2028.png">
                         Печатники (2,1км)
+                        <img src="/images/Ellipse%2029.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
-                        <img src="/images/phone_24px.png">
+                        <img src="/images/blue-phone.png">
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
@@ -169,7 +173,7 @@
                         <img src="/images/Star1.png">
                         <p>4,7</p>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <a href="#">14 отзывов</a>
                 </div>
                 <div class="clinic-card__address">
                     г. Москва ул. Люблинская, д. 9 к. 1
@@ -195,30 +199,33 @@
                 </div>
                 <div class="clinic-card__metro">
                     <div class="clinic-card__metro-near">
+                        <img src="/images/Ellipse%2027.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__metro-far">
+                        <img src="/images/Ellipse%2028.png">
                         Печатники (2,1км)
+                        <img src="/images/Ellipse%2029.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
-                        <img src="/images/phone_24px.png">
+                        <img src="/images/blue-phone.png">
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
@@ -241,7 +248,7 @@
                         <img src="/images/Star1.png">
                         <p>4,7</p>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <a href="#">14 отзывов</a>
                 </div>
                 <div class="clinic-card__address">
                     г. Москва ул. Люблинская, д. 9 к. 1
@@ -267,37 +274,56 @@
                 </div>
                 <div class="clinic-card__metro">
                     <div class="clinic-card__metro-near">
+                        <img src="/images/Ellipse%2027.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__metro-far">
+                        <img src="/images/Ellipse%2028.png">
                         Печатники (2,1км)
+                        <img src="/images/Ellipse%2029.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
-                        <img src="/images/phone_24px.png">
+                        <img src="/images/blue-phone.png">
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+        <div class="listing">
+            <ul>
+                <li>
+                    <img src="/images/left-page.png">
+                </li>
+                <li>1</li>
+                <li>2</li>
+                <li>...</li>
+                <li>9</li>
+                <li>10</li>
+                <li>
+                    <img src="/images/right-page.png">
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">
@@ -312,10 +338,12 @@
             <h5>Самые популярные вопросы</h5>
             <div class="first-questions">
                 <p>Что такое гинекология?</p>
+                <div class="answer-first-questions">
                 <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
                     лечением и профилактикой заболеваний женской половой системы.
                     Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
                 </span>
+                </div>
             </div>
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
@@ -504,7 +532,9 @@
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Клиники</a>
             <p>Многопрофильные клиники</p>
         </div>

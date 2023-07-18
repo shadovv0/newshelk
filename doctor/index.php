@@ -162,8 +162,61 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="doctor-price-promotion">
+                    <div class="doctor-promotion">
+                        <p>Акция!
+                            <img src="/images/grey-alert.png">
+                        </p>
+                        <b>1900 ₽
+                            <span>-20%</span></b>
+                    </div>
+                    <div class="doctor-old-price">
+                        <p>Цена приёма</p>
+                        <b>1900 ₽</b>
+                    </div>
+                </div>
+
                 <div class="appointment__timeslot">
-                    <span>Или позвоните по телефону <a href="#">(499) 123-34-56</a></span>
+                    <h4>Выбрать дату</h4>
+                    <div class="appointment__timeslot-container">
+                        <div class="grey-col"></div>
+                        <div class="appointment-date">
+                            <ul>
+                                <li><a href="#"><b>Понедельник 21.03.</b></a></li>
+                                <li><a href="#">Вторник 22.03</a></li>
+                                <li><a href="#">Среда 23.03.</a></li>
+                                <li><a href="#">Четверг 24.03.</a></li>
+                            </ul>
+                        </div>
+                        <div class="appointment-center">
+                            <b>Для записи на удобное вам время заполните форму:</b>
+                            <div class="appointment-record-container">
+                                <div class="appointment-record">
+                                    <div class="appointment__name-patient">
+                                        <input required placeholder="Имя, Фамилия" class="form-control"
+                                               id="name-patient"
+                                               type="text"
+                                               maxlength="500"
+                                               value="">
+
+                                    </div>
+                                    <div class="appointment__phone-patient">
+                                        <input required placeholder="Номер телефона" class="form-control"
+                                               id="phone-patient"
+                                               type="text"
+                                               maxlength="500"
+                                               value="">
+                                    </div>
+                                </div>
+                                <a href="#" class="record__btn">Записаться</a>
+                            </div>
+                            <span>Или позвоните по телефону<a href="#"
+                                                               class="appointment-phone">(499) 123-34-56</a></span>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
             <div class="appointment-body">
@@ -768,8 +821,8 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <button class="users__more btn-more">Показать ещё отзывы</button>
-                            <button class="users__more btn-more">Оставить отзыв</button>
+                            <a class="users__more-review">Показать ещё отзывы</a>
+                            <a class="users__record">Оставить отзыв</a>
                         </div>
                     </div>
                 </div>
@@ -778,7 +831,9 @@
 
 
         <div class="popular-doctor">
-            <h4 class="popular-doctor__title">Популярные акушеры в районе метро “Рязанский проспект”</h4>
+            <h4 class="popular-doctor__title">Популярные
+                <ins>акушеры в районе метро “Рязанский проспект”</ins>
+            </h4>
             <div class="popular-doctor__doctors">
                 <div class="popular-doctor__container">
                     <div class="popular-doctor__doctor-card">

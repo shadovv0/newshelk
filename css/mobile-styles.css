@@ -74,6 +74,17 @@ html, body {
     width: 70px;
 }
 
+.menu-map {
+    color: #516FA6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
 .search-form {
     font-size: 15px;
     display: flex;
@@ -145,6 +156,18 @@ html, body {
     display: flex;
 }
 
+.actions__btn {
+    padding: 5px 10px;
+    z-index: 5;
+    border-radius: 22px;
+    background: rgba(252, 91, 93, 0.80);
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .actions__doctors {
     margin: 15px 0;
     display: flex;
@@ -164,10 +187,12 @@ html, body {
 
 .actions__doctors-text {
     display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
     padding: 10px;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .actions__doctors p {
@@ -180,7 +205,7 @@ html, body {
 }
 
 .search__btn {
-    padding: 10px 20px;
+    padding: 5px 10px;
     z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
@@ -462,6 +487,8 @@ html, body {
     align-content: center;
     justify-content: space-around;
     align-items: center;
+    border-radius: 13px;
+    background: #FFF;
 }
 
 .popular-doctor__container {
@@ -953,7 +980,7 @@ html, body {
     flex-wrap: wrap;
     align-content: center;
     align-items: flex-start;
-    padding: 10px 15px;
+    padding: 0 10px 15px 10px;
 }
 
 .clinic-card__footer {
@@ -1003,7 +1030,6 @@ html, body {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    padding: 0 15px;
 }
 
 .clinic-card__doctors a {
@@ -1014,7 +1040,7 @@ html, body {
     font-weight: 400;
     line-height: normal;
     text-decoration-line: none;
-    margin: 10px 0;
+    padding: 10px 0 0 10px;
 }
 
 .clinic-card__type-clinic {
@@ -1027,8 +1053,8 @@ html, body {
     line-height: normal;
 }
 
-.clinic-additional {
-
+.clinic-additional span {
+    padding: 0 15px;
 }
 
 .clinic-additional ul {
@@ -1191,6 +1217,11 @@ html, body {
     flex-direction: row;
 }
 
+.clinic-card__phone img {
+    width: 24px;
+    margin-right: 10px;
+}
+
 .clinic-card__ambulance-house {
     display: flex;
     flex-direction: row;
@@ -1227,10 +1258,111 @@ html, body {
 
 .clinic-card__popular-procedure {
     margin: 10px 0;
+    width: 100%;
+}
+
+.clinic-card__footer-clinic span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    border-bottom: 1px solid #0000001A;
+    padding: 5px 0;
+}
+
+.clinic-card__footer-clinic {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.clinic-card__footer-metroes ul {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.clinic-card__footer-clinic-close {
+    color: #748CB8;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.clinic-card__footer-address {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.clinic-card__footer-phone a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.clinic-card__footer-clinic-schedule {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.clinic-card__footer-metro {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clinic-card__footer-metro-far {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.clinic-card__footer-clinic-reviews {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.clinic-card__footer-clinic-reviews a {
+    margin-left: 10px;
+    color: #728AB6;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: none;
 }
 
 .clinic-card__popular-procedure-price {
     color: #000;
+    padding: 7px 0;
     font-size: 14px;
     font-family: Montserrat;
     font-style: normal;
@@ -1242,6 +1374,7 @@ html, body {
     flex-wrap: wrap;
     align-items: center;
     border-bottom: 1px solid #0000001A;
+    justify-content: space-between;
 }
 
 .clinic-card__popular-procedure-price p {
@@ -1251,7 +1384,7 @@ html, body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin: 5px 10px;
+    margin: 0 10px;
 }
 
 .clinic-card__popular-procedure-price span {
@@ -1286,6 +1419,17 @@ html, body {
     align-items: center;
     flex-direction: row;
     margin: 10px 0;
+}
+
+.text-banner-head {
+    margin: 10px 0 5px;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .text-banner {
@@ -1402,6 +1546,7 @@ html, body {
 .price-clinic__price-card {
     background: #FFF;
     padding: 0 10px 15px;
+    border-radius: 0 0 13px 13px;
 }
 
 .price-clinic__footer a {
@@ -1442,9 +1587,13 @@ html, body {
 
 .price-clinic__body {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .price__item {
+    border-bottom: 1px solid #0000001A;
+    padding: 5px 0;
     color: #000;
     font-family: Montserrat;
     font-size: 14px;
@@ -1457,8 +1606,22 @@ html, body {
     justify-content: space-between;
 }
 
+.price__item:last-child {
+    border-bottom: none;
+}
+
 .prices {
     display: flex;
+}
+
+.price-clinic__body a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
 
 .price__item p {
@@ -1468,7 +1631,7 @@ html, body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-right: 8px;
+    margin: 0 8px 0 0;
 }
 
 .price__item span {
@@ -1484,7 +1647,399 @@ html, body {
 .price-clinic__body ul {
     list-style-type: none;
     padding: 0;
+    margin: 5px 0 15px;
+}
+
+.relinks__more {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.license-clinic-title, .photo-clinic__title, .video-clinic__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.media-clinic {
+    padding: 10px 0;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px;
+    background: #FFF;
+}
+
+.license-container img {
+    width: 106px;
+    height: 156px;
+}
+
+.photo-clinic__container img {
+    width: 204px;
+    height: 149px;
+}
+
+.video-clinic__container img {
+    width: 318px;
+    height: 182px;
+}
+
+.photo-clinic__container, .license-container, .video-clinic__container {
+    margin: 10px 0;
+}
+
+.listing__header {
+    border-radius: 13px 13px 0px 0px;
+    background: #516FA6;
+    color: #FFF;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.listing__body {
+    border-radius: 0 0 13px 13px;
+    background: #FFF;
+}
+
+.doctor-card__listing-title {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.doctor-card-clinic__head {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+}
+
+.doctor-card__listing-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.photo-doctor img {
+    width: 70px;
+}
+
+.doctor-card__listing {
+    width: 100%;
+}
+
+.doctor-card-clinic__center {
+    padding: 15px;
+}
+
+.doctor-card-clinic__clinic-name {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.doctor-card-clinic__phone a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.doctor-card__schedule {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.width-timeslot {
+    width: 100%;
+}
+
+.record-btns img {
+    margin-right: 8px;
+}
+
+.record-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-timeslot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor-card__dates p {
+    background: #F0F3F8;
+    text-align: center;
     margin: 0;
+    padding: 5px 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.doctor-card-clinic__doctor-spec-listing {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.doctor-card-clinic__doctor-experiences-listing {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.doctor-card-clinic__clinic-address {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.doctor-card__listing-title h5 {
+    color: rgba(0, 0, 0, 0.80);
+    border-bottom: 1px solid #0000001A;
+    padding-bottom: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.doctor-card__listing-title span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listing-container {
+    margin: 15px 0;
+}
+
+.listing__body {
+    padding-bottom: 15px;
+}
+
+.doctor-card__listing__item h6 {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 18px;
+    margin: 15px;
+    font-style: normal;
+    padding: 5px 0;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1px solid #0000001A;
+    border-top: 1px solid #0000001A;
+}
+
+.listing__container-body {
+    border-radius: 0 0 13px 13px;
+    background: #FFF;
+    padding-bottom: 15px;
+}
+
+.listing-doctor-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.red {
+    border-radius: 4px;
+    border: 1px solid rgba(252, 91, 93, 0.80);
+    background: rgba(252, 91, 93, 0.80);
+    text-decoration-line: none;
+    padding: 5px;
+    margin: 0 5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.green {
+    border-radius: 4px;
+    border: 1px solid #94D1A2;
+    background: #66BD7A;
+    text-decoration-line: none;
+    padding: 5px;
+    margin: 0 5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.green img, .red img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.users__tabs-marks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.disable img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.disable {
+    text-decoration-line: none;
+    border-radius: 4px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    color: #C4C4C4;
+    padding: 5px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.users__wrapper {
+    padding: 0 15px;
+}
+
+.user__info-top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.user__social {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user__status p {
+    margin: 0;
+}
+
+.user__status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(81, 111, 166, 0.80);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user__status img {
+    margin-right: 5px;
+}
+
+.review-card__source-review {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.review-card__about-doctor {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user__blocks p {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user__answers-clinic {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.user__answer-clinic {
+    display: flex;
+    margin: 15px 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.more-review {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -1503,11 +2058,9 @@ html, body {
 
 
 
-
-
-
-
-
+.answer-first-questions {
+    padding: 0 20px;
+}
 
 .popular-questions {
     border-radius: 13px;
@@ -1546,9 +2099,17 @@ html, body {
     border-radius: 15px;
     border: 1px solid #516FA6;
     background: #FFF;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
+info-about-project__right span {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .info-about-project__left p {
     color: rgba(0, 0, 0, 0.70);
@@ -1698,12 +2259,22 @@ html, body {
 }
 
 
+.relinks__item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.relinks__list {
+    margin: 10px 0;
+}
 
 .relinks__column {
     border-radius: 13px;
     background: #FFF;
     padding: 10px 20px;
     margin: 15px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .relinks__column ul {
@@ -1734,7 +2305,10 @@ html, body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 10px;
+}
+
+.breadcrumbs img {
+    margin: 0 5px;
 }
 
 .breadcrumbs p {
@@ -1864,11 +2438,6 @@ html, body {
 
 .disease__footer-date a {
     color: #516FA6CC;
-}
-
-.popular-doctor__doctors {
-    border-radius: 13px;
-    background: #FFF;
 }
 
 .popular-doctor__title {
@@ -2037,7 +2606,7 @@ html, body {
 .doctors-card {
     border-radius: 13px;
     background: #FFF;
-    padding: 15px;
+    padding: 15px 0;
     margin: 15px 0;
 }
 
@@ -2045,7 +2614,19 @@ html, body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 15px;
+    padding: 0 15px 15px;
+}
+
+.doctor-card__body-head {
+    padding: 0 15px;
+}
+
+.doctor-card__body-footer {
+    width: 100%;
+}
+
+.doctor-card__body-footer span {
+    padding: 0 15px;
 }
 
 .doctor-card__container-background {
@@ -2226,6 +2807,7 @@ html, body {
     line-height: normal;
     border-radius: 4px;
     background: rgba(81, 111, 166, 0.29);
+    padding: 5px 15px;
 }
 
 .doctor-card__geo p {
@@ -2236,12 +2818,13 @@ html, body {
     font-weight: 600;
     line-height: normal;
     margin: 10px 0;
+    padding: 0 15px;
 }
 
 .doctor-card__geo ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 15px;
 }
 
 .doctor-card__metro {
@@ -2254,7 +2837,7 @@ html, body {
     padding: 5px 0;
 }
 
-.doctor-card__geo a {
+.doctor-card__clinic-phone a {
     color: #000;
     font-family: Montserrat;
     font-size: 14px;
@@ -2263,8 +2846,88 @@ html, body {
     line-height: normal;
 }
 
-.listing {
+.doctor-card__time-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+}
 
+.doctor-card__time {
+    display: flex;
+}
+
+.radio__label {
+    margin: 10px;
+    border-radius: 6px;
+    background: #516FA6;
+    color: #FFF;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 5px 15px;
+    font-size: 0.875rem;
+    line-height: 143%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.radio__input {
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.schedule__item img {
+    width: 20px;
+}
+
+.doctor-card__date p {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-card__date {
+    background: #F0F3F8;
+    max-width: 381px;
+    width: 100%;
+    height: 46px;
+}
+
+.record-btn {
+    padding: 5px 10px;
+    border-radius: 22px;
+    background: rgba(252, 91, 93, 0.80);
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.doctor-card__clinic-phone {
+    padding: 0 15px;
 }
 
 .listing ul {
@@ -2622,7 +3285,6 @@ html, body {
 }
 
 .price-doctor-clinic__container {
-    padding: 15px;
     border-radius: 13px;
     background: #FFF;
     margin: 15px 0;
@@ -2636,6 +3298,7 @@ html, body {
     font-weight: 600;
     line-height: normal;
     margin-bottom: 10px;
+    padding: 15px;
 }
 
 .price-doctor-clinic__title p {
@@ -2656,6 +3319,11 @@ html, body {
     line-height: normal;
 }
 
+.price-doctor-clinic__footer {
+    margin: 10px 15px;
+
+}
+
 .price-doctor-clinic__footer a {
     color: rgba(0, 0, 0, 0.30);
     font-family: Montserrat;
@@ -2663,6 +3331,16 @@ html, body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.full-time-doctor {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
 }
 
 .price-doctor__item {
@@ -2680,27 +3358,7 @@ html, body {
 .price-doctor-clinic__body ul {
     list-style-type: none;
     margin: 10px 0;
-    padding: 0;
-}
-
-.prices p {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-right: 8px;
-}
-
-.prices span {
-    color: #FC5B5D;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: line-through;
+    padding: 15px;
 }
 
 
@@ -2868,10 +3526,79 @@ html, body {
 
 
 @media (min-width: 600px) {
-    .actions__doctors, .actions__doctors-house, .actions__services, .actions__all-count, .actions__brand {
-        max-width: 340px;
-        width: 100%;
+
+    .actions__doctors {
+        width: 340px;
         margin: 10px 5px;
+        position: relative;
+    }
+
+    .actions__doctors img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -5;
+        width: 140px;
+        height: 123px;
+    }
+
+    .actions__brand {
+        width: 340px;
+        margin: 10px 5px;
+        position: relative;
+    }
+    .actions__brand img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -5;
+        width: 140px;
+        height: 130px;
+    }
+
+    .actions__all-count {
+        width: 340px;
+        margin: 10px 5px;
+        position: relative;
+    }
+
+    .actions__all-count img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -5;
+        width: 140px;
+        height: 130px;
+    }
+
+    .actions__doctors-house {
+        width: 340px;
+        margin: 10px 5px;
+        position: relative;
+    }
+
+    .actions__doctors-house img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -5;
+        width: 145px;
+        height: 122px;
+    }
+
+    .actions__services {
+        width: 340px;
+        margin: 10px 5px;
+        position: relative;
+    }
+
+    .actions__services img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -5;
+        width: 140px;
+        height: 130px;
     }
 
     .actions__items {
@@ -2923,6 +3650,20 @@ html, body {
         align-content: flex-start;
     }
 
+    .listing ul {
+        list-style-type: none;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .listing li {
+        margin: 0 5px;
+    }
+
     .clinic-card__doctors {
         display: flex;
         justify-content: flex-start;
@@ -2948,5 +3689,36 @@ html, body {
         max-width: 300px;
         width: 100%;
         height: 100%;
+    }
+
+    .search__btn {
+        width: 300px;
+    }
+
+    .contact-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .popular-doctor__doctors {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .actions__doctors-house img {
+        width: 175px;
+        height: 158px;
+    }
+
+    .actions__doctors img {
+        width: 155px;
+        height: 158px;
     }
 }

@@ -100,7 +100,9 @@
                     <span>1900₽</span>
                 </div>
                 <div class="doctor-card-view__footer">
-                    <a class="search__btn">Записаться на приём</a>
+                    <div class="record-btns">
+                        <a class="search__btn">Записаться на приём</a>
+                    </div>
                     <span>Обновлено 30.03.22</span>
                 </div>
             </div>
@@ -130,23 +132,61 @@
                 <img src="/images/grey-map.png">
                 <a href="#">Посмотреть на карте</a>
             </div>
-            <a href="#" class="search__btn"><img src="/images/white-phone.png">(499) 123-45-67</a>
+            <div class="record-btns">
+                <a href="#" class="record-btn"><img src="/images/white-phone.png">(499) 123-45-67</a>
+            </div>
             <div class="price-doctor-clinic__price-card">
                 <div class="price-doctor-clinic__body">
                     <ul>
-                        <li class="price-doctor__item">Акушер (от 18 лет)
+                        <li class="price__item">Акушер (от 18 лет)
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
-                        <li class="price-doctor__item">Гинеколог (от 18 лет)
+                        <li class="price__item">Гинеколог (от 18 лет)
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
-                        <li class="price-doctor__item">Гинеколог-эндокринолог<br> (от 18 лет)
+                        <li class="price__item">Гинеколог-эндокринолог<br> (от 18 лет)
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
-                        <li class="price-doctor__item">Маммолог (от 18 лет)
+                        <li class="price__item">Маммолог (от 18 лет)
                             <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </li>
                     </ul>
+                </div>
+                <div class="doctor-card__right-record">
+                    <div class="doctor-card-record__container center-timeslot">
+                        <div class="doctor-card__dates width-timeslot">
+                            <p>Сегодня</p>
+                        </div>
+                        <div class="doctor-card__schedule schedule">
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" value="09:30" name="time-appointment"
+                                           class="radio__input"/>
+                                    09:30
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label"><input type="radio" value="10:00"
+                                                                   name="time-appointment"
+                                                                   class="radio__input"/> 10:00
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label">
+                                    <input type="radio" value="10:30" name="time-appointment"
+                                           class="radio__input"/>
+                                    10:30
+                                </label>
+                            </div>
+                            <div class="schedule__item radio">
+                                <label class="radio__label"> <input type="radio" value="11:00"
+                                                                    name="time-appointment"
+                                                                    class="radio__input"/> 11:00
+                                </label>
+                            </div>
+                        </div>
+                        <a href="#" class="full-time-doctor">Посмотреть полное расписание</a>
+                    </div>
                 </div>
                 <div class="price-doctor-clinic__footer">
                     <img src="/images/grey-alert.png">

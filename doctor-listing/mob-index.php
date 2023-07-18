@@ -111,17 +111,19 @@
                     </div>
                 </div>
                 <div class="doctor-card__body">
-                    <div class="doctor-card__doctor-spec">
-                        Гинеколог
+                    <div class="doctor-card__body-head">
+                        <div class="doctor-card__doctor-spec">
+                            Гинеколог
+                        </div>
+                        <div class="doctor-card__doctor-experiences">
+                            <ul>
+                                <li class="doctor-card__doctor-category">Врач высшей категории</li>
+                                <li class="doctor-card__doctor-degree"> Кандидат медицинских наук</li>
+                                <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="doctor-card__doctor-experiences">
-                        <ul>
-                            <li class="doctor-card__doctor-category">Врач высшей категории</li>
-                            <li class="doctor-card__doctor-degree"> Кандидат медицинских наук</li>
-                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
-                        </ul>
-                    </div>
-                    <div class="doctor-card__right">
+                    <div class="doctor-card__body-footer">
                         <span>Выберите клинику сети:</span>
                         <div class="doctor-card__record-clinic">
                             Клиника в Текстильщиках
@@ -140,16 +142,48 @@
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
-                            <img src="/images/phone_24px.png">
-                            <a href="#">(499) 123-45-67</a>
+                            <div class="doctor-card__clinic-phone">
+                                <img src="/images/phone_24px.png">
+                                <a href="#">(499) 123-45-67</a>
+                            </div>
                         </div>
                         <span>Выберите удобное время для записи онлайн:</span>
                         <div class="doctor-card__time-slot">
-
+                            <div class="doctor-card__date">
+                                <p>Сегодня</p>
+                            </div>
+                            <div class="doctor-card__time">
+                                <div class="schedule__item radio">
+                                    <label class="radio__label">
+                                        <input type="radio" value="09:30" name="time-appointment"
+                                               class="radio__input"/>
+                                        09:30
+                                    </label>
+                                </div>
+                                <div class="schedule__item radio">
+                                    <label class="radio__label"><input type="radio" value="10:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/> 10:00 </label>
+                                </div>
+                                <div class="schedule__item radio">
+                                    <label class="radio__label">
+                                        <input type="radio" value="10:30" name="time-appointment"
+                                               class="radio__input"/>
+                                        10:30
+                                    </label>
+                                </div>
+                                <div class="schedule__item radio">
+                                    <label class="radio__label">
+                                        <input type="radio" name="time-appointment"
+                                               class="radio__input"/>
+                                        <img src="/images/bot-page.png">
+                                    </label>
+                                </div>
+                            </div>
+                            <a class="record-btn">
+                                Записаться на приём
+                            </a>
                         </div>
-                        <a class="search__btn">
-                            Записаться на приём
-                        </a>
                     </div>
                 </div>
             </div>
@@ -186,15 +220,17 @@
                     </div>
                 </div>
                 <div class="doctor-card__body">
-                    <div class="doctor-card__doctor-spec">
-                        Гинеколог
+                    <div class="doctor-card__body-head">
+                        <div class="doctor-card__doctor-spec">
+                            Гинеколог
+                        </div>
+                        <div class="doctor-card__doctor-experiences">
+                            <ul>
+                                <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="doctor-card__doctor-experiences">
-                        <ul>
-                            <li class="doctor-card__doctor-experience"> Стаж 12 лет</li>
-                        </ul>
-                    </div>
-                    <div class="doctor-card__right">
+                    <div class="doctor-card__body-footer">
                         <div class="doctor-card__record-clinic">
                             Клиника в Текстильщиках
                         </div>
@@ -212,12 +248,16 @@
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
-                            <img src="/images/phone_24px.png">
-                            <a href="#">(499) 123-45-67</a>
+                            <div class="doctor-card__clinic-phone">
+                                <img src="/images/phone_24px.png">
+                                <a href="#">(499) 123-45-67</a>
+                            </div>
                         </div>
-                        <a class="search__btn">
-                            Записаться на приём
-                        </a>
+                        <div class="doctor-card__time-slot">
+                            <a class="record-btn">
+                                Записаться на приём
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -240,7 +280,7 @@
         </div>
 
 
-        <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">
@@ -255,10 +295,12 @@
             <h5>Самые популярные вопросы</h5>
             <div class="first-questions">
                 <p>Что такое гинекология?</p>
+                <div class="answer-first-questions">
                 <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
                     лечением и профилактикой заболеваний женской половой системы.
                     Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
                 </span>
+                </div>
             </div>
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
@@ -379,7 +421,7 @@
                     <ul class="relinks__list relinks__list--mobile-row">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                               Авиамоторная
+                                Авиамоторная
                             </a>
                         </li>
                         <li class="relinks__item">
@@ -413,25 +455,25 @@
                     <ul class="relinks__list">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/euromed.png">
                                 «Евромед»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/open-clinic.png">
                                 «Открытая клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/moscow-clinic.png">
                                 «Московская клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/sinay.png">
                                 «Синай»
                             </a>
                         </li>
@@ -447,8 +489,10 @@
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
-            <a href="#">Клиники</a>
+            <img src="/images/bread-dot.png">
+            <a href="#">Врачи</a>
             <p>Многопрофильные клиники</p>
         </div>
     </div>

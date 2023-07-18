@@ -99,10 +99,13 @@
                 </div>
                 <div class="clinic-card__metro">
                     <div class="clinic-card__metro-near">
+                        <img src="/images/Ellipse%2027.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__metro-far">
+                        <img src="/images/Ellipse%2028.png">
                         Печатники (2,1км)
+                        <img src="/images/Ellipse%2029.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
@@ -112,22 +115,13 @@
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
-                    <div class="clinic-card__popular-procedure">
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
+
         <div class="clinic-card">
             <div class="clinic-card__head">
                 <div class="clinic-card__photo-clinic">
@@ -171,35 +165,100 @@
                 </div>
                 <div class="clinic-card__metro">
                     <div class="clinic-card__metro-near">
+                        <img src="/images/Ellipse%2027.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__metro-far">
+                        <img src="/images/Ellipse%2028.png">
                         Печатники (2,1км)
+                        <img src="/images/Ellipse%2029.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
+
+                <div class="clinic-card__other-clinics">
+                    <div class="clinic-card__footer-container">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Текстильщиках</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                <a href="#">(499) 123-45-67</a>
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    <b>Текстильщики (338м)</b>
+                                </li>
+                                <li class="clinic-card__footer-metro-far">
+                                    <img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                    <img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clinic-card__footer-container">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Петровско-Разумовской</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clinic-card__footer-container">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника в Солнцево</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
-                    <div class="clinic-card__popular-procedure">
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+
         <div class="clinic-card">
             <div class="clinic-card__head">
                 <div class="clinic-card__photo-clinic">
@@ -243,10 +302,13 @@
                 </div>
                 <div class="clinic-card__metro">
                     <div class="clinic-card__metro-near">
+                        <img src="/images/Ellipse%2027.png">
                         Текстильщики (338м)
                     </div>
                     <div class="clinic-card__metro-far">
+                        <img src="/images/Ellipse%2028.png">
                         Печатники (2,1км)
+                        <img src="/images/Ellipse%2029.png">
                         Стахановская (2,2км)
                     </div>
                 </div>
@@ -256,17 +318,17 @@
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
-                        Запись на приём
+                        Записаться в клинику
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 1 триместра <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 2 триместра <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <p>1520₽</p> <span>1900₽</span>
+                            УЗИ 3 триместра <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
@@ -289,7 +351,7 @@
             </ul>
         </div>
 
-        <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">
@@ -304,10 +366,12 @@
             <h5>Самые популярные вопросы</h5>
             <div class="first-questions">
                 <p>Что такое гинекология?</p>
+                <div class="answer-first-questions">
                 <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
                     лечением и профилактикой заболеваний женской половой системы.
                     Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
                 </span>
+                </div>
             </div>
             <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
             <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
@@ -462,25 +526,25 @@
                     <ul class="relinks__list">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/euromed.png">
                                 «Евромед»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/open-clinic.png">
                                 «Открытая клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/moscow-clinic.png">
                                 «Московская клиника»
                             </a>
                         </li>
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
-                                <img src="">
+                                <img src="/images/sinay.png">
                                 «Синай»
                             </a>
                         </li>
@@ -496,10 +560,13 @@
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Клиники</a>
             <p>Многопрофильные клиники</p>
         </div>
+
     </div>
 </div>
 <footer>
