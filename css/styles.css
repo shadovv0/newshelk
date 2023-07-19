@@ -4582,8 +4582,12 @@ body {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 
+    .user__content {
+        max-width: 700px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -4609,6 +4613,11 @@ body {
         width: 100%;
         padding: 10px 0;
     }
+
+    .user__content {
+        max-width: 600px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -4632,6 +4641,14 @@ body {
 
 }
 
+@media (max-width: 950px) {
+    .user__content {
+        max-width: 500px;
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 900px) {
     .info-about-project__center {
         padding: 10px 240px;
@@ -4647,6 +4664,17 @@ body {
 
 }
 
+@media (max-width: 850px) {
+    .user__content {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .user__info {
+        max-width: 150px;
+        width: 100%;
+    }
+}
 
 @media (max-width: 700px) {
     .info-about-project__center {
