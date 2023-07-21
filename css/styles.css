@@ -170,7 +170,7 @@ body {
 }
 
 .search__btn {
-    padding: 10px 20px;
+    padding: 4px 20px;
     z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
@@ -309,7 +309,7 @@ body {
 .actions__services-text {
     display: flex;
     align-content: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: 100%;
     align-items: flex-end;
@@ -594,13 +594,12 @@ body {
 .popular-doctor__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    width: 54px;
+   padding: 3px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 4px 2px;
     margin-right: 10px;
 }
 
@@ -612,6 +611,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-left: 5px;
 }
 
 .popular-doctor__count-review {
@@ -770,13 +770,12 @@ body {
 .other-clinics__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    width: 54px;
+    padding: 3px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 4px 2px;
     margin-right: 10px;
 }
 
@@ -788,6 +787,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-left: 5px;
 }
 
 .other-clinics__clinic-reviews a {
@@ -1174,7 +1174,7 @@ body {
     flex-direction: column;
     max-width: 800px;
     width: 100%;
-    padding: 10px 0 0 100px;
+    padding: 10px 50px 0;
 }
 
 .clinic-card__clinic-data a {
@@ -1582,39 +1582,6 @@ body {
     text-align: center;
 }
 
-.answer-first-questions {
-    padding: 0 50px;
-}
-
-.first-questions p, .second-questions p, .third-questions p {
-    color: #000;
-    font-size: 17px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    padding: 10px 50px;
-    background: rgba(253, 124, 125, 0.10);
-    line-height: normal;
-    margin: 10px 0;
-}
-
-.first-questions span {
-    color: #000;
-    font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.second-questions {
-
-}
-
-.third-questions {
-    padding-bottom: 5px;
-}
-
 .info-about-project {
     display: flex;
     flex-direction: row;
@@ -1969,6 +1936,54 @@ body {
     padding: 10px 0;
 }
 
+.relinks__item--folded {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top: -12px;
+}
+
+.relinks__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    gap: 12px;
+    list-style-type: none;
+}
+
+.relinks__column-title {
+    margin-bottom: 10px;
+}
+
+.relinks__more {
+    margin-top: 12px;
+}
+
+.relinks__item--folded.is-expanded {
+    margin: 0;
+}
+
+.more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 4px;
+    -moz-column-gap: 4px;
+    column-gap: 4px;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #35a7ff;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    background: none;
+}
+
 .more__text {
     color: rgba(0, 0, 0, 0.50);
     font-size: 14px;
@@ -1995,6 +2010,16 @@ body {
     font-weight: 600;
     line-height: normal;
     padding-left: 60px;
+}
+
+.services-hub__item.is-folded {
+    margin: 0;
+    height: 0;
+    will-change: height;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .services-hub__list {
@@ -2493,6 +2518,7 @@ body {
     line-height: normal;
     border-bottom: 1px solid #00000019;
     padding: 5px 0;
+    width: 100%;
 }
 
 .doctor-card__listing__item h5:last-child {
@@ -2868,6 +2894,17 @@ body {
     line-height: normal;
 }
 
+.appointment__geo-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment__geo-clinic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .appointment__left {
     display: flex;
     flex-direction: column;
@@ -3185,6 +3222,7 @@ body {
 
 .linked-footer li {
     list-style-type: none;
+    margin: 5px 0;
 }
 
 .linked-footer li a {
@@ -3850,6 +3888,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .users__title {
@@ -3917,7 +3956,7 @@ body {
 }
 
 .record__btn {
-    padding: 10px 20px;
+    padding: 5px 50px;
     z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
@@ -3926,16 +3965,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 45px;
 }
 
 
 .specialisations__head {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .specialisations__phone {
@@ -4682,6 +4720,92 @@ body {
     }
 
 }
+
+
+
+.faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.faq__item {
+    color: #000;
+    font-size: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 50px;
+    background: rgba(253, 124, 125, 0.10);
+    line-height: normal;
+    margin: 10px 0;
+}
+
+
+.faq__btn {
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 136%;
+    background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    cursor: pointer;
+    margin: 0;
+    text-align: left;
+}
+
+.faq__content {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0 53px;
+}
+
+.clinic-card__content {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.faq__content p {
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__content p:first-child {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

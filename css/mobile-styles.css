@@ -1399,7 +1399,7 @@ html, body {
 .clinic-card__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    width: 54px;
+    padding: 3px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1409,8 +1409,13 @@ html, body {
 
 .clinic-card__star p {
     margin: 0;
-    padding: 0;
-    color: #FFFFFF;
+    padding-left: 3px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .clinic-card__reviews {
@@ -1715,7 +1720,7 @@ html, body {
 
 .doctor-card__listing-title {
     width: 100%;
-    padding: 15px;
+    padding: 0 15px;
     margin-top: 15px;
 }
 
@@ -1840,9 +1845,10 @@ html, body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 100%;
 }
 
-.doctor-card__listing-title span {
+.doctor-card__contnet span {
     color: #000;
     font-family: Montserrat;
     font-size: 14px;
@@ -2057,16 +2063,6 @@ html, body {
 
 
 
-.answer-first-questions {
-    padding: 0 20px;
-}
-
-.popular-questions {
-    border-radius: 13px;
-    background: #FFF;
-    padding: 10px 0;
-}
-
 .popular-questions h5 {
     color: #000;
     font-size: 20px;
@@ -2077,17 +2073,6 @@ html, body {
     text-align: center;
 }
 
-.first-questions p, .second-questions p, .third-questions p {
-    color: #000;
-    font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    background: rgba(253, 124, 125, 0.10);
-    padding: 10px 20px;
-    margin: 10px 0;
-}
 
 .info-about-project__right {
     display: flex;
@@ -2258,13 +2243,79 @@ info-about-project__right span {
 }
 
 
-.relinks__item img {
-    width: 30px;
-    margin-right: 10px;
+.relinks__item--folded {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top: -12px;
 }
 
 .relinks__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
     margin: 10px 0;
+    list-style-type: none;
+}
+
+.clinic-card__content {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.doctor-card__contnet {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.relinks__column-title {
+    margin-bottom: 10px;
+}
+
+.relinks__more {
+    margin-top: 12px;
+}
+
+.relinks__item--folded.is-expanded {
+    margin: 0;
+}
+
+.more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 4px;
+    -moz-column-gap: 4px;
+    column-gap: 4px;
+    font-size: 1rem;
+    line-height: 150%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    background: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relinks__item img {
+    width: 30px;
+    margin-right: 10px;
 }
 
 .relinks__column {
@@ -3721,3 +3772,71 @@ info-about-project__right span {
         height: 158px;
     }
 }
+
+
+.faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.faq__item {
+    color: #000;
+    font-size: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 30px;
+    background: rgba(253, 124, 125, 0.10);
+    line-height: normal;
+    margin: 10px 0;
+}
+
+
+.faq__btn {
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 136%;
+    background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    cursor: pointer;
+    margin: 0;
+    text-align: left;
+}
+
+.faq__content {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0 20px;
+}
+
+.faq__content p {
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__content p:first-child {
+    margin-top: 15px;
+}
+
+
+

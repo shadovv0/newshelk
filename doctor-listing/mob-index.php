@@ -6,21 +6,22 @@
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
+    <link rel="stylesheet" href="/files/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/files/air-datepicker.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
     <div class="head__container">
         <div class="wrap clear">
-            <a class="menu-map" href="#">
-                <img src="/images/map_24px.png">
-                Карта
+            <a class="menu-btn" href="#">
+                <img src="/images/burger.png">
             </a>
             <!--<div class="top-menu">
             <div class="top-menu__wrap">
@@ -291,20 +292,79 @@
             </div>
         </div>
 
-        <div class="popular-questions">
-            <h5>Самые популярные вопросы</h5>
-            <div class="first-questions">
-                <p>Что такое гинекология?</p>
-                <div class="answer-first-questions">
-                <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
-                    лечением и профилактикой заболеваний женской половой системы.
-                    Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
-                </span>
+        <section>
+            <div class="popular-questions">
+                <h5>Самые популярные вопросы</h5>
+                <div class="faq">
+                    <div data-fold class="faq__item">
+                        <button data-fold-btn class="faq__btn">
+                            Что такое гинекология?
+                        </button>
+                        <div data-fold-content class="faq__content">
+                            <p>
+                                Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
+                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
+                                «женский» врач. Гинекология неразрывно связана с акушерством.
+                            </p>
+
+                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
+                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
+                            <p>
+                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
+                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
+                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
+                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
+                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-fold class="faq__item">
+                        <button data-fold-btn class="faq__btn">
+                            Где лучше лечить женские заболевания?
+                        </button>
+                        <div data-fold-content class="faq__content">
+                            <p>
+                                Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
+                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
+                                «женский» врач. Гинекология неразрывно связана с акушерством.
+                            </p>
+
+                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
+                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
+                            <p>
+                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
+                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
+                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
+                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
+                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-fold class="faq__item">
+                        <button data-fold-btn class="faq__btn">
+                            Посоветуйте центр гинекологии
+                        </button>
+                        <div data-fold-content class="faq__content">
+                            <p>
+                                Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
+                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
+                                «женский» врач. Гинекология неразрывно связана с акушерством.
+                            </p>
+
+                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
+                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
+                            <p>
+                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
+                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
+                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
+                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
+                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
-            <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
-        </div>
+        </section>
 
         <div class="info-about-project">
             <div class="info-about-project__left">
@@ -369,46 +429,24 @@
                 </div>
             </div>
         </div>
+
+
         <div class="relinks">
             <div class="relinks__body">
                 <div data-fold class="relinks__column">
                     <b class="relinks__column-title">Врачи по районам:</b>
                     <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Арбат
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Басманный
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Замоскворечье
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Красносельский
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Мещанский
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Пресненский
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Таганский
-                            </a>
-                        </li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Арбат</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Басманный</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Замоскворечье</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Красносельский</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Мещанский</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Пресненский</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Таганский</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Таганский</a></li>
                     </ul>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
@@ -419,31 +457,17 @@
                 <div data-fold class="relinks__column">
                     <b class="relinks__column-title">Врачи рядом с метро:</b>
                     <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Авиамоторная
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Автозаводская
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Академическая
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Александровский сад
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Алексеевская
-                            </a>
-                        </li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Авиамоторная</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Автозаводская</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Академическая</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Александровский сад</a></li>
+
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Алексеевская</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Алексеевская</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Арбат</a></li>
                     </ul>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
@@ -472,6 +496,30 @@
                             </a>
                         </li>
                         <li class="relinks__item">
+                            <a href="" class="relinks__link">
+                                <img src="/images/sinay.png">
+                                «Синай»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/euromed.png">
+                                «Евромед»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/open-clinic.png">
+                                «Открытая клиника»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/moscow-clinic.png">
+                                «Московская клиника»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
                             <a href="" class="relinks__link">
                                 <img src="/images/sinay.png">
                                 «Синай»

@@ -118,115 +118,322 @@
         </div>
 
         <div class="appointment-container">
-            <div class="appointment-body">
+            <div data-fold class="appointment-body">
                 <div class="appointment">
                     <div class="appointment__left">
-                        <div class="appointment__clinic-name"><a href="#">Клиника на Текстильщиках</a></div>
-                        <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
-                        <div class="appointment__clinic-address">г. Москва, ул. Люблинская, д. 9 к. 1
-                        </div>
-                        <div class="appointment__clinic-metro">
-                            <ul>
-                                <li>
-                                    <img src="/images/Ellipse%2027.png">
-                                    <b>Текстильщики (338м)</b>
-                                </li>
-                                <li><img src="/images/Ellipse%2028.png">
-                                    Печатники (2,1км)
-                                </li>
-                                <li><img src="/images/Ellipse%2029.png">
-                                    Стахановская (2,2км)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="appointment__right"><img src="/images/image%2017.png"></div>
-                </div>
-                <div class="appointment__popular-clinic-procedure">
-                    <ul>
-                        <li> Акушер (от 18 лет)
-                            <div class="appointment__price"><p>1520₽</p>
-                                <span>1900₽</span></div>
-                        </li>
-                        <li>Гинеколог (от 18 лет)
-                            <div class="appointment__price"><p>1520₽</p>
-                                <span>1900₽</span></div>
-                        </li>
-                        <li>Гинеколог-эндокринолог (от 18 лет)
-                            <div class="appointment__price"><p>1520₽</p>
-                                <span>1900₽</span></div>
-                        </li>
-                        <li>Маммолог (от 18 лет)
-                            <div class="appointment__price"><p>1520₽</p>
-                                <span>1900₽</span></div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="doctor-price-promotion">
-                    <div class="doctor-promotion">
-                        <p>Акция!
-                            <img src="/images/grey-alert.png">
-                        </p>
-                        <b>1900 ₽
-                            <span>-20%</span></b>
-                    </div>
-                    <div class="doctor-old-price">
-                        <p>Цена приёма</p>
-                        <b>1900 ₽</b>
-                    </div>
-                </div>
-
-                <div class="appointment__timeslot">
-                    <h4>Выбрать дату</h4>
-                    <div class="appointment__timeslot-container">
-                        <div class="grey-col"></div>
-                        <div class="appointment-date">
-                            <ul>
-                                <li><a href="#"><b>Понедельник 21.03.</b></a></li>
-                                <li><a href="#">Вторник 22.03</a></li>
-                                <li><a href="#">Среда 23.03.</a></li>
-                                <li><a href="#">Четверг 24.03.</a></li>
-                            </ul>
-                        </div>
-                        <div class="appointment-center">
-                            <b>Для записи на удобное вам время заполните форму:</b>
-                            <div class="appointment-record-container">
-                                <div class="appointment-record">
-                                    <div class="appointment__name-patient">
-                                        <input required placeholder="Имя, Фамилия" class="form-control"
-                                               id="name-patient"
-                                               type="text"
-                                               maxlength="500"
-                                               value="">
-
-                                    </div>
-                                    <div class="appointment__phone-patient">
-                                        <input required placeholder="Номер телефона" class="form-control"
-                                               id="phone-patient"
-                                               type="text"
-                                               maxlength="500"
-                                               value="">
-                                    </div>
-                                </div>
-                                <a href="#" class="record__btn">Записаться</a>
+                        <button data-fold-btn class="faq__btn">
+                            <div class="appointment__clinic-name"><a href="#">Клиника на Текстильщиках</a>
+                                <div class="appointment__clinic-address">г. Москва, ул. Люблинская, д. 9 к. 1</div>
                             </div>
-                            <span>Или позвоните по телефону<a href="#"
-                                                               class="appointment-phone">(499) 123-34-56</a></span>
+                        </button>
+                    </div>
+                </div>
+                <div data-fold-content class="clinic-card__content">
+                    <div class="appointment__geo-clinic">
+                        <div class="appointment__geo-left">
+                            <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
+                            <div class="appointment__clinic-metro">
+                                <ul>
+                                    <li>
+                                        <img src="/images/Ellipse%2027.png">
+                                        <b>Текстильщики (338м)</b>
+                                    </li>
+                                    <li><img src="/images/Ellipse%2028.png">
+                                        Печатники (2,1км)
+                                    </li>
+                                    <li><img src="/images/Ellipse%2029.png">
+                                        Стахановская (2,2км)
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        <div class="appointment__right"><img src="/images/image%2017.png"></div>
+                    </div>
+                    <div class="appointment__popular-clinic-procedure">
+                        <ul>
+                            <li> Акушер (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Гинеколог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Гинеколог-эндокринолог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Маммолог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                        </ul>
                     </div>
 
+                    <div class="doctor-price-promotion">
+                        <div class="doctor-promotion">
+                            <p>Акция!
+                                <img src="/images/grey-alert.png">
+                            </p>
+                            <b>1520 ₽
+                                <span>-20%</span></b>
+                        </div>
+                        <div class="doctor-old-price">
+                            <p>Цена приёма</p>
+                            <b>1900 ₽</b>
+                        </div>
+                    </div>
+                    <div class="appointment__timeslot">
+                        <h4>Выбрать дату</h4>
+                        <div class="appointment__timeslot-container">
+                            <div class="grey-col"></div>
+                            <div class="appointment-date">
+                                <ul>
+                                    <li><a href="#"><b>Понедельник 21.03.</b></a></li>
+                                    <li><a href="#">Вторник 22.03</a></li>
+                                    <li><a href="#">Среда 23.03.</a></li>
+                                    <li><a href="#">Четверг 24.03.</a></li>
+                                </ul>
+                            </div>
+                            <div class="appointment-center">
+                                <b>Для записи на удобное вам время заполните форму:</b>
+                                <div class="appointment-record-container">
+                                    <div class="appointment-record">
+                                        <div class="appointment__name-patient">
+                                            <input required placeholder="Имя, Фамилия" class="form-control"
+                                                   id="name-patient"
+                                                   type="text"
+                                                   maxlength="500"
+                                                   value="">
 
+                                        </div>
+                                        <div class="appointment__phone-patient">
+                                            <input required placeholder="Номер телефона" class="form-control"
+                                                   id="phone-patient"
+                                                   type="text"
+                                                   maxlength="500"
+                                                   value="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="record__btn">Записаться</a>
+                                </div>
+                                <span>Или позвоните по телефону<a href="#"
+                                                                  class="appointment-phone">(499) 123-34-56</a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="appointment-body">
-                <div class="appointment__clinic-name"><a href="#">Клиника на Текстильщиках</a></div>
-                <div class="appointment__clinic-address">г. Москва, ул. Люблинская, д. 9 к. 1
+            <div data-fold class="appointment-body">
+                <div class="appointment">
+                    <div class="appointment__left">
+                        <button data-fold-btn class="faq__btn">
+                            <div class="appointment__clinic-name"><a href="#">Клиника на Текстильщиках</a>
+                                <div class="appointment__clinic-address">г. Москва, ул. Люблинская, д. 9 к. 1</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div data-fold-content class="clinic-card__content">
+                    <div class="appointment__geo-clinic">
+                        <div class="appointment__geo-left">
+                            <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
+                            <div class="appointment__clinic-metro">
+                                <ul>
+                                    <li>
+                                        <img src="/images/Ellipse%2027.png">
+                                        <b>Текстильщики (338м)</b>
+                                    </li>
+                                    <li><img src="/images/Ellipse%2028.png">
+                                        Печатники (2,1км)
+                                    </li>
+                                    <li><img src="/images/Ellipse%2029.png">
+                                        Стахановская (2,2км)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="appointment__right"><img src="/images/image%2017.png"></div>
+                    </div>
+                    <div class="appointment__popular-clinic-procedure">
+                        <ul>
+                            <li> Акушер (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Гинеколог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Гинеколог-эндокринолог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Маммолог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="doctor-price-promotion">
+                        <div class="doctor-promotion">
+                            <p>Акция!
+                                <img src="/images/grey-alert.png">
+                            </p>
+                            <b>1520 ₽
+                                <span>-20%</span></b>
+                        </div>
+                        <div class="doctor-old-price">
+                            <p>Цена приёма</p>
+                            <b>1900 ₽</b>
+                        </div>
+                    </div>
+                    <div class="appointment__timeslot">
+                        <h4>Выбрать дату</h4>
+                        <div class="appointment__timeslot-container">
+                            <div class="grey-col"></div>
+                            <div class="appointment-date">
+                                <ul>
+                                    <li><a href="#"><b>Понедельник 21.03.</b></a></li>
+                                    <li><a href="#">Вторник 22.03</a></li>
+                                    <li><a href="#">Среда 23.03.</a></li>
+                                    <li><a href="#">Четверг 24.03.</a></li>
+                                </ul>
+                            </div>
+                            <div class="appointment-center">
+                                <b>Для записи на удобное вам время заполните форму:</b>
+                                <div class="appointment-record-container">
+                                    <div class="appointment-record">
+                                        <div class="appointment__name-patient">
+                                            <input required placeholder="Имя, Фамилия" class="form-control"
+                                                   id="name-patient"
+                                                   type="text"
+                                                   maxlength="500"
+                                                   value="">
+
+                                        </div>
+                                        <div class="appointment__phone-patient">
+                                            <input required placeholder="Номер телефона" class="form-control"
+                                                   id="phone-patient"
+                                                   type="text"
+                                                   maxlength="500"
+                                                   value="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="record__btn">Записаться</a>
+                                </div>
+                                <span>Или позвоните по телефону<a href="#"
+                                                                  class="appointment-phone">(499) 123-34-56</a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="appointment-body">
-                <div class="appointment__clinic-name"><a href="#">Клиника на Текстильщиках</a></div>
-                <div class="appointment__clinic-address">г. Москва, ул. Люблинская, д. 9 к. 1
+            <div data-fold class="appointment-body">
+                <div class="appointment">
+                    <div class="appointment__left">
+                        <button data-fold-btn class="faq__btn">
+                            <div class="appointment__clinic-name"><a href="#">Клиника на Текстильщиках</a>
+                                <div class="appointment__clinic-address">г. Москва, ул. Люблинская, д. 9 к. 1</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div data-fold-content class="clinic-card__content">
+                    <div class="appointment__geo-clinic">
+                        <div class="appointment__geo-left">
+                            <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
+                            <div class="appointment__clinic-metro">
+                                <ul>
+                                    <li>
+                                        <img src="/images/Ellipse%2027.png">
+                                        <b>Текстильщики (338м)</b>
+                                    </li>
+                                    <li><img src="/images/Ellipse%2028.png">
+                                        Печатники (2,1км)
+                                    </li>
+                                    <li><img src="/images/Ellipse%2029.png">
+                                        Стахановская (2,2км)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="appointment__right"><img src="/images/image%2017.png"></div>
+                    </div>
+                    <div class="appointment__popular-clinic-procedure">
+                        <ul>
+                            <li> Акушер (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Гинеколог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Гинеколог-эндокринолог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                            <li>Маммолог (от 18 лет)
+                                <div class="appointment__price"><p>1520₽</p>
+                                    <span>1900₽</span></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="doctor-price-promotion">
+                        <div class="doctor-promotion">
+                            <p>Акция!
+                                <img src="/images/grey-alert.png">
+                            </p>
+                            <b>1520 ₽
+                                <span>-20%</span></b>
+                        </div>
+                        <div class="doctor-old-price">
+                            <p>Цена приёма</p>
+                            <b>1900 ₽</b>
+                        </div>
+                    </div>
+                    <div class="appointment__timeslot">
+                        <h4>Выбрать дату</h4>
+                        <div class="appointment__timeslot-container">
+                            <div class="grey-col"></div>
+                            <div class="appointment-date">
+                                <ul>
+                                    <li><a href="#"><b>Понедельник 21.03.</b></a></li>
+                                    <li><a href="#">Вторник 22.03</a></li>
+                                    <li><a href="#">Среда 23.03.</a></li>
+                                    <li><a href="#">Четверг 24.03.</a></li>
+                                </ul>
+                            </div>
+                            <div class="appointment-center">
+                                <b>Для записи на удобное вам время заполните форму:</b>
+                                <div class="appointment-record-container">
+                                    <div class="appointment-record">
+                                        <div class="appointment__name-patient">
+                                            <input required placeholder="Имя, Фамилия" class="form-control"
+                                                   id="name-patient"
+                                                   type="text"
+                                                   maxlength="500"
+                                                   value="">
+
+                                        </div>
+                                        <div class="appointment__phone-patient">
+                                            <input required placeholder="Номер телефона" class="form-control"
+                                                   id="phone-patient"
+                                                   type="text"
+                                                   maxlength="500"
+                                                   value="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="record__btn">Записаться</a>
+                                </div>
+                                <span>Или позвоните по телефону<a href="#"
+                                                                  class="appointment-phone">(499) 123-34-56</a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -821,8 +1028,8 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <a class="users__more-review">Показать ещё отзывы</a>
-                            <a class="users__record">Оставить отзыв</a>
+                            <a href="#" class="users__more-review">Показать ещё отзывы</a>
+                            <a href="#" class="users__record">Оставить отзыв</a>
                         </div>
                     </div>
                 </div>

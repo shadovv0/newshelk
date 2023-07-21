@@ -6,12 +6,14 @@
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <link rel="stylesheet" href="/files/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/files/air-datepicker.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
@@ -45,6 +47,20 @@
 </header>
 <div class="content">
     <div class="wrap">
+
+        <div class="category__container">
+            <h5>Контрацепция в Москве (114 клиник)</h5>
+            <div class="category__body">
+                <span>Обновлено 30.03.22</span>
+                <div class="category__sort">
+                    <div class="category__filter">Фильтровать список по:</div>
+                    <ul>
+                        <li class="category__filter-item"><a href="#">Клинике</a></li>
+                        <li class="category__filter-item"><a href="#">Району</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <div class="clinic-card__container">
             <div class="clinic-card">
@@ -178,40 +194,159 @@
             </div>
             <div class="clinic-card__footer">
                 <h3>Другие клиники сети</h3>
-                <div class="clinic-card__footer-container">
-                    <div class="clinic-card__footer-clinic">
-                        <span>Клиника на Текстильщиках</span>
-                        <div class="clinic-card__footer-clinic-reviews">
-                            <div class="clinic-card__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Печатниках</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
                             </div>
-                            <a href="#">14 отзывов</a>
                         </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                (499) 123-45-67
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <img src="/images/grey-map.png">
+                            <a href="#">Посмотреть на карте</a>
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/images/grey-alert.png">
+                        <a href="#">Условия для посещения</a>
                     </div>
                 </div>
-                <div class="clinic-card__footer-container">
-                    <div class="clinic-card__footer-clinic">
-                        <span>Клиника на Петровско-Разумовской</span>
-                        <div class="clinic-card__footer-clinic-reviews">
-                            <div class="clinic-card__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на  Петровско-Разумовской</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
                             </div>
-                            <a href="#">14 отзывов</a>
                         </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                (499) 123-45-67
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <img src="/images/grey-map.png">
+                            <a href="#">Посмотреть на карте</a>
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/images/grey-alert.png">
+                        <a href="#">Условия для посещения</a>
                     </div>
                 </div>
-                <div class="clinic-card__footer-container">
-                    <div class="clinic-card__footer-clinic">
-                        <span>Клиника в Солнцево</span>
-                        <div class="clinic-card__footer-clinic-reviews">
-                            <div class="clinic-card__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Солнцево</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
                             </div>
-                            <a href="#">14 отзывов</a>
                         </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                (499) 123-45-67
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <img src="/images/grey-map.png">
+                            <a href="#">Посмотреть на карте</a>
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/images/grey-alert.png">
+                        <a href="#">Условия для посещения</a>
                     </div>
                 </div>
             </div>
@@ -284,76 +419,159 @@
             </div>
             <div class="clinic-card-listing__footer">
                 <h3>Другие клиники сети</h3>
-                <div class="clinic-card__footer-container">
-                    <div class="clinic-card__footer-clinic">
-                        <span>Клиника на Печатниках</span>
-                        <div class="clinic-card__footer-clinic-reviews">
-                            <div class="clinic-card__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Печатниках</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
                             </div>
-                            <a href="#">14 отзывов</a>
                         </div>
-                    </div>
-                    <div class="clinic-card__footer-geo">
-                        <div class="clinic-card__footer-address">
-                            ул. Люблинская, д. 9 к. 1
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                (499) 123-45-67
+                            </div>
                         </div>
-                        <div class="clinic-card__footer-phone">
-                            <img src="/images/phone_24px.png">
-                            (499) 123-45-67
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
                         </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <img src="/images/grey-map.png">
+                            <a href="#">Посмотреть на карте</a>
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/images/grey-alert.png">
+                        <a href="#">Условия для посещения</a>
                     </div>
-                    <div class="clinic-card__footer-clinic-schedule">
-                        Часы приёма:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                    </div>
-                    <div class="clinic-card__footer-clinic-close">
-                        <img src="/images/timer_24px.png">
-                        Закроется через час
-                    </div>
-                    <div class="clinic-card__footer-metroes">
-                        <img src="/images/grey-map.png">
-                        <a href="#">Посмотреть на карте</a>
-                        <ul>
-                            <li class="clinic-card__footer-metro">
-                                <img src="/images/Ellipse%2027.png">
-                                Текстильщики (338м)
-                            </li>
-                            <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
-                                Печатники (2,1км)
-                            </li>
-                            <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
-                                Стахановская (2,2км)
-                            </li>
-                        </ul>
-                    </div>
-                    <img src="/images/grey-alert.png">
-                    <a href="#">Условия для посещения</a>
                 </div>
 
-                <div class="clinic-card__footer-container">
-                    <div class="clinic-card__footer-clinic">
-                        <span>Клиника на Петровско-Разумовской</span>
-                        <div class="clinic-card__footer-clinic-reviews">
-                            <div class="clinic-card__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на  Петровско-Разумовской</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
                             </div>
-                            <a href="#">14 отзывов</a>
                         </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                (499) 123-45-67
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <img src="/images/grey-map.png">
+                            <a href="#">Посмотреть на карте</a>
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/images/grey-alert.png">
+                        <a href="#">Условия для посещения</a>
                     </div>
                 </div>
-                <div class="clinic-card__footer-container">
-                    <div class="clinic-card__footer-clinic">
-                        <span>Клиника в Солнцево</span>
-                        <div class="clinic-card__footer-clinic-reviews">
-                            <div class="clinic-card__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Солнцево</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
                             </div>
-                            <a href="#">14 отзывов</a>
                         </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                (499) 123-45-67
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <img src="/images/grey-map.png">
+                            <a href="#">Посмотреть на карте</a>
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="clinic-card__footer-metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/images/grey-alert.png">
+                        <a href="#">Условия для посещения</a>
                     </div>
                 </div>
             </div>
@@ -389,7 +607,8 @@
                     </div>
                     <div class="clinic-card__text-block">
                         Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших
+                        специалистов.
                     </div>
                     <div class="clinic-card__doctors">
                         <a href="#doctors">
@@ -425,13 +644,16 @@
             </div>
             <div class="clinic-card__popular-procedure">
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 1 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 2 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 3 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
             </div>
         </div>
@@ -446,20 +668,92 @@
             </div>
         </div>
 
-        <div class="popular-questions">
-            <h5>Самые популярные вопросы</h5>
-            <div class="first-questions">
-                <p>Что такое гинекология?</p>
-                <div class="answer-first-questions">
-                  <span>Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
-                    лечением и профилактикой заболеваний женской половой системы.
-                    Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с акушерством.
-                  </span>
+        <section>
+            <div class="popular-questions">
+                <h5>Самые популярные вопросы</h5>
+                <div class="faq">
+                    <div data-fold class="faq__item">
+                        <button data-fold-btn class="faq__btn">
+                            Что такое гинекология?
+                        </button>
+                        <div data-fold-content class="faq__content">
+                            <p>
+                                Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
+                                лечением
+                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
+                                «женский» врач. Гинекология неразрывно связана с акушерством.
+                            </p>
+
+                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
+                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
+                            <p>
+                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
+                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар
+                                на
+                                родоразрешение. В последнее время в российском здравоохранении введено ограничение
+                                на
+                                работу в родильных домах врачей женских консультаций. То есть российский акушер —
+                                врач
+                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-fold class="faq__item">
+                        <button data-fold-btn class="faq__btn">
+                            Где лучше лечить женские заболевания?
+                        </button>
+                        <div data-fold-content class="faq__content">
+                            <p>
+                                Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
+                                лечением
+                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
+                                «женский» врач. Гинекология неразрывно связана с акушерством.
+                            </p>
+
+                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
+                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
+                            <p>
+                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
+                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар
+                                на
+                                родоразрешение. В последнее время в российском здравоохранении введено ограничение
+                                на
+                                работу в родильных домах врачей женских консультаций. То есть российский акушер —
+                                врач
+                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-fold class="faq__item">
+                        <button data-fold-btn class="faq__btn">
+                            Посоветуйте центр гинекологии
+                        </button>
+                        <div data-fold-content class="faq__content">
+                            <p>
+                                Гинекология - это отрасль медицины, которая занимается изучением, диагностикой,
+                                лечением
+                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
+                                «женский» врач. Гинекология неразрывно связана с акушерством.
+                            </p>
+
+                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
+                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
+                            <p>
+                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
+                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар
+                                на
+                                родоразрешение. В последнее время в российском здравоохранении введено ограничение
+                                на
+                                работу в родильных домах врачей женских консультаций. То есть российский акушер —
+                                врач
+                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="second-questions"><p>Где лучше лечить женские заболевания?</p></div>
-            <div class="third-questions"><p>Посоветуйте центр гинекологии</p></div>
-        </div>
+        </section>
+
         <div class="info-about-project">
             <div class="info-about-project__left">
                 <p>Гинекологические клиники Москвы:
@@ -468,7 +762,8 @@
                     7195 отзывов пациентов,
                     цены на услуги от 500 до 533600 рублей,
                     номера телефонов, сайты, адреса, схемы проездаю
-                    Сделайте выбор из списка лучших гинекологических клиник в Москве и запишитесь на приём к врачу в два
+                    Сделайте выбор из списка лучших гинекологических клиник в Москве и запишитесь на приём к врачу в
+                    два
                     клика.</p>
             </div>
             <div class="info-about-project__right">
@@ -531,41 +826,21 @@
                 <div data-fold class="relinks__column">
                     <b class="relinks__column-title">Направления</b>
                     <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Акушерство
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Гинекология
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Аллергология
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Андрология
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Анестезиология
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Аритмолог
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Артролог
-                            </a>
-                        </li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Артролог
+                                (от 18 лет)</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Аллергология
+                                (от 18 лет)</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Аллергология
+                                (от 18 лет)</a></li>
                     </ul>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
@@ -576,31 +851,21 @@
                 <div data-fold class="relinks__column">
                     <b class="relinks__column-title">Услуги</b>
                     <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Акушер (от 18 лет)
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Гинеколог (от 18 лет)
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Гинеколог-эндокринолог (от 18 лет)
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Акушер (от 18 лет)
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                Гинеколог (от 18 лет)
-                            </a>
-                        </li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                лет)</a></li>
+                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Артролог
+                                (от 18 лет)</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Аллергология
+                                (от 18 лет)</a></li>
+                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                             class="relinks__link">Аллергология
+                                (от 18 лет)</a></li>
                     </ul>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
@@ -634,15 +899,39 @@
                                 «Синай»
                             </a>
                         </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/euromed.png">
+                                «Евромед»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/open-clinic.png">
+                                «Открытая клиника»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/moscow-clinic.png">
+                                «Московская клиника»
+                            </a>
+                        </li>
+                        <li data-fold-content class="relinks__item relinks__item--folded">
+                            <a href="" class="relinks__link">
+                                <img src="/images/sinay.png">
+                                «Синай»
+                            </a>
+                        </li>
                     </ul>
                     <button data-fold-btn="" class="relinks__more more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
                               class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
                     </button>
                 </div>
-
             </div>
         </div>
+
     </div>
 </div>
 <footer>
@@ -729,3 +1018,7 @@
 </footer>
 </body>
 </html>
+
+
+<script defer src="/js/swiper-bundle.min.js"></script>
+<script defer src="/js/air-datepicker.js"></script>
