@@ -6,7 +6,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
     background: none;
     vertical-align: baseline;
     font: inherit;
-    font-family: 'Montserrat';
 }
 
 .div {
@@ -21,7 +20,10 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 body {
+    /*
     background:  #F7F9FA !important;
+    */
+    background:  #0d7db6 !important;
 }
 
 html, body {
@@ -62,11 +64,8 @@ html, body {
 .name-logo {
     color: rgba(0, 0, 0, 0.87);
     font-size: 30px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
+    font-weight: 300;
 }
 
 .head__search {
@@ -76,11 +75,7 @@ html, body {
 .menu-map {
     color: #516FA6;
     text-align: center;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
@@ -98,21 +93,17 @@ html, body {
 
 .search__title-service {
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-align: center;
     margin: 15px 0;
 }
 
 .search__clinic-doctor {
-    padding: 10px;
+    padding: 7px 10px;
     background: #FFFFFF;
     border-radius: 5px;
-    max-width: 340px;
-    width: 100%;
+    border: 1px solid #00000033;
 }
 
 .search__clinic-doctor img {
@@ -128,35 +119,26 @@ html, body {
 .search__docclinic {
     width: 100%;
     color: rgba(0, 0, 0, 0.40);
-    font-size: 13px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-size: 11px;
 }
 
 .search__city-metro {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    max-width: 340px;
-    width: 100%;
     background: #FFFFFF;
+    border: 1px solid #00000033;
 }
 
 .search__city-text {
     color: rgba(0, 0, 0, 0.40);
-    font-size: 13px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-size: 11px;
     width: 100%;
     display: flex;
 }
 
 .actions__btn {
-    padding: 5px 10px;
+    padding: 2px 10px;
     z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
@@ -165,6 +147,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .actions__doctors {
@@ -178,8 +162,6 @@ html, body {
 .actions__doctors h5 {
     color: rgba(0, 0, 0, 0.70);
     font-size: 15px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     line-height: 91.9%;
 }
@@ -197,14 +179,11 @@ html, body {
 .actions__doctors p {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
     line-height: 91.9%;
 }
 
 .search__btn {
-    padding: 5px 10px;
+    padding: 0 20px;
     z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
@@ -213,6 +192,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .actions__doctors-image img {
@@ -241,27 +222,20 @@ html, body {
     color: rgba(0, 0, 0, 0.70);
     text-align: right;
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: 91.9%;
 }
 
 .actions__doctors-house-text p {
     color: #000;
     text-align: right;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 108%;
 }
 
 .actions__services {
     border-radius: 4px;
-    background: rgba(255, 186, 127, 0.22);
+    background: rgba(81, 111, 166, 0.13);
     box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
-    display: flex;
+    position: relative;
 }
 
 .actions__services-text {
@@ -270,7 +244,7 @@ html, body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-end;
-    padding: 10px 15px;
+    padding: 15px;
     flex-direction: column;
 }
 
@@ -278,24 +252,19 @@ html, body {
     color: rgba(0, 0, 0, 0.70);
     text-align: right;
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: 91.9%;
 }
 
 .actions__services-image {
-    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .actions__services-text p {
     color: #000;
     text-align: right;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 108%;
 }
 
 .actions__mid {
@@ -324,6 +293,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
+    align-items: flex-start;
 }
 
 .actions__symptoms img {
@@ -339,19 +309,12 @@ html, body {
 .actions__symptoms-text p {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 108%;
 }
 
 .actions__symptoms-text h5 {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: 103.4%;
 }
 
 .actions__disease {
@@ -371,24 +334,18 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
+    align-items: flex-start;
 }
 
 .actions__disease-text h5 {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: 103.4%;
 }
 
 .actions__disease-text p {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 108%;
 }
 
 .actions__disease img {
@@ -412,19 +369,12 @@ html, body {
 .actions__all-count span {
     color: #FD7583;
     font-size: 24px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .actions__all-count p {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    margin: 0;
 }
 
 .actions__brand {
@@ -443,39 +393,24 @@ html, body {
 .actions__brand h5 {
     color: #000;
     font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .actions__brand p {
     color: rgba(0, 0, 0, 0.80);
     font-size: 13px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130.4%;
+    padding-right: 15px;
 }
 
 .popular-doctor {
     border-radius: 13px;
     background: #FFF;
-}
-
-.popular-doctor__title {
-    color: #000;
-    text-align: center;
-    font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 .popular-doctor__title h4 {
-    margin: 10px 0;
+    margin: 0;
+    padding: 15px 0;
 }
 
 
@@ -493,6 +428,7 @@ html, body {
 .popular-doctor__container {
     max-width: 350px;
     width: 100%;
+    margin: 10px 0;
 }
 
 .popular-doctor__doctor-card {
@@ -521,19 +457,12 @@ html, body {
 .popular-doctor__name {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .popular-doctor__price {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -545,33 +474,25 @@ html, body {
 .popular-doctor__price p {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    margin: 5px 10px;
+    margin: 0 10px;
 }
 
 .popular-doctor__price span {
     color: #FC5B5D;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     text-decoration: line-through;
 }
 
 .popular-doctor__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    width: 54px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 4px 2px;
+    padding: 1px 8px;
     margin-right: 10px;
 }
 
@@ -579,10 +500,7 @@ html, body {
     margin: 0;
     color: #FFF;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    margin-left: 5px;
 }
 
 .popular-doctor__count-review {
@@ -593,10 +511,6 @@ html, body {
 .popular-doctor__count-review a {
     color: rgba(0, 0, 0, 0.70);
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
     margin-left: 10px;
 }
@@ -612,40 +526,29 @@ html, body {
 .popular-doctor__metro {
     color: rgba(0, 0, 0, 0.70);
     font-size: 13px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+}
+
+.popular-doctor__metro img {
+    width: 7px;
+    margin-right: 3px;
 }
 
 .popular-doctor__address {
     color: #000;
     font-size: 11px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 10px;
 }
 
 .popular-doctor__spec {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 .popular-doctor__category-experience {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 
@@ -669,11 +572,8 @@ html, body {
     border-radius: 13px 13px 0px 0px;
     background: #516FA6;
     color: rgba(255, 255, 255, 0.87);
-    font-family: Montserrat;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -688,31 +588,20 @@ html, body {
     justify-content: space-between;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .other-clinics__clinic-record-phone a {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .other-clinics__title {
-    color: rgba(0, 0, 0, 0.87);
     font-size: 24px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     text-align: center;
-    margin: 40px 0;
+    padding: 15px 20px;
+    color: #000;
+    border-bottom: 1px solid #0000001A;
 }
 
 .other-clinics__photo img {
@@ -740,6 +629,7 @@ html, body {
 .other-clinics__container {
     max-width: 379px;
     width: 100%;
+    margin: 10px 0;
 }
 
 .other-clinics__clinic-card {
@@ -757,62 +647,42 @@ html, body {
 .other-clinics__clinic-name {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin-bottom: 10px;
 }
 
 .other-clinics__clinic-address {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin-bottom: 12px;
 }
 
 .other-clinics__clinic-metro {
     color: rgba(0, 0, 0, 0.30);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .other-clinics__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    width: 54px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 4px 2px;
+    padding: 1px 8px;
     margin-right: 10px;
 }
 
 .other-clinics__star p {
-    margin: 0;
     color: #FFF;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    margin: 0 0 0 5px;
 }
 
 .other-clinics__clinic-reviews a {
     color: rgba(0, 0, 0, 0.70);
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
     margin-left: 10px;
 }
@@ -827,29 +697,18 @@ html, body {
     color: #000;
     text-align: center;
     font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
 }
 
 .category__body span {
     color: rgba(0, 0, 0, 0.30);
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .category__filter-item a {
     color: #516FA6;
     text-align: center;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     text-decoration-line: none;
 }
 
@@ -879,31 +738,21 @@ html, body {
 
 .sort__filter {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding: 10px 0;
 }
 
 .sort__container h5 {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .sort__body span {
     color: rgba(0, 0, 0, 0.50);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .sort__items ul {
@@ -918,30 +767,19 @@ html, body {
 
 .sort__filter-item a {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: none;
 }
 
 .category__item span {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .category__item a {
     color: #516FA6;
     font-size: 15px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .category__item {
@@ -956,13 +794,18 @@ html, body {
 .category__container {
     border-radius: 13px;
     background: #FFF;
-    padding: 10px 15px;
+    padding: 10px;
+}
+
+.clinic-card__other-clinics {
+    padding: 0 15px;
 }
 
 .clinic-card {
-    margin: 15px 0;
+    margin: 30px 0 15px;
     border-radius: 13px;
     background: #FFF;
+    padding: 10px 0;
 }
 
 .clinic-card__head {
@@ -994,10 +837,7 @@ html, body {
 .clinic-card__name a {
     color: #000;
     font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
     text-decoration-line: none;
 }
 
@@ -1005,10 +845,6 @@ html, body {
 .clinic-card__reviews a {
     color: #728AB6;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: none;
     margin-left: 10px;
 }
@@ -1017,10 +853,6 @@ html, body {
     color: rgba(0, 0, 0, 0.70);
     text-align: center;
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .clinic-card__doctors {
@@ -1034,10 +866,6 @@ html, body {
 .clinic-card__doctors a {
     color: rgba(0, 0, 0, 0.50);
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: none;
     padding: 10px 0 0 10px;
 }
@@ -1045,11 +873,7 @@ html, body {
 .clinic-card__type-clinic {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .clinic-additional span {
@@ -1088,20 +912,12 @@ html, body {
     margin: 0;
     color: rgba(0, 0, 0, 0.70);
     text-align: center;
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .clinic-card__about-clinic {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 10px;
 }
 
@@ -1122,11 +938,7 @@ html, body {
 .clinic-card__popular-service li {
     color: rgba(0, 0, 0, 0.50);
     text-align: center;
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.30);
     max-width: 102px;
@@ -1139,22 +951,14 @@ html, body {
 
 .clinic-card__popular-service h3 {
     color: rgba(0, 0, 0, 0.50);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
     margin-top: 10px;
 }
 
 .clinic-card__email a {
     color: #516FA6;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .clinic-card__about-clinic p {
@@ -1164,51 +968,67 @@ html, body {
 .clinic-card__text-block {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .clinic-card__clinic-schedule {
     color: rgba(0, 0, 0, 0.70);
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+.clinic-card__clinic-schedule p {
     font-weight: 400;
-    line-height: normal;
-    margin: 10px 0;
+    max-width: 260px;
+    width: 100%;
+    margin: 0;
 }
 
 .clinic-card__clinic-close {
     color: #748CB8;
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 10px 0;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.clinic-card__clinic-close img {
+    margin-right: 5px;
 }
 
 .clinic-card__metro-near {
     color: rgba(0, 0, 0, 0.70);
     font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 600;
     margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clinic-card__metro-near img {
+    width: 8px;
+    margin-right: 5px;
 }
 
 .clinic-card__metro-far {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clinic-card__metro-far img {
+    margin-right: 5px;
+    width: 8px;
+}
+
+.clinic-card__metro-far img:last-child {
+    margin: 0 5px;
 }
 
 .clinic-card__phone {
@@ -1237,20 +1057,14 @@ html, body {
 
 .clinic-card__phones a {
     color: #000;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .clinic-card__phone {
     color: #516FA6;
     font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration-line: underline;
     margin: 5px 0 20px;
 }
@@ -1258,15 +1072,13 @@ html, body {
 .clinic-card__popular-procedure {
     margin: 10px 0;
     width: 100%;
+    padding: 0 15px;
 }
 
 .clinic-card__footer-clinic span {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration-line: underline;
     border-bottom: 1px solid #0000001A;
     padding: 5px 0;
@@ -1286,59 +1098,37 @@ html, body {
 
 .clinic-card__footer-clinic-close {
     color: #748CB8;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 5px 0;
 }
 
 .clinic-card__footer-address {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 5px 0;
 }
 
 .clinic-card__footer-phone a {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration-line: none;
 }
 
 .clinic-card__footer-clinic-schedule {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .clinic-card__footer-metro {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .clinic-card__footer-metro-far {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin-top: 8px;
 }
 
@@ -1351,11 +1141,7 @@ html, body {
 .clinic-card__footer-clinic-reviews a {
     margin-left: 10px;
     color: #728AB6;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: none;
 }
 
@@ -1363,10 +1149,6 @@ html, body {
     color: #000;
     padding: 7px 0;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 5px 0;
     display: flex;
     flex-direction: row;
@@ -1379,27 +1161,20 @@ html, body {
 .clinic-card__popular-procedure-price p {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 0 10px;
 }
 
 .clinic-card__popular-procedure-price span {
     color: #FC5B5D;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     text-decoration: line-through;
 }
 
 .clinic-card__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    padding: 3px 10px;
+    padding: 0 9px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1409,13 +1184,9 @@ html, body {
 
 .clinic-card__star p {
     margin: 0;
-    padding-left: 3px;
+    padding-left: 5px;
     color: #FFF;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .clinic-card__reviews {
@@ -1427,13 +1198,13 @@ html, body {
 
 .text-banner-head {
     margin: 10px 0 5px;
-    padding: 0 10px;
+    padding: 0 35px;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .text-banner {
@@ -1450,11 +1221,7 @@ html, body {
 
 .clinic-card__container span {
     color: rgba(0, 0, 0, 0.30);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .mobile-menu ul {
@@ -1468,11 +1235,7 @@ html, body {
 
 .mobile-menu a {
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     text-decoration-line: none;
     display: flex;
     flex-direction: column;
@@ -1496,22 +1259,15 @@ html, body {
     justify-content: space-between;
     text-align: right;
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     padding: 10px;
     margin: 15px 0;
 }
 
 .text-banner__text-block a {
     color: #000;
-    font-family: Montserrat;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding: 5px 0;
 }
 
@@ -1519,11 +1275,8 @@ html, body {
     border-radius: 13px 13px 0px 0px;
     background: #516FA6;
     color: rgba(255, 255, 255, 0.87);
-    font-family: Montserrat;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1534,11 +1287,8 @@ html, body {
 
 .clinic-phone {
     color: #000;
-    font-family: Montserrat;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration-line: none;
 }
 
@@ -1555,11 +1305,7 @@ html, body {
 
 .price-clinic__footer a {
     color: rgba(0, 0, 0, 0.30);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin-left: 5px;
 }
 
@@ -1575,11 +1321,8 @@ html, body {
 
 .price-clinic__name-service {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     border-bottom: 1px solid #0000001A;
     border-top: 1px solid #0000001A;
     padding: 5px 0;
@@ -1599,11 +1342,7 @@ html, body {
     border-bottom: 1px solid #0000001A;
     padding: 5px 0;
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1620,31 +1359,20 @@ html, body {
 
 .price-clinic__body a {
     color: #000;
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
 }
 
 .price__item p {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 0 8px 0 0;
 }
 
 .price__item span {
     color: #FC5B5D;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: line-through;
 }
 
@@ -1656,21 +1384,14 @@ html, body {
 
 .relinks__more {
     color: rgba(0, 0, 0, 0.50);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
 .license-clinic-title, .photo-clinic__title, .video-clinic__title {
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .media-clinic {
@@ -1750,21 +1471,15 @@ html, body {
 
 .doctor-card-clinic__clinic-name {
     color: #000;
-    font-family: Montserrat;
     font-size: 15px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 5px 0;
 }
 
 .doctor-card-clinic__phone a {
     color: #000;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .doctor-card__schedule {
@@ -1800,61 +1515,39 @@ html, body {
     margin: 0;
     padding: 5px 0;
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .doctor-card-clinic__doctor-spec-listing {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 5px 0;
 }
 
 .doctor-card-clinic__doctor-experiences-listing {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 5px 0;
 }
 
 .doctor-card-clinic__clinic-address {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .doctor-card__listing-title h5 {
     color: rgba(0, 0, 0, 0.80);
     border-bottom: 1px solid #0000001A;
     padding-bottom: 5px;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     width: 100%;
 }
 
 .doctor-card__contnet span {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .listing-container {
@@ -1867,13 +1560,10 @@ html, body {
 
 .doctor-card__listing__item h6 {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 18px;
     margin: 15px;
-    font-style: normal;
     padding: 5px 0;
     font-weight: 600;
-    line-height: normal;
     border-bottom: 1px solid #0000001A;
     border-top: 1px solid #0000001A;
 }
@@ -1962,11 +1652,7 @@ html, body {
 
 .user__social {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .user__status p {
@@ -1978,11 +1664,7 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
     align-items: center;
     margin: 10px 0;
@@ -1994,20 +1676,13 @@ html, body {
 
 .review-card__source-review {
     color: rgba(0, 0, 0, 0.50);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
 }
 
 .review-card__about-doctor {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding: 0 30px;
     display: flex;
     flex-direction: row;
@@ -2016,11 +1691,7 @@ html, body {
 
 .user__blocks p {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .user__answers-clinic {
@@ -2038,11 +1709,7 @@ html, body {
 
 .more-review {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     display: flex;
     justify-content: center;
 }
@@ -2066,11 +1733,23 @@ html, body {
 .popular-questions h5 {
     color: #000;
     font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
     text-align: center;
+    padding: 15px 0;
+}
+
+.red-btn {
+    color: #000;
+    font-size: 17px;
+    padding: 10px 30px;
+    margin: 5px 0;
+    background: rgba(253, 124, 125, 0.10);
+}
+
+.popular-questions {
+    border-radius: 13px;
+    background: #FFF;
+    margin: 15px 0;
 }
 
 
@@ -2086,22 +1765,15 @@ html, body {
     padding: 10px 40px;
 }
 
-info-about-project__right span {
+.info-about-project__right span {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    padding: 0 12px;
 }
 
 .info-about-project__left p {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding: 25px;
 }
 
@@ -2117,10 +1789,7 @@ info-about-project__right span {
 .review-card h5 {
     color: #000;
     font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
     text-align: center;
     padding: 15px 0 10px;
 }
@@ -2128,26 +1797,19 @@ info-about-project__right span {
 .review-card__name-patient {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .review-card__date {
     color: rgba(0, 0, 0, 0.70);
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 4px 0;
+    font-weight: 300;
 }
 
 .review-card__shield {
     color: rgba(81, 111, 166, 0.80);
     font-size: 12px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -2174,72 +1836,78 @@ info-about-project__right span {
     margin: 15px;
 }
 
-.review-card__source-review {
-    color: rgba(0, 0, 0, 0.50);
-    font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
 .review-card__comment {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .review-card__comment p {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 8px 0;
 }
 
+.review-card__comment span {
+    padding: 0 8px;
+    font-weight: 500;
+}
+
 .review-card__head {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 10px 0;
+    padding: 0 7px;
 }
 
 .review-card__left {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .review-card__right {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.review-card__bottom {
+.review-card__photo-clinic {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 10px 0;
+}
+
+.review-card__photo-clinic p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.review-card__photo-clinic span {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .review-card__mark {
     border-radius: 4px;
     background: rgba(102, 189, 122, 0.70);
-    width: 54px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 4px 2px;
+    padding: 2px 8px;
+    font-size: 20px;
     margin: 0;
     color: #FFFFFF;
+}
+
+.review-card__mark img {
+    width: 20px;
+    margin-right: 6px;
 }
 
 
@@ -2314,14 +1982,14 @@ info-about-project__right span {
 }
 
 .relinks__item img {
-    width: 30px;
+    width: 39px;
     margin-right: 10px;
 }
 
 .relinks__column {
     border-radius: 13px;
     background: #FFF;
-    padding: 10px 20px;
+    padding: 25px 20px;
     margin: 15px 0;
     display: flex;
     flex-direction: column;
@@ -2334,10 +2002,6 @@ info-about-project__right span {
 .relinks__link {
     color: #516FA6;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
@@ -2351,10 +2015,7 @@ info-about-project__right span {
 .breadcrumbs a {
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 300;
 }
 
 .breadcrumbs img {
@@ -2364,10 +2025,6 @@ info-about-project__right span {
 .breadcrumbs p {
     color: rgba(0, 0, 0, 0.50);
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin: 0;
 }
 
@@ -2388,20 +2045,12 @@ info-about-project__right span {
 
 .services__link {
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 147.9%;
 }
 
 .services__more {
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 147.9%;
     text-decoration-line: underline;
     text-align: center;
 }
@@ -2415,11 +2064,7 @@ info-about-project__right span {
 .disease__top-head {
     padding: 10px 10px 0;
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130.4%;
 }
 
 .disease__top-footer {
@@ -2430,22 +2075,14 @@ info-about-project__right span {
 
 .disease__nav  {
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
     padding: 5px;
 }
 
 .disease__top-right {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130.4%;
     padding: 10px;
 }
 
@@ -2455,20 +2092,12 @@ info-about-project__right span {
     padding: 20px;
     margin: 15px 0;
     color: #000;
-    font-family: Montserrat;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130.4%;
 }
 
 .disease__center-text {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130.4%;
 }
 
 .disease__center-text ul {
@@ -2478,11 +2107,7 @@ info-about-project__right span {
 .disease__footer {
     margin: 20px 0;
     color: rgba(0, 0, 0, 0.44);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130.4%;
     display: flex;
 }
 
@@ -2493,30 +2118,19 @@ info-about-project__right span {
 .popular-doctor__title {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     border-bottom: 1px solid #0000001A;
+    margin: 15px 20px;
 }
 
 .disease__review-card__name-patient span {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .disease__review-card__shield {
     color: rgba(81, 111, 166, 0.80);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
     padding: 10px 0;
 }
@@ -2546,11 +2160,8 @@ info-about-project__right span {
 .contact__container h2 {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .contact__head {
@@ -2562,29 +2173,19 @@ info-about-project__right span {
 .contact__address {
     padding: 10px;
     color: #000;
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
 }
 
 .contact__text-about {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
     padding: 0 10px;
 }
 
 .contact__schedule {
     padding: 15px;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .contact__map img {
@@ -2602,22 +2203,14 @@ info-about-project__right span {
 
 .contact__footer {
     color: #000;
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130.4%;
     display: flex;
     flex-direction: column;
 }
 
 .contact__phone a, .contact__mail a {
     color: #516FA6;
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130.4%;
     text-decoration-line: underline;
     display: flex;
     flex-direction: column;
@@ -2687,22 +2280,14 @@ info-about-project__right span {
 .doctor-card__title {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     border-bottom: 1px solid #00000019;
     padding: 10px 0;
 }
 
 .doctor-card__walking-metro {
     color: rgba(0, 0, 0, 0.30);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
 }
 
@@ -2716,11 +2301,8 @@ info-about-project__right span {
 
 .doctor-card__doctor-name a {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration-line: none;
 }
 
@@ -2728,10 +2310,6 @@ info-about-project__right span {
 .doctor-card__doctor-prices {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -2741,20 +2319,14 @@ info-about-project__right span {
 .doctor-card__doctor-prices p {
     color: #000;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 5px 10px;
 }
 
 .doctor-card__doctor-prices span {
     color: #FC5B5D;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration: line-through;
 }
 
@@ -2776,10 +2348,6 @@ info-about-project__right span {
     margin: 0;
     color: #FFF;
     font-size: 12px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .doctor-card__doctor-head-right {
@@ -2794,29 +2362,17 @@ info-about-project__right span {
 
 .doctors__clinic a {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .doctor-card__doctor-spec {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .doctor-card__doctor-experiences {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .doctor-card__doctor-experiences ul {
@@ -2841,20 +2397,13 @@ info-about-project__right span {
 
 .doctor-card__right span {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .doctor-card__record-clinic {
     color: #000;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     border-radius: 4px;
     background: rgba(81, 111, 166, 0.29);
     padding: 5px 15px;
@@ -2862,11 +2411,8 @@ info-about-project__right span {
 
 .doctor-card__geo p {
     color: rgba(0, 0, 0, 0.80);
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 10px 0;
     padding: 0 15px;
 }
@@ -2879,21 +2425,14 @@ info-about-project__right span {
 
 .doctor-card__metro {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding: 5px 0;
 }
 
 .doctor-card__clinic-phone a {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .doctor-card__time-slot {
@@ -2986,8 +2525,7 @@ info-about-project__right span {
     padding: 2px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .listing li {
@@ -3001,10 +2539,9 @@ info-about-project__right span {
     align-items: center;
     color: #516FA6;
     text-align: center;
-    font-family: SF Pro Text;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
+    margin: 0 3px;
     line-height: 20px;
 }
 
@@ -3021,11 +2558,7 @@ info-about-project__right span {
 
 .users__side-link {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
     margin: 15px 0;
 }
@@ -3047,11 +2580,7 @@ info-about-project__right span {
 }
 
 .review-doctor__mark-item a {
-    font-family: Montserrat;
     font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3063,21 +2592,14 @@ info-about-project__right span {
 
 .review-doctor__title {
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .review-card__head__bottom {
     display: flex;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     flex-direction: row;
     align-items: center;
 }
@@ -3100,11 +2622,7 @@ info-about-project__right span {
 
 .user__block p, .user__answer-place, .user__answer-date, .user__answer-content {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .user__avatar--no-photo {
@@ -3144,7 +2662,6 @@ info-about-project__right span {
 
 .info-about-doctor__title {
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -3157,11 +2674,7 @@ info-about-project__right span {
 
 .info-about-doctor__head span {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .info-about-doctor__body {
@@ -3171,11 +2684,8 @@ info-about-project__right span {
 
 .info-about-doctor__body-title {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-align: center;
 }
 
@@ -3183,31 +2693,19 @@ info-about-project__right span {
     border-radius: 4px;
     background: rgba(81, 111, 166, 0.30);
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     padding: 5px;
     width: max-content;
 }
 
 .information__card-title {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .information__card-name {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
 }
 
 .doctor-card-view__head {
@@ -3238,49 +2736,33 @@ info-about-project__right span {
 
 .doctor-card__surname-doctor {
     color: #000;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .doctor-card__name-doctor {
     color: #000;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin-bottom: 10px;
 }
 
 .doctor-card__experience-doctor {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .doctor-card-view__doctor-spec p, .doctor-card-view__doctor-category p, .doctor-card-view__doctor-degree p {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 2px 0;
 }
 
 .doctor-card-view__doctor-spec span, .doctor-card-view__doctor-category span, .doctor-card-view__doctor-degree span {
     color: #000;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .doctor-card-view__ambulance-house img {
@@ -3303,21 +2785,14 @@ info-about-project__right span {
 
 .doctor-card-view__doctor-price p {
     color: #000;
-    font-family: Montserrat;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 0 10px;
 }
 
 .doctor-card-view__doctor-price span {
     color: #FC5B5D;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: line-through;
 }
 
@@ -3327,11 +2802,7 @@ info-about-project__right span {
 
 .doctor-card-view__footer span {
     color: rgba(0, 0, 0, 0.40);
-    font-family: Montserrat;
     font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .price-doctor-clinic__container {
@@ -3342,31 +2813,20 @@ info-about-project__right span {
 
 .price-doctor-clinic__title {
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin-bottom: 10px;
     padding: 15px;
 }
 
 .price-doctor-clinic__title p {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .price-doctor-clinic__title a {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .price-doctor-clinic__footer {
@@ -3376,20 +2836,12 @@ info-about-project__right span {
 
 .price-doctor-clinic__footer a {
     color: rgba(0, 0, 0, 0.30);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .full-time-doctor {
     color: rgba(0, 0, 0, 0.60);
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
@@ -3423,10 +2875,6 @@ info-about-project__right span {
 .footer__about-clinic, .footer__for-patient, .footer__technical-info {
     color: #000;
     font-size: 13px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     margin: 5px 0;
 }
 
@@ -3437,10 +2885,7 @@ info-about-project__right span {
 .footer__body {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
-    width: 100%;
-    min-height: 100%;
-    padding: 20px 30px;
+    padding: 20px;
 }
 
 .linked-footer li {
@@ -3460,32 +2905,22 @@ info-about-project__right span {
 
 .linked-name {
     color: rgba(81, 111, 166, 0.80);
-    font-size: 15px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0 4px;
+    font-size: 13px;
     text-decoration-line: none;
+    padding-right: 5px;
 }
 
 .phone-footer {
     color: #516FA6;
     font-size: 24px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
 .reference-footer {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin: 10px 0;
 }
 
@@ -3511,20 +2946,12 @@ info-about-project__right span {
 .email-footer a {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .ooo-inn {
     color: rgba(0, 0, 0, 0.44);
     text-align: center;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     padding: 10px 0;
 }
 
@@ -3540,12 +2967,9 @@ info-about-project__right span {
 .last-in-footer {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
     padding: 10px 0;
+    font-weight: 200;
 }
 
 
@@ -3589,7 +3013,7 @@ info-about-project__right span {
         bottom: 0;
         z-index: -5;
         width: 140px;
-        height: 123px;
+        height: 126px;
     }
 
     .actions__brand {
@@ -3633,7 +3057,7 @@ info-about-project__right span {
         bottom: 0;
         z-index: -5;
         width: 145px;
-        height: 122px;
+        height: 126px;
     }
 
     .actions__services {
@@ -3644,19 +3068,16 @@ info-about-project__right span {
 
     .actions__services img {
         position: absolute;
-        right: 0;
+        left: 0;
         bottom: 0;
         z-index: -5;
-        width: 140px;
-        height: 130px;
     }
 
     .actions__items {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .search__container {
@@ -3666,8 +3087,15 @@ info-about-project__right span {
         align-items: center;
     }
 
+    .search__city-metro {
+        max-width: 340px;
+        width: 100%;
+    }
+
     .search__clinic-doctor {
         margin: 0 10px;
+        max-width: 340px;
+        width: 100%;
     }
 
     .clinic-card {
@@ -3749,15 +3177,6 @@ info-about-project__right span {
         display: flex;
         justify-content: center;
     }
-
-    .popular-doctor__doctors {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-around;
-        align-items: center;
-    }
 }
 
 @media (min-width: 1100px) {
@@ -3782,26 +3201,12 @@ info-about-project__right span {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 14px;
+    padding-bottom: 15px;
 }
-
-.faq__item {
-    color: #000;
-    font-size: 17px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    padding: 10px 30px;
-    background: rgba(253, 124, 125, 0.10);
-    line-height: normal;
-    margin: 10px 0;
-}
-
 
 .faq__btn {
-    font-weight: 700;
-    font-size: 1.375rem;
-    line-height: 136%;
+    font-weight: 400;
+    font-size: 14px;
     background: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3826,16 +3231,10 @@ info-about-project__right span {
 }
 
 .faq__content p {
+    margin: 0;
     color: #000;
     font-size: 14px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.faq__content p:first-child {
-    margin-top: 15px;
+    padding: 0 30px;
 }
 
 

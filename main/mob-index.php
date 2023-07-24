@@ -120,11 +120,17 @@
                     </div>
                     <div class="actions__services-text">
                         <h5>Медицинские услуги</h5>
-                        <p>Медицинские
-                            и косметологические услуги
-                            в клинике и на дому</p>
+                        <p>Медицинские и<br>
+                            косметологические<br>
+                            услуги в клинике и на<br>
+                            дому</p>
                         <a href="#" class="actions__btn">Выбрать услугу</a>
                     </div>
+                </div>
+                <div class="actions__brand">
+                    <h5>20 лет делаем вид что заботимся о вашем здоровье</h5>
+                    <p>Сервис начал свою работу в 2000 году под брендом Sharaga. Мы помогли миллионам людей получить
+                        помощь и продолжаем повышать качество медицинских услуг</p>
                 </div>
                 <div class="actions__all-count">
                     <span>1 000 000</span>
@@ -135,11 +141,6 @@
                     <p>проверенных клиник</p>
                     <span>6 400 000</span>
                     <p>отзывов реальных пациентов</p>
-                </div>
-                <div class="actions__brand">
-                    <h5>20 лет делаем вид что заботимся о вашем здоровье</h5>
-                    <p>Сервис начал свою работу в 2000 году под брендом Sharaga. Мы помогли миллионам людей получить
-                        помощь и продолжаем повышать качество медицинских услуг</p>
                 </div>
             </div>
         </div>
@@ -175,6 +176,7 @@
                         </div>
                         <div class="popular-doctor__body">
                             <div class="popular-doctor__metro">
+                                <img src="/images/ellipse15.png">
                                 Текстильщики (978м)
                             </div>
                             <div class="popular-doctor__address">
@@ -218,6 +220,7 @@
                         </div>
                         <div class="popular-doctor__body">
                             <div class="popular-doctor__metro">
+                                <img src="/images/ellipse15.png">
                                 Текстильщики (978м)
                             </div>
                             <div class="popular-doctor__address">
@@ -261,6 +264,7 @@
                         </div>
                         <div class="popular-doctor__body">
                             <div class="popular-doctor__metro">
+                                <img src="/images/ellipse15.png">
                                 Текстильщики (978м)
                             </div>
                             <div class="popular-doctor__address">
@@ -280,7 +284,7 @@
             </div>
         </div>
         <div class="other-clinics">
-            <h4 class="other-clinics__title">Другие клиники сети</h4>
+            <h4 class="other-clinics__title">Популярные клиники</h4>
             <div class="other-clinics__clinics">
                 <div class="other-clinics__container">
                     <div class="other-clinics__clinic-card">

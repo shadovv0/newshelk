@@ -48,7 +48,7 @@
                     <form name="search-form" class="search-form" action="/search/" method="GET">
                         <img src="/images/zoom.png">
                         <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn" href="#"></button>
+                        <button class="search-btn"></button>
                     </form>
                 </div>
             </div>
@@ -58,6 +58,21 @@
 <div class="content">
     <div class="wrap">
 
+        <h2 class="name-logo">НазваниеСайта</h2>
+        <div class="category__container">
+            <h5>Гинекологические клиники Москвы (114)</h5>
+            <div class="category__body">
+                <span>Обновлено 30.03.22</span>
+                <div class="category__sort">
+                    <ul>
+                        <li class="category__filter-item"><a href="#">Клиника</a></li>
+                        <li class="category__filter-item"><a href="#">Район</a></li>
+                        <li class="category__filter-item"><a href="#">Сортировка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div class="clinic-card">
             <div class="clinic-card__head">
                 <div class="clinic-card__photo-clinic">
@@ -75,10 +90,10 @@
                         <img src="/images/Star1.png">
                         <p>4,7</p>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <a href="#">14 отзывов</a>
                 </div>
                 <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
+                    г. Москва<br> ул. Люблинская, д. 9 к. 1
                 </div>
                 <div class="clinic-card__doctors">
                     <a href="#doctors">
@@ -89,11 +104,13 @@
             <div class="clinic-card__body">
                 <div class="clinic-card__text-block">
                     Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
                 </div>
                 <div class="clinic-card__clinic-schedule">
                     Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    <p>
+                        Пн-Пт 10:00-20:00 Сб 10:00-18:00
+                        Вс 10:00-19:00
+                    </p>
                 </div>
                 <div class="clinic-card__clinic-close">
                     <img src="/images/timer_24px.png">
@@ -113,7 +130,7 @@
                 </div>
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
-                        <img src="/images/phone_24px.png">
+                        <img src="/images/blue-phone.png">
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
@@ -141,10 +158,7 @@
                         <img src="/images/Star1.png">
                         <p>4,7</p>
                     </div>
-                    <a href="#">8 отзывов</a>
-                </div>
-                <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
+                    <a href="#">14 отзывов</a>
                 </div>
                 <div class="clinic-card__doctors">
                     <a href="#doctors">
@@ -155,182 +169,162 @@
             <div class="clinic-card__body">
                 <div class="clinic-card__text-block">
                     Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
                 </div>
-                <div class="clinic-card__clinic-schedule">
-                    Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                </div>
-                <div class="clinic-card__clinic-close">
-                    <img src="/images/timer_24px.png">
-                    Закроется через час
-                </div>
-                <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        <img src="/images/Ellipse%2027.png">
-                        Текстильщики (338м)
-                    </div>
-                    <div class="clinic-card__metro-far">
-                        <img src="/images/Ellipse%2028.png">
-                        Печатники (2,1км)
-                        <img src="/images/Ellipse%2029.png">
-                        Стахановская (2,2км)
-                    </div>
-                </div>
+            </div>
 
-                <div class="clinic-card__other-clinics">
-                    <div data-fold class="clinic-card__footer-container">
-                        <button data-fold-btn class="faq__btn">
-                            <div class="clinic-card__footer-clinic">
-                                <span>Клиника на Текстильщиках</span>
-                                <div class="clinic-card__footer-clinic-reviews">
-                                    <div class="clinic-card__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
-                                    </div>
-                                    <a href="#">14 отзывов</a>
+            <div class="clinic-card__other-clinics">
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Текстильщиках</span>
+                            <div class="clinic-card__reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
                                 </div>
-                            </div>
-                        </button>
-                        <div data-fold-content class="clinic-card__content">
-                            <div class="clinic-card__footer-clinic-schedule">
-                                Часы приёма:<br>
-                                Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                            </div>
-                            <div class="clinic-card__footer-clinic-close">
-                                <img src="/images/timer_24px.png">
-                                Закроется через час
-                            </div>
-                            <div class="clinic-card__footer-geo">
-                                <div class="clinic-card__footer-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="clinic-card__footer-phone">
-                                    <img src="/images/phone_24px.png">
-                                    <a href="#">(499) 123-45-67</a>
-                                </div>
-                            </div>
-                            <div class="clinic-card__footer-metroes">
-                                <ul>
-                                    <li class="clinic-card__footer-metro">
-                                        <img src="/images/Ellipse%2027.png">
-                                        <b>Текстильщики (338м)</b>
-                                    </li>
-                                    <li class="clinic-card__footer-metro-far">
-                                        <img src="/images/Ellipse%2028.png">
-                                        Печатники (2,1км)
-                                        <img src="/images/Ellipse%2029.png">
-                                        Стахановская (2,2км)
-                                    </li>
-                                </ul>
+                                <a href="#">14 отзывов</a>
                             </div>
                         </div>
-                    </div>
-                    <div data-fold class="clinic-card__footer-container">
-                        <button data-fold-btn class="faq__btn">
-                            <div class="clinic-card__footer-clinic">
-                                <span>Клиника на Текстильщиках</span>
-                                <div class="clinic-card__footer-clinic-reviews">
-                                    <div class="clinic-card__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
-                                    </div>
-                                    <a href="#">14 отзывов</a>
-                                </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__clinic-schedule">
+                            Часы приёма:<br>
+                            <p>
+                                Пн-Пт 10:00-20:00 Сб 10:00-18:00
+                                Вс 10:00-19:00
+                            </p>
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
                             </div>
-                        </button>
-                        <div data-fold-content class="clinic-card__content">
-                            <div class="clinic-card__footer-clinic-schedule">
-                                Часы приёма:<br>
-                                Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                            </div>
-                            <div class="clinic-card__footer-clinic-close">
-                                <img src="/images/timer_24px.png">
-                                Закроется через час
-                            </div>
-                            <div class="clinic-card__footer-geo">
-                                <div class="clinic-card__footer-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="clinic-card__footer-phone">
-                                    <img src="/images/phone_24px.png">
-                                    <a href="#">(499) 123-45-67</a>
-                                </div>
-                            </div>
-                            <div class="clinic-card__footer-metroes">
-                                <ul>
-                                    <li class="clinic-card__footer-metro">
-                                        <img src="/images/Ellipse%2027.png">
-                                        <b>Текстильщики (338м)</b>
-                                    </li>
-                                    <li class="clinic-card__footer-metro-far">
-                                        <img src="/images/Ellipse%2028.png">
-                                        Печатники (2,1км)
-                                        <img src="/images/Ellipse%2029.png">
-                                        Стахановская (2,2км)
-                                    </li>
-                                </ul>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
-                    </div>
-                    <div data-fold class="clinic-card__footer-container">
-                        <button data-fold-btn class="faq__btn">
-                            <div class="clinic-card__footer-clinic">
-                                <span>Клиника на Текстильщиках</span>
-                                <div class="clinic-card__footer-clinic-reviews">
-                                    <div class="clinic-card__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
-                                    </div>
-                                    <a href="#">14 отзывов</a>
-                                </div>
+                        <div class="clinic-card__metro">
+                            <div class="clinic-card__metro-near">
+                                <img src="/images/Ellipse%2027.png">
+                                Текстильщики (338м)
                             </div>
-                        </button>
-                        <div data-fold-content class="clinic-card__content">
-                            <div class="clinic-card__footer-clinic-schedule">
-                                Часы приёма:<br>
-                                Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
-                            </div>
-                            <div class="clinic-card__footer-clinic-close">
-                                <img src="/images/timer_24px.png">
-                                Закроется через час
-                            </div>
-                            <div class="clinic-card__footer-geo">
-                                <div class="clinic-card__footer-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="clinic-card__footer-phone">
-                                    <img src="/images/phone_24px.png">
-                                    <a href="#">(499) 123-45-67</a>
-                                </div>
-                            </div>
-                            <div class="clinic-card__footer-metroes">
-                                <ul>
-                                    <li class="clinic-card__footer-metro">
-                                        <img src="/images/Ellipse%2027.png">
-                                        <b>Текстильщики (338м)</b>
-                                    </li>
-                                    <li class="clinic-card__footer-metro-far">
-                                        <img src="/images/Ellipse%2028.png">
-                                        Печатники (2,1км)
-                                        <img src="/images/Ellipse%2029.png">
-                                        Стахановская (2,2км)
-                                    </li>
-                                </ul>
+                            <div class="clinic-card__metro-far">
+                                <img src="/images/Ellipse%2028.png">
+                                Печатники (2,1км)
+                                <img src="/images/Ellipse%2029.png">
+                                Стахановская (2,2км)
                             </div>
                         </div>
                     </div>
                 </div>
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Текстильщиках</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
+                            </div>
+                        </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                <a href="#">(499) 123-45-67</a>
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    <b>Текстильщики (338м)</b>
+                                </li>
+                                <li class="clinic-card__footer-metro-far">
+                                    <img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                    <img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div data-fold class="clinic-card__footer-container">
+                    <button data-fold-btn class="faq__btn">
+                        <div class="clinic-card__footer-clinic">
+                            <span>Клиника на Текстильщиках</span>
+                            <div class="clinic-card__footer-clinic-reviews">
+                                <div class="clinic-card__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">14 отзывов</a>
+                            </div>
+                        </div>
+                    </button>
+                    <div data-fold-content class="clinic-card__content">
+                        <div class="clinic-card__footer-clinic-schedule">
+                            Часы приёма:<br>
+                            Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        </div>
+                        <div class="clinic-card__footer-clinic-close">
+                            <img src="/images/timer_24px.png">
+                            Закроется через час
+                        </div>
+                        <div class="clinic-card__footer-geo">
+                            <div class="clinic-card__footer-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="clinic-card__footer-phone">
+                                <img src="/images/phone_24px.png">
+                                <a href="#">(499) 123-45-67</a>
+                            </div>
+                        </div>
+                        <div class="clinic-card__footer-metroes">
+                            <ul>
+                                <li class="clinic-card__footer-metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    <b>Текстильщики (338м)</b>
+                                </li>
+                                <li class="clinic-card__footer-metro-far">
+                                    <img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                    <img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <div class="clinic-card__footer">
-                    <div class="clinic-card__phone">
-                        <img src="/images/phone_24px.png">
-                        (499) 123-45-67
-                    </div>
-                    <a class="search__btn">
-                        Записаться в клинику
-                    </a>
+            <div class="clinic-card__footer">
+                <div class="clinic-card__phone">
+                    <img src="/images/blue-phone.png">
+                    (499) 123-45-67
                 </div>
+                <a class="search__btn">
+                    Записаться в клинику
+                </a>
             </div>
         </div>
 
@@ -351,10 +345,10 @@
                         <img src="/images/Star1.png">
                         <p>4,7</p>
                     </div>
-                    <a href="#">8 отзывов</a>
+                    <a href="#">14 отзывов</a>
                 </div>
                 <div class="clinic-card__address">
-                    г. Москва ул. Люблинская, д. 9 к. 1
+                    г. Москва<br> ул. Люблинская, д. 9 к. 1
                 </div>
                 <div class="clinic-card__doctors">
                     <a href="#doctors">
@@ -365,11 +359,13 @@
             <div class="clinic-card__body">
                 <div class="clinic-card__text-block">
                     Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                    Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
                 </div>
                 <div class="clinic-card__clinic-schedule">
                     Часы приёма:<br>
-                    Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    <p>
+                        Пн-Пт 10:00-20:00 Сб 10:00-18:00
+                        Вс 10:00-19:00
+                    </p>
                 </div>
                 <div class="clinic-card__clinic-close">
                     <img src="/images/timer_24px.png">
@@ -389,29 +385,40 @@
                 </div>
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
-                        <img src="/images/phone_24px.png">
+                        <img src="/images/blue-phone.png">
                         (499) 123-45-67
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
                     </a>
-                    <div class="clinic-card__popular-procedure">
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра
-                            <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра
-                            <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                        </div>
-                        <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра
-                            <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                        </div>
+
+                </div>
+            </div>
+            <div class="clinic-card__footer">
+                <div class="clinic-card__phone">
+                    <img src="/images/phone_24px.png">
+                    (499) 123-45-67
+                </div>
+                <a class="search__btn">
+                    Записаться в клинику
+                </a>
+                <div class="clinic-card__popular-procedure">
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 1 триместра
+                        <div class="prices"><p>1520₽</p><span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 2 триместра
+                        <div class="prices"><p>1520₽</p><span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 3 триместра
+                        <div class="prices"><p>1520₽</p><span>1900₽</span></div>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="listing">
             <ul>
@@ -429,7 +436,8 @@
             </ul>
         </div>
 
-        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909<br> оценок
+        </div>
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">
@@ -445,68 +453,47 @@
                 <h5>Самые популярные вопросы</h5>
                 <div class="faq">
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Что такое гинекология?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Что такое гинекология?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Где лучше лечить женские заболевания?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Где лучше лечить женские заболевания?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Посоветуйте центр гинекологии
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Посоветуйте центр гинекологии
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
@@ -544,19 +531,19 @@
                     <div class="review-card__left">
                         <div class="review-card__name-patient">
                             Имя +79225678902
+                            <div class="review-card__date">
+                                14.02.2022
+                            </div>
                         </div>
-                        <div class="review-card__date">
-                            14.02.2022
-                        </div>
-                        <div class="review-card__shield">
-                            <img src="/images/verifyied.png">
-                            Проверено
-                        </div>
-                    </div>
-                    <div class="review-card__right">
                         <div class="review-card__mark">
                             <img src="/images/Star1.png">
                             5
+                        </div>
+                    </div>
+                    <div class="review-card__right">
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
                         </div>
                         <div class="review-card__source-review">
                             ИсточникОтзыва
@@ -564,15 +551,17 @@
                     </div>
                 </div>
                 <div class="review-card__comment">
-                    Комментарий
+                    <span>Комментарий</span>
                     <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
                         ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
                 </div>
                 <div class="review-card__bottom">
                     <div class="review-card__photo-clinic">
                         <img src="/images/image%2033.png">
-                        Клиника
-                        АльтерМед
+                        <p>
+                            Клиника<br>
+                            <span>АльтерМед</span>
+                        </p>
                     </div>
                 </div>
             </div>
