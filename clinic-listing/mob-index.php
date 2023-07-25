@@ -515,7 +515,7 @@
             <div class="info-about-project__right">
                 <p>
                     <img src="/images/blue-alert.png">
-                    <span>Обратите внимание!</span>
+                    Обратите внимание!
                 </p>
                 <span>Информация на странице
                 представлена для ознакомления.

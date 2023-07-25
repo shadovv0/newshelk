@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
@@ -79,8 +79,8 @@
                         <img src="/images/image%2017.png">
                     </div>
                     <div class="contact__schedule">
-                        Часы работы офиса:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        Часы работы офиса:
+                        <span>Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00</span>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                         </textarea>
                     </div>
                 </div>
-                <a href="#" class="search__btn">Отправить</a>
+                <a href="#" class="send__btn">Отправить</a>
             </div>
         </div>
     </div>

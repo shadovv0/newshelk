@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
@@ -132,11 +132,11 @@
                         <p>Гайморит бывает острым и хроническим. По типу воспалительного процесса острая форма
                             заболевания
                             классифицируется на:</p>
-                        1. Катаральную (напоминает обычный насморк, может проявляться ощущением тяжести в области глаз
+                        <span>1. Катаральную (напоминает обычный насморк, может проявляться ощущением тяжести в области глаз
                         и щек).
                         <br>
                         2. Гнойную (в гайморовых пазухах накапливается гной, в результате боль становится очень
-                        сильной).
+                            сильной).</span>
                         <br>
                         <p><b>Хронический гайморит принято разделять на:</b></p>
                         <p>1.Катаральный (проявляется периодическими обострениями в виде заложенности носа).<br>
@@ -273,17 +273,17 @@
             </a>
         </div>
 
-
         <div class="info-about-project__right">
             <p>
                 <img src="/images/blue-alert.png">
-                <span>Обратите внимание!</span>
+                Обратите внимание!
             </p>
             <span>Информация на странице
                 представлена для ознакомления.
                 Для назначения лечения
                     обратитесь к врачу.</span>
         </div>
+
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">
@@ -293,11 +293,16 @@
                 <p>*Услуга бесплатная</p>
             </div>
         </div>
+
         <div class="breadcrumbs">
             <a href="#">Главная</a>
-            <a href="#">Медицинские услуги</a>
-            <p>Направления</p>
+            <img src="/images/bread-dot.png">
+            <a href="#">Заболевания</a>
+            <img src="/images/bread-dot.png">
+            <a href="#">Отоларингология</a>
+            <p>Гайморит</p>
         </div>
+
     </div>
 </div>
 <footer>

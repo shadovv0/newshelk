@@ -110,25 +110,34 @@
                 </div>
                 <div class="doctor-card__right">
                     <span>Выберите клинику сети:</span>
-                    <div class="doctor-card__record-clinic">
-                        Клиника в Текстильщиках
-                    </div>
-                    <div class="doctor-card__geo">
-                        <p>ул. Люблинская, д. 9 к. 1</p>
-                        <ul>
-                            <li class="doctor-card__metro">
-                                <img src="/images/Ellipse%2027.png">
-                                Текстильщики (338м)
-                            </li>
-                            <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
-                                Печатники (2,1км)
-                            </li>
-                            <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
-                                Стахановская (2,2км)
-                            </li>
-                        </ul>
-                        <img src="/images/phone_24px.png">
-                        <a href="#">(499) 123-45-67</a>
+                    <div class="doctor-card__record-clinic-fold">
+                        <!--<button data-fold-btn class="faq__btn">-->
+                            <div class="doctor-card__record-clinic">
+                                <select name="clinic" id="clinic-select" class="doctor-card__record-clinic-text">
+                                    <option class="choose-clinic" value="0">Клиника в Текстильщиках</option>
+                                    <option class="choose-clinic" value="0">Клиника в Марьино</option>
+                                    <option class="choose-clinic" value="0">Клиника на Проспекте Вернадского</option>
+                                    <option class="choose-clinic" value="0">Клиника в Беляево</option>
+                                </select>
+                            </div>
+                       <!-- </button>-->
+                        <div class="doctor-card__geo-disabled">
+                            <p>ул. Люблинская, д. 9 к. 1</p>
+                            <ul>
+                                <li class="doctor-card__metro-disabled">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="doctor-card__metro-disabled"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="doctor-card__metro-disabled"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                            <img src="/images/phone_24px.png">
+                            <a href="#">(499) 123-45-67</a>
+                        </div>
                     </div>
                     <span>Выберите удобное время для записи онлайн:</span>
                     <div class="doctor-card__time-slot">
@@ -208,30 +217,17 @@
 
                 </div>
                 <div class="doctor-card__right">
-                    <span>Выберите клинику сети:</span>
                     <div class="doctor-card__record-clinic">
                         Клиника в Текстильщиках
                     </div>
-                    <div class="doctor-card__geo">
+                    <div class="doctor-card__geo-disabled">
                         <p>ул. Люблинская, д. 9 к. 1</p>
                         <ul>
-                            <li class="doctor-card__metro">
+                            <li class="doctor-card__metro-disabled">
                                 <img src="/images/Ellipse%2027.png">
                                 Текстильщики (338м)
                             </li>
-                            <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
-                                Печатники (2,1км)
-                            </li>
-                            <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
-                                Стахановская (2,2км)
-                            </li>
                         </ul>
-                        <img src="/images/phone_24px.png">
-                        <a href="#">(499) 123-45-67</a>
-                    </div>
-                    <span>Выберите удобное время для записи онлайн:</span>
-                    <div class="doctor-card__time-slot">
-
                     </div>
                 </div>
             </div>
@@ -274,25 +270,29 @@
                     </div>
                 </div>
                 <div class="doctor-card__right">
-                    <div class="doctor-card__record-clinic">
-                        Клиника в Текстильщиках
-                    </div>
-                    <div class="doctor-card__geo">
-                        <p>ул. Люблинская, д. 9 к. 1</p>
-                        <ul>
-                            <li class="doctor-card__metro">
-                                <img src="/images/Ellipse%2027.png">
-                                Текстильщики (338м)
-                            </li>
-                            <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
-                                Печатники (2,1км)
-                            </li>
-                            <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
-                                Стахановская (2,2км)
-                            </li>
-                        </ul>
-                        <img src="/images/phone_24px.png">
-                        <a href="#">(499) 123-45-67</a>
+                    <div data-fold class="doctor-card__record-clinic-fold">
+                        <button data-fold-btn class="faq__btn">
+                            <div class="doctor-card__record-clinic">
+                                Клиника в Текстильщиках
+                            </div>
+                        </button>
+                        <div data-fold-content class="doctor-card__geo">
+                            <p>ул. Люблинская, д. 9 к. 1</p>
+                            <ul>
+                                <li class="doctor-card__metro">
+                                    <img src="/images/Ellipse%2027.png">
+                                    Текстильщики (338м)
+                                </li>
+                                <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                    Печатники (2,1км)
+                                </li>
+                                <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                    Стахановская (2,2км)
+                                </li>
+                            </ul>
+                            <img src="/images/phone_24px.png">
+                            <a href="#">(499) 123-45-67</a>
+                        </div>
                     </div>
                     <div class="doctor-card__time-slot">
                         <div class="doctor-card__date">
@@ -351,80 +351,58 @@
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div><b>Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</b></div>
-                <div><b><a href="#">(499) 123-45-67</a></b> *Услуга бесплатная</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</div>
+                <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>
-
 
         <section>
             <div class="popular-questions">
                 <h5>Самые популярные вопросы</h5>
                 <div class="faq">
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Что такое гинекология?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Что такое гинекология?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Где лучше лечить женские заболевания?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Где лучше лечить женские заболевания?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Посоветуйте центр гинекологии
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Посоветуйте центр гинекологии
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
@@ -464,9 +442,11 @@
                         Манохина<br>
                         Дарья Даниловна
                     </div>
-                    <div class="doctor-review-card__star">
-                        <img src="/images/Star1.png">
-                        <p>4,7</p>
+                    <div class="reviews-count doctors__clinic">
+                        <div class="doctor-review-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
                     </div>
                 </div>
                 <div class="review-card__left">

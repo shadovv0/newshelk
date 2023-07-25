@@ -47,7 +47,7 @@
                     <form name="search-form" class="search-form" action="/search/" method="GET">
                         <img src="/images/zoom.png">
                         <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn" href="#"></button>
+                        <button class="search-btn"></button>
                     </form>
                 </div>
             </div>
@@ -57,13 +57,15 @@
 <div class="content">
     <div class="wrap">
         <div class="sort__container">
-            <h5>Гинекологи (114)</h5>
+            <h5>Гинекологи (378)</h5>
             <div class="sort__body">
                 <span>Обновлено 30.03.22</span>
                 <div class="sort__head">
-                    <div class="sort__items">
-                        <div class="sort__filter">Сортировать</div>
-                        <ul>
+                    <div data-fold class="sort__items">
+                        <button data-fold-btn class="faq__btn">
+                            <div class="sort__filter">Сортировать</div>
+                        </button>
+                        <ul data-fold-content>
                             <li class="sort__filter-item"><a href="#">По рейтингу</a></li>
                             <li class="sort__filter-item"><a href="#">По стажу</a></li>
                             <li class="sort__filter-item"><a href="#">По цене приёма</a></li>
@@ -92,7 +94,7 @@
                     <div class="doctor-card__doctor-head-right">
                         <div class="doctor-card__doctor-name">
                             <a href="#">
-                                Манохина Дарья Дмитриевна
+                                Манохина Дарья <br>Даниловна
                             </a>
                         </div>
                         <div class="doctor-card__doctor-prices">
@@ -106,7 +108,7 @@
                                 <p>4,7</p>
                             </div>
                             <a href="#reviews">
-                                14 отзывов
+                                8 отзывов
                             </a>
                         </div>
                     </div>
@@ -127,7 +129,12 @@
                     <div class="doctor-card__body-footer">
                         <span>Выберите клинику сети:</span>
                         <div class="doctor-card__record-clinic">
-                            Клиника в Текстильщиках
+                            <select name="clinic" id="clinic-select" class="doctor-card__record-clinic-text">
+                                <option class="choose-clinic" value="0">Клиника в Текстильщиках</option>
+                                <option class="choose-clinic" value="0">Клиника в Марьино</option>
+                                <option class="choose-clinic" value="0">Клиника на Проспекте Вернадского</option>
+                                <option class="choose-clinic" value="0">Клиника в Беляево</option>
+                            </select>
                         </div>
                         <div class="doctor-card__geo">
                             <p>ул. Люблинская, д. 9 к. 1</p>
@@ -201,7 +208,7 @@
                     <div class="doctor-card__doctor-head-right">
                         <div class="doctor-card__doctor-name">
                             <a href="#">
-                                Манохина Дарья Дмитриевна
+                                Манохина Дарья<br>Даниловна
                             </a>
                         </div>
                         <div class="doctor-card__doctor-prices">
@@ -281,7 +288,8 @@
         </div>
 
 
-        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909<br> оценок
+        </div>
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">
@@ -297,68 +305,47 @@
                 <h5>Самые популярные вопросы</h5>
                 <div class="faq">
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Что такое гинекология?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Что такое гинекология?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Где лучше лечить женские заболевания?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Где лучше лечить женские заболевания?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Посоветуйте центр гинекологии
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Посоветуйте центр гинекологии
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
@@ -366,27 +353,15 @@
             </div>
         </section>
 
-        <div class="info-about-project">
-            <div class="info-about-project__left">
-                <p>Гинекологические клиники Москвы:
-                    114 лечебных учреждений,
-                    2093 специалиста,
-                    7195 отзывов пациентов,
-                    цены на услуги от 500 до 533600 рублей,
-                    номера телефонов, сайты, адреса, схемы проездаю
-                    Сделайте выбор из списка лучших гинекологических клиник в Москве и запишитесь на приём к врачу в два
-                    клика.</p>
-            </div>
-            <div class="info-about-project__right">
-                <p>
-                    <img src="/images/blue-alert.png">
-                    <span>Обратите внимание!</span>
-                </p>
-                <span>Информация на странице
+        <div class="info-about-project__right">
+            <p>
+                <img src="/images/blue-alert.png">
+                Обратите внимание!
+            </p>
+            <span>Информация на странице
                 представлена для ознакомления.
                 Для назначения лечения
                     обратитесь к врачу.</span>
-            </div>
         </div>
 
         <div class="review-card">
@@ -396,19 +371,19 @@
                     <div class="review-card__left">
                         <div class="review-card__name-patient">
                             Имя +79225678902
+                            <div class="review-card__date">
+                                14.02.2022
+                            </div>
                         </div>
-                        <div class="review-card__date">
-                            14.02.2022
-                        </div>
-                        <div class="review-card__shield">
-                            <img src="/images/verifyied.png">
-                            Проверено
-                        </div>
-                    </div>
-                    <div class="review-card__right">
                         <div class="review-card__mark">
                             <img src="/images/Star1.png">
                             5
+                        </div>
+                    </div>
+                    <div class="review-card__right">
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
                         </div>
                         <div class="review-card__source-review">
                             ИсточникОтзыва
@@ -420,11 +395,23 @@
                     <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
                         ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
                 </div>
-                <div class="review-card__bottom">
-                    <div class="review-card__photo-clinic">
-                        <img src="/images/image%2033.png">
-                        Клиника
-                        АльтерМед
+                <div class="review-card__bottom-doctor">
+                    <div class="review-card__photo-doctor">
+                        <img src="/images/doctor.png">
+                        <div class="review-card__doctor-name__review">
+                            <a class="review-card__doctor-name" href="#">
+                                Манохина Д. Д.
+                            </a>
+                            <a class="review-card__count-review" href="#reviews">
+                                8 отзывов
+                            </a>
+                        </div>
+                    </div>
+                    <div class="reviews-count doctors__clinic">
+                        <div class="doctor-review-card__star">
+                            <img src="/images/Star1.png">
+                            <p>4,7</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -442,11 +429,14 @@
                         <li class="relinks__item"><a href="#" class="relinks__link">Красносельский</a></li>
                         <li class="relinks__item"><a href="#" class="relinks__link">Мещанский</a></li>
                         <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Пресненский</a></li>
+                                                                                             class="relinks__link">Пресненский</a>
+                        </li>
                         <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Таганский</a></li>
+                                                                                             class="relinks__link">Таганский</a>
+                        </li>
                         <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Таганский</a></li>
+                                                                                             class="relinks__link">Таганский</a>
+                        </li>
                     </ul>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
@@ -463,11 +453,14 @@
                         <li class="relinks__item"><a href="#" class="relinks__link">Александровский сад</a></li>
 
                         <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Алексеевская</a></li>
+                                                                                             class="relinks__link">Алексеевская</a>
+                        </li>
                         <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Алексеевская</a></li>
+                                                                                             class="relinks__link">Алексеевская</a>
+                        </li>
                         <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Арбат</a></li>
+                                                                                             class="relinks__link">Арбат</a>
+                        </li>
                     </ul>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"

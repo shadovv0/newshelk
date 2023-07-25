@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
@@ -55,7 +55,6 @@
 </header>
 <div class="content">
     <div class="wrap">
-        <h2 class="name-logo">Название сайта</h2>
         <div class="category__container">
             <div class="category__body">
                 <div class="category__sort">
@@ -83,7 +82,7 @@
                     </div>
                     <div class="contact__schedule">
                         Часы работы офиса:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                        <span>Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00</span>
                     </div>
                 </div>
                 <div class="contact__footer">
@@ -106,7 +105,7 @@
             <div class="feedback__body">
                 <div class="feedback__head">
                     <div class="feedback__name-patient">
-                        <input required placeholder="Ваше имя*" class="form-control"
+                        <input required placeholder="Ваше имя*" class="form-control name-record"
                                id="name-patient"
                                type="text"
                                maxlength="500"
@@ -114,7 +113,7 @@
 
                     </div>
                     <div class="feedback__phone-patient">
-                        <input required placeholder="Ваш телефон*" class="form-control"
+                        <input required placeholder="Ваш телефон*" class="form-control phone-record"
                                id="phone-patient"
                                type="text"
                                maxlength="500"
@@ -123,14 +122,14 @@
                 </div>
                 <div class="feedback__footer">
                     <div class="feedback__sms-patient">
-                        <textarea required placeholder="Ваше сообщение*" class="form-control"
+                        <textarea required placeholder="Ваше сообщение*" class="form-control sms-write"
                                   id="sms-patient"
                                   maxlength="500">
                         </textarea>
                     </div>
                 </div>
                 <div class="contact-btn">
-                    <a href="#" class="search__btn">Отправить</a>
+                    <a href="#" class="send__btn">Отправить</a>
                 </div>
             </div>
         </div>

@@ -20,10 +20,8 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 body {
-    /*
     background:  #F7F9FA !important;
-    */
-    background:  #0d7db6 !important;
+    /*background:  #0d7db6 !important;*/
 }
 
 html, body {
@@ -484,6 +482,10 @@ html, body {
     text-decoration: line-through;
 }
 
+.popular-doctor__star img {
+    width: 13px;
+}
+
 .popular-doctor__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
@@ -492,8 +494,8 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1px 8px;
     margin-right: 10px;
+    padding: 2px 12px;
 }
 
 .popular-doctor__star p {
@@ -508,10 +510,15 @@ html, body {
     align-items: center;
 }
 
+.popular-doctor__count {
+    display: flex;
+    align-items: center;
+}
+
 .popular-doctor__count-review a {
     color: rgba(0, 0, 0, 0.70);
     font-size: 12px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     margin-left: 10px;
 }
 
@@ -662,6 +669,10 @@ html, body {
     font-size: 14px;
 }
 
+.other-clinics__star img {
+    width: 13px;
+}
+
 .other-clinics__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
@@ -717,17 +728,23 @@ html, body {
     border: 1px solid #516FA6;
     list-style-type: none;
     padding: 3px 15px;
+    text-align: center;
     margin: 5px;
+    width: 98px;
 }
 
 .sort__container {
     border-radius: 13px;
     background: #FFF;
-    padding: 15px;
+    padding: 10px;
+}
+
+.sort__head {
+    padding: 0 10px;
 }
 
 .category__sort ul {
-    margin: 10px;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -747,18 +764,25 @@ html, body {
     color: #000;
     text-align: center;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .sort__body span {
     color: rgba(0, 0, 0, 0.50);
     font-size: 12px;
+    padding: 0 10px;
 }
 
 .sort__items ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .sort__filter-item {
@@ -998,6 +1022,10 @@ html, body {
     margin-right: 5px;
 }
 
+.clinic-card__metro {
+    margin: 0 8px 15px;
+}
+
 .clinic-card__metro-near {
     color: rgba(0, 0, 0, 0.70);
     font-size: 16px;
@@ -1180,6 +1208,10 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.clinic-card__star img {
+    width: 13px;
 }
 
 .clinic-card__star p {
@@ -1458,7 +1490,7 @@ html, body {
 }
 
 .photo-doctor img {
-    width: 70px;
+    width: 90px;
 }
 
 .doctor-card__listing {
@@ -1486,10 +1518,12 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .width-timeslot {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .record-btns img {
@@ -1752,23 +1786,31 @@ html, body {
     margin: 15px 0;
 }
 
-
 .info-about-project__right {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
     border-radius: 15px;
     border: 1px solid #516FA6;
     background: #FFF;
-    padding: 10px 40px;
+    padding: 10px 50px;
+}
+
+.info-about-project__right img {
+    margin-right: 5px;
+}
+
+.info-about-project__right p {
+    color: #516FA6;
+    font-size: 14px;
+    margin: 0 0 5px;
 }
 
 .info-about-project__right span {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    padding: 0 12px;
 }
 
 .info-about-project__left p {
@@ -1792,6 +1834,42 @@ html, body {
     font-weight: 500;
     text-align: center;
     padding: 15px 0 10px;
+}
+
+.review-card__photo-doctor img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.review-card__bottom-doctor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.review-card__photo-doctor {
+    display: flex;
+}
+
+.review-card__doctor-name__review {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.review-card__doctor-name {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.review-card__count-review {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .review-card__name-patient {
@@ -2064,7 +2142,7 @@ html, body {
 .disease__top-head {
     padding: 10px 10px 0;
     color: rgba(0, 0, 0, 0.80);
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .disease__top-footer {
@@ -2075,14 +2153,14 @@ html, body {
 
 .disease__nav  {
     color: rgba(81, 111, 166, 0.80);
-    font-size: 16px;
+    font-size: 12px;
     text-decoration-line: underline;
     padding: 5px;
 }
 
 .disease__top-right {
     color: rgba(0, 0, 0, 0.80);
-    font-size: 16px;
+    font-size: 13px;
     padding: 10px;
 }
 
@@ -2095,9 +2173,23 @@ html, body {
     font-size: 15px;
 }
 
+.disease__container {
+    margin: 20px 0 0;
+}
+
+.disease__bottom-text span {
+    color: #000;
+    font-size: 13px;
+}
+
+.disease__bottom-text p {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 13px;
+}
+
 .disease__center-text {
     color: rgba(0, 0, 0, 0.80);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .disease__center-text ul {
@@ -2115,8 +2207,13 @@ html, body {
     color: #516FA6CC;
 }
 
+.disease__footer-date p:last-child {
+    width: max-content;
+}
+
 .popular-doctor__title {
     color: #000;
+    font-weight: 400;
     text-align: center;
     font-size: 14px;
     border-bottom: 1px solid #0000001A;
@@ -2135,12 +2232,25 @@ html, body {
     padding: 10px 0;
 }
 
-.disease__review-card__name-patient p {
+.disease__review-card__name-patient b {
     margin: 10px 0 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disease__review-card__comment b {
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .disease__review-card__comment p {
     margin: 10px 0;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .second-container {
@@ -2161,7 +2271,7 @@ html, body {
     color: #000;
     text-align: center;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .contact__head {
@@ -2171,7 +2281,7 @@ html, body {
 }
 
 .contact__address {
-    padding: 10px;
+    padding: 10px 20px;
     color: #000;
     font-size: 13px;
 }
@@ -2179,13 +2289,18 @@ html, body {
 .contact__text-about {
     color: rgba(0, 0, 0, 0.80);
     font-size: 13px;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .contact__schedule {
-    padding: 15px;
+    padding: 10px 20px;
     color: rgba(0, 0, 0, 0.70);
     font-size: 16px;
+    font-weight: 300;
+}
+
+.contact__schedule span {
+    font-weight: 400;
 }
 
 .contact__map img {
@@ -2198,7 +2313,7 @@ html, body {
     background: #FFF;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
     margin: 10px 0;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .contact__footer {
@@ -2232,18 +2347,39 @@ html, body {
 
 .feedback__container h2 {
     text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
 }
 
 .feedback__name-patient {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .feedback__phone-patient {
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+.sms-write {
+    height: 150px;
+}
+
+.send__btn {
+    padding: 5px 20px;
+    border-radius: 22px;
+    background: rgba(252, 91, 93, 0.80);
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .feedback__sms-patient {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .doctors-card {
@@ -2270,6 +2406,9 @@ html, body {
 
 .doctor-card__body-footer span {
     padding: 0 15px;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .doctor-card__container-background {
@@ -2282,7 +2421,7 @@ html, body {
     text-align: center;
     font-size: 14px;
     border-bottom: 1px solid #00000019;
-    padding: 10px 0;
+    padding: 15px 10px;
 }
 
 .doctor-card__walking-metro {
@@ -2302,7 +2441,7 @@ html, body {
 .doctor-card__doctor-name a {
     color: #000;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration-line: none;
 }
 
@@ -2314,38 +2453,41 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin: 4px 0;
 }
 
 .doctor-card__doctor-prices p {
     color: #000;
     font-size: 12px;
-    font-weight: 600;
-    margin: 5px 10px;
+    font-weight: 500;
+    margin: 0 10px;
 }
 
 .doctor-card__doctor-prices span {
     color: #FC5B5D;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: line-through;
 }
 
+.doctor-review-card__star img {
+    width: 13px;
+}
 
 .doctor-review-card__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
-    width: 54px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 4px 2px;
+    padding: 1px 10px;
     margin-right: 10px;
 }
 
 .doctor-review-card__star p {
-    margin: 0;
+    margin: 0 0 0 8px;
     color: #FFF;
     font-size: 12px;
 }
@@ -2383,11 +2525,20 @@ html, body {
 
 .doctor-card__doctor-category {
     border-radius: 4px;
+    padding: 1px 3px;
     background: rgba(205, 189, 47, 0.29);
+}
+
+.choose-clinic {
+    color: rgba(81, 111, 166, 0.80);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-line: underline;
 }
 
 .doctor-card__doctor-degree {
     border-radius: 4px;
+    padding: 1px 3px;
     background: rgba(102, 189, 122, 0.40);
 }
 
@@ -2407,26 +2558,33 @@ html, body {
     border-radius: 4px;
     background: rgba(81, 111, 166, 0.29);
     padding: 5px 15px;
+    max-width: 350px;
+    width: 100%;
 }
 
 .doctor-card__geo p {
     color: rgba(0, 0, 0, 0.80);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 10px 0;
     padding: 0 15px;
 }
 
 .doctor-card__geo ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 10px;
     padding: 0 15px;
 }
 
 .doctor-card__metro {
     color: rgba(0, 0, 0, 0.70);
     font-size: 12px;
-    padding: 5px 0;
+    padding: 2px 5px;
+}
+
+.doctor-card__metro img {
+    width: 18px;
+    padding: 0 5px;
 }
 
 .doctor-card__clinic-phone a {
@@ -2440,7 +2598,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 .doctor-card__time {
@@ -2448,7 +2606,7 @@ html, body {
 }
 
 .radio__label {
-    margin: 10px;
+    margin: 7px;
     border-radius: 6px;
     background: #516FA6;
     color: #FFF;
@@ -2504,7 +2662,7 @@ html, body {
 }
 
 .record-btn {
-    padding: 5px 10px;
+    padding: 5px 28px;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
     color: #FFF;
@@ -2516,7 +2674,7 @@ html, body {
 }
 
 .doctor-card__clinic-phone {
-    padding: 0 15px;
+    padding: 0 24px 10px;
 }
 
 .listing ul {
@@ -2553,7 +2711,7 @@ html, body {
     border-radius: 13px;
     background: #FFF;
     padding: 15px;
-    margin: 15px 0;
+    margin: 15px 0 30px;
 }
 
 .users__side-link {
@@ -2590,10 +2748,15 @@ html, body {
     width: 35px;
 }
 
+.review-card__head-doctor {
+    margin: 10px 0;
+}
+
 .review-doctor__title {
     color: #000;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 0 20px;
 }
 
 .review-card__head__bottom {
@@ -2701,11 +2864,13 @@ html, body {
 .information__card-title {
     color: #000;
     font-size: 14px;
+    font-weight: 400;
 }
 
 .information__card-name {
     color: #000;
     font-size: 14px;
+    font-weight: 300;
 }
 
 .doctor-card-view__head {
@@ -2736,14 +2901,14 @@ html, body {
 
 .doctor-card__surname-doctor {
     color: #000;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .doctor-card__name-doctor {
     color: #000;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -2755,7 +2920,7 @@ html, body {
 .doctor-card-view__doctor-spec p, .doctor-card-view__doctor-category p, .doctor-card-view__doctor-degree p {
     color: #000;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 2px 0;
 }
 
@@ -2805,23 +2970,71 @@ html, body {
     font-size: 10px;
 }
 
-.price-doctor-clinic__container {
+.photo-doctor-popular img {
+    width: 70px;
+}
+
+.reviews-underline {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.clinic-drop-down-container {
     border-radius: 13px;
     background: #FFF;
+}
+
+.popular-doctor__doctor-card-district {
+    padding: 17px 20px;
+}
+
+.popular-doctor__doctor-info-district {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.popular-doctor__head-district {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.price-doctor-clinic__container {
     margin: 15px 0;
+    border-bottom: 1px solid #00000019;
+}
+
+.clinic-drop-down {
+    padding: 0 10px;
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .price-doctor-clinic__title {
+    padding: 10px 15px 0;
+}
+
+.price-doctor-clinic__title h4 {
     color: #000;
     font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    padding: 15px;
+    font-weight: 500;
 }
 
 .price-doctor-clinic__title p {
     color: rgba(0, 0, 0, 0.70);
     font-size: 18px;
+    font-weight: 400;
 }
 
 .price-doctor-clinic__title a {
@@ -2831,7 +3044,12 @@ html, body {
 
 .price-doctor-clinic__footer {
     margin: 10px 15px;
+}
 
+.clinic-map a {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .price-doctor-clinic__footer a {
@@ -2860,10 +3078,13 @@ html, body {
 .price-doctor-clinic__body ul {
     list-style-type: none;
     margin: 10px 0;
-    padding: 15px;
+    padding: 15px 8px;
 }
 
-
+.name-record, .phone-record {
+    max-width: 315px;
+    width: 100%;
+}
 
 
 
@@ -3177,6 +3398,27 @@ html, body {
         display: flex;
         justify-content: center;
     }
+
+    .feedback__head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .feedback__sms-patient {
+        width: 650px;
+    }
+
+    .feedback__name-patient, .feedback__phone-patient {
+        margin: 0 10px;
+    }
+
+    .feedback__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media (min-width: 1100px) {

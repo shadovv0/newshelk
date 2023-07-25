@@ -212,10 +212,12 @@
                 </button>
             </div>
         </section>
+
+
         <div class="info-about-project__right">
             <p>
                 <img src="/images/blue-alert.png">
-                <span>Обратите внимание!</span>
+                Обратите внимание!
             </p>
             <span>Информация на странице
                 представлена для ознакомления.
@@ -223,7 +225,7 @@
                     обратитесь к врачу.</span>
         </div>
 
-        <div class="text-banner-head">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+
         <div class="text-banner">
             <img src="/images/Vector%201.png">
             <img src="/images/sloi2.png">

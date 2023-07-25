@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
@@ -46,7 +46,6 @@
 <div class="content">
     <div class="wrap">
         <div class="search">
-            <h3 class="search__title">Категория поиска</h3>
             <div class="search__container">
                 <div class="search__clinic-doctor">
                     <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
@@ -156,7 +155,9 @@
         </div>
 
         <div class="disease__popular-doctor">
-            <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
+            <div class="popular-doctor__title">
+                <h4>Популярные врачи лечащие гайморит</h4>
+            </div>
             <div class="popular-doctor__doctors">
                 <div class="popular-doctor__container">
                     <div class="popular-doctor__doctor-card">
@@ -277,7 +278,7 @@
             <div class="disease__review-card__container">
                 <div class="disease__review-card__head">
                     <div class="disease__review-card__name-patient">
-                        <p><b>Имя +79225678902</b><span>14.02.2022</span></p>
+                        <p>Имя +79225678902<span>14.02.2022</span></p>
                     </div>
                     <div class="disease__review-card__shield">
                         <img src="/images/verifyied.png">
@@ -286,7 +287,7 @@
                 </div>
                 <div class="disease__review-card__footer">
                     <div class="disease__review-card__comment">
-                        <b>Комментарий</b>
+                        Комментарий
                         <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
                         </p>
@@ -296,7 +297,7 @@
             <div class="disease__review-card__container">
                 <div class="disease__review-card__head">
                     <div class="disease__review-card__name-patient">
-                        <p><b>Имя +79225678902</b><span>14.02.2022</span></p>
+                        <p>Имя +79225678902<span>14.02.2022</span></p>
                     </div>
                     <div class="disease__review-card__shield">
                         <img src="/images/verifyied.png">
@@ -305,7 +306,7 @@
                 </div>
                 <div class="disease__review-card__footer">
                     <div class="disease__review-card__comment">
-                        <b>Комментарий</b>
+                        Комментарий
                         <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
                         </p>
@@ -315,7 +316,7 @@
             <div class="disease__review-card__container">
                 <div class="disease__review-card__head">
                     <div class="disease__review-card__name-patient">
-                        <p><b>Имя +79225678902</b><span>14.02.2022</span></p>
+                        <p>Имя +79225678902<span>14.02.2022</span></p>
                     </div>
                     <div class="disease__review-card__shield">
                         <img src="/images/verifyied.png">
@@ -324,7 +325,7 @@
                 </div>
                 <div class="disease__review-card__footer">
                     <div class="disease__review-card__comment">
-                        <b>Комментарий</b>
+                        Комментарий
                         <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
                         </p>
@@ -354,21 +355,30 @@
                 Для назначения лечения
                     обратитесь к врачу.</span>
         </div>
+
         <div class="text-banner">
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div><b>Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</b></div>
-                <div><b><a href="#">(499) 123-45-67</a></b> *Услуга бесплатная</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909
+                    оценок
+                </div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе
+                    за 1 минуту
+                </div>
+                <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>
+
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Заболевания</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Отоларингология</a>
             <p>Гайморит</p>
         </div>
+
     </div>
 </div>
 <footer>

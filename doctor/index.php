@@ -471,8 +471,8 @@
                                 </button>
                             </div>
                             <div class="information__tabcontents">
-                                <h4>Опыт работы</h4>
                                 <div data-tabcontent="experience" class="information__tabcontent is-active">
+                                    <h4>Опыт работы</h4>
                                     <div class="information__tabcontent-body information__tabcontent-body--cards">
                                         <div class="information__card">
                                             <div class="information__card-date">2002 — 2005</div>
@@ -497,6 +497,7 @@
                                     </div>
                                 </div>
                                 <div data-tabcontent="education" class="information__tabcontent">
+                                    <h4>Образование</h4>
                                     <div class="information__tabcontent-body information__tabcontent-body--cards">
                                         <div class="information__card">
                                             <div class="information__card-date">2002 — 2005</div>
@@ -521,6 +522,7 @@
                                     </div>
                                 </div>
                                 <div data-tabcontent="level-up" class="information__tabcontent">
+                                    <h4>Повышение квалификации</h4>
                                     <div class="information__tabcontent-body information__tabcontent-body--cards">
                                         <div class="information__card">
                                             <div class="information__card-date">2002 — 2005</div>
@@ -546,50 +548,24 @@
                                 </div>
                                 <div data-tabcontent="photos"
                                      class="information__tabcontent information__tabcontent--photos">
+                                    <h4>Документы и фотографии</h4>
                                     <div class="information__tabcontent-body information__tabcontent-body--photos">
                                         <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/01.jpg" alt
+                                            <img loading="lazy" src="/images/license-clinic.png" alt
                                                  title/>
                                         </div>
                                         <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/02.jpg" alt
+                                            <img loading="lazy" src="/images/license-clinic.png" alt
                                                  title/>
                                         </div>
                                         <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/03.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/04.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/05.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/06.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/07.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/08.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/09.jpg" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="images/blocks/information-doctor/10.jpg" alt
-                                                 title/>
+                                            <img loading="lazy" src="/images/license-clinic.png" alt
+                                                  title/>
                                         </div>
                                     </div>
                                 </div>
                                 <div data-tabcontent="profiles" class="information__tabcontent">
+                                    <h4>Профиль лечения</h4>
                                     <div class="information__tabcontent-body information__tabcontent-body--cards information__tabcontent-body--profiles">
                                         <div class="information__profile">
                                             <p>22%</p> Бактериальный вагиноз
@@ -696,7 +672,7 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
@@ -707,11 +683,11 @@
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -722,7 +698,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -768,7 +744,7 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
@@ -779,11 +755,11 @@
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -794,7 +770,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -840,7 +816,7 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
@@ -851,11 +827,11 @@
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -866,7 +842,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -914,7 +890,7 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
@@ -925,11 +901,11 @@
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -940,7 +916,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -988,7 +964,7 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
@@ -999,11 +975,11 @@
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -1014,7 +990,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
