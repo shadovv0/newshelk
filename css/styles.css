@@ -151,7 +151,7 @@ body {
 }
 
 .search__btn {
-    padding: 0px 20px;
+    padding: 8px 23px;
     z-index: 5;
     font-weight: 600;
     border-radius: 22px;
@@ -510,6 +510,10 @@ body {
     text-decoration: line-through;
 }
 
+.popular-doctor__star img {
+    width: 13px;
+}
+
 .popular-doctor__star {
     border-radius: 10px;
     background: rgba(81, 111, 166, 0.80);
@@ -645,6 +649,10 @@ body {
 .other-clinics__clinic-metro {
     color: rgba(0, 0, 0, 0.30);
     font-size: 14px;
+}
+
+.other-clinics__star img {
+    width: 13px;
 }
 
 .other-clinics__star {
