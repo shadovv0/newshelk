@@ -167,7 +167,7 @@
                                 </div>
                                 <div class="popular-doctor__count-review">
                                     <div class="popular-doctor__star">
-                                        <img src="/images/Star%201%20(1).png">
+                                        <img src="/images/Star1.png">
                                         <p>4,7</p>
                                     </div>
                                     <a href="#">8 отзывов</a>
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="popular-doctor__count-review">
                                     <div class="popular-doctor__star">
-                                        <img src="/images/Star%201%20(1).png">
+                                        <img src="/images/Star1.png">
                                         <p>4,7</p>
                                     </div>
                                     <a href="#">8 отзывов</a>
@@ -253,7 +253,7 @@
                                 </div>
                                 <div class="popular-doctor__count-review">
                                     <div class="popular-doctor__star">
-                                        <img src="/images/Star%201%20(1).png">
+                                        <img src="/images/Star1.png">
                                         <p>4,7</p>
                                     </div>
                                     <a href="#">8 отзывов</a>
@@ -300,7 +300,7 @@
                                 </div>
                                 <div class="other-clinics__clinic-reviews">
                                     <div class="other-clinics__star">
-                                        <img src="/images/Star%201%20(1).png">
+                                        <img src="/images/Star1.png">
                                         <p>4,7</p>
                                     </div>
                                     <a href="#">8 отзывов</a>
@@ -327,7 +327,7 @@
                                 </div>
                                 <div class="other-clinics__clinic-reviews">
                                     <div class="other-clinics__star">
-                                        <img src="/images/Star%201%20(1).png">
+                                        <img src="/images/Star1.png">
                                         <p>4,7</p>
                                     </div>
                                     <a href="#">8 отзывов</a>
@@ -354,7 +354,7 @@
                                 </div>
                                 <div class="other-clinics__clinic-reviews">
                                     <div class="other-clinics__star">
-                                        <img src="/images/Star%201%20(1).png">
+                                        <img src="/images/Star1.png">
                                         <p>4,7</p>
                                     </div>
                                     <a href="#">8 отзывов</a>
