@@ -39,11 +39,11 @@
                         <a class="menu-item root-item" href="/symptoms/index.php">Симптомы</a>
                     </div>
                 </nav>
-                <div class="search__clinic-doctor searching">
+                <div class="search-doctor-view searching">
                     <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
                         <img src="/images/search-btn.png">
                         <input class="js-search-input" type="text"
-                               placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                               placeholder="Поиск: врач, клиника, болезнь, услуга" name="q" value=""/>
                     </form>
                 </div>
             </div>
@@ -55,7 +55,7 @@
 
         <div class="doctor-card">
             <div class="doctor-card__left view-doctor">
-                <div class="photo-doctor">
+                <div class="photo-doctor card-doctor-view">
                     <a href="#">
                         <img src="/images/card-doctor.png">
                     </a>
@@ -69,7 +69,7 @@
                         14 отзывов
                     </a>
                 </div>
-                <span>Обновлено 30.03.22</span>
+                <span>Обновлено 20.03.22</span>
             </div>
             <div class="doctor-card__center-views">
                 <div class="doctor-card__doctor-name">
