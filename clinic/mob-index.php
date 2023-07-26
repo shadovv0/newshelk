@@ -82,9 +82,9 @@
                     </div>
                 </div>
                 <div class="clinic-card__body">
-                    <div class="clinic-card__clinic-schedule">
-                        Часы приёма:<br>
-                        Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
+                    <div class="clinic-card__clinic-schedule-view">
+                        Часы приёма:
+                        <p>Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00</p>
                     </div>
                     <div class="clinic-card__ambulance-house">
                         <img src="/images/ambulance.png">
@@ -92,10 +92,13 @@
                     </div>
                     <div class="clinic-card__metro">
                         <div class="clinic-card__metro-near">
+                            <img src="/images/Ellipse%2027.png">
                             Текстильщики (338м)
                         </div>
                         <div class="clinic-card__metro-far">
+                            <img src="/images/Ellipse%2028.png">
                             Печатники (2,1км)
+                            <img src="/images/Ellipse%2029.png">
                             Стахановская (2,2км)
                         </div>
                     </div>
@@ -205,18 +208,19 @@
                                 </button>
                             </div>
                             <div data-fold-content class="doctor-card__contnet">
-                                <span>126 гинекологов</span>
                                 <div class="doctor-card__listing">
+                                    <div class="count-doctor-spec">126 гинекологов</div>
                                     <div class="doctor-card-clinic__head">
-                                        <div class="photo-doctor">
+                                        <div class="photo-doctor-listing">
                                             <a href="#">
-                                                <img src="/images/image%2016.png">
+                                                <img src="/images/doctor.png">
                                             </a>
                                         </div>
                                         <div class="doctor-card__listing-right">
                                             <div class="doctor-card__doctor-name">
                                                 <a href="#">
-                                                    Манохина Дарья Дмитриевна
+                                                    Манохина Дарья<br>
+                                                    Даниловна
                                                 </a>
                                             </div>
                                             <div class="popular-doctor__price">
@@ -230,7 +234,7 @@
                                                     <p>4,7</p>
                                                 </div>
                                                 <a href="#reviews">
-                                                    14 отзывов
+                                                    8 отзывов
                                                 </a>
                                             </div>
                                         </div>
@@ -240,7 +244,7 @@
                                             Клиника на Текстильщиках
                                         </div>
                                         <div class="doctor-card-clinic__clinic-address">
-                                            г. Москва ул. Люблинская, д. 9 к. 1
+                                            г. Москва,<br> ул. Люблинская, д. 9 к. 1
                                         </div>
                                         <div class="doctor-card-clinic__phone">
                                             <img src="/images/phone_24px.png">
@@ -302,7 +306,7 @@
                             </div>
                             <div data-fold-content class="doctor-card__contnet">
                                 <div class="doctor-card__listing">
-                                    <span>126 урологов</span>
+                                    <div class="count-doctor-spec">126 урологов</div>
                                     <div class="doctor-card-clinic__head">
                                         <div class="photo-doctor">
                                             <a href="#">
@@ -397,7 +401,7 @@
                                 </button>
                             </div>
                             <div data-fold-content class="doctor-card__contnet">
-                                <span>126 венерологов</span>
+                                <div class="count-doctor-spec">126 венерологов</div>
                                 <div class="doctor-card__listing">
                                     <div class="doctor-card-clinic__head">
                                         <div class="photo-doctor">
@@ -493,7 +497,7 @@
                                 </button>
                             </div>
                             <div data-fold-content class="doctor-card__contnet">
-                                <span>126 отоларингологов</span>
+                                <div class="count-doctor-spec">126 отоларингологов</div>
                                 <div class="doctor-card__listing">
                                     <div class="doctor-card-clinic__head">
                                         <div class="photo-doctor">
@@ -598,7 +602,7 @@
                 </div>
                 <div data-tabs-container class="users__wrapper">
                     <div class="users__side">
-                        <h4><b>Отзывы (14)</b></h4>
+                        <h4>Отзывы (14)</h4>
                         <div data-tabs class="users__tabs-marks mobile-overflow">
                             <a href="#" class="disable">Все</a>
                             <a href="#" class="green"><img src="/images/Star1.png">5</a>
@@ -634,27 +638,30 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="review-card__about-doctor">
-                                    <p>Отзыв о враче:
-                                        <br><b>Манохина Дарья Даниловная</b>
-                                    </p>
+                                <div class="review-card__head__bottom">
+                                    <img src="/images/review-geo.png">
+                                    <span>
+                                    <b>Клиника на Текстильщиках</b><br>
+                                    ул. Люблинская, д. 9 к. 1
+                                    </span>
                                 </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <b>Плюсы</b>
-                                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                                                Всегда внимательна, ничего лишнего не назначит и
-                                                тщательно разбирается в проблеме пациента!</p>
-                                        </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <b>Минусы</b>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__answer-clinic">
+                                <div class="review-card__head__bottom-doctor">
+                                    <img src="/images/review-human.png">
+                                    <span>Отзыв о враче:
+                                        <br><b>Манохина Дарья Даниловная</b>
+                                    </span>
+                                </div>
+                                <div class="review-card__comment">
+                                    Плюсы
+                                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                                    Минусы
+                                    <p>Сложно записаться.</p>
+                                </div>
+                                <div class="review-card__bottom">
+                                    <div class="user__answer">
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers-clinic">
+                                        <div class="user__answers">
                                             <div class="user__answer-place">
                                                 <b>Клиника на Рязанском проспекте</b>
                                             </div>
@@ -694,27 +701,30 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="review-card__about-doctor">
-                                    <p>Отзыв о враче:
-                                        <br><b>Манохина Дарья Даниловная</b>
-                                    </p>
+                                <div class="review-card__head__bottom">
+                                    <img src="/images/review-geo.png">
+                                    <span>
+                                    <b>Клиника на Текстильщиках</b><br>
+                                    ул. Люблинская, д. 9 к. 1
+                                    </span>
                                 </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <b>Плюсы</b>
-                                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                                                Всегда внимательна, ничего лишнего не назначит и
-                                                тщательно разбирается в проблеме пациента!</p>
-                                        </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <b>Минусы</b>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__answer-clinic">
+                                <div class="review-card__head__bottom-doctor">
+                                    <img src="/images/review-human.png">
+                                    <span>Отзыв о враче:
+                                        <br><b>Манохина Дарья Даниловная</b>
+                                    </span>
+                                </div>
+                                <div class="review-card__comment">
+                                    Плюсы
+                                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                                    Минусы
+                                    <p>Сложно записаться.</p>
+                                </div>
+                                <div class="review-card__bottom">
+                                    <div class="user__answer">
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers-clinic">
+                                        <div class="user__answers">
                                             <div class="user__answer-place">
                                                 <b>Клиника на Рязанском проспекте</b>
                                             </div>
@@ -817,13 +827,18 @@
                 </div>
             </div>
         </div>
+
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Клиники</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Многопрофильные клиники</a>
             <p>Клиника на текстильщиках</p>
         </div>
+
     </div>
 </div>
 <footer>
@@ -863,7 +878,7 @@
                 </div>
                 <div class="footer__communication">
                     <div class="phone-footer">
-                        (499)123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <div class="reference-footer">
                         справочная служба

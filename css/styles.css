@@ -62,7 +62,7 @@ body {
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
-.header__phone {
+.header__phone a {
     color: #516FA6;
     font-size: 24px;
     font-weight: 600;
@@ -499,14 +499,14 @@ body {
 
 .popular-doctor__price p {
     color: #000;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     margin: 0 10px;
 }
 
 .popular-doctor__price span {
     color: #FC5B5D;
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: line-through;
 }
 
@@ -636,7 +636,7 @@ body {
 .other-clinics__clinic-name {
     color: #000;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -974,6 +974,12 @@ body {
     justify-content: center;
     max-height: 100px;
     padding: 10px;
+    margin-left: 20px;
+}
+
+.clinic-card__body-text-block {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
 }
 
 .clinic-card__body {
@@ -1382,9 +1388,9 @@ body {
     background: #FFF;
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
-    padding: 10px 25px;
+    padding: 10px 63px;
     width: 380px;
-    height: 130px;
+    height: 150px;
 }
 
 .info-about-project__right p span {
@@ -1399,6 +1405,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .info-about-project__right img {
@@ -2176,12 +2183,13 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .doctor-card__right-record-title {
     color: rgba(0, 0, 0, 0.80);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .doctor-card__right-record {
@@ -2204,14 +2212,24 @@ body {
     color: rgba(0, 0, 0, 0.80);
     font-size: 18px;
     font-weight: 600;
-    border-bottom: 1px solid #00000019;
+    border-top: 1px solid #00000019;
     padding: 5px 0;
     width: 100%;
+}
+
+.photo-doctor-clinic img {
+    width: 133px;
+    height: 151px;
 }
 
 .doctor-card__listing__item h5:last-child {
     border-top: 1px solid #00000019;
     border-bottom: none;
+}
+
+.doctor-card__listing__item h5:first-child {
+    border-bottom: 1px solid #00000019;
+    border-top: none;
 }
 
 .doctor-card__listing__item h6 {
@@ -2228,10 +2246,14 @@ body {
     padding: 20px;
 }
 
-.doctor-card__listing__item span {
+.listing-doctor__title span {
     color: #000;
     font-size: 14px;
     margin-left: 10px;
+}
+
+.listing-doctor__title {
+    width: 100%;
 }
 
 .doctor-clinic-phone {
@@ -2252,7 +2274,7 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .doctor-card {
@@ -2899,7 +2921,7 @@ body {
     font-weight: 200;
 }
 
-.phone-footer {
+.phone-footer a {
     color: #516FA6;
     font-size: 24px;
     font-weight: 600;
@@ -3260,7 +3282,7 @@ body {
     border-radius: 4px;
     background: #FFF;
     box-shadow: 1px 5px 15px -8px rgba(0, 0, 0, 0.25);
-    padding: 20px;
+    padding: 40px 50px;
     margin-bottom: 25px;
 }
 
@@ -3583,7 +3605,7 @@ body {
 .phone {
     color: #000;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration-line: none;
     margin-left: 10px;
 }
@@ -3880,7 +3902,7 @@ body {
 }
 
 .radio__label {
-    margin: 10px;
+    margin: 6px;
     border-radius: 6px;
     background: #516FA6;
     color: #FFF;
@@ -3932,7 +3954,7 @@ body {
 .doctor-card__clinic {
     color: #000;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .doctor-card__clinic-address {
@@ -3960,7 +3982,7 @@ body {
 .other-clinics__title {
     color: rgba(0, 0, 0, 0.87);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -3977,8 +3999,8 @@ body {
 .license-clinic-title, .photo-clinic__title, .video-clinic__title {
     color: #000;
     font-size: 18px;
-    font-weight: 600;
-    margin: 15px 0;
+    font-weight: 500;
+    margin: 20px 0;
 }
 
 .users__record {
@@ -4032,6 +4054,7 @@ body {
 .license-container, .photo-clinic__container , .video-clinic__container {
     display: flex;
     flex-direction: row;
+    margin: 20px 0;
 }
 
 .media-clinic {

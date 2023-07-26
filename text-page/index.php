@@ -24,7 +24,7 @@
                 </a>
             </div>
             <div class="header__phone">
-                (499) 123-34-56
+                <a href="#">(499) 123-34-56</a>
             </div>
         </div>
         <div class="top-menu">
@@ -418,7 +418,7 @@
                 </div>
                 <div class="footer__communication">
                     <div class="phone-footer">
-                        (499)123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <div class="reference-footer">
                         <span>справочная служба</span>

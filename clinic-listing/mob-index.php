@@ -131,7 +131,7 @@
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
                         <img src="/images/blue-phone.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -320,7 +320,7 @@
             <div class="clinic-card__footer">
                 <div class="clinic-card__phone">
                     <img src="/images/blue-phone.png">
-                    (499) 123-45-67
+                    <a href="#">(499) 123-34-56</a>
                 </div>
                 <a class="search__btn">
                     Записаться в клинику
@@ -386,7 +386,7 @@
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
                         <img src="/images/blue-phone.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -397,7 +397,7 @@
             <div class="clinic-card__footer">
                 <div class="clinic-card__phone">
                     <img src="/images/phone_24px.png">
-                    (499) 123-45-67
+                    <a href="#">(499) 123-34-56</a>
                 </div>
                 <a class="search__btn">
                     Записаться в клинику
@@ -727,7 +727,7 @@
                 </div>
                 <div class="footer__communication">
                     <div class="phone-footer">
-                        (499)123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <div class="reference-footer">
                         справочная служба

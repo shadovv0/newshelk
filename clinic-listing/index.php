@@ -26,7 +26,7 @@
                 </a>
             </div>
             <div class="header__phone">
-                (499) 123-34-56
+                <a href="#">(499) 123-34-56</a>
             </div>
         </div>
         <div class="top-menu">
@@ -215,9 +215,9 @@
                             <div class="clinic-card__footer-address">
                                 ул. Люблинская, д. 9 к. 1
                             </div>
-                            <div class="clinic-card__footer-phone">
+                            <div class="clinic-card__phone">
                                 <img src="/images/phone_24px.png">
-                                (499) 123-45-67
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
                         <div class="clinic-card__footer-clinic-schedule">
@@ -267,9 +267,9 @@
                             <div class="clinic-card__footer-address">
                                 ул. Люблинская, д. 9 к. 1
                             </div>
-                            <div class="clinic-card__footer-phone">
+                            <div class="clinic-card__phone">
                                 <img src="/images/phone_24px.png">
-                                (499) 123-45-67
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
                         <div class="clinic-card__footer-clinic-schedule">
@@ -319,9 +319,9 @@
                             <div class="clinic-card__footer-address">
                                 ул. Люблинская, д. 9 к. 1
                             </div>
-                            <div class="clinic-card__footer-phone">
+                            <div class="clinic-card__phone">
                                 <img src="/images/phone_24px.png">
-                                (499) 123-45-67
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
                         <div class="clinic-card__footer-clinic-schedule">
@@ -440,9 +440,9 @@
                             <div class="clinic-card__footer-address">
                                 ул. Люблинская, д. 9 к. 1
                             </div>
-                            <div class="clinic-card__footer-phone">
+                            <div class="clinic-card__phone">
                                 <img src="/images/phone_24px.png">
-                                (499) 123-45-67
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
                         <div class="clinic-card__footer-clinic-schedule">
@@ -492,9 +492,9 @@
                             <div class="clinic-card__footer-address">
                                 ул. Люблинская, д. 9 к. 1
                             </div>
-                            <div class="clinic-card__footer-phone">
+                            <div class="clinic-card__phone">
                                 <img src="/images/phone_24px.png">
-                                (499) 123-45-67
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
                         <div class="clinic-card__footer-clinic-schedule">
@@ -544,9 +544,9 @@
                             <div class="clinic-card__footer-address">
                                 ул. Люблинская, д. 9 к. 1
                             </div>
-                            <div class="clinic-card__footer-phone">
+                            <div class="clinic-card__phone">
                                 <img src="/images/phone_24px.png">
-                                (499) 123-45-67
+                                <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
                         <div class="clinic-card__footer-clinic-schedule">
@@ -621,7 +621,7 @@
                 </div>
                 <div class="clinic-card__right">
                     <div class="clinic-card__clinic-schedule">
-                        Часы приёма:<br>
+                        <p>Часы приёма:</p>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
                     </div>
                     <div class="clinic-card__metro">
@@ -638,7 +638,7 @@
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
                         Запись на приём
@@ -732,8 +732,7 @@
                     7195 отзывов пациентов,
                     цены на услуги от 500 до 533600 рублей,
                     номера телефонов, сайты, адреса, схемы проездаю
-                    Сделайте выбор из списка лучших гинекологических клиник в Москве и запишитесь на приём к врачу в
-                    два
+                    Сделайте выбор из списка лучших гинекологических клиник в Москве и запишитесь на приём к врачу в два
                     клика.</p>
             </div>
             <div class="info-about-project__right">
@@ -949,7 +948,7 @@
                 </div>
                 <div class="footer__communication">
                     <div class="phone-footer">
-                        (499)123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <div class="reference-footer">
                         <span>справочная служба</span>

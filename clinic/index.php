@@ -26,7 +26,7 @@
                 </a>
             </div>
             <div class="header__phone">
-                (499) 123-34-56
+                <a href="#">(499) 123-34-56</a>
             </div>
         </div>
         <div class="top-menu">
@@ -88,7 +88,7 @@
                         г. Москва ул. Люблинская, д. 9 к. 1
                     </div>
                     <div class="clinic-card__clinic-schedule">
-                        Часы приёма:<br>
+                        <p>Часы приёма:</p>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
                     </div>
                     <div class="clinic-card__metro">
@@ -105,7 +105,7 @@
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                 </div>
                 <div class="clinic-card__right-map">
@@ -125,7 +125,7 @@
                         <img src="/images/ellipse40.png">
                         <a href="#">Фотографии клиники</a>
                     </div>
-                    <div class="clinic-card__text-block">
+                    <div class="clinic-card__body-text-block">
                         Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
                         Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
                     </div>
@@ -277,14 +277,16 @@
                         <form action="#" data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
-                                    <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -307,7 +309,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                               ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -323,7 +325,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -381,13 +383,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -398,12 +393,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    </div>
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -426,7 +423,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -442,7 +439,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -500,13 +497,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -523,14 +513,16 @@
                         <form action="#" data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
-                                    <h5>Урологи<span>(4 Урологи)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Урологи<span>(4 Урологи)</span></h5>
+                                    </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -553,7 +545,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -569,7 +561,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -627,13 +619,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -644,12 +629,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h5>Венерологи<span>(4 венеролога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Урологи<span>(4 Урологи)</span></h5>
+                                    </div>
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -672,7 +659,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -688,7 +675,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -746,13 +733,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -769,14 +749,16 @@
                         <form action="#" data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
-                                    <h5>Отоларингологи<span>(4 отоларинголога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Отоларингологи<span>(4 отоларинголога)</span></h5>
+                                    </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -799,7 +781,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -815,7 +797,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -873,13 +855,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -890,12 +865,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Отоларингологи<span>(4 отоларинголога)</span></h5>
+                                    </div>
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -918,7 +895,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -934,7 +911,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -992,13 +969,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1015,14 +985,16 @@
                         <form action="#" data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
-                                    <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Венерологи<span>(4 венеролога)</span></h5>
+                                    </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -1045,7 +1017,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -1061,7 +1033,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -1119,13 +1091,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1136,12 +1101,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                    <div class="listing-doctor__title">
+                                        <h5>Венерологи<span>(4 венеролога)</span></h5>
+                                    </div>
                                     <div class="doctor-card__listing">
                                         <div class="doctor-card__left">
-                                            <div class="photo-doctor">
+                                            <div class="photo-doctor-clinic">
                                                 <a href="#">
-                                                    <img src="/images/card-doc.png">
+                                                    <img src="/images/doctor-inclinic.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -1164,7 +1131,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                                г. Москва ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -1180,7 +1147,7 @@
                                             </div>
                                         </div>
                                         <div class="doctor-card__right-record">
-                                            <h5 class="doctor-card__right-record-title">Выбрать дату</h5>
+                                            <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
                                             <div class="doctor-card-record__container">
                                                 <div class="doctor-card__dates dates">
                                                     <p>Понедельник 21.03.</p>
@@ -1238,13 +1205,6 @@
                                                             <input type="radio" value="14:00" name="time-appointment"
                                                                    class="radio__input"/>
                                                             14:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:30
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1330,22 +1290,22 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
                                             <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                            <p>Отзыв о враче Манохина<br>
+                                                Дарья Даниловна
                                             </p>
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -1356,7 +1316,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -1402,22 +1362,22 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
                                             <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                            <p>Отзыв о враче Манохина<br>
+                                                Дарья Даниловна
                                             </p>
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -1428,7 +1388,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -1474,22 +1434,22 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
                                             <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                            <p>Отзыв о враче Манохина<br>
+                                                Дарья Даниловна
                                             </p>
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -1500,7 +1460,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -1548,22 +1508,22 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
                                             <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                            <p>Отзыв о враче Манохина<br>
+                                                Дарья Даниловна
                                             </p>
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -1574,7 +1534,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -1622,22 +1582,22 @@
                                 <div class="user__content">
                                     <div class="user__blocks">
                                         <div class="user__positive">
-                                            <b>Плюсы</b>
+                                            <span>Плюсы</span>
                                             <p>Компетентный врач</p>
                                         </div>
                                         <div class="user__clinic-geo">
                                             <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                            <p>Отзыв о враче Манохина<br>
+                                                Дарья Даниловна
                                             </p>
                                         </div>
                                     </div>
                                     <div class="user__block">
-                                        <b>Минусы</b>
+                                        <span>Минусы</span>
                                         <p>Сложно записаться.</p>
                                     </div>
                                     <div class="user__block">
-                                        <b>Комментарий</b>
+                                        <span>Комментарий</span>
                                         <p>
                                             Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
                                             Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
@@ -1648,7 +1608,7 @@
                                         <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
                                         <div class="user__answers">
                                             <div class="user__answer-place">
-                                                <b>Клиника на Рязанском проспекте</b>
+                                                <span>Клиника на Рязанском проспекте</span>
                                             </div>
                                             <div class="user__answer-date">
                                                 16 февраля 22 в 09:48
@@ -1662,8 +1622,8 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <a class="users__more-review">Показать ещё отзывы</a>
-                            <a class="users__record">Оставить отзыв</a>
+                            <a href="#" class="users__more-review">Показать ещё отзывы</a>
+                            <a href="#" class="users__record">Оставить отзыв</a>
                         </div>
                     </div>
                 </div>
@@ -1959,7 +1919,7 @@
                 </div>
                 <div class="footer__communication">
                     <div class="phone-footer">
-                        (499)123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <div class="reference-footer">
                         <span>справочная служба</span>

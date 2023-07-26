@@ -26,7 +26,7 @@
                 </a>
             </div>
             <div class="header__phone">
-                (499) 123-34-56
+                <a href="#">(499) 123-34-56</a>
             </div>
         </div>
         <div class="top-menu">
@@ -47,13 +47,14 @@
 </header>
 <div class="content">
     <div class="wrap">
+
         <div class="category__container">
             <h5>Контрацепция в Москве (114 клиник)</h5>
             <div class="category__body">
                 <span>Обновлено 30.03.22</span>
-                <div class="category__sort">
-                    <div class="category__filter">Фильтровать список по:</div>
+                <div class="category__sort-item">
                     <ul>
+                        Фильтровать список по:
                         <li class="category__filter-item"><a href="#">Клинике</a></li>
                         <li class="category__filter-item"><a href="#">Району</a></li>
                     </ul>
@@ -73,7 +74,7 @@
             </div>
         </div>
 
-        <div class="clinic-card-category__container">
+        <div class="clinic-card__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -86,7 +87,7 @@
                             <img src="/images/Star1.png">
                             <p>4,7</p>
                         </div>
-                        <a href="#">14 отзывов</a>
+                        <a href="#">8 отзывов</a>
                     </div>
                 </div>
                 <div class="clinic-card__center">
@@ -103,7 +104,8 @@
                     </div>
                     <div class="clinic-card__text-block">
                         Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших
+                        специалистов.
                     </div>
                     <div class="clinic-card__doctors">
                         <a href="#doctors">
@@ -113,21 +115,24 @@
                 </div>
                 <div class="clinic-card__right">
                     <div class="clinic-card__clinic-schedule">
-                        Часы приёма:<br>
+                        <p>Часы приёма:</p>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
                     </div>
                     <div class="clinic-card__metro">
                         <div class="clinic-card__metro-near">
+                            <img src="/images/Ellipse%2027.png">
                             Текстильщики (338м)
                         </div>
                         <div class="clinic-card__metro-far">
+                            <img src="/images/Ellipse%2028.png">
                             Печатники (2,1км)
+                            <img src="/images/Ellipse%2029.png">
                             Стахановская (2,2км)
                         </div>
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -136,18 +141,21 @@
             </div>
             <div class="clinic-card__popular-procedure">
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 1 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 2 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 3 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
             </div>
         </div>
 
-        <div class="clinic-card-category__container">
+        <div class="clinic-card__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -160,7 +168,7 @@
                             <img src="/images/Star1.png">
                             <p>4,7</p>
                         </div>
-                        <a href="#">14 отзывов</a>
+                        <a href="#">8 отзывов</a>
                     </div>
                 </div>
                 <div class="clinic-card__center">
@@ -177,7 +185,8 @@
                     </div>
                     <div class="clinic-card__text-block">
                         Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших
+                        специалистов.
                     </div>
                     <div class="clinic-card__doctors">
                         <a href="#doctors">
@@ -187,21 +196,24 @@
                 </div>
                 <div class="clinic-card__right">
                     <div class="clinic-card__clinic-schedule">
-                        Часы приёма:<br>
+                        <p>Часы приёма:</p>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
                     </div>
                     <div class="clinic-card__metro">
                         <div class="clinic-card__metro-near">
+                            <img src="/images/Ellipse%2027.png">
                             Текстильщики (338м)
                         </div>
                         <div class="clinic-card__metro-far">
+                            <img src="/images/Ellipse%2028.png">
                             Печатники (2,1км)
+                            <img src="/images/Ellipse%2029.png">
                             Стахановская (2,2км)
                         </div>
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -210,18 +222,21 @@
             </div>
             <div class="clinic-card__popular-procedure">
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 1 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 2 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 3 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
             </div>
         </div>
 
-        <div class="clinic-card-category__container">
+        <div class="clinic-card__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -234,7 +249,7 @@
                             <img src="/images/Star1.png">
                             <p>4,7</p>
                         </div>
-                        <a href="#">14 отзывов</a>
+                        <a href="#">8 отзывов</a>
                     </div>
                 </div>
                 <div class="clinic-card__center">
@@ -251,7 +266,8 @@
                     </div>
                     <div class="clinic-card__text-block">
                         Многопрофильная медицинская клиника "Клиника на Текстильщиках" в Москве.
-                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших специалистов.
+                        Наш центр предоставляет полный перечень медицинских услуг и консультации лучших
+                        специалистов.
                     </div>
                     <div class="clinic-card__doctors">
                         <a href="#doctors">
@@ -261,21 +277,24 @@
                 </div>
                 <div class="clinic-card__right">
                     <div class="clinic-card__clinic-schedule">
-                        Часы приёма:<br>
+                        <p>Часы приёма:</p>
                         Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00
                     </div>
                     <div class="clinic-card__metro">
                         <div class="clinic-card__metro-near">
+                            <img src="/images/Ellipse%2027.png">
                             Текстильщики (338м)
                         </div>
                         <div class="clinic-card__metro-far">
+                            <img src="/images/Ellipse%2028.png">
                             Печатники (2,1км)
+                            <img src="/images/Ellipse%2029.png">
                             Стахановская (2,2км)
                         </div>
                     </div>
                     <div class="clinic-card__phone">
                         <img src="/images/phone_24px.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -284,13 +303,16 @@
             </div>
             <div class="clinic-card__popular-procedure">
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 1 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 2 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
                 <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    УЗИ 3 триместра
+                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                 </div>
             </div>
         </div>
@@ -299,9 +321,9 @@
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div>Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div><b>Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</b></div>
-                <div><b><a href="#">(499) 123-45-67</a></b> *Услуга бесплатная</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</div>
+                <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>
 
@@ -310,68 +332,47 @@
                 <h5>Самые популярные вопросы</h5>
                 <div class="faq">
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Что такое гинекология?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Что такое гинекология?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Где лучше лечить женские заболевания?
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Где лучше лечить женские заболевания?
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
                     <div data-fold class="faq__item">
-                        <button data-fold-btn class="faq__btn">
-                            Посоветуйте центр гинекологии
-                        </button>
+                        <div class="red-btn">
+                            <button data-fold-btn class="faq__btn">
+                                · Посоветуйте центр гинекологии
+                            </button>
+                        </div>
                         <div data-fold-content class="faq__content">
                             <p>
                                 Гинекология - это отрасль медицины, которая занимается изучением, диагностикой, лечением
-                                и профилактикой заболеваний женской половой системы. Гинеколог это исключительно
-                                «женский» врач. Гинекология неразрывно связана с акушерством.
-                            </p>
-
-                            <p>Врач-гинеколог занимается наблюдением состояния женских половых органов и при наличии
-                                заболеваний их лечением в динамике, профилактикой возможных осложнений.</p>
-                            <p>
-                                Врач-акушер наблюдает в динамике за развитием беременности предпочтительно с малых
-                                сроков, следит за состоянием внутренних органов беременной, направляет в стационар на
-                                родоразрешение. В последнее время в российском здравоохранении введено ограничение на
-                                работу в родильных домах врачей женских консультаций. То есть российский акушер — врач
-                                родильного дома, наблюдающий за здоровьем беременных, рожениц, родильниц.
+                                и профилактикой заболеваний женской половой системы.<br>
+                                Гинеколог это исключительно «женский» врач. Гинекология неразрывно связана с
+                                акушерством.
                             </p>
                         </div>
                     </div>
@@ -438,8 +439,10 @@
                 <div class="review-card__right">
                     <div class="review-card__photo-clinic">
                         <img src="/images/image%2033.png">
-                        Клиника
-                        АльтерМед
+                        <p>
+                            Клиника<br>
+                            <span>АльтерМед</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -448,24 +451,26 @@
         <div class="relinks">
             <div class="relinks__body">
                 <div data-fold class="relinks__column">
-                    <b class="relinks__column-title">Направления</b>
-                    <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
-                                лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Артролог
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                    </ul>
+                    <div class="relinks__head">
+                        <b class="relinks__column-title">Направления</b>
+                        <ul class="relinks__list relinks__list--mobile-row">
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                                 class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                                 class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                                 class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                        </ul>
+                    </div>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
                               class="more__text">Показать еще</span>
@@ -473,81 +478,85 @@
                     </button>
                 </div>
                 <div data-fold class="relinks__column">
-                    <b class="relinks__column-title">Услуги</b>
-                    <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
-                                лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                    <div class="relinks__head">
+                        <b class="relinks__column-title">Услуги</b>
+                        <ul class="relinks__list relinks__list--mobile-row">
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
 
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Артролог
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                    </ul>
+                            <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                                 class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                                 class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
+                                                                                                 class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                        </ul>
+                    </div>
                     <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
                               class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
                     </button>
                 </div>
                 <div data-fold class="relinks__column">
-                    <b class="relinks__column-title">Клиники</b>
-                    <ul class="relinks__list">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/euromed.png">
-                                «Евромед»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/open-clinic.png">
-                                «Открытая клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/moscow-clinic.png">
-                                «Московская клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/sinay.png">
-                                «Синай»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/euromed.png">
-                                «Евромед»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/open-clinic.png">
-                                «Открытая клиника»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/moscow-clinic.png">
-                                «Московская клиника»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/sinay.png">
-                                «Синай»
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="relinks__head">
+                        <b class="relinks__column-title">Клиники</b>
+                        <ul class="relinks__list">
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/euromed.png">
+                                    «Евромед»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/open-clinic.png">
+                                    «Открытая клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/moscow-clinic.png">
+                                    «Московская клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/sinay.png">
+                                    «Синай»
+                                </a>
+                            </li>
+                            <li data-fold-content class="relinks__item relinks__item--folded">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/euromed.png">
+                                    «Евромед»
+                                </a>
+                            </li>
+                            <li data-fold-content class="relinks__item relinks__item--folded">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/open-clinic.png">
+                                    «Открытая клиника»
+                                </a>
+                            </li>
+                            <li data-fold-content class="relinks__item relinks__item--folded">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/moscow-clinic.png">
+                                    «Московская клиника»
+                                </a>
+                            </li>
+                            <li data-fold-content class="relinks__item relinks__item--folded">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/sinay.png">
+                                    «Синай»
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <button data-fold-btn="" class="relinks__more more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
                               class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
@@ -558,7 +567,9 @@
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Клиники</a>
             <p>Многопрофильные клиники</p>
         </div>
@@ -602,7 +613,7 @@
                 </div>
                 <div class="footer__communication">
                     <div class="phone-footer">
-                        (499)123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <div class="reference-footer">
                         <span>справочная служба</span>

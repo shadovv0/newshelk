@@ -727,7 +727,7 @@ html, body {
     border-radius: 6px;
     border: 1px solid #516FA6;
     list-style-type: none;
-    padding: 3px 15px;
+    padding: 3px 10px;
     text-align: center;
     margin: 5px;
     width: 98px;
@@ -741,6 +741,10 @@ html, body {
 
 .sort__head {
     padding: 0 10px;
+}
+
+.category__sort {
+    margin: 10px 0 20px;
 }
 
 .category__sort ul {
@@ -812,7 +816,8 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 25px;
+    padding: 10px 0;
+    margin: 0 10px;
 }
 
 .category__container {
@@ -945,6 +950,12 @@ html, body {
     margin: 10px;
 }
 
+.clinic-card__about-clinic p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .clinic-card__email {
     padding: 0 15px;
 }
@@ -999,13 +1010,25 @@ html, body {
     color: rgba(0, 0, 0, 0.70);
     font-size: 16px;
     margin: 5px 0;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .clinic-card__clinic-schedule p {
-    font-weight: 400;
+    font-weight: 500;
     max-width: 260px;
     width: 100%;
+    margin: 0;
+}
+
+.clinic-card__clinic-schedule-view {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.clinic-card__clinic-schedule-view p {
+    font-weight: 500;
     margin: 0;
 }
 
@@ -1087,6 +1110,7 @@ html, body {
     color: #000;
     font-size: 16px;
     font-weight: 600;
+    text-decoration-line: none;
 }
 
 .clinic-card__phone {
@@ -1455,6 +1479,10 @@ html, body {
     margin: 10px 0;
 }
 
+.listing__header h2 {
+    margin: 0;
+}
+
 .listing__header {
     border-radius: 13px 13px 0px 0px;
     background: #516FA6;
@@ -1512,6 +1540,7 @@ html, body {
     color: #000;
     font-size: 16px;
     font-weight: 600;
+    text-decoration-line: none;
 }
 
 .doctor-card__schedule {
@@ -1519,6 +1548,7 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 10px 0;
 }
 
 .width-timeslot {
@@ -1579,17 +1609,18 @@ html, body {
     width: 100%;
 }
 
-.doctor-card__contnet span {
-    color: #000;
-    font-size: 14px;
-}
-
 .listing-container {
     margin: 15px 0;
 }
 
 .listing__body {
     padding-bottom: 15px;
+}
+
+.count-doctor-spec {
+    color: #000;
+    font-size: 14px;
+    margin: 0 0 8px 15px;
 }
 
 .doctor-card__listing__item h6 {
@@ -1649,7 +1680,7 @@ html, body {
 .users__tabs-marks {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin: 15px 0;
 }
 
@@ -2028,6 +2059,7 @@ html, body {
     -webkit-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+    width: 100%;
 }
 
 .relinks__column-title {
@@ -2714,6 +2746,13 @@ html, body {
     margin: 15px 0 30px;
 }
 
+.users__side h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
 .users__side-link {
     color: rgba(0, 0, 0, 0.70);
     font-size: 14px;
@@ -2758,6 +2797,18 @@ html, body {
     font-weight: 500;
     padding: 0 20px;
 }
+.review-card__head__bottom-doctor {
+    display: flex;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-card__head__bottom-doctor img {
+    width: 23px;
+    margin: 10px 10px 10px 0;
+}
 
 .review-card__head__bottom {
     display: flex;
@@ -2768,7 +2819,7 @@ html, body {
 }
 
 .review-card__head__bottom img {
-    width: 30px;
+    width: 23px;
     margin: 10px 10px 10px 0;
 }
 
@@ -3131,7 +3182,7 @@ html, body {
     padding-right: 5px;
 }
 
-.phone-footer {
+.phone-footer a {
     color: #516FA6;
     font-size: 24px;
     font-weight: 600;
