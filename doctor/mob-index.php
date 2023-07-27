@@ -60,10 +60,10 @@
                 <div class="doctor-card__photo-doctor">
                     <img src="/images/card-doc.png">
                     <div class="doctor-card__surname-doctor">
-                        Манохина
+                        <h1>Манохина</h1>
                     </div>
                     <div class="doctor-card__name-doctor">
-                        Дарья Дмитриевна
+                        <h1>Дарья Дмитриевна</h1>
                     </div>
                     <div class="doctor-card__experience-doctor">
                         Стаж 12 лет

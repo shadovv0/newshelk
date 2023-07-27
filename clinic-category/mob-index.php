@@ -59,7 +59,7 @@
     <div class="wrap">
         <h2 class="name-logo">Название сайта</h2>
         <div class="category__container">
-            <h5>Контрацепция в Москве <br>(114 клиник)</h5>
+            <h1>Контрацепция в Москве <br>(114 клиник)</h1>
             <div class="category__body">
                 <span>Обновлено 30.03.22</span>
                 <div class="category__sort">
@@ -139,7 +139,7 @@
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
                         <img src="/images/blue-phone.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -214,7 +214,7 @@
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
                         <img src="/images/blue-phone.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику
@@ -289,7 +289,7 @@
                 <div class="clinic-card__footer">
                     <div class="clinic-card__phone">
                         <img src="/images/blue-phone.png">
-                        (499) 123-45-67
+                        <a href="#">(499) 123-34-56</a>
                     </div>
                     <a class="search__btn">
                         Записаться в клинику

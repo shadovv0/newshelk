@@ -77,9 +77,9 @@
                 </div>
                 <div class="clinic-card__center">
                     <div class="clinic-card__name">
-                        <a href="#">
+                        <h1>
                             Клиника на Текстильщиках
-                        </a>
+                        </h1>
                     </div>
                     <div class="clinic-card__type">
                         Многопрофильная медицинская клиника, г. Москва

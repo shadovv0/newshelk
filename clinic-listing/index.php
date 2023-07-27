@@ -49,7 +49,7 @@
     <div class="wrap">
 
         <div class="category__container">
-            <h5>Гинекологические клиники Москвы (114)</h5>
+            <h1>Гинекологические клиники Москвы (114)</h1>
             <div class="category__body">
                 <span>Обновлено 30.03.22</span>
                 <div class="category__sort-item">

@@ -60,7 +60,7 @@
 
         <h2 class="name-logo">НазваниеСайта</h2>
         <div class="category__container">
-            <h5>Гинекологические клиники Москвы (114)</h5>
+            <h1>Гинекологические клиники Москвы (114)</h1>
             <div class="category__body">
                 <span>Обновлено 30.03.22</span>
                 <div class="category__sort">
@@ -395,13 +395,6 @@
                 </div>
             </div>
             <div class="clinic-card__footer">
-                <div class="clinic-card__phone">
-                    <img src="/images/phone_24px.png">
-                    <a href="#">(499) 123-34-56</a>
-                </div>
-                <a class="search__btn">
-                    Записаться в клинику
-                </a>
                 <div class="clinic-card__popular-procedure">
                     <div class="clinic-card__popular-procedure-price">
                         УЗИ 1 триместра

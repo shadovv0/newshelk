@@ -700,7 +700,7 @@ body {
     justify-content: space-between;
 }
 
-.category__container h5 {
+.category__container h1 {
     color: #000;
     text-align: center;
     font-size: 20px;
@@ -1179,6 +1179,12 @@ body {
     color: #728AB6;
     font-size: 14px;
     text-decoration-line: none;
+}
+
+.clinic-card__name h1 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .clinic-card__name a {
@@ -2299,6 +2305,13 @@ body {
     margin: 20px 0;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.doctor-card__doctor-name h1 {
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 5px 0;
 }
 
 .doctor-card__doctor-name a {

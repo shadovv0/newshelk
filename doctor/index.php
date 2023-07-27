@@ -73,9 +73,9 @@
             </div>
             <div class="doctor-card__center-views">
                 <div class="doctor-card__doctor-name">
-                    <a href="#">
+                    <h1>
                         Манохина Дарья Дмитриевна
-                    </a>
+                    </h1>
                 </div>
                 <div class="doctor-card__doctor-experience-views">
                     Стаж - 12 лет

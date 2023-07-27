@@ -49,7 +49,7 @@
     <div class="wrap">
 
         <div class="category__container">
-            <h5>Контрацепция в Москве (114 клиник)</h5>
+            <h1>Контрацепция в Москве (114 клиник)</h1>
             <div class="category__body">
                 <span>Обновлено 30.03.22</span>
                 <div class="category__sort-item">
