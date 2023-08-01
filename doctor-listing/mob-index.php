@@ -17,26 +17,31 @@
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
-<header>
+
+<header class="site-header">
     <div class="head__container">
         <div class="wrap clear">
-            <a class="menu-btn" href="#">
-                <img src="/images/burger.png">
-            </a>
-            <!--<div class="top-menu">
-            <div class="top-menu__wrap">
-                <nav class="top-menu-btn">
-                    <div class="menu-list">
-                        <a class="menu-item root-item" href="/clinic/index.php">Клиники</a>
-                        <a class="menu-item root-item" href="/doctor/index.php">Врачи</a>
-                        <a class="menu-item root-item" href="/uslugi/index.php">Услуги</a>
-                        <a class="menu-item root-item" href="/diagnostic/index.php">Диагностика</a>
-                        <a class="menu-item root-item" href="/disease/index.php">Заболевания</a>
-                        <a class="menu-item root-item" href="/symptoms/index.php">Симптомы</a>
-                    </div>
-                </nav>
+            <div class="site-header__burger burger">
+                <span class="burger__line burger__line--cross"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line burger__line--cross"></span>
             </div>
-        </div>-->
+            <div class="site-header__panel burger">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">Клиники</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+                    </ul>
+                </nav>
+                <div class="site-header__support support">
+                    <a href="#" class="support__number">(499) 123-34-56</a>
+                    <div class="support__caption">Справочная</div>
+                </div>
+            </div>
             <div class="logo">
                 <a href="/">
                     <img src="/images/mosmedportal_logo.png">
@@ -54,6 +59,7 @@
         </div>
     </div>
 </header>
+
 <div class="content">
     <div class="wrap">
         <div class="sort__container">

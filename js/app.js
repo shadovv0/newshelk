@@ -1361,7 +1361,7 @@ window.addEventListener("DOMContentLoaded", () => {
                         spaceBetween: 16,
                     },
                     768: {
-                        spaceBetween: 24,
+                        spaceBetween: 20,
                     },
                 },
             });
@@ -1920,7 +1920,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     function initHeaderPanel(burger) {
         const header = document.querySelector('.site-header'),
-            headerPanel = header.querySelector('.site-header__panel'),
+            headerPanel = document.querySelector('.site-header__panel'),
             headerMobile = document.querySelector('.header-mobile');
 
         if (headerMobile && burger.classList.contains('header-mobile__burger')) {
@@ -2314,4 +2314,44 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
+$('.menu-btn').click(function (e) {
+    e.stopPropagation();
+    if (window.innerWidth < 880) {
+        if (!$('.top-menu-visible').length) {
+            if ($('.left-sidebar-visible').length) {
+                $('.left-sb-btn').click();
+            }
+            $('.top-menu__wrap').animate({
+                left: 0
+            });
+            $('body').addClass('top-menu-visible');
+        } else {
+            $('.top-menu__wrap').animate({
+                left: -275
+            });
+            $('body').removeClass('top-menu-visible');
+        }
+    } else {
+        $('body').click(function (e) {
+            if ($('.top-menu').hasClass('active')) {
+                $('.menu-btn').click();
+            }
+        });
+        if (!$('.top-menu').hasClass('active')) {
+            $('.top-menu').addClass('active');
+            $('.top-menu .wrap').animate({
+                height: 570
+            }, 300);
+            $('.top-menu .sub-menu').delay(100).slideDown(200);
+        } else {
+            $('.top-menu .sub-menu').slideUp(300);
+            $('.top-menu .wrap').animate({
+                height: 51
+            }, 300, function () {
+                $('top-menu').removeClass('active');
+            });
+        }
+    }
+    return false;
+});
 

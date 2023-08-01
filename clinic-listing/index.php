@@ -580,7 +580,7 @@
             </div>
         </div>
 
-        <div class="clinic-card__container">
+        <div class="clinic-card-listing__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -645,18 +645,20 @@
                     </a>
                 </div>
             </div>
-            <div class="clinic-card__popular-procedure">
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+            <div class="clinic-card__footer-container__popular-procedure">
+                <div class="clinic-card__popular-procedure">
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 1 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 2 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 3 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -665,8 +667,12 @@
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909
+                    оценок
+                </div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе
+                    за 1 минуту
+                </div>
                 <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>

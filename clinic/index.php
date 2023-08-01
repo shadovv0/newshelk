@@ -309,7 +309,7 @@
                                                 Клиника на Текстильщиках
                                             </div>
                                             <div class="doctor-card__clinic-address">
-                                               ул. Люблинская, д. 9 к. 1
+                                                ул. Люблинская, д. 9 к. 1
                                             </div>
                                             <div class="doctor-card__doctor-spec-listing">
                                                 Гинеколог • акушер врач УЗИ
@@ -1633,19 +1633,41 @@
         <div class="media-clinic">
             <h3 class="license-clinic-title">Лицензии клиники</h3>
             <div class="license-container">
-                <img src="/images/license-clinic.png">
-                <img src="/images/license-clinic.png">
-                <img src="/images/license-clinic.png">
-                <img src="/images/license-clinic.png">
-                <img src="/images/license-clinic.png">
+                <section class="section-with-slider">
+                    <div class="swiper swiper-main">
+                        <div class="section-with-slider__navigation">
+                            <div class="arrow arrow--prev"><span class="icon-arrow-more"><img
+                                            src="/images/left-page.png"></span></div>
+                            <div class="arrow arrow--next"><span class="icon-arrow-more"><img
+                                            src="/images/right-page.png"></span></div>
+                        </div>
+                        <div class="swiper-main__wrapper swiper-wrapper">
+                            <div class="swiper-main__slide swiper-slide">
+                                <img src="/images/license-clinic.png">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-main__pagination"></div>
+                    </div>
+                </section>
             </div>
             <h3 class="photo-clinic__title">Фотографии клиники</h3>
             <div class="photo-clinic__container">
-                <img src="/images/photo-clinic-1.png">
-                <img src="/images/photo-clinic-2.png">
-                <img src="/images/photo-clinic-1.png">
-                <img src="/images/photo-clinic-2.png">
-                <img src="/images/photo-clinic-1.png">
+                <section class="section-with-slider">
+                    <div class="swiper swiper-main">
+                        <div class="section-with-slider__navigation">
+                            <div class="arrow arrow--prev"><span class="icon-arrow-more"><img
+                                            src="/images/left-page.png"></span></div>
+                            <div class="arrow arrow--next"><span class="icon-arrow-more"><img
+                                            src="/images/right-page.png"></span></div>
+                        </div>
+                        <div class="swiper-main__wrapper swiper-wrapper">
+                            <div class="swiper-main__slide swiper-slide">
+                                <img src="/images/photo-clinic-1.png">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-main__pagination"></div>
+                    </div>
+                </section>
             </div>
             <h3 class="video-clinic__title">Видео обзор клиники</h3>
             <div class="video-clinic__container">
@@ -1653,219 +1675,249 @@
             </div>
         </div>
 
-        <section>
-            <h2 class="other-clinics__title">Другие клиники сети</h2>
-            <div class="other-clinics__clinics">
-                <div class="other-clinics__container">
-                    <div class="other-clinics__clinic-card">
-                        <div class="other-clinics__head">
-                            <div class="other-clinics__photos">
-                                <img src="/images/other_clinic.png">
-                            </div>
-                            <div class="oher-clinics__clinic-info">
-                                <div class="other-clinics__clinic-name">
-                                    Клиника “Название”
-                                </div>
-                                <div class="other-clinics__clinic-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="other-clinics__clinic-reviews">
-                                    <div class="other-clinics__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+        <section class="section-with-slider">
+            <h2 class="other-clinics__title">Похожие клиники</h2>
+            <div class="swiper swiper-main">
+                <div class="section-with-slider__navigation">
+                    <div class="arrow arrow--prev"><span class="icon-arrow-more"><img
+                                    src="/images/left-page.png"></span></div>
+                    <div class="arrow arrow--next"><span class="icon-arrow-more"><img
+                                    src="/images/right-page.png"></span></div>
+                </div>
+                <div class="swiper-main__wrapper swiper-wrapper">
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="other-clinics__container">
+                            <div class="other-clinics__clinic-card">
+                                <div class="other-clinics__head">
+                                    <div class="other-clinics__photos">
+                                        <img src="/images/other_clinic.png">
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="oher-clinics__clinic-info">
+                                        <div class="other-clinics__clinic-name">
+                                            Клиника “Название”
+                                        </div>
+                                        <div class="other-clinics__clinic-address">
+                                            ул. Люблинская, д. 9 к. 1
+                                        </div>
+                                        <div class="other-clinics__clinic-reviews">
+                                            <div class="other-clinics__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="other-clinics__clinic-metro">
-                            380м от метро “Рязанский проспект”
-                        </div>
-                        <div class="other-clinics__clinic-record-phone">
-                            Телефон для записи
-                            <span>
+                                <div class="other-clinics__clinic-metro">
+                                    380м от метро “Рязанский проспект”
+                                </div>
+                                <div class="other-clinics__clinic-record-phone">
+                                    Телефон для записи
+                                    <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="other-clinics__container">
-                    <div class="other-clinics__clinic-card">
-                        <div class="other-clinics__head">
-                            <div class="other-clinics__photos">
-                                <img src="/images/other_clinic.png">
-                            </div>
-                            <div class="oher-clinics__clinic-info">
-                                <div class="other-clinics__clinic-name">
-                                    Клиника “Название”
-                                </div>
-                                <div class="other-clinics__clinic-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="other-clinics__clinic-reviews">
-                                    <div class="other-clinics__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="other-clinics__container">
+                            <div class="other-clinics__clinic-card">
+                                <div class="other-clinics__head">
+                                    <div class="other-clinics__photos">
+                                        <img src="/images/other_clinic.png">
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="oher-clinics__clinic-info">
+                                        <div class="other-clinics__clinic-name">
+                                            Клиника “Название”
+                                        </div>
+                                        <div class="other-clinics__clinic-address">
+                                            ул. Люблинская, д. 9 к. 1
+                                        </div>
+                                        <div class="other-clinics__clinic-reviews">
+                                            <div class="other-clinics__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="other-clinics__clinic-metro">
-                            380м от метро “Рязанский проспект”
-                        </div>
-                        <div class="other-clinics__clinic-record-phone">
-                            Телефон для записи
-                            <span>
+                                <div class="other-clinics__clinic-metro">
+                                    380м от метро “Рязанский проспект”
+                                </div>
+                                <div class="other-clinics__clinic-record-phone">
+                                    Телефон для записи
+                                    <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="other-clinics__container">
-                    <div class="other-clinics__clinic-card">
-                        <div class="other-clinics__head">
-                            <div class="other-clinics__photos">
-                                <img src="/images/other_clinic.png">
-                            </div>
-                            <div class="oher-clinics__clinic-info">
-                                <div class="other-clinics__clinic-name">
-                                    Клиника “Название”
-                                </div>
-                                <div class="other-clinics__clinic-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="other-clinics__clinic-reviews">
-                                    <div class="other-clinics__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="other-clinics__container">
+                            <div class="other-clinics__clinic-card">
+                                <div class="other-clinics__head">
+                                    <div class="other-clinics__photos">
+                                        <img src="/images/other_clinic.png">
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="oher-clinics__clinic-info">
+                                        <div class="other-clinics__clinic-name">
+                                            Клиника “Название”
+                                        </div>
+                                        <div class="other-clinics__clinic-address">
+                                            ул. Люблинская, д. 9 к. 1
+                                        </div>
+                                        <div class="other-clinics__clinic-reviews">
+                                            <div class="other-clinics__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="other-clinics__clinic-metro">
-                            380м от метро “Рязанский проспект”
-                        </div>
-                        <div class="other-clinics__clinic-record-phone">
-                            Телефон для записи
-                            <span>
+                                <div class="other-clinics__clinic-metro">
+                                    380м от метро “Рязанский проспект”
+                                </div>
+                                <div class="other-clinics__clinic-record-phone">
+                                    Телефон для записи
+                                    <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination swiper-main__pagination"></div>
             </div>
         </section>
 
-        <section>
+        <section class="section-with-slider">
             <h2 class="other-clinics__title">Похожие клиники</h2>
-            <div class="other-clinics__clinics">
-                <div class="other-clinics__container">
-                    <div class="other-clinics__clinic-card">
-                        <div class="other-clinics__head">
-                            <div class="other-clinics__photos">
-                                <img src="/images/other_clinic.png">
-                            </div>
-                            <div class="oher-clinics__clinic-info">
-                                <div class="other-clinics__clinic-name">
-                                    Клиника “Название”
-                                </div>
-                                <div class="other-clinics__clinic-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="other-clinics__clinic-reviews">
-                                    <div class="other-clinics__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+            <div class="swiper swiper-main">
+                <div class="section-with-slider__navigation">
+                    <div class="arrow arrow--prev"><span class="icon-arrow-more"><img
+                                    src="/images/left-page.png"></span></div>
+                    <div class="arrow arrow--next"><span class="icon-arrow-more"><img
+                                    src="/images/right-page.png"></span></div>
+                </div>
+                <div class="swiper-main__wrapper swiper-wrapper">
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="other-clinics__container">
+                            <div class="other-clinics__clinic-card">
+                                <div class="other-clinics__head">
+                                    <div class="other-clinics__photos">
+                                        <img src="/images/other_clinic.png">
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="oher-clinics__clinic-info">
+                                        <div class="other-clinics__clinic-name">
+                                            Клиника “Название”
+                                        </div>
+                                        <div class="other-clinics__clinic-address">
+                                            ул. Люблинская, д. 9 к. 1
+                                        </div>
+                                        <div class="other-clinics__clinic-reviews">
+                                            <div class="other-clinics__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="other-clinics__clinic-metro">
-                            380м от метро “Рязанский проспект”
-                        </div>
-                        <div class="other-clinics__clinic-record-phone">
-                            Телефон для записи
-                            <span>
+                                <div class="other-clinics__clinic-metro">
+                                    380м от метро “Рязанский проспект”
+                                </div>
+                                <div class="other-clinics__clinic-record-phone">
+                                    Телефон для записи
+                                    <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="other-clinics__container">
-                    <div class="other-clinics__clinic-card">
-                        <div class="other-clinics__head">
-                            <div class="other-clinics__photos">
-                                <img src="/images/other_clinic.png">
-                            </div>
-                            <div class="oher-clinics__clinic-info">
-                                <div class="other-clinics__clinic-name">
-                                    Клиника “Название”
-                                </div>
-                                <div class="other-clinics__clinic-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="other-clinics__clinic-reviews">
-                                    <div class="other-clinics__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="other-clinics__container">
+                            <div class="other-clinics__clinic-card">
+                                <div class="other-clinics__head">
+                                    <div class="other-clinics__photos">
+                                        <img src="/images/other_clinic.png">
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="oher-clinics__clinic-info">
+                                        <div class="other-clinics__clinic-name">
+                                            Клиника “Название”
+                                        </div>
+                                        <div class="other-clinics__clinic-address">
+                                            ул. Люблинская, д. 9 к. 1
+                                        </div>
+                                        <div class="other-clinics__clinic-reviews">
+                                            <div class="other-clinics__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="other-clinics__clinic-metro">
-                            380м от метро “Рязанский проспект”
-                        </div>
-                        <div class="other-clinics__clinic-record-phone">
-                            Телефон для записи
-                            <span>
+                                <div class="other-clinics__clinic-metro">
+                                    380м от метро “Рязанский проспект”
+                                </div>
+                                <div class="other-clinics__clinic-record-phone">
+                                    Телефон для записи
+                                    <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="other-clinics__container">
-                    <div class="other-clinics__clinic-card">
-                        <div class="other-clinics__head">
-                            <div class="other-clinics__photos">
-                                <img src="/images/other_clinic.png">
-                            </div>
-                            <div class="oher-clinics__clinic-info">
-                                <div class="other-clinics__clinic-name">
-                                    Клиника “Название”
-                                </div>
-                                <div class="other-clinics__clinic-address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="other-clinics__clinic-reviews">
-                                    <div class="other-clinics__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                    <div class="swiper-main__slide swiper-slide">
+                        <div class="other-clinics__container">
+                            <div class="other-clinics__clinic-card">
+                                <div class="other-clinics__head">
+                                    <div class="other-clinics__photos">
+                                        <img src="/images/other_clinic.png">
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="oher-clinics__clinic-info">
+                                        <div class="other-clinics__clinic-name">
+                                            Клиника “Название”
+                                        </div>
+                                        <div class="other-clinics__clinic-address">
+                                            ул. Люблинская, д. 9 к. 1
+                                        </div>
+                                        <div class="other-clinics__clinic-reviews">
+                                            <div class="other-clinics__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="other-clinics__clinic-metro">
-                            380м от метро “Рязанский проспект”
-                        </div>
-                        <div class="other-clinics__clinic-record-phone">
-                            Телефон для записи
-                            <span>
+                                <div class="other-clinics__clinic-metro">
+                                    380м от метро “Рязанский проспект”
+                                </div>
+                                <div class="other-clinics__clinic-record-phone">
+                                    Телефон для записи
+                                    <span>
                                 <img src="/images/phone_24px.png">
                             <a class="phone" href="#">(499) 123-45-67</a>
                             </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination swiper-main__pagination"></div>
             </div>
         </section>
 

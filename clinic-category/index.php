@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class="clinic-card__container">
+        <div class="clinic-card-listing__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -135,27 +135,29 @@
                         <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
-                        Записаться в клинику
+                        Запись на приём
                     </a>
                 </div>
             </div>
-            <div class="clinic-card__popular-procedure">
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+            <div class="clinic-card__footer-container__popular-procedure">
+                <div class="clinic-card__popular-procedure">
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 1 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 2 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 3 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="clinic-card__container">
+        <div class="clinic-card-listing__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -216,27 +218,29 @@
                         <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
-                        Записаться в клинику
+                        Запись на приём
                     </a>
                 </div>
             </div>
-            <div class="clinic-card__popular-procedure">
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+            <div class="clinic-card__footer-container__popular-procedure">
+                <div class="clinic-card__popular-procedure">
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 1 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 2 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 3 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="clinic-card__container">
+        <div class="clinic-card-listing__container">
             <div class="clinic-card">
                 <div class="clinic-card__left">
                     <div class="clinic-card__photo-clinic">
@@ -297,22 +301,24 @@
                         <a href="#">(499) 123-45-67</a>
                     </div>
                     <a class="search__btn">
-                        Записаться в клинику
+                        Запись на приём
                     </a>
                 </div>
             </div>
-            <div class="clinic-card__popular-procedure">
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 1 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 2 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
-                </div>
-                <div class="clinic-card__popular-procedure-price">
-                    УЗИ 3 триместра
-                    <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+            <div class="clinic-card__footer-container__popular-procedure">
+                <div class="clinic-card__popular-procedure">
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 1 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 2 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
+                    <div class="clinic-card__popular-procedure-price">
+                        УЗИ 3 триместра
+                        <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                    </div>
                 </div>
             </div>
         </div>
