@@ -291,7 +291,7 @@
                     </div>
                     <div class="disease__review-card__shield">
                         <img src="/images/verifyied.png">
-                        Проверено
+                        Провереноz
                     </div>
                 </div>
                 <div class="disease__review-card__footer">
