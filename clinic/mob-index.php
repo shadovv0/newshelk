@@ -6,6 +6,7 @@
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
@@ -18,9 +19,20 @@
 <header>
     <div class="head__container">
         <div class="wrap clear">
-            <a class="menu-btn" href="#">
-                <img src="/images/burger.png">
-            </a>
+            <div class="top-menu__wrap">
+                <input type="checkbox" id="nav-toggle" hidden>
+                <nav class="nav">
+                    <label for="nav-toggle" class="nav-toggle" onclick></label>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">Клиники</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+                    </ul>
+                </nav>
+            </div>
             <!--<div class="top-menu">
             <div class="top-menu__wrap">
                 <nav class="top-menu-btn">
@@ -654,7 +666,8 @@
                                 <div class="review-card__comment">
                                     Плюсы
                                     <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                        проблеме пациента!</p>
                                     Минусы
                                     <p>Сложно записаться.</p>
                                 </div>
@@ -717,7 +730,8 @@
                                 <div class="review-card__comment">
                                     Плюсы
                                     <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                        проблеме пациента!</p>
                                     Минусы
                                     <p>Сложно записаться.</p>
                                 </div>

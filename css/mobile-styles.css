@@ -20,7 +20,7 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 }
 
 body {
-    background:  #F7F9FA !important;
+    background: rgba(242, 240, 240, 0.50) !important;
     /*background:  #0d7db6 !important;*/
 }
 
@@ -1307,6 +1307,9 @@ html, body {
     border-top: 1px solid #0000001A;
     background: #FFFFFF;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 101;
 }
 
 .mobile-menu ul {
@@ -2318,8 +2321,22 @@ html, body {
    background: rgba(81, 111, 166, 0.13);
 }
 
-.disease__review-card__container {
+
+.disease__review-card__head {
     padding: 5px 15px;
+}
+
+.disease__review-card__footer {
+    padding: 5px 15px;
+}
+
+.disease__review-card__container--folded {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .review-card__container {
@@ -3597,7 +3614,6 @@ html, body {
 }
 
 .burger__line--cross:nth-child(3) {
-    -webkit-transform: translate(0, calc(100% + 4.5px));
     -ms-transform: translate(0, calc(100% + 4.5px));
     transform: translate(0, calc(100% + 4.5px));
 }
@@ -3605,26 +3621,16 @@ html, body {
      position: absolute;
  }
 .burger__line--cross:nth-child(1) {
-    -webkit-transform: translate(0, calc(-100% - 4.5px));
     -ms-transform: translate(0, calc(-100% - 4.5px));
     transform: translate(0, calc(-100% - 4.5px));
 }
 .burger {
     width: 32px;
-    height: 32px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    height: 40px;
     display: flex;
     gap: 4.5px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out 0s;
@@ -3655,7 +3661,7 @@ html, body {
 .site-header__panel {
     position: fixed;
     background: #fff;
-    width: 70%;
+    width: 60%;
     top: 68px;
     left: 0;
     z-index: 100;
@@ -3677,6 +3683,11 @@ html, body {
     transform: unset;
 }
 .burger.burger--open {
-     border-radius: 50%;
      background: #fafafb;
  }
+
+.lock {
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    transform: translateX(50px);
+}

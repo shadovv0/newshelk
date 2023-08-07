@@ -44,42 +44,42 @@
     </div>
 </header>
 <div class="content">
-    <div class="wrap">
-        <div class="search">
-            <h3 class="search__title-service">Медицинские услуги</h3>
-            <div class="search__container">
-                <div class="search__clinic-doctor">
-                    <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
-                        <input class="js-search-input" type="text"
-                               placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
-                        <img src="/images/search-btn.png">
-                    </form>
-                </div>
-                <div class="search__city-metro">
-                    <select name="doctor" id="doctor-select" class="search__city-text">
-                        <option value="0">Метро, город МО</option>
-                        <option value="0">Метро, город МО</option>
-                        <option value="0">Метро, город МО</option>
-                        <option value="0">Метро, город МО</option>
-                    </select>
-                </div>
-                <a href="#" class="search__btn">Подобрать</a>
+    <div class="search hub-search-background">
+        <h3 class="search__title-service">Медицинские услуги</h3>
+        <div class="search__container">
+            <div class="search__clinic-doctor">
+                <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
+                    <input class="js-search-input" type="text"
+                           placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                    <img src="/images/search-btn.png">
+                </form>
             </div>
+            <div class="search__city-metro">
+                <select name="doctor" id="doctor-select" class="search__city-text">
+                    <option value="0">Метро, город МО</option>
+                    <option value="0">Метро, город МО</option>
+                    <option value="0">Метро, город МО</option>
+                    <option value="0">Метро, город МО</option>
+                </select>
+            </div>
+            <a href="#" class="search__btn">Подобрать</a>
         </div>
+    </div>
+    <div class="wrap">
         <section class="services-hub">
             <div data-fold class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Гинекология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list">
+                <ul data-services-list="3" class="services-hub__list services__list--three">
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -88,10 +88,10 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -100,36 +100,58 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
                     </li>
                 </ul>
-                <div class="btn-more">
-                    <button data-fold-btn class="services-hub__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                        <span class="more__arrow icon-arrow-more"></span>
-                    </button>
-                </div>
+                <button data-fold-btn class="services-hub__more more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть"
+                          class="more__text">Показать еще</span>
+                    <span class="more__arrow icon-arrow-more"></span>
+                </button>
             </div>
             <div data-fold class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Урология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list">
+                <ul data-services-list="3" class="services-hub__list services__list--three">
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -138,10 +160,10 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -150,36 +172,58 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
                     </li>
                 </ul>
-                <div class="btn-more">
-                    <button data-fold-btn class="services-hub__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                        <span class="more__arrow icon-arrow-more"></span>
-                    </button>
-                </div>
+                <button data-fold-btn class="services-hub__more more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть"
+                          class="more__text">Показать еще</span>
+                    <span class="more__arrow icon-arrow-more"></span>
+                </button>
             </div>
             <div data-fold class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Дерматология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list">
+                <ul data-services-list="3" class="services-hub__list services__list--three">
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -188,10 +232,10 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -200,36 +244,58 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
                     </li>
                 </ul>
-                <div class="btn-more">
-                    <button data-fold-btn class="services-hub__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                        <span class="more__arrow icon-arrow-more"></span>
-                    </button>
-                </div>
+                <button data-fold-btn class="services-hub__more more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть"
+                          class="more__text">Показать еще</span>
+                    <span class="more__arrow icon-arrow-more"></span>
+                </button>
             </div>
             <div data-fold class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Венерология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list">
+                <ul data-services-list="3" class="services-hub__list services__list--three">
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -238,10 +304,10 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
@@ -250,22 +316,44 @@
                         <a href="#" class="services-hub__link">MAR-тест</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link"> Анализ секрета простаты</a>
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
                     </li>
                     <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапияи</a>
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">MAR-тест</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                    </li>
+                    <li class="services-hub__item">
+                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
                     </li>
                     <li class="services-hub__item">
                         <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
                     </li>
                 </ul>
-                <div class="btn-more">
-                    <button data-fold-btn class="services-hub__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                        <span class="more__arrow icon-arrow-more"></span>
-                    </button>
-                </div>
+                <button data-fold-btn class="services-hub__more more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть"
+                          class="more__text">Показать еще</span>
+                    <span class="more__arrow icon-arrow-more"></span>
+                </button>
             </div>
         </section>
 
@@ -286,8 +374,12 @@
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909
+                    оценок
+                </div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе
+                    за 1 минуту
+                </div>
                 <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>

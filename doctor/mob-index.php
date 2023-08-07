@@ -104,11 +104,37 @@
 
     <div class="mobile-menu">
         <ul>
-            <li><a href="#"><img src="/images/burger.png">Меню</a></li>
+            <li><a class="site-header menu__link">
+                    <div class="site-header__burger burger">
+                        <span class="burger__line burger__line--cross"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line burger__line--cross"></span>
+                    </div>
+                   Меню
+                </a>
+            </li>
             <li><a href="#"><img src="/images/doctor-icon.png">Врачи</a></li>
             <li><a href="#"><img src="/images/review-icon.png">Отзывы</a></li>
             <li><a href="#"><img src="/images/record-icon.png">Записаться</a></li>
         </ul>
+    </div>
+
+
+    <div class="site-header__panel burger">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Клиники</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+            </ul>
+        </nav>
+        <div class="site-header__support support">
+            <a href="#" class="support__number">(499) 123-34-56</a>
+            <div class="support__caption">Справочная</div>
+        </div>
     </div>
 
     <div class="wrap">

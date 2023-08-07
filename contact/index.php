@@ -79,7 +79,7 @@
                         <img src="/images/image%2017.png">
                     </div>
                     <div class="contact__schedule">
-                        Часы работы офиса:
+                        Часы работы офиса:<br>
                         <span>Пн-Пт 10:00-20:00 Сб-Вс 10:00-18:00</span>
                     </div>
                 </div>

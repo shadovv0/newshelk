@@ -201,7 +201,7 @@
             </div>
         </div>
 
-        <div class="review-card">
+        <div data-fold class="review-card">
             <h5>Комментарии</h5>
             <div class="disease__review-card__container">
                 <div class="disease__review-card__head">
@@ -244,6 +244,46 @@
                 </div>
             </div>
             <div class="disease__review-card__container">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p><b>Имя +79225678902</b></p>
+                        <span>14.02.2022</span>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        <b>Комментарий</b>
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-fold-content class="disease__review-card__container disease__review-card__container--folded">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p><b>Имя +79225678902</b></p>
+                        <span>14.02.2022</span>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        <b>Комментарий</b>
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-fold-content class="disease__review-card__container second-container disease__review-card__container--folded">
                 <div class="disease__review-card__head">
                     <div class="disease__review-card__name-patient">
                         <p><b>Имя +79225678902</b></p>

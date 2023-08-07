@@ -71,6 +71,77 @@
                     <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
                 </div>
                 <a href="">Показать все услуги контрацепции</a>
+                <div data-fold class="services-hub__block">
+                    <div class="services-hub__title">
+                        <h2>Венерология</h2>
+                    </div>
+                    <ul data-services-list="3" class="services-hub__list services__list--three">
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                    <button data-fold-btn class="services-hub__more more">
+                        <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span>
+                        <span class="more__arrow icon-arrow-more"></span>
+                    </button>
+                </div>
             </div>
         </div>
 

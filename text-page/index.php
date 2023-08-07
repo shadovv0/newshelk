@@ -44,28 +44,28 @@
     </div>
 </header>
 <div class="content">
-    <div class="wrap">
-        <div class="search">
-            <div class="search__container">
-                <div class="search__clinic-doctor">
-                    <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
-                        <input class="js-search-input" type="text"
-                               placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
-                        <img src="/images/search-btn.png">
-                    </form>
-                </div>
-                <div class="search__city-metro">
-                    <select name="doctor" id="doctor-select" class="search__city-text">
-                        <option value="0">Метро, город МО</option>
-                        <option value="0">Метро, город МО</option>
-                        <option value="0">Метро, город МО</option>
-                        <option value="0">Метро, город МО</option>
-                    </select>
-                </div>
-                <a href="#" class="search__btn">Подобрать</a>
+    <div class="search hub-search-background">
+        <div class="search__container">
+            <div class="search__clinic-doctor">
+                <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
+                    <input class="js-search-input" type="text"
+                           placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                    <img src="/images/search-btn.png">
+                </form>
             </div>
+            <div class="search__city-metro">
+                <select name="doctor" id="doctor-select" class="search__city-text">
+                    <option value="0">Метро, город МО</option>
+                    <option value="0">Метро, город МО</option>
+                    <option value="0">Метро, город МО</option>
+                    <option value="0">Метро, город МО</option>
+                </select>
+            </div>
+            <a href="#" class="search__btn">Подобрать</a>
         </div>
+    </div>
 
+    <div class="wrap">
         <div class="disease__container">
             <h2>Гайморит</h2>
             <div class="disease__top">
@@ -273,7 +273,7 @@
             </div>
         </div>
 
-        <div class="review-card">
+        <div data-fold class="review-card">
             <h5>Комментарии</h5>
             <div class="disease__review-card__container">
                 <div class="disease__review-card__head">
@@ -332,6 +332,46 @@
                     </div>
                 </div>
             </div>
+
+            <div data-fold-content class="disease__review-card__container disease__review-card__container--folded">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p>Имя +79225678902<span>14.02.2022</span></p>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        Комментарий
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div data-fold-content class="disease__review-card__container disease__review-card__container--folded">
+                <div class="disease__review-card__head">
+                    <div class="disease__review-card__name-patient">
+                        <p>Имя +79225678902<span>14.02.2022</span></p>
+                    </div>
+                    <div class="disease__review-card__shield">
+                        <img src="/images/verifyied.png">
+                        Проверено
+                    </div>
+                </div>
+                <div class="disease__review-card__footer">
+                    <div class="disease__review-card__comment">
+                        Комментарий
+                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <button data-fold-btn class="services__more more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
                               class="more__text">Показать еще</span>
