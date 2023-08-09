@@ -172,97 +172,374 @@
                             Записаться
                         </a>
                     </div>
-                    <form action="#" class="specialisations">
-                        <div data-sticky class="specialisations__body mobile-overflow">
-                            <div class="specialisations__item radio">
-                                <input id="gynecology" type="radio" value="Гинекология" name="specialisations"
-                                       class="radio__input"/>
-                                <label for="gynecology" class="radio__label-spec">Гинекология</label>
-                            </div>
-                            <div class="specialisations__item radio">
-                                <input id="otoloringolog" type="radio" value="Отоларингология" name="specialisations"
-                                       class="radio__input"/>
-                                <label for="otoloringolog" class="radio__label-spec">Отоларингология</label>
-                            </div>
-                            <div class="specialisations__item radio">
-                                <input id="urology" type="radio" value="Урология" name="specialisations"
-                                       class="radio__input"/>
-                                <label for="urology" class="radio__label-spec">Урология</label>
-                            </div>
-                            <div class="specialisations__item radio">
-                                <input id="venerolog" type="radio" value="Венерология" name="specialisations"
-                                       class="radio__input"/>
-                                <label for="venerolog" class="radio__label-spec">Венерология</label>
-                            </div>
+                    <div data-tabs-container class="specialisations">
+                        <div class="specialisations__body mobile-overflow">
+                            <button data-tab="gynecology" class="specialisations__item is-active">
+                                Гинекология
+                            </button>
+                            <button data-tab="otoloringolog" class="specialisations__item">
+                                Отоларингология
+                            </button>
+                            <button data-tab="urology" class="specialisations__item">
+                                Урология
+                            </button>
+                            <button data-tab="venerolog" class="specialisations__item">
+                                Венерология
+                            </button>
                         </div>
-                        <div class="specialisations__services services">
+                        <div data-tabcontent="gynecology" class="specialisations__services services">
                             <div data-fold class="services__block-spec services__block--in-listing">
-                                <div class="">
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Акушер (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Маммолог (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Акушер (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                    <li class="services__item">
-                                        <a href="#" class="services__link">Маммолог (от 18 лет)</a>
-                                        <div class="popular-doctor__price">
-                                            <p>1520₽</p>
-                                            <span>1900₽</span>
-                                        </div>
-                                    </li>
-                                </div>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
+                                <li class="services__item">
+                                    <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                    <div class="popular-doctor__price">
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                </li>
                                 <button data-fold-btn class="services__more more">
-                                <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
-                                      class="more__text">Показать все услуги </span>
+                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
+                                              class="more__text">Показать все услуги </span>
                                     <span class="more__arrow icon-arrow-more"></span>
                                 </button>
                             </div>
                         </div>
-                    </form>
+                        <div data-tabcontent="otoloringolog" class="specialisations__services services">
+                            <div data-fold class="services__block-spec services__block--in-listing">
+                                <div>
+                                    <ul data-services-list="3">
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                        <li class="services__item services-hub__item">
+                                            <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                            <div class="popular-doctor__price">
+                                                <p>1520₽</p>
+                                                <span>1900₽</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <button data-fold-btn class="services__more more">
+                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
+                                              class="more__text">Показать все услуги </span>
+                                        <span class="more__arrow icon-arrow-more"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-tabcontent="urology" class="specialisations__services services">
+                            <div data-fold class="services__block-spec services__block--in-listing">
+                                <div>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <button data-fold-btn class="services__more more">
+                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
+                                              class="more__text">Показать все услуги </span>
+                                        <span class="more__arrow icon-arrow-more"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-tabcontent="venerolog" class="specialisations__services services">
+                            <div data-fold class="services__block-spec services__block--in-listing">
+                                <div>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Акушер (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Маммолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <button data-fold-btn class="services__more more">
+                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
+                                              class="more__text">Показать все услуги </span>
+                                        <span class="more__arrow icon-arrow-more"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -278,7 +555,11 @@
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
-                                        <h5>Гинекологи<span>(4 гинеколога)</span></h5>
+                                        <h5>Гинекологи<span>(4 гинеколога)</span>
+                                            <a class="faq__arrow">
+                                                <img src="/images/right-page.png">
+                                            </a>
+                                        </h5>
                                     </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
@@ -514,7 +795,11 @@
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
-                                        <h5>Урологи<span>(4 Урологи)</span></h5>
+                                        <h5>Урологи<span>(4 Урологи)</span>
+                                            <a class="faq__arrow">
+                                                <img src="/images/right-page.png">
+                                            </a>
+                                        </h5>
                                     </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
@@ -750,7 +1035,11 @@
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
-                                        <h5>Отоларингологи<span>(4 отоларинголога)</span></h5>
+                                        <h5>Отоларингологи<span>(4 отоларинголога)</span>
+                                            <a class="faq__arrow">
+                                                <img src="/images/right-page.png">
+                                            </a>
+                                        </h5>
                                     </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">
@@ -986,7 +1275,11 @@
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
-                                        <h5>Венерологи<span>(4 венеролога)</span></h5>
+                                        <h5>Венерологи<span>(4 венеролога)</span>
+                                            <a class="faq__arrow">
+                                                <img src="/images/right-page.png">
+                                            </a>
+                                        </h5>
                                     </div>
                                 </button>
                                 <div data-fold-content class="clinic-card__content">

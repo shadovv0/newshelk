@@ -208,6 +208,9 @@
                                 </div>
                                 <a href="#">14 отзывов</a>
                             </div>
+                            <a class="faq__arrow">
+                                <img src="/images/right-page.png">
+                            </a>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -260,6 +263,9 @@
                                 </div>
                                 <a href="#">14 отзывов</a>
                             </div>
+                            <a class="faq__arrow">
+                                <img src="/images/right-page.png">
+                            </a>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -312,6 +318,9 @@
                                 </div>
                                 <a href="#">14 отзывов</a>
                             </div>
+                            <a class="faq__arrow">
+                                <img src="/images/right-page.png">
+                            </a>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -433,6 +442,9 @@
                                 </div>
                                 <a href="#">14 отзывов</a>
                             </div>
+                            <a class="faq__arrow">
+                                <img src="/images/right-page.png">
+                            </a>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -485,6 +497,9 @@
                                 </div>
                                 <a href="#">14 отзывов</a>
                             </div>
+                            <a class="faq__arrow">
+                                <img src="/images/right-page.png">
+                            </a>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -537,6 +552,9 @@
                                 </div>
                                 <a href="#">14 отзывов</a>
                             </div>
+                            <a class="faq__arrow">
+                                <img src="/images/right-page.png">
+                            </a>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">

@@ -513,7 +513,7 @@
             </div>
         </div>
 
-        <div class="review-doctor__container">
+        <div data-fold class="review-doctor__container">
             <div class="review-doctor__head">
                 <a class="search__btn">Отправить отзыв</a>
                 <a href="#" class="users__side-link">Как мы проверяем отзывы?</a>
@@ -583,12 +583,65 @@
                         </div>
                     </div>
                 </div>
-                <button data-fold-btn class="services__more more">
+            </div>
+            <div data-fold-content class="review-card__container review-card__container--folded">
+                <div class="review-card__head-doctor">
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя +79225678902
+                            <div class="review-card__date">
+                                14.02.2022
+                            </div>
+                        </div>
+                        <div class="review-card__mark">
+                            <img src="/images/Star1.png">
+                            5
+                        </div>
+                    </div>
+                    <div class="review-card__right">
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                    </div>
+                    <div class="review-card__head__bottom">
+                        <img src="/images/review-geo-blue.png">
+                        Клиника на Текстильщиках
+                        ул. Люблинская, д. 9 к. 1
+                    </div>
+                </div>
+                <div class="review-card__comment">
+                    Плюсы
+                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                    Минусы
+                    <p>Сложно записаться.</p>
+                </div>
+                <div class="review-card__bottom">
+                    <div class="user__answer">
+                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                        <div class="user__answers">
+                            <div class="user__answer-place">
+                                <b>Клиника на Рязанском проспекте</b>
+                            </div>
+                            <div class="user__answer-date">
+                                16 февраля 22 в 09:48
+                            </div>
+                            <div class="user__answer-content">
+                                <p>Спасибо Вам за отзыв!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button data-fold-btn class="services__more more">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"
                               class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
-            </div>
+                <span class="more__arrow icon-arrow-more"></span>
+            </button>
         </div>
 
         <section class="section-with-slider">
