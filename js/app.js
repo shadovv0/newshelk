@@ -2192,7 +2192,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         servicesLists.forEach(servicesList => {
             const servicesListColumns = servicesList.dataset.servicesList;
-            const servicesListItems = servicesList.querySelectorAll('.services-hub__item');
+            const servicesListItems = servicesList.querySelectorAll('.services__fold');
             
             if(!MEDIA_QUERY_768.matches){
                 servicesListItems.forEach((item, i) => {
