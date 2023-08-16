@@ -2314,5 +2314,14 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
+function spoiler() {
+    $('.main-spoiler-btn').on('click', function (e) {
+        e.preventDefault();
+        let target = $(this).data('target');
 
+        $('.main-spoiler[data-id="' + target + '"]').css('height', 'auto').addClass('deployed');
 
+        $(this).hide();
+    });
+
+}

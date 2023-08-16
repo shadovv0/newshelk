@@ -4928,3 +4928,36 @@ body {
 
 
 
+
+.main-spoiler {
+    height: 200px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+}
+
+.main-spoiler:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #F7F8FA 110%);
+}
+
+.deployed:after {
+    height: 0;
+    background: none;
+}
+
+.main-spoiler-btn {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-spoiler-btn:hover {
+    color: #04023f;
+    text-decoration: none;
+}

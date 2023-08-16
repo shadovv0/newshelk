@@ -59,18 +59,31 @@
                         <li class="category__filter-item"><a href="#">Району</a></li>
                     </ul>
                 </div>
-                <div class="category__items">
-                    <div class="category__item"><a href="#">Перевязка маточных труб</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Перевязка маточных труб</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Перевязка маточных труб</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span></div>
-                    <div class="category__item"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
+                <div data-fold>
+                    <div data-services-list="3" class="category__items">
+                        <div class="category__item services__fold"><a href="#">Перевязка маточных
+                                труб</a><span>от 1520₽</span></div>
+                        <div class="category__item services__fold"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span>
+                        </div>
+                        <div class="category__item services__fold"><a href="#">Противозачаточный
+                                укол</a><span>от 1520₽</span></div>
+                        <div class="category__item services__fold"><a href="#">Перевязка маточных
+                                труб</a><span>от 1520₽</span></div>
+                        <div class="category__item services__fold"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span>
+                        </div>
+                        <div class="category__item services__fold"><a href="#">Противозачаточный
+                                укол</a><span>от 1520₽</span></div>
+                        <div class="category__item services__fold"><a href="#">Перевязка маточных
+                                труб</a><span>от 1520₽</span></div>
+                        <div class="category__item services__fold"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span>
+                        </div>
+                        <div class="category__item services__fold"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
+                         <button data-fold-btn class="services-hub__more more">
+                            <span data-open-text="Показать еще" data-close-text="Свернуть"
+                                class="more__text">Показать еще</span>
+                        </button>
+                    </div>
                 </div>
-                <a href="">Показать все услуги контрацепции</a>
             </div>
         </div>
 
@@ -327,8 +340,12 @@
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909
+                    оценок
+                </div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе
+                    за 1 минуту
+                </div>
                 <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>
