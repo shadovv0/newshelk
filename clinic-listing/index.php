@@ -863,38 +863,38 @@
                 <div class="relinks__column">
                     <div class="relinks__head">
                         <b class="relinks__column-title">Направления</b>
-                        <ul class="relinks__list relinks__list--mobile-row">
-                            <li class="main-spoiler" data-id="description">
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
-                                    18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
-                                    18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            </li>
-                        </ul>
+                        <div class="main-spoiler" data-id="description">
+                            <ul class="relinks__list relinks__list--mobile-row">
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
+                                        18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
+                                        18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <button class="btn main-spoiler-btn">
                         <span data-open-text="Показать еще" data-close-text="Свернуть"

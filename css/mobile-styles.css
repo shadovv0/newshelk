@@ -780,7 +780,7 @@ html, body {
     padding: 10px 0;
 }
 
-.sort__container h5 {
+.sort__container h1 {
     color: #000;
     text-align: center;
     font-size: 20px;
@@ -1827,7 +1827,7 @@ html, body {
 
 
 
-.popular-questions h5 {
+.popular-questions h1 {
     color: #000;
     font-size: 20px;
     font-weight: 500;
@@ -1891,7 +1891,7 @@ html, body {
     align-items: center;
 }
 
-.review-card h5 {
+.review-card h1 {
     color: #000;
     font-size: 20px;
     font-weight: 500;
@@ -2213,6 +2213,11 @@ html, body {
     padding: 0 10px 10px;
     display: flex;
     flex-direction: column;
+}
+
+.disease__top-left img, .disease__center-img img, .disease__bottom-img img {
+    max-width: 320px;
+    width: 100%;
 }
 
 .disease__nav  {
@@ -3050,11 +3055,34 @@ html, body {
     font-weight: 400;
 }
 
-.doctor-card-view__ambulance-house img {
+
+.doctor-card--advant p {
+    margin: 0;
+}
+
+.doctor-card--advant ul {
+    margin: 0;
+    padding: 0;
+}
+
+.doctor-card--advant li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.doctor-card--advant img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.doctor-card--advant img {
     width: 50px;
 }
 
-.doctor-card-view__ambulance-house {
+.doctor-card--advant {
     display: flex;
     flex-direction: row;
     align-items: flex-end;

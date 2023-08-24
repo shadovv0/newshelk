@@ -82,9 +82,29 @@
                     <p>Степени</p>
                     <span>Кандидат медицинских наук</span>
                 </div>
-                <div class="doctor-card-view__ambulance-house">
-                    <img src="/images/ambulance.png">
-                    Выезд на дом
+                <div class="doctor-card--advant">
+                    <ul>
+                        <li>
+                            <img src="/images/ambulance.png"/>
+                            <p>Выезд на дом</p>
+                        </li>
+                        <li>
+                            <img src="/images/wifi-ico.png"/>
+                            <p>Wi-fi</p>
+                        </li>
+                        <li>
+                            <img src="/images/card-ico.png"/>
+                            <p>Оплата картой</p>
+                        </li>
+                        <li>
+                            <img src="/images/parking-ico.png"/>
+                            <p>Парковка</p>
+                        </li>
+                        <li>
+                            <img src="/images/pill-ico.png"/>
+                            <p>Аптека</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="doctor-card-view__doctor-price">
                     Стоимость приема

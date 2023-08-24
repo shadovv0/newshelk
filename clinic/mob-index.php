@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
@@ -763,16 +764,22 @@
         <div class="media-clinic">
             <h3 class="license-clinic-title">Лицензии клиники</h3>
             <div class="license-container">
-                <img src="/images/license-clinic.png">
-
+                <a href="/images/license-clinic.png" data-fancybox="gallery">
+                    <img src="/images/license-clinic.png" alt="license"/>
+                </a>
             </div>
             <h3 class="photo-clinic__title">Фотографии клиники</h3>
             <div class="photo-clinic__container">
-                <img src="/images/photo-clinic-1.png">
+                <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                    <img src="/images/photo-clinic-1.png" alt="photo">
+                </a>
             </div>
             <h3 class="video-clinic__title">Видео обзор клиники</h3>
             <div class="video-clinic__container">
-                <img src="/images/video-clinic.png">
+                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/K5LhfmEgFuM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
             </div>
         </div>
 
@@ -937,5 +944,7 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 </html>

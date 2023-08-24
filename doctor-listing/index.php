@@ -48,7 +48,7 @@
 <div class="content">
     <div class="wrap">
         <div class="sort__container">
-            <h5>Гинекологи (114)</h5>
+            <h1>Гинекологи (114)</h1>
             <div class="sort__body">
                 <span>Обновлено 30.03.22</span>
                 <div class="sort__head">
@@ -359,7 +359,7 @@
 
         <section>
             <div class="popular-questions">
-                <h5>Самые популярные вопросы</h5>
+                <h1>Самые популярные вопросы</h1>
                 <div class="faq">
                     <div data-fold class="faq__item">
                         <div class="red-btn">
@@ -434,7 +434,7 @@
         </div>
 
         <div class="review-card">
-            <h5>Отзывы</h5>
+            <h1>Отзывы</h1>
             <div class="doctor-review-card__container">
                 <div class="doctor-review-card__photo-name">
                     <img src="/images/doctor.png">

@@ -18,6 +18,7 @@
     <script defer src="../js/swiper-bundle.min.js"></script>
     <script defer src="../js/air-datepicker.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
 </head>
 <body>
 <header>
@@ -99,9 +100,9 @@
                 </div>
 
                 <div class="doctor-card__doctor-data">
-                    <a href="#">Информация о враче</a>
+                    <a href="#doctor-information">Информация о враче</a>
                     <img src="/images/ellipse40.png">
-                    <a href="#">Отзывы</a>
+                    <a href="#reviews">Отзывы</a>
                     <img src="/images/ellipse40.png">
                     <a href="#">Запись на приём</a>
                 </div>
@@ -115,9 +116,29 @@
                     <span>1900₽</span>
                 </div>
                 <a class="search__btn">Записаться на приём онлайн</a>
-                <div class="doctor-card__ambulance-house">
-                    <img src="/images/ambulance.png">
-                    <p>Выезд на дом</p>
+                <div class="doctor-card--advant">
+                    <ul>
+                        <li>
+                            <img src="/images/ambulance.png"/>
+                            <p>Выезд на дом</p>
+                        </li>
+                        <li>
+                            <img src="/images/wifi-ico.png"/>
+                            <p>Wi-fi</p>
+                        </li>
+                        <li>
+                            <img src="/images/card-ico.png"/>
+                            <p>Оплата картой</p>
+                        </li>
+                        <li>
+                            <img src="/images/parking-ico.png"/>
+                            <p>Парковка</p>
+                        </li>
+                        <li>
+                            <img src="/images/pill-ico.png"/>
+                            <p>Аптека</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -555,17 +576,16 @@
                                      class="information__tabcontent information__tabcontent--photos">
                                     <h4>Документы и фотографии</h4>
                                     <div class="information__tabcontent-body information__tabcontent-body--photos">
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="/images/license-clinic.png" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="/images/license-clinic.png" alt
-                                                 title/>
-                                        </div>
-                                        <div data-popup-btn="image" data-popup-btn="image" class="information__photo">
-                                            <img loading="lazy" src="/images/license-clinic.png" alt
-                                                 title/>
+                                        <div class="information__photo">
+                                            <a href="/images/license-clinic.png" data-fancybox="gallery1">
+                                                <img src="/images/license-clinic.png" alt="document">
+                                            </a>
+                                            <a href="/images/license-clinic.png" data-fancybox="gallery1">
+                                                <img src="/images/license-clinic.png" alt="document">
+                                            </a>
+                                            <a href="/images/license-clinic.png" data-fancybox="gallery1">
+                                                <img src="/images/license-clinic.png" alt="document">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -1266,5 +1286,8 @@
         </div>
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 </html>
