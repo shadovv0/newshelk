@@ -5017,3 +5017,161 @@ body {
     color: #04023f;
     text-decoration: none;
 }
+
+
+
+
+.popup {
+    position: absolute;
+    width: 650px;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+.pp-title {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.popup ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pp-img-clinic img {
+    max-width: 60px;
+    max-height: 40px;
+    margin-right: 15px;
+}
+
+.border-bot {
+    display: flex;
+}
+
+.clinic-address>li>img {
+    margin-right: 5px;
+}
+
+.pp-clinic-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.clinic-address {
+    display: flex;
+    align-items: center;
+}
+
+.region {
+    margin-left: 10px;
+}
+
+.input-col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    padding: 10px 0;
+    width: 48%;
+}
+
+.pp-clinic-name .h4 {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.address, .metro, .region {
+    color: #595959;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    padding: 0 5px;
+}
+
+.pp-hint {
+    text-align: center;
+    font-size: 13px;
+    color: #959595;
+    margin: 23px 0 0;
+}
+
+.popup .center p {
+    font-size: 13px;
+    color: #595959;
+    margin: 0 0 8px;
+    text-align: center;
+}
+
+.phone-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.popup>div {
+    padding: 15px;
+    height: 100%;
+}
+
+.popup .center {
+    margin: 39px 0 24px;
+}
+
+.center {
+    text-align: center;
+}
+
+.user-agreement {
+    color: #298ec8;
+}
+
+.input-text {
+    width: 100%;
+    background: #efefef;
+    height: 41px;
+    line-height: normal;
+    padding: 0 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 0 11px;
+    color: #000;
+    resize: none;
+}
+
+.text {
+    font-size: 14px;
+    padding: 13px 18px;
+    height: 147px;
+}
+
+.popup .button {
+    display: block;
+    width: 200px;
+    margin: 23px auto 19px;
+}
+
+.btn-disabled {
+    background: gray!important;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    background: #009595;
+    text-align: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 11px 16px 12px;
+    cursor: pointer;
+}

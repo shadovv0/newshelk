@@ -6,7 +6,6 @@
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
@@ -941,6 +940,49 @@
                     лечения и не заменяет врача
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="popup pp-rev">
+        <a class="pp-close" href="#"></a>
+        <div>
+            <div class="pp-title">Оставить отзыв о клинике</div>
+            <div class="clear border-bot">
+                <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic"></div>
+                <div class="pp-clinic-name">
+                    <div class="h4">МедЦентрСервис в Отрадном</div>
+                    <ul class="clinic-address">
+                        <li class="address"><img src="/images/review-geo.png" />Москва, Пестеля д. 11</li>
+                        <li class="region"><img src="/images/region.png" />СВАО (Отрадное)</li>
+                    </ul>
+                </div>
+            </div>
+            <form method="POST" class="js-form">
+                <ul class="input-col">
+                    <li class="left">
+                        <input class="input-text" type="text" name="name" placeholder="Введите Ваше имя">
+                    </li>
+                    <li class="right">
+                        <input class="input-text input-phone" type="text" name="phone"
+                               placeholder="+7 (___) ___-__-__">
+                    </li>
+                </ul>
+                <textarea class="input-text text" name="review_text"
+                          placeholder="Напишите Ваш отзыв"></textarea>
+                <div class="clear for-rate">
+                    <div class="rate-block">
+                        <div>
+                            <div>Ваша оценка:</div>
+                            <div>
+                                <ul class="rate">
+                                    <input type="hidden" name="rating" value="5">
+                                    <li class=""></li><li class=""></li><li class=""></li><li class=""></li><li class=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить отзыв</button>
+            </form>
         </div>
     </div>
 </footer>
