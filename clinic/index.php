@@ -71,9 +71,13 @@
                         </div>
                         <a href="#">14 отзывов</a>
                     </div>
-                    <div class="doctor-card__ambulance-house">
-                        <img src="/images/ambulance.png">
-                        <p>Выезд на дом</p>
+                    <div class="doctor-card--advant">
+                        <ul>
+                            <li>
+                                <img src="/images/ambulance.png"/>
+                                <p>Выезд на дом</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="clinic-card__center">
@@ -110,7 +114,7 @@
                     </div>
                 </div>
                 <div class="clinic-card__right-map">
-                    <img src="/images/image%2017.png">
+                    <div data-map="55.726477, 37.479474" class="contacts__map"></div>
                 </div>
             </div>
             <div class="clinic-card__body">
@@ -2328,6 +2332,6 @@
 
 </body>
 </html>
-
+<script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
 <script defer src="/js/swiper-bundle.min.js"></script>
 <script defer src="/js/air-datepicker.js"></script>
