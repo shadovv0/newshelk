@@ -101,10 +101,12 @@ $(document).on('click', '.top-menu-visible', function () {
 
 function showRecordForm() {
     $('body').addClass('show-record-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'hidden';
 }
 
 function hideForm() {
     $('body').removeClass('show-record-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'scroll';
 }
 
 $('.js-record').on('click', function (e) {
@@ -352,4 +354,39 @@ $('.search-form').on('submit', function (e) {
     if ($('.js-search-input').val().length == 0) {
         e.preventDefault();
     }
+});
+
+function showReviewForm() {
+    $('body').addClass('show-review-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'hidden';
+}
+
+function hideReviewForm() {
+    $('body').removeClass('show-review-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'scroll';
+}
+
+$('.js-close-form, .overlay').on('click', function (e) {
+    hideForm();
+    hideReviewForm();
+});
+
+$('.button-escape, .overlay').on('click', function (e) {
+    hideForm();
+    hideReviewForm();
+});
+
+$('.js-review').on('click', function (e) {
+    e.preventDefault();
+
+    showReviewForm();
+
+    var clinicId = $(this).data('clinic');
+    var doctorId = $(this).data('doctor');
+
+    var params = {clinic: clinicId, doctor: doctorId};
+    var hiddenInput = $('.js-review-form input[name="params"]');
+
+    hiddenInput.val(JSON.stringify(params));
+
 });

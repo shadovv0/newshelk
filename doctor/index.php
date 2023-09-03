@@ -113,7 +113,7 @@
                     <p>1520₽</p>
                     <span>1900₽</span>
                 </div>
-                <a class="search__btn">Записаться на приём онлайн</a>
+                <a class="search__btn js-record">Записаться на приём онлайн</a>
                 <div class="doctor-card--advant">
                     <ul>
                         <li>
@@ -1401,9 +1401,10 @@
         </div>
     </div>
 </footer>
-<div class="popup pp-entry-clinic-115191" data-closehint="1">
+<div class="overlay"></div>
+<div class="js-record-form record-form popup" data-closehint="1">
     <a class="pp-close" href="#"></a>
-    <div style="overflow-y: scroll">
+    <div>
         <div class="pp-title">Запись на прием в клинику</div>
         <div class="clear border-bot">
             <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic">
@@ -1452,6 +1453,7 @@
                 и даю свое согласие на обработку персональных данных.
             </div>
         </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
 <script src="../js/app.js"></script>

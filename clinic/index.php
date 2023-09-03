@@ -1487,7 +1487,7 @@
                         <h2>Отзывы<span class="users__count"></span></h2>
                         <a href="#" class="users__side-link">Как мы проверяем отзывы?</a>
                     </div>
-                    <a data-popup-btn="review" href="#" class="users__btn search__btn">Оставить отзыв</a>
+                    <a data-popup-btn="review" class="users__btn search__btn js-review">Оставить отзыв</a>
                 </div>
                 <div data-tabs-container class="users__wrapper">
                     <div class="users__side">
@@ -1879,7 +1879,7 @@
                         </div>
                         <div class="users_btn">
                             <a href="#" class="users__more-review">Показать ещё отзывы</a>
-                            <a href="#" class="users__record">Оставить отзыв</a>
+                            <a class="users__record js-review">Оставить отзыв</a>
                         </div>
                     </div>
                 </div>
@@ -2469,7 +2469,8 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-<div class="popup pp-rev">
+<div class="overlay"></div>
+<div class="js-review-form review-form popup pp-rev">
     <a class="pp-close" href="#"></a>
     <div>
         <div class="pp-title">Оставить отзыв о клинике</div>
@@ -2515,8 +2516,10 @@
             <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить отзыв
             </button>
         </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
+
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/main.js"></script>
 </body>
