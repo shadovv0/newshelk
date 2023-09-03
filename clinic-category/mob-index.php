@@ -5,16 +5,17 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
-    <link rel="stylesheet" href="/files/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="/files/air-datepicker.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -117,7 +118,7 @@
                 </div>
                 <div class="clinic-card__clinic-schedule">
                     Часы приёма:
-                    <p>Пн-Пт 10:00-20:00  Сб 10:00-18:00
+                    <p>Пн-Пт 10:00-20:00 Сб 10:00-18:00
                         Вс 10:00-19:00</p>
                 </div>
                 <div class="clinic-card__clinic-close">
@@ -146,13 +147,16 @@
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 1 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 2 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 3 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
@@ -192,7 +196,7 @@
                 </div>
                 <div class="clinic-card__clinic-schedule">
                     Часы приёма:
-                    <p>Пн-Пт 10:00-20:00  Сб 10:00-18:00
+                    <p>Пн-Пт 10:00-20:00 Сб 10:00-18:00
                         Вс 10:00-19:00</p>
                 </div>
                 <div class="clinic-card__clinic-close">
@@ -221,13 +225,16 @@
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 1 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 2 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 3 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
@@ -267,7 +274,7 @@
                 </div>
                 <div class="clinic-card__clinic-schedule">
                     Часы приёма:
-                    <p>Пн-Пт 10:00-20:00  Сб 10:00-18:00
+                    <p>Пн-Пт 10:00-20:00 Сб 10:00-18:00
                         Вс 10:00-19:00</p>
                 </div>
                 <div class="clinic-card__clinic-close">
@@ -296,13 +303,16 @@
                     </a>
                     <div class="clinic-card__popular-procedure">
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 1 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 1 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 2 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 2 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                         <div class="clinic-card__popular-procedure-price">
-                            УЗИ 3 триместра <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
+                            УЗИ 3 триместра
+                            <div class="prices"><p>1520₽</p> <span>1900₽</span></div>
                         </div>
                     </div>
                 </div>
@@ -414,42 +424,122 @@
 
         <div class="review-card">
             <h5>Отзывы</h5>
-            <div class="review-card__container">
-                <div class="review-card__head">
-                    <div class="review-card__left">
-                        <div class="review-card__name-patient">
-                            Имя +79225678902
-                            <div class="review-card__date">
-                                14.02.2022
+            <div class="owl-carousel owl-theme">
+                <div class="review-card__container">
+                    <div class="review-card__head">
+                        <div class="review-card__left">
+                            <div class="review-card__name-patient">
+                                Имя +79225678902
+                                <div class="review-card__date">
+                                    14.02.2022
+                                </div>
+                            </div>
+                            <div class="review-card__mark">
+                                <img src="/images/Star1.png">
+                                5
                             </div>
                         </div>
-                        <div class="review-card__mark">
-                            <img src="/images/Star1.png">
-                            5
+                        <div class="review-card__right">
+                            <div class="review-card__shield">
+                                <img src="/images/verifyied.png">
+                                Проверено
+                            </div>
+                            <div class="review-card__source-review">
+                                ИсточникОтзыва
+                            </div>
                         </div>
                     </div>
-                    <div class="review-card__right">
-                        <div class="review-card__shield">
-                            <img src="/images/verifyied.png">
-                            Проверено
-                        </div>
-                        <div class="review-card__source-review">
-                            ИсточникОтзыва
+                    <div class="review-card__comment">
+                        <span>Комментарий</span>
+                        <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                            ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                    </div>
+                    <div class="review-card__bottom">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="review-card__comment">
-                    <span>Комментарий</span>
-                    <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
-                        ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                <div class="review-card__container">
+                    <div class="review-card__head">
+                        <div class="review-card__left">
+                            <div class="review-card__name-patient">
+                                Имя +79225678902
+                                <div class="review-card__date">
+                                    14.02.2022
+                                </div>
+                            </div>
+                            <div class="review-card__mark">
+                                <img src="/images/Star1.png">
+                                5
+                            </div>
+                        </div>
+                        <div class="review-card__right">
+                            <div class="review-card__shield">
+                                <img src="/images/verifyied.png">
+                                Проверено
+                            </div>
+                            <div class="review-card__source-review">
+                                ИсточникОтзыва
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card__comment">
+                        <span>Комментарий</span>
+                        <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                            ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                    </div>
+                    <div class="review-card__bottom">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="review-card__bottom">
-                    <div class="review-card__photo-clinic">
-                        <img src="/images/image%2033.png">
-                        <p>
-                            Клиника<br>
-                            <span>АльтерМед</span>
-                        </p>
+                <div class="review-card__container">
+                    <div class="review-card__head">
+                        <div class="review-card__left">
+                            <div class="review-card__name-patient">
+                                Имя +79225678902
+                                <div class="review-card__date">
+                                    14.02.2022
+                                </div>
+                            </div>
+                            <div class="review-card__mark">
+                                <img src="/images/Star1.png">
+                                5
+                            </div>
+                        </div>
+                        <div class="review-card__right">
+                            <div class="review-card__shield">
+                                <img src="/images/verifyied.png">
+                                Проверено
+                            </div>
+                            <div class="review-card__source-review">
+                                ИсточникОтзыва
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card__comment">
+                        <span>Комментарий</span>
+                        <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                            ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                    </div>
+                    <div class="review-card__bottom">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -659,5 +749,8 @@
         </div>
     </div>
 </footer>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

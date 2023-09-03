@@ -5,14 +5,16 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -159,113 +161,226 @@
                 <h4>Популярные врачи лечащие гайморит</h4>
             </div>
             <div class="popular-doctor__doctors">
-                <div class="popular-doctor__container">
-                    <div class="popular-doctor__doctor-card">
-                        <div class="popular-doctor__head">
-                            <div class="popular-doctor__photo">
-                                <img src="/images/doctor.png">
-                            </div>
-                            <div class="popular-doctor__doctor-info">
-                                <div class="popular-doctor__name">
-                                    Манохина Дарья<br>
-                                    Даниловна
+                <div class="owl-carousel owl-theme">
+                    <div class="popular-doctor__container">
+                        <div class="popular-doctor__doctor-card">
+                            <div class="popular-doctor__head">
+                                <div class="popular-doctor__photo">
+                                    <img src="/images/doctor.png">
                                 </div>
-                                <div class="popular-doctor__price">
-                                    Стоимость приема
-                                    <p>1520₽</p>
-                                    <span>1900₽</span>
-                                </div>
-                                <div class="popular-doctor__count-review">
-                                    <div class="popular-doctor__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                                <div class="popular-doctor__doctor-info">
+                                    <div class="popular-doctor__name">
+                                        Манохина Дарья<br>
+                                        Даниловна
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="popular-doctor__price">
+                                        Стоимость приема
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                    <div class="popular-doctor__count-review">
+                                        <div class="popular-doctor__star">
+                                            <img src="/images/Star1.png">
+                                            <p>4,7</p>
+                                        </div>
+                                        <a href="#">8 отзывов</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="popular-doctor__body">
-                            <div class="popular-doctor__spec">
-                                Гинеколог • акушер врач УЗИ
-                            </div>
-                            <div class="popular-doctor__category-experience">
-                                Врач высшей категории,<br>
-                                Кандидат медицинских наук.<br>
-                                Стаж 12 лет.
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor__spec">
+                                    Гинеколог • акушер врач УЗИ
+                                </div>
+                                <div class="popular-doctor__category-experience">
+                                    Врач высшей категории,<br>
+                                    Кандидат медицинских наук.<br>
+                                    Стаж 12 лет.
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="popular-doctor__container">
-                    <div class="popular-doctor__doctor-card">
-                        <div class="popular-doctor__head">
-                            <div class="popular-doctor__photo">
-                                <img src="/images/doctor.png">
-                            </div>
-                            <div class="popular-doctor__doctor-info">
-                                <div class="popular-doctor__name">
-                                    Манохина Дарья<br>
-                                    Даниловна
+                    <div class="popular-doctor__container">
+                        <div class="popular-doctor__doctor-card">
+                            <div class="popular-doctor__head">
+                                <div class="popular-doctor__photo">
+                                    <img src="/images/doctor.png">
                                 </div>
-                                <div class="popular-doctor__price">
-                                    Стоимость приема
-                                    <p>1520₽</p>
-                                    <span>1900₽</span>
-                                </div>
-                                <div class="popular-doctor__count-review">
-                                    <div class="popular-doctor__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                                <div class="popular-doctor__doctor-info">
+                                    <div class="popular-doctor__name">
+                                        Манохина Дарья<br>
+                                        Даниловна
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="popular-doctor__price">
+                                        Стоимость приема
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                    <div class="popular-doctor__count-review">
+                                        <div class="popular-doctor__star">
+                                            <img src="/images/Star1.png">
+                                            <p>4,7</p>
+                                        </div>
+                                        <a href="#">8 отзывов</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="popular-doctor__body">
-                            <div class="popular-doctor__spec">
-                                Гинеколог • акушер врач УЗИ
-                            </div>
-                            <div class="popular-doctor__category-experience">
-                                Врач высшей категории,<br>
-                                Кандидат медицинских наук.<br>
-                                Стаж 12 лет.
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor__spec">
+                                    Гинеколог • акушер врач УЗИ
+                                </div>
+                                <div class="popular-doctor__category-experience">
+                                    Врач высшей категории,<br>
+                                    Кандидат медицинских наук.<br>
+                                    Стаж 12 лет.
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="popular-doctor__container">
-                    <div class="popular-doctor__doctor-card">
-                        <div class="popular-doctor__head">
-                            <div class="popular-doctor__photo">
-                                <img src="/images/doctor.png">
-                            </div>
-                            <div class="popular-doctor__doctor-info">
-                                <div class="popular-doctor__name">
-                                    Манохина Дарья<br>
-                                    Даниловна
+                    <div class="popular-doctor__container">
+                        <div class="popular-doctor__doctor-card">
+                            <div class="popular-doctor__head">
+                                <div class="popular-doctor__photo">
+                                    <img src="/images/doctor.png">
                                 </div>
-                                <div class="popular-doctor__price">
-                                    Стоимость приема
-                                    <p>1520₽</p>
-                                    <span>1900₽</span>
-                                </div>
-                                <div class="popular-doctor__count-review">
-                                    <div class="popular-doctor__star">
-                                        <img src="/images/Star1.png">
-                                        <p>4,7</p>
+                                <div class="popular-doctor__doctor-info">
+                                    <div class="popular-doctor__name">
+                                        Манохина Дарья<br>
+                                        Даниловна
                                     </div>
-                                    <a href="#">8 отзывов</a>
+                                    <div class="popular-doctor__price">
+                                        Стоимость приема
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                    <div class="popular-doctor__count-review">
+                                        <div class="popular-doctor__star">
+                                            <img src="/images/Star1.png">
+                                            <p>4,7</p>
+                                        </div>
+                                        <a href="#">8 отзывов</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor__spec">
+                                    Гинеколог • акушер врач УЗИ
+                                </div>
+                                <div class="popular-doctor__category-experience">
+                                    Врач высшей категории,<br>
+                                    Кандидат медицинских наук.<br>
+                                    Стаж 12 лет.
                                 </div>
                             </div>
                         </div>
-                        <div class="popular-doctor__body">
-                            <div class="popular-doctor__spec">
-                                Гинеколог • акушер врач УЗИ
+                    </div>
+                    <div class="popular-doctor__container">
+                        <div class="popular-doctor__doctor-card">
+                            <div class="popular-doctor__head">
+                                <div class="popular-doctor__photo">
+                                    <img src="/images/doctor.png">
+                                </div>
+                                <div class="popular-doctor__doctor-info">
+                                    <div class="popular-doctor__name">
+                                        Манохина Дарья<br>
+                                        Даниловна
+                                    </div>
+                                    <div class="popular-doctor__price">
+                                        Стоимость приема
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                    <div class="popular-doctor__count-review">
+                                        <div class="popular-doctor__star">
+                                            <img src="/images/Star1.png">
+                                            <p>4,7</p>
+                                        </div>
+                                        <a href="#">8 отзывов</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="popular-doctor__category-experience">
-                                Врач высшей категории,<br>
-                                Кандидат медицинских наук.<br>
-                                Стаж 12 лет.
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor__spec">
+                                    Гинеколог • акушер врач УЗИ
+                                </div>
+                                <div class="popular-doctor__category-experience">
+                                    Врач высшей категории,<br>
+                                    Кандидат медицинских наук.<br>
+                                    Стаж 12 лет.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-doctor__container">
+                        <div class="popular-doctor__doctor-card">
+                            <div class="popular-doctor__head">
+                                <div class="popular-doctor__photo">
+                                    <img src="/images/doctor.png">
+                                </div>
+                                <div class="popular-doctor__doctor-info">
+                                    <div class="popular-doctor__name">
+                                        Манохина Дарья<br>
+                                        Даниловна
+                                    </div>
+                                    <div class="popular-doctor__price">
+                                        Стоимость приема
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                    <div class="popular-doctor__count-review">
+                                        <div class="popular-doctor__star">
+                                            <img src="/images/Star1.png">
+                                            <p>4,7</p>
+                                        </div>
+                                        <a href="#">8 отзывов</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor__spec">
+                                    Гинеколог • акушер врач УЗИ
+                                </div>
+                                <div class="popular-doctor__category-experience">
+                                    Врач высшей категории,<br>
+                                    Кандидат медицинских наук.<br>
+                                    Стаж 12 лет.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-doctor__container">
+                        <div class="popular-doctor__doctor-card">
+                            <div class="popular-doctor__head">
+                                <div class="popular-doctor__photo">
+                                    <img src="/images/doctor.png">
+                                </div>
+                                <div class="popular-doctor__doctor-info">
+                                    <div class="popular-doctor__name">
+                                        Манохина Дарья<br>
+                                        Даниловна
+                                    </div>
+                                    <div class="popular-doctor__price">
+                                        Стоимость приема
+                                        <p>1520₽</p>
+                                        <span>1900₽</span>
+                                    </div>
+                                    <div class="popular-doctor__count-review">
+                                        <div class="popular-doctor__star">
+                                            <img src="/images/Star1.png">
+                                            <p>4,7</p>
+                                        </div>
+                                        <a href="#">8 отзывов</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popular-doctor__body">
+                                <div class="popular-doctor__spec">
+                                    Гинеколог • акушер врач УЗИ
+                                </div>
+                                <div class="popular-doctor__category-experience">
+                                    Врач высшей категории,<br>
+                                    Кандидат медицинских наук.<br>
+                                    Стаж 12 лет.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -503,5 +618,8 @@
         </div>
     </div>
 </footer>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/app.js"></script>
 </body>
 </html>

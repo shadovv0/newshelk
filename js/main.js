@@ -334,6 +334,20 @@ $('.js-send-review').on('click', function (e) {
 });
 
 
+$(".owl-carousel").owlCarousel({
+    //мобильный конфиг
+    margin:30,
+    items:1,
+    dots: true,
+
+    //деск конфиг
+   /* items:1, // кол-во отображаемого
+    dots: true, //точки
+    nav: true, // стрелки
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],// разметка стрелок*/
+});
+
+
 $('.search-form').on('submit', function (e) {
     if ($('.js-search-input').val().length == 0) {
         e.preventDefault();

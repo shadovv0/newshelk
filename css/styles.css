@@ -987,6 +987,10 @@ body {
     height: 100%;
 }
 
+.photo-clinic {
+    text-decoration-line: none;
+}
+
 .clinic-card__photo-clinic {
     margin-bottom: 15px;
 }

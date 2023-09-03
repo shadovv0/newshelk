@@ -5,16 +5,17 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
-    <link rel="stylesheet" href="/files/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="/files/air-datepicker.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -77,10 +78,11 @@
                                 труб</a><span>от 1520₽</span></div>
                         <div class="category__item services__fold"><a href="#">Противозачаточное кольцо</a><span>от 1520₽</span>
                         </div>
-                        <div class="category__item services__fold"><a href="#">Противозачаточный укол</a><span>от 1520₽</span></div>
-                         <button data-fold-btn class="services-hub__more more">
+                        <div class="category__item services__fold"><a href="#">Противозачаточный
+                                укол</a><span>от 1520₽</span></div>
+                        <button data-fold-btn class="services-hub__more more">
                             <span data-open-text="Показать еще" data-close-text="Свернуть"
-                                class="more__text">Показать еще</span>
+                                  class="more__text">Показать еще</span>
                         </button>
                     </div>
                 </div>
@@ -426,50 +428,52 @@
             </div>
         </div>
 
-        <div class="review-card">
-            <h5>Отзывы</h5>
-            <div class="review-card__container">
-                <div class="review-card__left">
-                    <div class="review-card__name-patient">
-                        Имя пациента
-                        <div class="review-card__marks">
-                            <img src="/images/Star1.png">
-                            <p>5</p>
+        <section>
+            <div class="review-card">
+                <h5>Отзывы</h5>
+                <div class="review-card__container">
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                            <div class="review-card__marks">
+                                <img src="/images/Star1.png">
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
                         </div>
                     </div>
-                    <div class="review-card__date">
-                        14.02.2022
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
                     </div>
-                    <div class="review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
-                    </div>
-                    <div class="review-card__source-review">
-                        ИсточникОтзыва
-                    </div>
-                    <div class="review-card__date-visit">
-                        Дата посещения<br>
-                        12.02.2022
-                    </div>
-                </div>
-                <div class="review-card__center">
-                    <div class="review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
-                            ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
-                    </div>
-                </div>
-                <div class="review-card__right">
-                    <div class="review-card__photo-clinic">
-                        <img src="/images/image%2033.png">
-                        <p>
-                            Клиника<br>
-                            <span>АльтерМед</span>
-                        </p>
+                    <div class="review-card__right">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div class="relinks">
             <div class="relinks__body">
@@ -681,5 +685,7 @@
         </div>
     </div>
 </footer>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

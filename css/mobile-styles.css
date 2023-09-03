@@ -614,9 +614,15 @@ html, body {
     font-size: 14px;
 }
 
+.other-clinics__clinic-record-phone>span {
+    display: flex;
+    align-items: center;
+}
+
 .other-clinics__clinic-record-phone a {
     color: rgba(0, 0, 0, 0.70);
     font-size: 16px;
+    margin-left: 10px;
 }
 
 .other-clinics__title {

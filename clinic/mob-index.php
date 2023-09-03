@@ -5,15 +5,16 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -777,73 +778,194 @@
             <div class="video-clinic__container">
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/K5LhfmEgFuM"
                         title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
                 </iframe>
             </div>
         </div>
 
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Другие клиники сети</h3>
-            <div class="other-clinics__clinic-card">
-                <div class="other-clinics__head">
-                    <div class="other-clinics__photos">
-                        <img src="/images/clinic.png">
-                    </div>
-                    <div class="oher-clinics__clinic-info">
-                        <div class="other-clinics__clinic-name">
-                            Клиника “Название”
+            <div class="owl-carousel owl-theme">
+                <div class="other-clinics__clinic-card">
+                    <div class="other-clinics__head">
+                        <div class="other-clinics__photos">
+                            <img src="/images/clinic.png">
                         </div>
-                        <div class="other-clinics__clinic-address">
-                            ул. Люблинская, д. 9 к. 1
-                        </div>
-                        <div class="other-clinics__clinic-reviews">
-                            <div class="other-clinics__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+                        <div class="oher-clinics__clinic-info">
+                            <div class="other-clinics__clinic-name">
+                                Клиника “Название”
                             </div>
-                            <a href="#">8 отзывов</a>
+                            <div class="other-clinics__clinic-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="other-clinics__clinic-reviews">
+                                <div class="other-clinics__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">8 отзывов</a>
+                            </div>
                         </div>
                     </div>
+                    <div class="other-clinics__clinic-metro">
+                        380м от метро “Рязанский проспект”
+                    </div>
+                    <div class="other-clinics__clinic-record-phone">
+                        Телефон для записи
+                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                    </div>
                 </div>
-                <div class="other-clinics__clinic-metro">
-                    380м от метро “Рязанский проспект”
+                <div class="other-clinics__clinic-card">
+                    <div class="other-clinics__head">
+                        <div class="other-clinics__photos">
+                            <img src="/images/clinic.png">
+                        </div>
+                        <div class="oher-clinics__clinic-info">
+                            <div class="other-clinics__clinic-name">
+                                Клиника “Название”
+                            </div>
+                            <div class="other-clinics__clinic-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="other-clinics__clinic-reviews">
+                                <div class="other-clinics__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">8 отзывов</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-clinics__clinic-metro">
+                        380м от метро “Рязанский проспект”
+                    </div>
+                    <div class="other-clinics__clinic-record-phone">
+                        Телефон для записи
+                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                    </div>
                 </div>
-                <div class="other-clinics__clinic-record-phone">
-                    Телефон для записи
-                    <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                <div class="other-clinics__clinic-card">
+                    <div class="other-clinics__head">
+                        <div class="other-clinics__photos">
+                            <img src="/images/clinic.png">
+                        </div>
+                        <div class="oher-clinics__clinic-info">
+                            <div class="other-clinics__clinic-name">
+                                Клиника “Название”
+                            </div>
+                            <div class="other-clinics__clinic-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="other-clinics__clinic-reviews">
+                                <div class="other-clinics__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">8 отзывов</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-clinics__clinic-metro">
+                        380м от метро “Рязанский проспект”
+                    </div>
+                    <div class="other-clinics__clinic-record-phone">
+                        Телефон для записи
+                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Похожие клиники</h3>
-            <div class="other-clinics__clinic-card">
-                <div class="other-clinics__head">
-                    <div class="other-clinics__photos">
-                        <img src="/images/clinic.png">
-                    </div>
-                    <div class="oher-clinics__clinic-info">
-                        <div class="other-clinics__clinic-name">
-                            Клиника “Название”
+            <div class="owl-carousel owl-theme">
+                <div class="other-clinics__clinic-card">
+                    <div class="other-clinics__head">
+                        <div class="other-clinics__photos">
+                            <img src="/images/clinic.png">
                         </div>
-                        <div class="other-clinics__clinic-address">
-                            ул. Люблинская, д. 9 к. 1
-                        </div>
-                        <div class="other-clinics__clinic-reviews">
-                            <div class="other-clinics__star">
-                                <img src="/images/Star1.png">
-                                <p>4,7</p>
+                        <div class="oher-clinics__clinic-info">
+                            <div class="other-clinics__clinic-name">
+                                Клиника “Название”
                             </div>
-                            <a href="#">8 отзывов</a>
+                            <div class="other-clinics__clinic-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="other-clinics__clinic-reviews">
+                                <div class="other-clinics__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">8 отзывов</a>
+                            </div>
                         </div>
                     </div>
+                    <div class="other-clinics__clinic-metro">
+                        380м от метро “Рязанский проспект”
+                    </div>
+                    <div class="other-clinics__clinic-record-phone">
+                        Телефон для записи
+                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                    </div>
                 </div>
-                <div class="other-clinics__clinic-metro">
-                    380м от метро “Рязанский проспект”
+                <div class="other-clinics__clinic-card">
+                    <div class="other-clinics__head">
+                        <div class="other-clinics__photos">
+                            <img src="/images/clinic.png">
+                        </div>
+                        <div class="oher-clinics__clinic-info">
+                            <div class="other-clinics__clinic-name">
+                                Клиника “Название”
+                            </div>
+                            <div class="other-clinics__clinic-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="other-clinics__clinic-reviews">
+                                <div class="other-clinics__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">8 отзывов</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-clinics__clinic-metro">
+                        380м от метро “Рязанский проспект”
+                    </div>
+                    <div class="other-clinics__clinic-record-phone">
+                        Телефон для записи
+                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                    </div>
                 </div>
-                <div class="other-clinics__clinic-record-phone">
-                    Телефон для записи
-                    <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                <div class="other-clinics__clinic-card">
+                    <div class="other-clinics__head">
+                        <div class="other-clinics__photos">
+                            <img src="/images/clinic.png">
+                        </div>
+                        <div class="oher-clinics__clinic-info">
+                            <div class="other-clinics__clinic-name">
+                                Клиника “Название”
+                            </div>
+                            <div class="other-clinics__clinic-address">
+                                ул. Люблинская, д. 9 к. 1
+                            </div>
+                            <div class="other-clinics__clinic-reviews">
+                                <div class="other-clinics__star">
+                                    <img src="/images/Star1.png">
+                                    <p>4,7</p>
+                                </div>
+                                <a href="#">8 отзывов</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-clinics__clinic-metro">
+                        380м от метро “Рязанский проспект”
+                    </div>
+                    <div class="other-clinics__clinic-record-phone">
+                        Телефон для записи
+                        <span><img src="/images/phone_24px.png"><a class="phone" href="#">(499) 123-45-67</a></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -951,8 +1073,8 @@
                 <div class="pp-clinic-name">
                     <div class="h4">МедЦентрСервис в Отрадном</div>
                     <ul class="clinic-address">
-                        <li class="address"><img src="/images/review-geo.png" />Москва, Пестеля д. 11</li>
-                        <li class="region"><img src="/images/region.png" />СВАО (Отрадное)</li>
+                        <li class="address"><img src="/images/review-geo.png"/>Москва, Пестеля д. 11</li>
+                        <li class="region"><img src="/images/region.png"/>СВАО (Отрадное)</li>
                     </ul>
                 </div>
             </div>
@@ -975,18 +1097,27 @@
                             <div>
                                 <ul class="rate">
                                     <input type="hidden" name="rating" value="5">
-                                    <li class=""></li><li class=""></li><li class=""></li><li class=""></li><li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить отзыв</button>
+                <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить
+                    отзыв
+                </button>
             </form>
         </div>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

@@ -5,19 +5,18 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
-    <link rel="stylesheet" href="../files/swiper-bundle.min.css">
-
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="../files/air-datepicker.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script defer src="../js/swiper-bundle.min.js"></script>
     <script defer src="../js/air-datepicker.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -130,7 +129,7 @@
                         <span class="burger__line"></span>
                         <span class="burger__line burger__line--cross"></span>
                     </div>
-                   Меню
+                    Меню
                 </a>
             </li>
             <li><a href="#"><img src="/images/doctor-icon.png">Врачи</a></li>
@@ -665,347 +664,189 @@
         </div>
 
         <section class="section-with-slider">
-            <div class="popular-doctor">
-                <div class="section-with-slider__header">
-                    <h4 class="popular-doctor__title">Популярные
-                        <ins>акушеры в районе метро “Рязанский проспект”</ins>
-                    </h4>
-                </div>
-                <div class="swiper swiper-main">
-                    <div class="swiper-main__wrapper swiper-wrapper">
-                        <div class="section-with-slider__navigation">
-                            <div class="arrow arrow--prev"><span class="icon-arrow-more"><img
-                                            src="/images/left-page.png"></span></div>
-                        </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="popular-doctor__container">
-                                <div class="popular-doctor__doctor-card">
-                                    <div class="popular-doctor__head">
-                                        <div class="popular-doctor__photo">
-                                            <img src="/images/doctor.png">
+            <div class="doctor-card__container-background">
+                <h3 class="doctor-card__title">Популярные акушеры в районе метро "Рязанский проспект"</h3>
+                <div class="doctor-card__walking-metro">380м от метро “Рязанский проспект”</div>
+                <div class="owl-carousel owl-theme">
+                    <div class="popular-doctor__doctors">
+                        <div class="popular-doctor__container">
+                            <div class="popular-doctor__doctor-card">
+                                <div class="popular-doctor__head">
+                                    <div class="popular-doctor__photo">
+                                        <img src="/images/doctor.png">
+                                    </div>
+                                    <div class="popular-doctor__doctor-info">
+                                        <div class="popular-doctor__name">
+                                            Манохина Дарья<br>
+                                            Даниловна
                                         </div>
-                                        <div class="popular-doctor__doctor-info">
-                                            <div class="popular-doctor__name">
-                                                Манохина Дарья<br>
-                                                Даниловна
+                                        <div class="popular-doctor__price">
+                                            Стоимость приема
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                        <div class="popular-doctor__count-review">
+                                            <div class="popular-doctor__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
                                             </div>
-                                            <div class="popular-doctor__price">
-                                                Стоимость приема
-                                                <p>1520₽</p>
-                                                <span>1900₽</span>
-                                            </div>
-                                            <div class="popular-doctor__count-review">
-                                                <div class="popular-doctor__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
+                                            <a href="#">8 отзывов</a>
                                         </div>
                                     </div>
-                                    <div class="popular-doctor__body">
-                                        <div class="popular-doctor__metro">
-                                            Текстильщики (978м)
-                                        </div>
-                                        <div class="popular-doctor__address">
-                                            ул. Люблинская, д. 9 к. 1
-                                        </div>
-                                        <div class="popular-doctor__spec">
-                                            Гинеколог • акушер врач УЗИ
-                                        </div>
-                                        <div class="popular-doctor__category-experience">
-                                            Врач высшей категории,<br>
-                                            Кандидат медицинских наук.<br>
-                                            Стаж 12 лет.
-                                        </div>
+                                </div>
+                                <div class="popular-doctor__body">
+                                    <div class="popular-doctor__metro">
+                                        Текстильщики (978м)
+                                    </div>
+                                    <div class="popular-doctor__address">
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                    <div class="popular-doctor__spec">
+                                        Гинеколог • акушер врач УЗИ
+                                    </div>
+                                    <div class="popular-doctor__category-experience">
+                                        Врач высшей категории,<br>
+                                        Кандидат медицинских наук.<br>
+                                        Стаж 12 лет.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="popular-doctor__container">
-                                <div class="popular-doctor__doctor-card">
-                                    <div class="popular-doctor__head">
-                                        <div class="popular-doctor__photo">
-                                            <img src="/images/doctor.png">
+                        <div class="popular-doctor__container">
+                            <div class="popular-doctor__doctor-card">
+                                <div class="popular-doctor__head">
+                                    <div class="popular-doctor__photo">
+                                        <img src="/images/doctor.png">
+                                    </div>
+                                    <div class="popular-doctor__doctor-info">
+                                        <div class="popular-doctor__name">
+                                            Манохина Дарья<br>
+                                            Даниловна
                                         </div>
-                                        <div class="popular-doctor__doctor-info">
-                                            <div class="popular-doctor__name">
-                                                Манохина Дарья<br>
-                                                Даниловна
+                                        <div class="popular-doctor__price">
+                                            Стоимость приема
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                        <div class="popular-doctor__count-review">
+                                            <div class="popular-doctor__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
                                             </div>
-                                            <div class="popular-doctor__price">
-                                                Стоимость приема
-                                                <p>1520₽</p>
-                                                <span>1900₽</span>
-                                            </div>
-                                            <div class="popular-doctor__count-review">
-                                                <div class="popular-doctor__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
+                                            <a href="#">8 отзывов</a>
                                         </div>
                                     </div>
-                                    <div class="popular-doctor__body">
-                                        <div class="popular-doctor__metro">
-                                            Текстильщики (978м)
-                                        </div>
-                                        <div class="popular-doctor__address">
-                                            ул. Люблинская, д. 9 к. 1
-                                        </div>
-                                        <div class="popular-doctor__spec">
-                                            Гинеколог • акушер врач УЗИ
-                                        </div>
-                                        <div class="popular-doctor__category-experience">
-                                            Врач высшей категории,<br>
-                                            Кандидат медицинских наук.<br>
-                                            Стаж 12 лет.
-                                        </div>
+                                </div>
+                                <div class="popular-doctor__body">
+                                    <div class="popular-doctor__metro">
+                                        Текстильщики (978м)
+                                    </div>
+                                    <div class="popular-doctor__address">
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                    <div class="popular-doctor__spec">
+                                        Гинеколог • акушер врач УЗИ
+                                    </div>
+                                    <div class="popular-doctor__category-experience">
+                                        Врач высшей категории,<br>
+                                        Кандидат медицинских наук.<br>
+                                        Стаж 12 лет.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="popular-doctor__container">
-                                <div class="popular-doctor__doctor-card">
-                                    <div class="popular-doctor__head">
-                                        <div class="popular-doctor__photo">
-                                            <img src="/images/doctor.png">
-                                        </div>
-                                        <div class="popular-doctor__doctor-info">
-                                            <div class="popular-doctor__name">
-                                                Манохина Дарья<br>
-                                                Даниловна
-                                            </div>
-                                            <div class="popular-doctor__price">
-                                                Стоимость приема
-                                                <p>1520₽</p>
-                                                <span>1900₽</span>
-                                            </div>
-                                            <div class="popular-doctor__count-review">
-                                                <div class="popular-doctor__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
-                                        </div>
+                        <div class="popular-doctor__container">
+                            <div class="popular-doctor__doctor-card">
+                                <div class="popular-doctor__head">
+                                    <div class="popular-doctor__photo">
+                                        <img src="/images/doctor.png">
                                     </div>
-                                    <div class="popular-doctor__body">
-                                        <div class="popular-doctor__metro">
-                                            Текстильщики (978м)
+                                    <div class="popular-doctor__doctor-info">
+                                        <div class="popular-doctor__name">
+                                            Манохина Дарья<br>
+                                            Даниловна
                                         </div>
-                                        <div class="popular-doctor__address">
-                                            ул. Люблинская, д. 9 к. 1
+                                        <div class="popular-doctor__price">
+                                            Стоимость приема
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
                                         </div>
-                                        <div class="popular-doctor__spec">
-                                            Гинеколог • акушер врач УЗИ
-                                        </div>
-                                        <div class="popular-doctor__category-experience">
-                                            Врач высшей категории,<br>
-                                            Кандидат медицинских наук.<br>
-                                            Стаж 12 лет.
+                                        <div class="popular-doctor__count-review">
+                                            <div class="popular-doctor__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="swiper-main__slide swiper-slide">
-                            <div class="popular-doctor__container">
-                                <div class="popular-doctor__doctor-card">
-                                    <div class="popular-doctor__head">
-                                        <div class="popular-doctor__photo">
-                                            <img src="/images/doctor.png">
-                                        </div>
-                                        <div class="popular-doctor__doctor-info">
-                                            <div class="popular-doctor__name">
-                                                Манохина Дарья<br>
-                                                Даниловна
-                                            </div>
-                                            <div class="popular-doctor__price">
-                                                Стоимость приема
-                                                <p>1520₽</p>
-                                                <span>1900₽</span>
-                                            </div>
-                                            <div class="popular-doctor__count-review">
-                                                <div class="popular-doctor__star">
-                                                    <img src="/images/Star1.png">
-                                                    <p>4,7</p>
-                                                </div>
-                                                <a href="#">8 отзывов</a>
-                                            </div>
-                                        </div>
+                                <div class="popular-doctor__body">
+                                    <div class="popular-doctor__metro">
+                                        Текстильщики (978м)
                                     </div>
-                                    <div class="popular-doctor__body">
-                                        <div class="popular-doctor__metro">
-                                            Текстильщики (978м)
-                                        </div>
-                                        <div class="popular-doctor__address">
-                                            ул. Люблинская, д. 9 к. 1
-                                        </div>
-                                        <div class="popular-doctor__spec">
-                                            Гинеколог • акушер врач УЗИ
-                                        </div>
-                                        <div class="popular-doctor__category-experience">
-                                            Врач высшей категории,<br>
-                                            Кандидат медицинских наук.<br>
-                                            Стаж 12 лет.
-                                        </div>
+                                    <div class="popular-doctor__address">
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                    <div class="popular-doctor__spec">
+                                        Гинеколог • акушер врач УЗИ
+                                    </div>
+                                    <div class="popular-doctor__category-experience">
+                                        Врач высшей категории,<br>
+                                        Кандидат медицинских наук.<br>
+                                        Стаж 12 лет.
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="section-with-slider__navigation">
-                            <div class="arrow arrow--next"><span class="icon-arrow-more"><img
-                                            src="/images/right-page.png"></span></div>
                         </div>
                     </div>
-                    <div class="swiper-pagination swiper-main__pagination"></div>
+                    <div class="popular-doctor__doctors">
+                        <div class="popular-doctor__container">
+                            <div class="popular-doctor__doctor-card">
+                                <div class="popular-doctor__head">
+                                    <div class="popular-doctor__photo">
+                                        <img src="/images/doctor.png">
+                                    </div>
+                                    <div class="popular-doctor__doctor-info">
+                                        <div class="popular-doctor__name">
+                                            Манохина Дарья<br>
+                                            Даниловна
+                                        </div>
+                                        <div class="popular-doctor__price">
+                                            Стоимость приема
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                        <div class="popular-doctor__count-review">
+                                            <div class="popular-doctor__star">
+                                                <img src="/images/Star1.png">
+                                                <p>4,7</p>
+                                            </div>
+                                            <a href="#">8 отзывов</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-doctor__body">
+                                    <div class="popular-doctor__metro">
+                                        Текстильщики (978м)
+                                    </div>
+                                    <div class="popular-doctor__address">
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                    <div class="popular-doctor__spec">
+                                        Гинеколог • акушер врач УЗИ
+                                    </div>
+                                    <div class="popular-doctor__category-experience">
+                                        Врач высшей категории,<br>
+                                        Кандидат медицинских наук.<br>
+                                        Стаж 12 лет.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <div class="doctor-card__container-background">
-            <h3 class="doctor-card__title">Популярные акушеры в районе метро "Рязанский проспект"</h3>
-            <div class="doctor-card__walking-metro">380м от метро “Рязанский проспект”</div>
-
-            <div class="popular-doctor__container">
-                <div class="popular-doctor__doctor-card-district">
-                    <div class="popular-doctor__head-district">
-                        <div class="popular-doctor__photo">
-                            <img src="/images/doctor.png">
-                        </div>
-                        <div class="popular-doctor__doctor-info-district">
-                            <div class="popular-doctor__name">
-                                Манохина Дарья<br>
-                                Даниловна
-                            </div>
-                            <div class="popular-doctor__price">
-                                Стоимость приема
-                                <p>1520₽</p>
-                                <span>1900₽</span>
-                            </div>
-                            <div class="popular-doctor__count">
-                                <div class="popular-doctor__star">
-                                    <img src="/images/Star1.png">
-                                    <p>4,7</p>
-                                </div>
-                                <a class="reviews-underline" href="#">8 отзывов</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popular-doctor__body">
-                        <div class="popular-doctor__metro">
-                            <img src="/images/ellipse15.png">
-                            Текстильщики (978м)
-                        </div>
-                        <div class="popular-doctor__address">
-                            ул. Люблинская, д. 9 к. 1
-                        </div>
-                        <div class="popular-doctor__spec">
-                            Гинеколог • акушер врач УЗИ
-                        </div>
-                        <div class="popular-doctor__category-experience">
-                            Врач высшей категории,<br>
-                            Кандидат медицинских наук.<br>
-                            Стаж 12 лет.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="popular-doctor__container">
-                <div class="popular-doctor__doctor-card-district">
-                    <div class="popular-doctor__head-district">
-                        <div class="popular-doctor__photo">
-                            <img src="/images/doctor.png">
-                        </div>
-                        <div class="popular-doctor__doctor-info-district">
-                            <div class="popular-doctor__name">
-                                Манохина Дарья<br>
-                                Даниловна
-                            </div>
-                            <div class="popular-doctor__price">
-                                Стоимость приема
-                                <p>1520₽</p>
-                                <span>1900₽</span>
-                            </div>
-                            <div class="popular-doctor__count">
-                                <div class="popular-doctor__star">
-                                    <img src="/images/Star1.png">
-                                    <p>4,7</p>
-                                </div>
-                                <a class="reviews-underline" href="#">8 отзывов</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popular-doctor__body">
-                        <div class="popular-doctor__metro">
-                            <img src="/images/ellipse15.png">
-                            Текстильщики (978м)
-                        </div>
-                        <div class="popular-doctor__address">
-                            ул. Люблинская, д. 9 к. 1
-                        </div>
-                        <div class="popular-doctor__spec">
-                            Гинеколог • акушер врач УЗИ
-                        </div>
-                        <div class="popular-doctor__category-experience">
-                            Врач высшей категории,<br>
-                            Кандидат медицинских наук.<br>
-                            Стаж 12 лет.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="popular-doctor__container">
-                <div class="popular-doctor__doctor-card-district">
-                    <div class="popular-doctor__head-district">
-                        <div class="popular-doctor__photo">
-                            <img src="/images/doctor.png">
-                        </div>
-                        <div class="popular-doctor__doctor-info-district">
-                            <div class="popular-doctor__name">
-                                Манохина Дарья<br>
-                                Даниловна
-                            </div>
-                            <div class="popular-doctor__price">
-                                Стоимость приема
-                                <p>1520₽</p>
-                                <span>1900₽</span>
-                            </div>
-                            <div class="popular-doctor__count">
-                                <div class="popular-doctor__star">
-                                    <img src="/images/Star1.png">
-                                    <p>4,7</p>
-                                </div>
-                                <a class="reviews-underline" href="#">8 отзывов</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popular-doctor__body">
-                        <div class="popular-doctor__metro">
-                            <img src="/images/ellipse15.png">
-                            Текстильщики (978м)
-                        </div>
-                        <div class="popular-doctor__address">
-                            ул. Люблинская, д. 9 к. 1
-                        </div>
-                        <div class="popular-doctor__spec">
-                            Гинеколог • акушер врач УЗИ
-                        </div>
-                        <div class="popular-doctor__category-experience">
-                            Врач высшей категории,<br>
-                            Кандидат медицинских наук.<br>
-                            Стаж 12 лет.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
@@ -1098,7 +939,7 @@
         </div>
     </div>
 </footer>
-<div class="popup pp-entry-clinic-115191" data-closehint="1" >
+<div class="popup pp-entry-clinic-115191" data-closehint="1">
     <a class="pp-close" href="#"></a>
     <div style="overflow-y: scroll">
         <div class="pp-title">Запись на прием в клинику</div>
@@ -1109,15 +950,15 @@
                 <div class="h4">МедЦентрСервис в Отрадном</div>
                 <ul class="clinic-address">
                     <li class="address">
-                        <img src="/images/review-geo.png" />
+                        <img src="/images/review-geo.png"/>
                         Москва, Пестеля д. 11
                     </li>
                     <li class="metro">
-                        <img src="/images/region.png" />
+                        <img src="/images/region.png"/>
                         Отрадное<span>(780 м)</span>
                     </li>
                     <li class="region">
-                        <img src="/images/region.png" />
+                        <img src="/images/region.png"/>
                         СВАО (Отрадное)
                     </li>
                 </ul>
@@ -1127,8 +968,10 @@
             <input type="hidden" name="record_type" value="clinic">
             <input type="hidden" name="clinic" value="15757">
             <ul class="input-col clear">
-                <li class="left"><input required="" class="input-text" type="text" name="name" placeholder="Введите Ваше имя"></li>
-                <li class="right"><input required="" class="input-text input-phone" name="phone" type="tel" placeholder="__ (___) ___-__-__"></li>
+                <li class="left"><input required="" class="input-text" type="text" name="name"
+                                        placeholder="Введите Ваше имя"></li>
+                <li class="right"><input required="" class="input-text input-phone" name="phone" type="tel"
+                                         placeholder="__ (___) ___-__-__"></li>
             </ul>
             <input type="text" name="comment" class="input-text" placeholder="Введите комментарий">
             <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
@@ -1142,11 +985,15 @@
             </div>
             <div class="center">
                 Нажимая «Записаться», я принимаю
-                <a href="/user-agreement.pdf" class="user-agreement" target="_blank">условия пользовательского соглашения</a>
+                <a href="/user-agreement.pdf" class="user-agreement" target="_blank">условия пользовательского
+                    соглашения</a>
                 и даю свое согласие на обработку персональных данных.
             </div>
         </form>
     </div>
 </div>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
