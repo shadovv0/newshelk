@@ -388,112 +388,114 @@
             </div>
         </div>
 
-        <div data-fold class="review-card">
+        <div class="review-card">
             <h5>Комментарии</h5>
-            <div class="disease__review-card__container">
-                <div class="disease__review-card__head">
-                    <div class="disease__review-card__name-patient">
-                        <p>Имя +79225678902<span>14.02.2022</span></p>
+            <div class="main-spoiler" data-id="description">
+                <div class="disease__review-card__container">
+                    <div class="disease__review-card__head">
+                        <div class="disease__review-card__name-patient">
+                            <p>Имя +79225678902<span>14.02.2022</span></p>
+                        </div>
+                        <div class="disease__review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
                     </div>
-                    <div class="disease__review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
-                    </div>
-                </div>
-                <div class="disease__review-card__footer">
-                    <div class="disease__review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="disease__review-card__container">
-                <div class="disease__review-card__head">
-                    <div class="disease__review-card__name-patient">
-                        <p>Имя +79225678902<span>14.02.2022</span></p>
-                    </div>
-                    <div class="disease__review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
+                    <div class="disease__review-card__footer">
+                        <div class="disease__review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме
+                                пациента!
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="disease__review-card__footer">
-                    <div class="disease__review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
-                        </p>
+                <div class="disease__review-card__container">
+                    <div class="disease__review-card__head">
+                        <div class="disease__review-card__name-patient">
+                            <p>Имя +79225678902<span>14.02.2022</span></p>
+                        </div>
+                        <div class="disease__review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                    </div>
+                    <div class="disease__review-card__footer">
+                        <div class="disease__review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме
+                                пациента!
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="disease__review-card__container">
-                <div class="disease__review-card__head">
-                    <div class="disease__review-card__name-patient">
-                        <p>Имя +79225678902<span>14.02.2022</span></p>
+                <div class="disease__review-card__container">
+                    <div class="disease__review-card__head">
+                        <div class="disease__review-card__name-patient">
+                            <p>Имя +79225678902<span>14.02.2022</span></p>
+                        </div>
+                        <div class="disease__review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
                     </div>
-                    <div class="disease__review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
+                    <div class="disease__review-card__footer">
+                        <div class="disease__review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме
+                                пациента!
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="disease__review-card__footer">
-                    <div class="disease__review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <div data-fold-content class="disease__review-card__container disease__review-card__container--folded">
-                <div class="disease__review-card__head">
-                    <div class="disease__review-card__name-patient">
-                        <p>Имя +79225678902<span>14.02.2022</span></p>
+                <div class="disease__review-card__container disease__review-card__container--folded">
+                    <div class="disease__review-card__head">
+                        <div class="disease__review-card__name-patient">
+                            <p>Имя +79225678902<span>14.02.2022</span></p>
+                        </div>
+                        <div class="disease__review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
                     </div>
-                    <div class="disease__review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
+                    <div class="disease__review-card__footer">
+                        <div class="disease__review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме
+                                пациента!
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="disease__review-card__footer">
-                    <div class="disease__review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
-                        </p>
+                <div class="disease__review-card__container disease__review-card__container--folded">
+                    <div class="disease__review-card__head">
+                        <div class="disease__review-card__name-patient">
+                            <p>Имя +79225678902<span>14.02.2022</span></p>
+                        </div>
+                        <div class="disease__review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                    </div>
+                    <div class="disease__review-card__footer">
+                        <div class="disease__review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме
+                                пациента!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div data-fold-content class="disease__review-card__container disease__review-card__container--folded">
-                <div class="disease__review-card__head">
-                    <div class="disease__review-card__name-patient">
-                        <p>Имя +79225678902<span>14.02.2022</span></p>
-                    </div>
-                    <div class="disease__review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
-                    </div>
-                </div>
-                <div class="disease__review-card__footer">
-                    <div class="disease__review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <button data-fold-btn class="services__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                <span class="more__arrow icon-arrow-more"></span>
-            </button>
+            <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             <div class="disease__btn">
-                <a class="search__btn">
+                <a class="search__btn js-review">
                     Оставить комментарий
                 </a>
             </div>
@@ -618,6 +620,56 @@
         </div>
     </div>
 </footer>
+<div class="overlay"></div>
+<div class="js-review-form review-form popup pp-rev">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Оставить отзыв о клинике</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic"></div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address"><img src="/images/review-geo.png"/>Москва, Пестеля д. 11</li>
+                    <li class="region"><img src="/images/region.png"/>СВАО (Отрадное)</li>
+                </ul>
+            </div>
+        </div>
+        <form method="POST" class="js-form">
+            <ul class="input-col">
+                <li class="left">
+                    <input class="input-text" type="text" name="name" placeholder="Введите Ваше имя">
+                </li>
+                <li class="right">
+                    <input class="input-text input-phone" type="text" name="phone"
+                           placeholder="+7 (___) ___-__-__">
+                </li>
+            </ul>
+            <textarea class="input-text text" name="review_text"
+                      placeholder="Напишите Ваш отзыв"></textarea>
+            <div class="clear for-rate">
+                <div class="rate-block">
+                    <div>
+                        <div>Ваша оценка:</div>
+                        <div>
+                            <ul class="rate">
+                                <input type="hidden" name="rating" value="5">
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить отзыв
+            </button>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/app.js"></script>

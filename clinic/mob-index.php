@@ -9,6 +9,7 @@
     <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
     <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
@@ -120,7 +121,7 @@
                             <img src="/images/phone_24px.png">
                             <a href="#">(499) 123-45-67</a>
                         </div>
-                        <a class="search__btn">
+                        <a class="search__btn js-record">
                             Запись на приём
                         </a>
                     </div>
@@ -175,7 +176,7 @@
                     <img src="/images/phone_24px.png">
                     <a href="#" class="clinic-phone">(499) 123-45-67</a>
                     </span>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Записаться на приём
                     </a>
                 </div>
@@ -764,15 +765,31 @@
         <div class="media-clinic">
             <h3 class="license-clinic-title">Лицензии клиники</h3>
             <div class="license-container">
-                <a href="/images/license-clinic.png" data-fancybox="gallery">
-                    <img src="/images/license-clinic.png" alt="license"/>
-                </a>
+                <div class="owl-carousel mob-swiper owl-theme">
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                </div>
             </div>
             <h3 class="photo-clinic__title">Фотографии клиники</h3>
             <div class="photo-clinic__container">
-                <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                    <img src="/images/photo-clinic-1.png" alt="photo">
-                </a>
+                <div class="owl-carousel mob-swiper owl-theme">
+                    <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                        <img src="/images/photo-clinic-1.png" alt="photo">
+                    </a>
+                    <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                        <img src="/images/photo-clinic-1.png" alt="photo">
+                    </a>
+                    <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                        <img src="/images/photo-clinic-1.png" alt="photo">
+                    </a>
+                </div>
             </div>
             <h3 class="video-clinic__title">Видео обзор клиники</h3>
             <div class="video-clinic__container">
@@ -786,7 +803,7 @@
 
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Другие клиники сети</h3>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel mob-swiper owl-theme">
                 <div class="other-clinics__clinic-card">
                     <div class="other-clinics__head">
                         <div class="other-clinics__photos">
@@ -879,7 +896,7 @@
 
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Похожие клиники</h3>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel mob-swiper owl-theme">
                 <div class="other-clinics__clinic-card">
                     <div class="other-clinics__head">
                         <div class="other-clinics__photos">
@@ -1116,10 +1133,63 @@
         <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
+<div class="js-record-form record-form popup" data-closehint="1">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Запись на прием в клинику</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic">
+            </div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address">
+                        <img src="/images/review-geo.png"/>
+                        Москва, Пестеля д. 11
+                    </li>
+                    <li class="metro">
+                        <img src="/images/region.png"/>
+                        Отрадное<span>(780 м)</span>
+                    </li>
+                    <li class="region">
+                        <img src="/images/region.png"/>
+                        СВАО (Отрадное)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form method="post" class="js-form">
+            <input type="hidden" name="record_type" value="clinic">
+            <input type="hidden" name="clinic" value="15757">
+            <ul class="input-col clear">
+                <li class="left"><input required="" class="input-text" type="text" name="name"
+                                        placeholder="Введите Ваше имя"></li>
+                <li class="right"><input required="" class="input-text input-phone" name="phone" type="tel"
+                                         placeholder="__ (___) ___-__-__"></li>
+            </ul>
+            <input type="text" name="comment" class="input-text" placeholder="Введите комментарий">
+            <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
+                подтверждения записи.
+            </div>
+            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/ajax/record/">Записаться
+            </button>
+            <div class="center">
+                <p>Для записи в клинику Вы также можете позвонить по телефону</p>
+                <a class="phone-link" href="tel:+74951518866">+7 (495) 151-88-66</a>
+            </div>
+            <div class="center">
+                Нажимая «Записаться», я принимаю
+                <a href="/user-agreement.pdf" class="user-agreement" target="_blank">условия пользовательского
+                    соглашения</a>
+                и даю свое согласие на обработку персональных данных.
+            </div>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="../js/owl.carousel.min.js"></script>
-<script src="../js/app.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>

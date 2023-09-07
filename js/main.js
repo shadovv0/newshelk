@@ -272,24 +272,25 @@ $(document).ready(function () {
 
 });
 
-$('.mobile-spoiler-btn').on('click', function (e) {
-    e.preventDefault();
-    var target = $(this).data('target');
+const onClick = function({ target: { dataset: { index } } }) {
+    this[index].classList.toggle('deployed');
+}.bind(document.querySelectorAll('.main-spoiler'));
 
-    $('.mobile-spoiler[data-id="' + target + '"]').css('height', 'auto');
-
-    $(this).hide();
-})
-
-
-$('.main-spoiler-btn').on('click', function (e) {
-    e.preventDefault();
-    let target = $(this).data('target');
-
-    $('.main-spoiler[data-id="' + target + '"]').css('height', 'auto').addClass('deployed');
-
-    $(this).hide();
+document.querySelectorAll('.main-spoiler-btn').forEach((n, i) => {
+    n.dataset.index = i;
+    n.addEventListener('click', onClick);
 });
+
+
+const btn = document.querySelectorAll('.main-spoiler-btn');
+for (let i = 0; i < btn.length; i++) {
+
+    btn[i].addEventListener('click', function() {
+        this.innerHTML =
+            (this.innerHTML === 'Показать ещё') ? this.innerHTML = 'Свернуть' : this.innerHTML = 'Показать ещё';
+    })
+
+}
 
 
 $('.js-review-rule input').on('change', function (e) {
@@ -335,20 +336,37 @@ $('.js-send-review').on('click', function (e) {
     }
 });
 
+$(".review-swiper").owlCarousel({
+    items:1,
+    dots: true,
+    nav: true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+});
 
-$(".owl-carousel").owlCarousel({
-    //мобильный конфиг
+
+$(".main-swiper").owlCarousel({
+   /* margin:30,
+    items:1,
+    dots: true,*/
+
+
+    items:3,
+    dots: true,
+    nav: true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+});
+
+$(".mob-review-swiper").owlCarousel({
     margin:30,
     items:1,
     dots: true,
-
-    //деск конфиг
-   /* items:1, // кол-во отображаемого
-    dots: true, //точки
-    nav: true, // стрелки
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],// разметка стрелок*/
 });
 
+$(".mob-swiper").owlCarousel({
+    margin:30,
+    items:1,
+    dots: true,
+});
 
 $('.search-form').on('submit', function (e) {
     if ($('.js-search-input').val().length == 0) {
@@ -390,3 +408,138 @@ $('.js-review').on('click', function (e) {
     hiddenInput.val(JSON.stringify(params));
 
 });
+
+
+
+//?==============<Tabs>==============
+
+function initTabs() {
+    const tabsContainer = document.querySelectorAll('[data-tabs-container]');
+
+    if (!tabsContainer) return;
+
+    tabsContainer.forEach(tabContainer => {
+        const tabs = tabContainer.querySelectorAll('[data-tab]');
+        const tabsContents = tabContainer.querySelectorAll('[data-tabcontent]');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                tabs.forEach(tab => tab.classList.remove('is-active'));
+                tabsContents.forEach(tabcontent => tabcontent.classList.remove('is-active'));
+                tab.classList.add('is-active');
+                changeTabContent(tab);
+            })
+        })
+
+        function changeTabContent(tab) {
+
+            for (const tabcontent of tabsContents) {
+
+                if (tab.dataset.tab === 'all') {
+                    tabsContents.forEach(tabcontent => tabcontent.classList.add('is-active'));
+                    return;
+                }
+
+                if (tabcontent.dataset.tabcontent === tab.dataset.tab) {
+                    tabcontent.classList.add('is-active')
+                }
+            }
+        }
+
+    })
+
+}
+
+initTabs();
+
+//?==============</Tabs>=============
+
+
+function heightToggleElement(toggler, blocks) {
+    toggler.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (blocks instanceof NodeList) {
+            blocks.forEach(function (block) {
+                addFunctionality(toggler, block);
+            });
+        } else {
+            addFunctionality(toggler, blocks);
+        }
+    });
+
+    function addFunctionality(toggler, block) {
+        if (block.style.height === "0px" || !block.style.height) {
+            block.style.height = `${block.scrollHeight}px`;
+            toggler.classList.add("is-active");
+            block.classList.add("is-expanded");
+        } else {
+            block.style.height = `${block.scrollHeight}px`;
+            window.getComputedStyle(block, null).getPropertyValue("height");
+            block.style.height = "0";
+            toggler.classList.remove("is-active");
+            block.classList.remove("is-expanded");
+        }
+        block.addEventListener("transitionend", () => {
+            if (block.style.height !== "0px") {
+                block.style.height = "auto";
+            }
+        });
+    }
+}
+
+//?==============<Limit services>==============
+
+function limitServices(){
+    const servicesLists = document.querySelectorAll('[data-services-list]');
+
+    if(!servicesLists) return;
+
+    servicesLists.forEach(servicesList => {
+        const servicesListColumns = servicesList.dataset.servicesList;
+        const servicesListItems = servicesList.querySelectorAll('.services__fold');
+
+        if(!MEDIA_QUERY_768.matches){
+            servicesListItems.forEach((item, i) => {
+                if(i > 5 * servicesListColumns - 1){
+                    item.setAttribute('data-fold-content', '')
+                    item.classList.add('is-folded');
+                }
+            })
+        } else{
+            servicesListItems.forEach((item, i) => {
+                if(i > 2){
+                    item.setAttribute('data-fold-content', '')
+                    item.classList.add('is-folded');
+                }
+            })
+        }
+    })
+}
+
+limitServices();
+
+//?==============</Limit services>=============
+
+
+//?==============<Fold elements>==============
+
+function initFoldElements() {
+    const spoilers = document.querySelectorAll('[data-fold]');
+
+    if (!spoilers) return;
+
+    spoilers.forEach(spoiler => {
+        const spoilerBtn = spoiler.querySelector('[data-fold-btn]');
+        const spoilerContent = spoiler.querySelectorAll('[data-fold-content]');
+
+        spoilerContent.forEach(content => {
+            heightToggleElement(spoilerBtn, content);
+        })
+
+    })
+
+}
+
+initFoldElements();
+
+//?==============</Fold elements>=============

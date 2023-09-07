@@ -5,15 +5,13 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -68,293 +66,525 @@
     </div>
     <div class="wrap">
         <section class="services-hub">
-            <div data-fold class="services-hub__block">
+            <div class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Гинекология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list services__list--three">
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services-hub__more more">
-                    <span data-open-text="Показать еще" data-close-text="Свернуть"
-                          class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul data-services-list="3" class="services-hub__list services__list--three">
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
-            <div data-fold class="services-hub__block">
+            <div class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Урология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list services__list--three">
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services-hub__more more">
-                    <span data-open-text="Показать еще" data-close-text="Свернуть"
-                          class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul data-services-list="3" class="services-hub__list services__list--three">
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
-            <div data-fold class="services-hub__block">
+            <div class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Дерматология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list services__list--three">
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item services__fold">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services-hub__more more">
-                    <span data-open-text="Показать еще" data-close-text="Свернуть"
-                          class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul data-services-list="3" class="services-hub__list services__list--three">
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
-            <div data-fold class="services-hub__block">
+            <div class="services-hub__block">
                 <div class="services-hub__title">
                     <h2>Венерология</h2>
                 </div>
-                <ul data-services-list="3" class="services-hub__list services__list--three">
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">MAR-тест</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">ЛОД-терапия</a>
-                    </li>
-                    <li class="services-hub__item">
-                        <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services-hub__more more">
-                    <span data-open-text="Показать еще" data-close-text="Свернуть"
-                          class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul data-services-list="3" class="services-hub__list services__list--three">
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">MAR-тест</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">ЛОД-терапия</a>
+                        </li>
+                        <li class="services-hub__item">
+                            <a href="#" class="services-hub__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
         </section>
 
@@ -477,5 +707,7 @@
         </div>
     </div>
 </footer>
+<script src="../js/app.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

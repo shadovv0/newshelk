@@ -165,7 +165,7 @@
         </div>
 
         <div class="disease__popular-doctor">
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel mob-swiper owl-theme">
                 <div class="popular-doctor__doctors">
                     <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
                     <div class="popular-doctor__container">
@@ -421,7 +421,7 @@
                               class="more__text">Показать еще</span>
                 <span class="more__arrow icon-arrow-more"></span>
             </button>
-            <a class="review__btn">
+            <a class="review__btn js-review">
                 Оставить комментарий
             </a>
         </div>
@@ -540,8 +540,59 @@
         </div>
     </div>
 </footer>
+<div class="overlay"></div>
+<div class="js-review-form review-form popup pp-rev">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Оставить отзыв о клинике</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic"></div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address"><img src="/images/review-geo.png"/>Москва, Пестеля д. 11</li>
+                    <li class="region"><img src="/images/region.png"/>СВАО (Отрадное)</li>
+                </ul>
+            </div>
+        </div>
+        <form method="POST" class="js-form">
+            <ul class="input-col">
+                <li class="left">
+                    <input class="input-text" type="text" name="name" placeholder="Введите Ваше имя">
+                </li>
+                <li class="right">
+                    <input class="input-text input-phone" type="text" name="phone"
+                           placeholder="+7 (___) ___-__-__">
+                </li>
+            </ul>
+            <textarea class="input-text text" name="review_text"
+                      placeholder="Напишите Ваш отзыв"></textarea>
+            <div class="clear for-rate">
+                <div class="rate-block">
+                    <div>
+                        <div>Ваша оценка:</div>
+                        <div>
+                            <ul class="rate">
+                                <input type="hidden" name="rating" value="5">
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить
+                отзыв
+            </button>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
 <script src="../js/owl.carousel.min.js"></script>
-<script src="../js/app.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/form.js"></script>
 </body>
 </html>

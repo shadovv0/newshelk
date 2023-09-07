@@ -103,6 +103,10 @@
                             <img src="/images/pill-ico.png"/>
                             <p>Аптека</p>
                         </li>
+                        <li>
+                            <img src="/images/child-ico.png"/>
+                            <p>Работа с детьми</p>
+                        </li>
                     </ul>
                 </div>
                 <div class="doctor-card-view__doctor-price">
@@ -534,8 +538,8 @@
 
         <div data-fold class="review-doctor__container">
             <div class="review-doctor__head">
-                <a class="search__btn">Отправить отзыв</a>
-                <a href="#" class="users__side-link">Как мы проверяем отзывы?</a>
+                <a class="search__btn js-review">Отправить отзыв</a>
+                <a class="users__side-link">Как мы проверяем отзывы?</a>
             </div>
             <div class="review-card__body">
                 <h3 class="review-doctor__title">Отзывы (14)</h3>
@@ -667,7 +671,7 @@
             <div class="doctor-card__container-background">
                 <h3 class="doctor-card__title">Популярные акушеры в районе метро "Рязанский проспект"</h3>
                 <div class="doctor-card__walking-metro">380м от метро “Рязанский проспект”</div>
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel mob-swiper owl-theme">
                     <div class="popular-doctor__doctors">
                         <div class="popular-doctor__container">
                             <div class="popular-doctor__doctor-card">
@@ -995,8 +999,57 @@
         <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
+<div class="js-review-form review-form popup pp-rev">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Оставить отзыв о клинике</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic"></div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address"><img src="/images/review-geo.png"/>Москва, Пестеля д. 11</li>
+                    <li class="region"><img src="/images/region.png"/>СВАО (Отрадное)</li>
+                </ul>
+            </div>
+        </div>
+        <form method="POST" class="js-form">
+            <ul class="input-col">
+                <li class="left">
+                    <input class="input-text" type="text" name="name" placeholder="Введите Ваше имя">
+                </li>
+                <li class="right">
+                    <input class="input-text input-phone" type="text" name="phone"
+                           placeholder="+7 (___) ___-__-__">
+                </li>
+            </ul>
+            <textarea class="input-text text" name="review_text"
+                      placeholder="Напишите Ваш отзыв"></textarea>
+            <div class="clear for-rate">
+                <div class="rate-block">
+                    <div>
+                        <div>Ваша оценка:</div>
+                        <div>
+                            <ul class="rate">
+                                <input type="hidden" name="rating" value="5">
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить
+                отзыв
+            </button>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
 <script src="../js/owl.carousel.min.js"></script>
-<script src="../js/app.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>

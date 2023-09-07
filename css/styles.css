@@ -174,6 +174,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .actions__items {
@@ -1498,7 +1499,7 @@ body {
     margin: 25px 0 50px;
 }
 
-.review-card h5 {
+.review-card h1 {
     color: rgba(0, 0, 0, 0.80);
     font-size: 20px;
     font-weight: 500;
@@ -1688,7 +1689,6 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -1776,12 +1776,6 @@ body {
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
     background: none;
-}
-
-.more__text {
-    color: rgba(0, 0, 0, 0.50);
-    font-size: 14px;
-    text-decoration-line: underline;
 }
 
 .hub-search-background {
@@ -2586,8 +2580,6 @@ body {
 .photo-doctor img {
     max-width: 200px;
     width: 100%;
-    max-height: 180px;
-    height: 100%;
 }
 
 .doctor-card__doctor-experience {
@@ -3012,7 +3004,6 @@ body {
 
 .grey-col {
     width: 51px;
-    height: 222px;
     flex-shrink: 0;
     border-radius: 4px 0 0 4px;
     background: rgba(81, 111, 166, 0.30);
@@ -3396,10 +3387,10 @@ body {
     align-items: flex-start;
 }
 
-.information__tabcontent-body--photos {
+/*.information__tabcontent-body--photos {
     display: flex;
     flex-direction: row;
-}
+}*/
 
 .information__photo {
     cursor: pointer;
@@ -4259,11 +4250,17 @@ body {
     justify-content: space-between;
 }
 
+.other-clinics__clinic-record-phone span {
+    display: flex;
+    align-items: center;
+}
+
 .license-clinic-title, .photo-clinic__title, .video-clinic__title {
     color: #000;
     font-size: 18px;
     font-weight: 500;
     margin: 20px 0;
+    text-align: center;
 }
 
 .users__record {
@@ -4274,6 +4271,7 @@ body {
     border-radius: 22px;
     border: 1px solid #FD7C7D;
     padding: 8px 15px;
+    cursor: pointer;
 }
 
 .users_btn {
@@ -4306,24 +4304,12 @@ body {
 }
 
 .media-clinic {
-    margin: 25px 0;
+    margin: 50px 0;
 }
 
-.video-clinic__container img {
-    width: 520px;
-    height: 298px;
-}
-
-.license-container, .photo-clinic__container , .video-clinic__container {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-}
-
-.media-clinic {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.video-clinic__container {
+   display: flex;
+    justify-content: center;
 }
 
 .arrow.arrow--prev {
@@ -4535,10 +4521,6 @@ body {
         align-content: center;
     }
 
-    .grey-col {
-        height: 235px;
-    }
-
 }
 
 @media (max-width: 950px) {
@@ -4733,7 +4715,7 @@ body {
 
 /* Fold content */
 
-/*.fold-content {
+.fold-content {
     height: 0;
     will-change: height;
     overflow: hidden;
@@ -4744,7 +4726,8 @@ body {
 
 .fold-content:not(.is-expanded) {
     margin: 0;
-}*/
+}
+/*
 
 .section-with-slider {
     overflow: hidden;
@@ -4909,6 +4892,7 @@ body {
     -ms-transform: scale(0.5) !important;
     transform: scale(0.5) !important;
 }
+*/
 
 
 @media (min-width: 992px) {
@@ -4994,20 +4978,10 @@ body {
     overflow: hidden;
     transition: all 1s;
     position: relative;
-}
+    }
 
-.main-spoiler:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 200px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #F7F8FA 110%);
-}
-
-.deployed:after {
-    height: 0;
+.deployed {
+    height: auto;
     background: none;
 }
 
@@ -5015,7 +4989,20 @@ body {
     text-align: center;
     cursor: pointer;
     text-decoration: underline;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    padding: 10px 0;
 }
+
+/*.main-spoiler:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #F7F8FA 110%);
+}*/
 
 .main-spoiler-btn:hover {
     color: #04023f;
@@ -5235,6 +5222,8 @@ body {
     border-radius: 4px;
 }
 
+
+
 .review-form .close-form {
     position: absolute;
     top: -35px;
@@ -5249,4 +5238,20 @@ body {
     right: -30px;
     font-size: 21px;
     cursor: pointer;
+}
+
+form .rate li {
+    cursor: pointer
+}
+
+.rate li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../images/rate.png");
+    margin: 0 1px
+}
+
+.rate .empty {
+    background-position: 100% 0
 }

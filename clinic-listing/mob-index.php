@@ -25,7 +25,6 @@
                 <img src="/images/map_24px.png">
                 Карта
             </a>
-
             <div class="logo">
                 <a href="/">
                     <img src="/images/mosmedportal_logo.png">
@@ -45,7 +44,6 @@
 </header>
 <div class="content">
     <div class="wrap">
-
         <h2 class="name-logo">НазваниеСайта</h2>
         <div class="category__container">
             <h1>Гинекологические клиники Москвы (114)</h1>
@@ -121,7 +119,7 @@
                         <img src="/images/blue-phone.png">
                         <a href="#">(499) 123-34-56</a>
                     </div>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Записаться в клинику
                     </a>
 
@@ -310,7 +308,7 @@
                     <img src="/images/blue-phone.png">
                     <a href="#">(499) 123-34-56</a>
                 </div>
-                <a class="search__btn">
+                <a class="search__btn js-record">
                     Записаться в клинику
                 </a>
             </div>
@@ -376,7 +374,7 @@
                         <img src="/images/blue-phone.png">
                         <a href="#">(499) 123-34-56</a>
                     </div>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Записаться в клинику
                     </a>
 
@@ -507,7 +505,7 @@
 
         <div class="review-card">
             <h5>Отзывы</h5>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel mob-review-swiper owl-theme">
                 <div class="review-card__container">
                     <div class="review-card__head">
                         <div class="review-card__left">
@@ -630,57 +628,61 @@
 
         <div class="relinks">
             <div class="relinks__body">
-                <div data-fold class="relinks__column">
+                <div class="relinks__column">
                     <b class="relinks__column-title">Направления</b>
-                    <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
-                                лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Артролог
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                    </ul>
-                    <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                        <span class="icon-arrow-more more__arrow"></span>
-                    </button>
+                    <div class="main-spoiler" data-id="description">
+                        <ul class="relinks__list relinks__list--mobile-row">
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div data-fold class="relinks__column">
+                <div class="relinks__column">
                     <b class="relinks__column-title">Услуги</b>
-                    <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
-                                лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                    <div class="main-spoiler" data-id="description">
+                        <ul class="relinks__list relinks__list--mobile-row">
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
 
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Артролог
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                    </ul>
-                    <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
-                    </button>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div data-fold class="relinks__column">
+                <div class="relinks__column">
                     <b class="relinks__column-title">Клиники</b>
+                    <div class="main-spoiler" data-id="description">
                     <ul class="relinks__list">
                         <li class="relinks__item">
                             <a href="" class="relinks__link">
@@ -706,37 +708,34 @@
                                 «Синай»
                             </a>
                         </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
+                        <li class="relinks__item">
                             <a href="" class="relinks__link">
                                 <img src="/images/euromed.png">
                                 «Евромед»
                             </a>
                         </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
+                        <li class="relinks__item">
                             <a href="" class="relinks__link">
                                 <img src="/images/open-clinic.png">
                                 «Открытая клиника»
                             </a>
                         </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
+                        <li class="relinks__item">
                             <a href="" class="relinks__link">
                                 <img src="/images/moscow-clinic.png">
                                 «Московская клиника»
                             </a>
                         </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
+                        <li class="relinks__item">
                             <a href="" class="relinks__link">
                                 <img src="/images/sinay.png">
                                 «Синай»
                             </a>
                         </li>
                     </ul>
-                    <button data-fold-btn="" class="relinks__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
-                    </button>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-
             </div>
         </div>
 
@@ -833,8 +832,113 @@
         </div>
     </div>
 </footer>
+<div class="overlay"></div>
+<div class="js-record-form record-form popup" data-closehint="1">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Запись на прием в клинику</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic">
+            </div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address">
+                        <img src="/images/review-geo.png"/>
+                        Москва, Пестеля д. 11
+                    </li>
+                    <li class="metro">
+                        <img src="/images/region.png"/>
+                        Отрадное<span>(780 м)</span>
+                    </li>
+                    <li class="region">
+                        <img src="/images/region.png"/>
+                        СВАО (Отрадное)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form method="post" class="js-form">
+            <input type="hidden" name="record_type" value="clinic">
+            <input type="hidden" name="clinic" value="15757">
+            <ul class="input-col clear">
+                <li class="left"><input required="" class="input-text" type="text" name="name"
+                                        placeholder="Введите Ваше имя"></li>
+                <li class="right"><input required="" class="input-text input-phone" name="phone" type="tel"
+                                         placeholder="__ (___) ___-__-__"></li>
+            </ul>
+            <input type="text" name="comment" class="input-text" placeholder="Введите комментарий">
+            <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
+                подтверждения записи.
+            </div>
+            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/ajax/record/">Записаться
+            </button>
+            <div class="center">
+                <p>Для записи в клинику Вы также можете позвонить по телефону</p>
+                <a class="phone-link" href="tel:+74951518866">+7 (495) 151-88-66</a>
+            </div>
+            <div class="center">
+                Нажимая «Записаться», я принимаю
+                <a href="/user-agreement.pdf" class="user-agreement" target="_blank">условия пользовательского
+                    соглашения</a>
+                и даю свое согласие на обработку персональных данных.
+            </div>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
+<div class="js-review-form review-form popup pp-rev">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Оставить отзыв о клинике</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic"></div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address"><img src="/images/review-geo.png"/>Москва, Пестеля д. 11</li>
+                    <li class="region"><img src="/images/region.png"/>СВАО (Отрадное)</li>
+                </ul>
+            </div>
+        </div>
+        <form method="POST" class="js-form">
+            <ul class="input-col">
+                <li class="left">
+                    <input class="input-text" type="text" name="name" placeholder="Введите Ваше имя">
+                </li>
+                <li class="right">
+                    <input class="input-text input-phone" type="text" name="phone"
+                           placeholder="+7 (___) ___-__-__">
+                </li>
+            </ul>
+            <textarea class="input-text text" name="review_text"
+                      placeholder="Напишите Ваш отзыв"></textarea>
+            <div class="clear for-rate">
+                <div class="rate-block">
+                    <div>
+                        <div>Ваша оценка:</div>
+                        <div>
+                            <ul class="rate">
+                                <input type="hidden" name="rating" value="5">
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить
+                отзыв
+            </button>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
 <script src="../js/owl.carousel.min.js"></script>
-<script src="../js/app.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/form.js"></script>
 </body>
 </html>

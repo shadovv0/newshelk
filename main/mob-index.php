@@ -150,7 +150,7 @@
             <div class="popular-doctor__title">
                 <h4>Популярные специалисты</h4>
             </div>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel mob-swiper owl-theme">
                 <div class="popular-doctor__doctors">
                     <div class="popular-doctor__container">
                         <div class="popular-doctor__doctor-card">
@@ -423,7 +423,7 @@
         </div>
         <div class="other-clinics">
             <h4 class="other-clinics__title">Популярные клиники</h4>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel mob-swiper owl-theme">
             <div class="other-clinics__clinics">
                 <div class="other-clinics__container">
                     <div class="other-clinics__clinic-card">

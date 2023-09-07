@@ -6,6 +6,7 @@
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
     <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
@@ -36,7 +37,7 @@
                     <div class="menu-list">
                         <a class="menu-item root-item" href="/clinic/index.php">Клиники</a>
                         <a class="menu-item root-item" href="/doctor/index.php">Врачи</a>
-                        <a class="menu-item root-item" href="/uslugi/index.php">Услуги</a>
+                        <a class="menu-item root-item" href="/hub/index.php">Услуги</a>
                         <a class="menu-item root-item" href="/diagnostic/index.php">Диагностика</a>
                         <a class="menu-item root-item" href="/disease/index.php">Заболевания</a>
                         <a class="menu-item root-item" href="/symptoms/index.php">Симптомы</a>
@@ -154,7 +155,7 @@
                 </div>
             </div>
             <div class="clinic-card__footer">
-                <a href="#" class="record__btn">
+                <a href="#" class="record__btn js-record">
                     Записаться на приём
                 </a>
             </div>
@@ -173,7 +174,7 @@
                             <span><img src="/images/grey-alert.png">
                                 <a class="visiting-conditions" href="#">Условия для посещения</a></span>
                         </div>
-                        <a href="#" class="record__btn">
+                        <a href="#" class="record__btn js-record">
                             Записаться
                         </a>
                     </div>
@@ -193,129 +194,127 @@
                             </button>
                         </div>
                         <div data-tabcontent="gynecology" class="specialisations__services services">
-                            <div data-fold class="services__block-spec services__block--in-listing">
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <li class="services__item">
-                                    <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
-                                    <div class="popular-doctor__price">
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                </li>
-                                <button data-fold-btn class="services__more more">
-                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
-                                              class="more__text">Показать все услуги </span>
-                                    <span class="more__arrow icon-arrow-more"></span>
-                                </button>
+                            <div class="services__block-spec services__block--in-listing">
+                                <div class="main-spoiler" data-id="description">
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог-эндокринолог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                    <li class="services__item">
+                                        <a href="#" class="services__link">Гинеколог (от 18 лет)</a>
+                                        <div class="popular-doctor__price">
+                                            <p>1520₽</p>
+                                            <span>1900₽</span>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                             </div>
                         </div>
                         <div data-tabcontent="otoloringolog" class="specialisations__services services">
-                            <div data-fold class="services__block-spec services__block--in-listing">
-                                <div>
+                            <div class="services__block-spec services__block--in-listing">
+                                <div class="main-spoiler" data-id="description">
                                     <li class="services__item">
                                         <a href="#" class="services__link">Отоларингология (от 18 лет)</a>
                                         <div class="popular-doctor__price">
@@ -372,17 +371,13 @@
                                             <span>1900₽</span>
                                         </div>
                                     </li>
-                                    <button data-fold-btn class="services__more more">
-                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
-                                              class="more__text">Показать все услуги </span>
-                                        <span class="more__arrow icon-arrow-more"></span>
-                                    </button>
                                 </div>
+                                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                             </div>
                         </div>
                         <div data-tabcontent="urology" class="specialisations__services services">
-                            <div data-fold class="services__block-spec services__block--in-listing">
-                                <div>
+                            <div class="services__block-spec services__block--in-listing">
+                                <div class="main-spoiler" data-id="description">
                                     <li class="services__item">
                                         <a href="#" class="services__link">Урология (от 18 лет)</a>
                                         <div class="popular-doctor__price">
@@ -439,17 +434,13 @@
                                             <span>1900₽</span>
                                         </div>
                                     </li>
-                                    <button data-fold-btn class="services__more more">
-                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
-                                              class="more__text">Показать все услуги </span>
-                                        <span class="more__arrow icon-arrow-more"></span>
-                                    </button>
                                 </div>
+                                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                             </div>
                         </div>
                         <div data-tabcontent="venerolog" class="specialisations__services services">
-                            <div data-fold class="services__block-spec services__block--in-listing">
-                                <div>
+                            <div class="services__block-spec services__block--in-listing">
+                                <div class="main-spoiler" data-id="description">
                                     <li class="services__item">
                                         <a href="#" class="services__link">Венерология (от 18 лет)</a>
                                         <div class="popular-doctor__price">
@@ -506,12 +497,8 @@
                                             <span>1900₽</span>
                                         </div>
                                     </li>
-                                    <button data-fold-btn class="services__more more">
-                                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги"
-                                              class="more__text">Показать все услуги </span>
-                                        <span class="more__arrow icon-arrow-more"></span>
-                                    </button>
                                 </div>
+                                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                             </div>
                         </div>
                     </div>
@@ -1511,366 +1498,368 @@
                         </div>
                     </div>
                     <div class="users__body">
-                        <div data-tabcontent="positive" class="users__tabcontent is-active">
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
+                        <div class="main-spoiler" data-id="description">
+                            <div data-tabcontent="positive" class="users__tabcontent is-active">
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
                                             </div>
                                         </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
+                                    </div>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Отзыв о враче Манохина<br>
+                                                    Дарья Даниловна
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
                                         </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
+                                            </p>
+                                        </div>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
+                                                </div>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
+                                            </div>
                                         </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Отзыв о враче Манохина<br>
-                                                Дарья Даниловна
+                                    </div>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Отзыв о враче Манохина<br>
+                                                    Дарья Даниловна
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
                                             </p>
                                         </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
+                                                </div>
                                             </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Отзыв о враче Манохина<br>
+                                                    Дарья Даниловна
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
+                                            </p>
+                                        </div>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
+                            <div data-tabcontent="negative" class="users__tabcontent is-active">
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks-negative review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="3" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>3</p>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
                                             </div>
                                         </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
                                     </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Отзыв о враче Манохина<br>
+                                                    Дарья Даниловна
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Отзыв о враче Манохина<br>
-                                                Дарья Даниловна
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
                                             </p>
                                         </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
+                            <div data-tabcontent="unverified" class="users__tabcontent is-active">
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
                                             </div>
                                         </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
                                     </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Отзыв о враче Манохина<br>
+                                                    Дарья Даниловна
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Отзыв о враче Манохина<br>
-                                                Дарья Даниловна
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
                                             </p>
                                         </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-tabcontent="negative" class="users__tabcontent is-active">
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks-negative review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="3" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
-                                                        </div>
-                                                    </div>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>3</p>
-                                            </div>
-                                        </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
-                                        </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Отзыв о враче Манохина<br>
-                                                Дарья Даниловна
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-tabcontent="unverified" class="users__tabcontent is-active">
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
-                                                        </div>
-                                                    </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
-                                            </div>
-                                        </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
-                                        </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Отзыв о враче Манохина<br>
-                                                Дарья Даниловна
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1878,7 +1867,7 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <a href="#" class="users__more-review">Показать ещё отзывы</a>
+                            <a class="users__more-review main-spoiler-btn" data-target="description">Показать ещё</a>
                             <a class="users__record js-review">Оставить отзыв</a>
                         </div>
                     </div>
@@ -1890,7 +1879,7 @@
             <h3 id="license" class="license-clinic-title">Лицензии клиники</h3>
             <div class="license-container">
                 <section class="section-with-slider">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel main-swiper owl-theme">
                         <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
                             <img src="/images/license-clinic.png" alt="license"/>
                         </a>
@@ -1915,7 +1904,7 @@
             <h3 id="photo-clinic" class="photo-clinic__title">Фотографии клиники</h3>
             <div class="photo-clinic__container">
                 <section class="section-with-slider">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel main-swiper owl-theme">
                         <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
                             <img src="/images/photo-clinic-1.png" alt="photo">
                         </a>
@@ -1953,7 +1942,7 @@
         <section class="section-with-slider">
             <h2 class="other-clinics__title">Похожие клиники</h2>
 
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel main-swiper owl-theme">
                 <div class="other-clinics__container">
                     <div class="other-clinics__clinic-card">
                         <div class="other-clinics__head">
@@ -2163,7 +2152,7 @@
 
         <section class="section-with-slider">
             <h2 class="other-clinics__title">Похожие клиники</h2>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel main-swiper owl-theme">
                 <div class="other-clinics__container">
                     <div class="other-clinics__clinic-card">
                         <div class="other-clinics__head">
@@ -2520,7 +2509,64 @@
     </div>
 </div>
 
+<div class="js-record-form record-form popup" data-closehint="1">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Запись на прием в клинику</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic">
+            </div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address">
+                        <img src="/images/review-geo.png"/>
+                        Москва, Пестеля д. 11
+                    </li>
+                    <li class="metro">
+                        <img src="/images/region.png"/>
+                        Отрадное<span>(780 м)</span>
+                    </li>
+                    <li class="region">
+                        <img src="/images/region.png"/>
+                        СВАО (Отрадное)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form method="post" class="js-form">
+            <input type="hidden" name="record_type" value="clinic">
+            <input type="hidden" name="clinic" value="15757">
+            <ul class="input-col clear">
+                <li class="left js-review-rule"><input required="" class="input-text" type="text" name="name"
+                                                       placeholder="Введите Ваше имя"></li>
+                <li class="right js-review-rule"><input required="" class="input-text input-phone" name="phone"
+                                                        type="tel"
+                                                        placeholder="__ (___) ___-__-__"></li>
+            </ul>
+            <input type="text" name="comment" class="input-text" placeholder="Введите комментарий">
+            <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
+                подтверждения записи.
+            </div>
+            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/ajax/record/">Записаться
+            </button>
+            <div class="center">
+                <p>Для записи в клинику Вы также можете позвонить по телефону</p>
+                <a class="phone-link" href="tel:+74951518866">+7 (495) 151-88-66</a>
+            </div>
+            <div class="center">
+                Нажимая «Записаться», я принимаю
+                <a href="/user-agreement.pdf" class="user-agreement" target="_blank">условия пользовательского
+                    соглашения</a>
+                и даю свое согласие на обработку персональных данных.
+            </div>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
+
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/form.js"></script>
 </body>
 </html>

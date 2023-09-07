@@ -5,16 +5,17 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
-    <link rel="stylesheet" href="/files/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="/files/air-datepicker.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -112,15 +113,15 @@
                     <span>Выберите клинику сети:</span>
                     <div class="doctor-card__record-clinic-fold">
                         <!--<button data-fold-btn class="faq__btn">-->
-                            <div class="doctor-card__record-clinic">
-                                <select name="clinic" id="clinic-select" class="doctor-card__record-clinic-text">
-                                    <option class="choose-clinic" value="0">Клиника в Текстильщиках</option>
-                                    <option class="choose-clinic" value="0">Клиника в Марьино</option>
-                                    <option class="choose-clinic" value="0">Клиника на Проспекте Вернадского</option>
-                                    <option class="choose-clinic" value="0">Клиника в Беляево</option>
-                                </select>
-                            </div>
-                       <!-- </button>-->
+                        <div class="doctor-card__record-clinic">
+                            <select name="clinic" id="clinic-select" class="doctor-card__record-clinic-text">
+                                <option class="choose-clinic" value="0">Клиника в Текстильщиках</option>
+                                <option class="choose-clinic" value="0">Клиника в Марьино</option>
+                                <option class="choose-clinic" value="0">Клиника на Проспекте Вернадского</option>
+                                <option class="choose-clinic" value="0">Клиника в Беляево</option>
+                            </select>
+                        </div>
+                        <!-- </button>-->
                         <div class="doctor-card__geo-disabled">
                             <p>ул. Люблинская, д. 9 к. 1</p>
                             <ul>
@@ -351,8 +352,12 @@
             <img src="/images/img.png" style="width: 434px;height: 280px;">
             <img src="/images/sloi3.png" style="width: 400px;left: 85px;height: 250px;bottom: 0;">
             <div class="text-banner__text-block">
-                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909 оценок</div>
-                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе за 1 минуту</div>
+                <div class="text-banner__top-text">Средняя оценка организаций - 4.53 на основании 3162 отзывов и 6909
+                    оценок
+                </div>
+                <div class="text-banner__mid-text">Подберем хорошую и недорогую организацию в удобном<br> для вас районе
+                    за 1 минуту
+                </div>
                 <div class="text-banner__phone"><a href="#">(499) 123-45-67</a> *Услуга бесплатная</div>
             </div>
         </div>
@@ -435,160 +440,332 @@
 
         <div class="review-card">
             <h1>Отзывы</h1>
-            <div class="doctor-review-card__container">
-                <div class="doctor-review-card__photo-name">
-                    <img src="/images/doctor.png">
-                    <div class="doctor-review-card__name">
-                        Манохина<br>
-                        Дарья Даниловна
-                    </div>
-                    <div class="reviews-count doctors__clinic">
-                        <div class="doctor-review-card__star">
-                            <img src="/images/Star1.png">
-                            <p>4,7</p>
+            <div class="owl-carousel review-swiper owl-theme">
+                <div class="doctor-review-card__container">
+                    <div class="doctor-review-card__photo-name">
+                        <img src="/images/doctor.png">
+                        <div class="doctor-review-card__name">
+                            Манохина<br>
+                            Дарья Даниловна
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
                         </div>
                     </div>
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
+                    </div>
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
+                    </div>
+                    <div class="review-card__marks">
+                        <img src="/images/Star1.png">
+                        <p>5</p>
+                    </div>
                 </div>
-                <div class="review-card__left">
-                    <div class="review-card__name-patient">
-                        Имя пациента
+                <div class="doctor-review-card__container">
+                    <div class="doctor-review-card__photo-name">
+                        <img src="/images/doctor.png">
+                        <div class="doctor-review-card__name">
+                            Манохина<br>
+                            Дарья Даниловна
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="review-card__date">
-                        14.02.2022
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
                     </div>
-                    <div class="review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
                     </div>
-                    <div class="review-card__source-review">
-                        ИсточникОтзыва
-                    </div>
-                    <div class="review-card__date-visit">
-                        Дата посещения<br>
-                        12.02.2022
+                    <div class="review-card__marks">
+                        <img src="/images/Star1.png">
+                        <p>5</p>
                     </div>
                 </div>
-                <div class="review-card__center">
-                    <div class="review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
-                            ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                <div class="doctor-review-card__container">
+                    <div class="doctor-review-card__photo-name">
+                        <img src="/images/doctor.png">
+                        <div class="doctor-review-card__name">
+                            Манохина<br>
+                            Дарья Даниловна
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
+                    </div>
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
+                    </div>
+                    <div class="review-card__marks">
+                        <img src="/images/Star1.png">
+                        <p>5</p>
                     </div>
                 </div>
-                <div class="review-card__marks">
-                    <img src="/images/Star1.png">
-                    <p>5</p>
+                <div class="doctor-review-card__container">
+                    <div class="doctor-review-card__photo-name">
+                        <img src="/images/doctor.png">
+                        <div class="doctor-review-card__name">
+                            Манохина<br>
+                            Дарья Даниловна
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
+                    </div>
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
+                    </div>
+                    <div class="review-card__marks">
+                        <img src="/images/Star1.png">
+                        <p>5</p>
+                    </div>
+                </div>
+                <div class="doctor-review-card__container">
+                    <div class="doctor-review-card__photo-name">
+                        <img src="/images/doctor.png">
+                        <div class="doctor-review-card__name">
+                            Манохина<br>
+                            Дарья Даниловна
+                        </div>
+                        <div class="reviews-count doctors__clinic">
+                            <div class="doctor-review-card__star">
+                                <img src="/images/Star1.png">
+                                <p>4,7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
+                    </div>
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
+                    </div>
+                    <div class="review-card__marks">
+                        <img src="/images/Star1.png">
+                        <p>5</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="relinks">
             <div class="relinks__body">
-                <div data-fold class="relinks__column">
+                <div class="relinks__column">
                     <b class="relinks__column-title">Направления</b>
-                    <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
-                                лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Артролог
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                    </ul>
-                    <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                        <span class="icon-arrow-more more__arrow"></span>
-                    </button>
+                    <div class="main-spoiler" data-id="description">
+                        <ul class="relinks__list relinks__list--mobile-row">
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div data-fold class="relinks__column">
+                <div class="relinks__column">
                     <b class="relinks__column-title">Услуги</b>
-                    <ul class="relinks__list relinks__list--mobile-row">
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
-                                лет)</a></li>
-                        <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                    <div class="main-spoiler" data-id="description">
+                        <ul class="relinks__list relinks__list--mobile-row">
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
 
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Артролог
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                        <li data-fold-content class="relinks__item relinks__item--folded"><a href="#"
-                                                                                             class="relinks__link">Аллергология
-                                (от 18 лет)</a></li>
-                    </ul>
-                    <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
-                    </button>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div data-fold class="relinks__column">
+                <div class="relinks__column">
                     <b class="relinks__column-title">Клиники</b>
-                    <ul class="relinks__list">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/euromed.png">
-                                «Евромед»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/open-clinic.png">
-                                «Открытая клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/moscow-clinic.png">
-                                «Московская клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/sinay.png">
-                                «Синай»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/euromed.png">
-                                «Евромед»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/open-clinic.png">
-                                «Открытая клиника»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/moscow-clinic.png">
-                                «Московская клиника»
-                            </a>
-                        </li>
-                        <li data-fold-content class="relinks__item relinks__item--folded">
-                            <a href="" class="relinks__link">
-                                <img src="/images/sinay.png">
-                                «Синай»
-                            </a>
-                        </li>
-                    </ul>
-                    <button data-fold-btn="" class="relinks__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
-                    </button>
+                    <div class="main-spoiler" data-id="description">
+                        <ul class="relinks__list">
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/euromed.png">
+                                    «Евромед»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/open-clinic.png">
+                                    «Открытая клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/moscow-clinic.png">
+                                    «Московская клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/sinay.png">
+                                    «Синай»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/euromed.png">
+                                    «Евромед»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/open-clinic.png">
+                                    «Открытая клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/moscow-clinic.png">
+                                    «Московская клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/sinay.png">
+                                    «Синай»
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
             </div>
         </div>
@@ -686,5 +863,8 @@
         </div>
     </div>
 </footer>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/app.js"></script>
 </body>
 </html>

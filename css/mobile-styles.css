@@ -3741,6 +3741,43 @@ html, body {
     cursor: pointer;
 }
 
+.main-spoiler {
+    height: 200px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+}
+
+.deployed {
+    height: auto;
+    background: none;
+}
+
+.main-spoiler-btn {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+form .rate li {
+    cursor: pointer
+}
+
+.rate li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../images/rate.png");
+    margin: 0 1px
+}
+
+.rate .empty {
+    background-position: 100% 0
+}
+
 
 
 

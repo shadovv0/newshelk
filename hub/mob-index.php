@@ -5,14 +5,13 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -75,141 +74,133 @@
             <h3 class="search__title-service">Медицинские услуги</h3>
         </div>
         <section class="services">
-            <div data-fold class="services__block">
+            <div class="services__block">
                 <h2>Гинекология</h2>
-                <ul class="relinks__list">
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul class="relinks__list">
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
-            <div data-fold class="services__block">
+            <div class="services__block">
                 <h2>Урология</h2>
-                <ul class="relinks__list">
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul class="relinks__list">
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
-            <div data-fold class="services__block">
+            <div class="services__block">
                 <h2>Дерматология</h2>
-                <ul class="relinks__list">
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul class="relinks__list">
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
-            <div data-fold class="services__block">
+            <div class="services__block">
                 <h2>Венерология</h2>
-                <ul class="relinks__list">
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li class="relinks__item">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">MAR-тест</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Анализ секрета простаты</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">ЛОД-терапияи</a>
-                    </li>
-                    <li data-fold-content class="relinks__item relinks__item--folded">
-                        <a href="" class="relinks__link">Лечебный массаж простаты</a>
-                    </li>
-                </ul>
-                <button data-fold-btn class="services__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                    <span class="more__arrow icon-arrow-more"></span>
-                </button>
+                <div class="main-spoiler" data-id="description">
+                    <ul class="relinks__list">
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">MAR-тест</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Анализ секрета простаты</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">ЛОД-терапияи</a>
+                        </li>
+                        <li class="relinks__item">
+                            <a href="" class="relinks__link">Лечебный массаж простаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
             </div>
         </section>
 
@@ -326,5 +317,6 @@
         </div>
     </div>
 </footer>
+<script src="../js/main.js"></script>
 </body>
 </html>

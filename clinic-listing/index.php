@@ -5,17 +5,17 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.inputmask.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
-    <link rel="stylesheet" href="/files/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="/files/air-datepicker.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -125,7 +125,7 @@
                         <img src="/images/phone_24px.png">
                         <a href="#"> (499) 123-45-67</a>
                     </div>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Записаться в клинику
                     </a>
                 </div>
@@ -191,7 +191,7 @@
                         <img src="/images/phone_24px.png">
                         <a href="#"> (499) 123-45-67</a>
                     </div>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Записаться в клинику
                     </a>
                 </div>
@@ -425,7 +425,7 @@
                         <img src="/images/phone_24px.png">
                         <a href="#"> (499) 123-45-67</a>
                     </div>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Записаться в клинику
                     </a>
                 </div>
@@ -659,7 +659,7 @@
                         <img src="/images/phone_24px.png">
                         <a href="#">(499) 123-45-67</a>
                     </div>
-                    <a class="search__btn">
+                    <a class="search__btn js-record">
                         Запись на приём
                     </a>
                 </div>
@@ -773,45 +773,129 @@
         </div>
 
         <div class="review-card">
-            <h5>Отзывы</h5>
-            <div class="review-card__container">
-                <div class="review-card__left">
-                    <div class="review-card__name-patient">
-                        Имя пациента
-                        <div class="review-card__marks">
-                            <img src="/images/Star1.png">
-                            <p>5</p>
+            <h1>Отзывы</h1>
+            <div class="owl-carousel review-swiper owl-theme">
+                <div class="review-card__container">
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                            <div class="review-card__marks">
+                                <img src="/images/Star1.png">
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
                         </div>
                     </div>
-                    <div class="review-card__date">
-                        14.02.2022
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
                     </div>
-                    <div class="review-card__shield">
-                        <img src="/images/verifyied.png">
-                        Проверено
-                    </div>
-                    <div class="review-card__source-review">
-                        ИсточникОтзыва
-                    </div>
-                    <div class="review-card__date-visit">
-                        Дата посещения<br>
-                        12.02.2022
-                    </div>
-                </div>
-                <div class="review-card__center">
-                    <div class="review-card__comment">
-                        Комментарий
-                        <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
-                            ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                    <div class="review-card__right">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="review-card__right">
-                    <div class="review-card__photo-clinic">
-                        <img src="/images/image%2033.png">
-                        <p>
-                            Клиника<br>
-                            <span>АльтерМед</span>
-                        </p>
+                <div class="review-card__container">
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                            <div class="review-card__marks">
+                                <img src="/images/Star1.png">
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
+                    </div>
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
+                    </div>
+                    <div class="review-card__right">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card__container">
+                    <div class="review-card__left">
+                        <div class="review-card__name-patient">
+                            Имя пациента
+                            <div class="review-card__marks">
+                                <img src="/images/Star1.png">
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="review-card__date">
+                            14.02.2022
+                        </div>
+                        <div class="review-card__shield">
+                            <img src="/images/verifyied.png">
+                            Проверено
+                        </div>
+                        <div class="review-card__source-review">
+                            ИсточникОтзыва
+                        </div>
+                        <div class="review-card__date-visit">
+                            Дата посещения<br>
+                            12.02.2022
+                        </div>
+                    </div>
+                    <div class="review-card__center">
+                        <div class="review-card__comment">
+                            Комментарий
+                            <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна,
+                                ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                        </div>
+                    </div>
+                    <div class="review-card__right">
+                        <div class="review-card__photo-clinic">
+                            <img src="/images/image%2033.png">
+                            <p>
+                                Клиника<br>
+                                <span>АльтерМед</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -822,43 +906,40 @@
                 <div class="relinks__column">
                     <div class="relinks__head">
                         <b class="relinks__column-title">Направления</b>
-                        <ul class="relinks__list relinks__list--mobile-row">
-                            <li class="main-spoiler" data-id="description">
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
-                                    18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
-                                    18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            </li>
-                        </ul>
+                        <div class="main-spoiler" data-id="description">
+                            <ul class="relinks__list relinks__list--mobile-row">
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
+                                        18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
+                                        18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <button class="btn main-spoiler-btn">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="main-spoiler-btn">Показать еще</span>
-                    </button>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
                 <div class="relinks__column">
                     <div class="relinks__head">
@@ -896,51 +977,45 @@
                             </ul>
                         </div>
                     </div>
-                    <button class="btn main-spoiler-btn">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="main-spoiler-btn">Показать еще</span>
-                    </button>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
                 <div class="relinks__column">
                     <div class="relinks__head">
                         <b class="relinks__column-title">Направления</b>
-                        <ul class="relinks__list relinks__list--mobile-row">
-                            <li class="main-spoiler" data-id="description">
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
-                                    18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
-                                    18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
-                            </li>
-                            </li>
-                        </ul>
+                        <div class="main-spoiler" data-id="description">
+                            <ul class="relinks__list relinks__list--mobile-row">
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
+                                        18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от
+                                        18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                                <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <button class="btn main-spoiler-btn">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="main-spoiler-btn">Показать еще</span>
-                    </button>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
             </div>
         </div>
@@ -1029,9 +1104,63 @@
         </div>
     </div>
 </footer>
+<div class="overlay"></div>
+<div class="js-record-form record-form popup" data-closehint="1">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Запись на прием в клинику</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic">
+            </div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address">
+                        <img src="/images/review-geo.png"/>
+                        Москва, Пестеля д. 11
+                    </li>
+                    <li class="metro">
+                        <img src="/images/region.png"/>
+                        Отрадное<span>(780 м)</span>
+                    </li>
+                    <li class="region">
+                        <img src="/images/region.png"/>
+                        СВАО (Отрадное)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form method="post" class="js-form">
+            <input type="hidden" name="record_type" value="clinic">
+            <input type="hidden" name="clinic" value="15757">
+            <ul class="input-col clear">
+                <li class="left"><input required="" class="input-text" type="text" name="name"
+                                        placeholder="Введите Ваше имя"></li>
+                <li class="right"><input required="" class="input-text input-phone" name="phone" type="tel"
+                                         placeholder="__ (___) ___-__-__"></li>
+            </ul>
+            <input type="text" name="comment" class="input-text" placeholder="Введите комментарий">
+            <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
+                подтверждения записи.
+            </div>
+            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/ajax/record/">Записаться
+            </button>
+            <div class="center">
+                <p>Для записи в клинику Вы также можете позвонить по телефону</p>
+                <a class="phone-link" href="tel:+74951518866">+7 (495) 151-88-66</a>
+            </div>
+            <div class="center">
+                Нажимая «Записаться», я принимаю
+                <a href="" class="user-agreement" target="_blank">условия пользовательского
+                    соглашения</a>
+                и даю свое согласие на обработку персональных данных.
+            </div>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/form.js"></script>
 </body>
 </html>
-
-
-<script defer src="/js/swiper-bundle.min.js"></script>
-<script defer src="/js/air-datepicker.js"></script>
