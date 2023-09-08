@@ -873,6 +873,7 @@ body {
     justify-content: space-between;
     align-items: stretch;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .clinic-card-category__container {
@@ -1623,6 +1624,8 @@ body {
     font-size: 12px;
     text-decoration-line: underline;
     padding: 5px 0;
+    display: flex;
+    align-items: center;
 }
 
 .review-card__shield img {
@@ -3729,6 +3732,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     gap: 24px;
+    padding: 10px 0;
 }
 
 .users__tabcontent:not(.is-active) {
@@ -4465,6 +4469,10 @@ body {
         max-width: 700px;
         width: 100%;
     }
+
+    .parking, .pay, .child {
+        padding: 0 6px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -4478,6 +4486,9 @@ body {
 
     .clinic-card {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .clinic-card__body-left {
@@ -4503,6 +4514,10 @@ body {
     .user__content {
         max-width: 600px;
         width: 100%;
+    }
+
+    .clinic-card__body-right {
+        max-height: 125px;
     }
 }
 
@@ -4978,7 +4993,19 @@ body {
     overflow: hidden;
     transition: all 1s;
     position: relative;
-    }
+}
+
+.review-spoiler {
+    height: 500px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+}
+
+.review-spoiler-btn {
+    text-align: center;
+    cursor: pointer;
+}
 
 .deployed {
     height: auto;

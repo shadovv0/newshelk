@@ -115,7 +115,7 @@
                     </div>
                 </div>
                 <div class="clinic-card__right-map">
-                    <div data-map="55.726477, 37.479474" class="contacts__map"></div>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A97aa3af62620370b6ec5eaf606e8b96f6641ef1e862e53e2aa1e939fff416485&amp;width=350&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
             </div>
             <div class="clinic-card__body">
@@ -193,7 +193,7 @@
                                 Венерология
                             </button>
                         </div>
-                        <div data-tabcontent="gynecology" class="specialisations__services services">
+                        <div data-tabcontent="gynecology" class="specialisations__services services is-active">
                             <div class="services__block-spec services__block--in-listing">
                                 <div class="main-spoiler" data-id="description">
                                     <li class="services__item">
@@ -1498,7 +1498,7 @@
                         </div>
                     </div>
                     <div class="users__body">
-                        <div class="main-spoiler" data-id="description">
+                        <div class="review-spoiler" data-id="description">
                             <div data-tabcontent="positive" class="users__tabcontent is-active">
                                 <div class="user">
                                     <div class="user__info">
@@ -1867,7 +1867,7 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <a class="users__more-review main-spoiler-btn" data-target="description">Показать ещё</a>
+                            <a class="users__more-review review-spoiler-btn" data-target="description">Показать ещё отзывы</a>
                             <a class="users__record js-review">Оставить отзыв</a>
                         </div>
                     </div>
@@ -1879,7 +1879,25 @@
             <h3 id="license" class="license-clinic-title">Лицензии клиники</h3>
             <div class="license-container">
                 <section class="section-with-slider">
-                    <div class="owl-carousel main-swiper owl-theme">
+                    <div class="owl-carousel photo-swiper owl-theme">
+                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
+                            <img src="/images/license-clinic.png" alt="license"/>
+                        </a>
+                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
+                            <img src="/images/license-clinic.png" alt="license"/>
+                        </a>
+                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
+                            <img src="/images/license-clinic.png" alt="license"/>
+                        </a>
+                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
+                            <img src="/images/license-clinic.png" alt="license"/>
+                        </a>
+                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
+                            <img src="/images/license-clinic.png" alt="license"/>
+                        </a>
+                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
+                            <img src="/images/license-clinic.png" alt="license"/>
+                        </a>
                         <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
                             <img src="/images/license-clinic.png" alt="license"/>
                         </a>
@@ -1904,7 +1922,28 @@
             <h3 id="photo-clinic" class="photo-clinic__title">Фотографии клиники</h3>
             <div class="photo-clinic__container">
                 <section class="section-with-slider">
-                    <div class="owl-carousel main-swiper owl-theme">
+                    <div class="owl-carousel photo-swiper owl-theme">
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
+                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
+                            <img src="/images/photo-clinic-1.png" alt="photo">
+                        </a>
                         <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
                             <img src="/images/photo-clinic-1.png" alt="photo">
                         </a>
@@ -2564,7 +2603,8 @@
         <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/form.js"></script>

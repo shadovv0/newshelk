@@ -91,12 +91,64 @@ $('.menu-btn').click(function (e) {
     }
     return false;
 });
+
+
 $('.top-menu__wrap .close').click(function (e) {
     $('.menu-btn:visible').click();
 });
 $(document).on('click', '.top-menu-visible', function () {
     $('.menu-btn:visible').click();
 });
+
+
+/*$('.mobile-menu').click(function (e) {
+    e.stopPropagation();
+    if (window.innerWidth < 880) {
+        if (!$('.top-menu-visible').length) {
+            if ($('.left-sidebar-visible').length) {
+                $('.left-sb-btn').click();
+            }
+            $('.top-menu__wrap').animate({
+                left: 0
+            });
+            $('body').addClass('top-menu-visible');
+        } else {
+            $('.top-menu__wrap').animate({
+                left: -275
+            });
+            $('body').removeClass('top-menu-visible');
+        }
+    } else {
+        $('body').click(function (e) {
+            if ($('.top-menu').hasClass('active')) {
+                $('.mobile-menu').click();
+            }
+        });
+        if (!$('.top-menu').hasClass('active')) {
+            $('.top-menu').addClass('active');
+            $('.top-menu .wrap').animate({
+                height: 570
+            }, 300);
+            $('.top-menu .sub-menu').delay(100).slideDown(200);
+        } else {
+            $('.top-menu .sub-menu').slideUp(300);
+            $('.top-menu .wrap').animate({
+                height: 51
+            }, 300, function () {
+                $('top-menu').removeClass('active');
+            });
+        }
+    }
+    return false;
+});
+
+
+$('.top-menu__wrap .close').click(function (e) {
+    $('.mobile-menu:visible').click();
+});
+$(document).on('click', '.top-menu-visible', function () {
+    $('.mobile-menu:visible').click();
+});*/
 
 
 function showRecordForm() {
@@ -272,6 +324,27 @@ $(document).ready(function () {
 
 });
 
+const onClickReview = function({ target: { dataset: { index } } }) {
+    this[index].classList.toggle('deployed');
+}.bind(document.querySelectorAll('.review-spoiler'));
+
+document.querySelectorAll('.review-spoiler-btn').forEach((n, i) => {
+    n.dataset.index = i;
+    n.addEventListener('click', onClickReview);
+});
+
+
+const btnReview = document.querySelectorAll('.review-spoiler-btn');
+for (let i = 0; i < btnReview.length; i++) {
+
+    btnReview[i].addEventListener('click', function() {
+        this.innerHTML =
+            (this.innerHTML === 'Показать ещё отзывы') ? this.innerHTML = 'Свернуть' : this.innerHTML = 'Показать ещё отзывы';
+    })
+
+}
+
+
 const onClick = function({ target: { dataset: { index } } }) {
     this[index].classList.toggle('deployed');
 }.bind(document.querySelectorAll('.main-spoiler'));
@@ -345,12 +418,14 @@ $(".review-swiper").owlCarousel({
 
 
 $(".main-swiper").owlCarousel({
-   /* margin:30,
-    items:1,
-    dots: true,*/
-
-
     items:3,
+    dots: true,
+    nav: true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+});
+
+$(".photo-swiper").owlCarousel({
+    items:6,
     dots: true,
     nav: true,
     navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],

@@ -38,6 +38,57 @@ html, body {
     width: 130px;
 }
 
+.top-menu-btn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.top-menu-btn a {
+    color: #516FA6CC;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.menu-item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.root-item img{
+    width: 25px;
+    height: 25px;
+}
+
+.burger-menu {
+    width: 65%;
+    display: none;
+}
+
+.top-menu-visible .burger-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    background: #FFF;
+    z-index: 200;
+    height: 100%;
+}
+
+.burger-phone a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.burger-phone span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
 .head__container .wrap {
     display: flex;
     justify-content: space-between;
@@ -49,9 +100,8 @@ html, body {
 }
 
 .head__container {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     background: #FFFFFF;
-    padding-bottom: 20px;
 }
 
 .wrap {
@@ -75,6 +125,7 @@ html, body {
     text-align: center;
     font-size: 14px;
     text-decoration-line: underline;
+    padding-bottom: 10px;
 }
 
 .search-form {
@@ -181,7 +232,6 @@ html, body {
 }
 
 .search__btn {
-    padding: 0 20px;
     z-index: 5;
     border-radius: 22px;
     background: rgba(252, 91, 93, 0.80);
@@ -192,10 +242,60 @@ html, body {
     align-items: center;
     font-weight: 500;
     font-size: 20px;
+    padding: 10px 25px;
+    margin: 15px;
+}
+
+.faq__btn.is-active .faq__arrow {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.faq__arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    margin-left: auto;
+    color: #8b8d93;
+    font-size: 0.375rem;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 29px;
+    height: 31px;
 }
 
 .actions__doctors-image img {
     width: 167px;
+}
+
+.photo-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.information__profile p {
+    padding: 5px;
+    border-radius: 4px;
+    background: rgba(81, 111, 166, 0.30);
+    margin: 5px 20px;
+}
+
+.information__profile {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    align-items: center;
 }
 
 .actions__doctors-house {
@@ -551,6 +651,8 @@ html, body {
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 3px;
+    display: flex;
+    align-items: center;
 }
 
 .popular-doctor__metro img {
@@ -797,6 +899,10 @@ html, body {
     color: rgba(0, 0, 0, 0.50);
     font-size: 12px;
     padding: 0 10px;
+}
+
+.sort__items {
+    border-bottom: 1px solid #0000001A;
 }
 
 .sort__items ul {
@@ -1161,7 +1267,6 @@ html, body {
     font-size: 14px;
     font-weight: 600;
     text-decoration-line: underline;
-    border-bottom: 1px solid #0000001A;
     padding: 5px 0;
 }
 
@@ -1169,6 +1274,8 @@ html, body {
     display: flex;
     flex-direction: column;
     margin: 10px 0;
+    max-width: 270px;
+    width: 100%;
 }
 
 .clinic-card__footer-metroes ul {
@@ -1224,6 +1331,17 @@ html, body {
     color: #728AB6;
     font-size: 14px;
     text-decoration-line: none;
+}
+
+.clinic-card__footer-clinic p:last-child {
+    border-bottom: 1px solid #00000019;
+    max-width: 210px;
+}
+
+.clinic-card__container-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .clinic-card__popular-procedure-price {
@@ -1316,6 +1434,7 @@ html, body {
     position: fixed;
     width: 100%;
     z-index: 101;
+    bottom: 0;
 }
 
 .mobile-menu ul {
@@ -1417,19 +1536,31 @@ html, body {
     color: rgba(0, 0, 0, 0.80);
     font-size: 18px;
     font-weight: 600;
-    border-bottom: 1px solid #0000001A;
-    border-top: 1px solid #0000001A;
-    padding: 5px 0;
-}
-
-.price-clinic__name-service:first-child {
-    border-top: none;
 }
 
 .price-clinic__body {
-    padding: 15px;
+    border-bottom: 1px solid #0000001A;
+    border-top: 1px solid #0000001A;
+    padding: 5px 0;
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
+}
+
+.price-clinic__body:first-child {
+    border-top: none;
+}
+
+.price-clinic__body>ul {
+    height: 0;
+    overflow: hidden;
+    will-change: height;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .price__item {
@@ -1468,12 +1599,6 @@ html, body {
     color: #FC5B5D;
     font-size: 14px;
     text-decoration-line: line-through;
-}
-
-.price-clinic__body ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 5px 0 15px;
 }
 
 .relinks__more {
@@ -1541,6 +1666,7 @@ html, body {
     width: 100%;
     padding: 0 15px;
     margin-top: 15px;
+    border-bottom: 1px solid #0000001A;
 }
 
 .doctor-card-clinic__head {
@@ -1640,7 +1766,6 @@ html, body {
 
 .doctor-card__listing-title h5 {
     color: rgba(0, 0, 0, 0.80);
-    border-bottom: 1px solid #0000001A;
     padding-bottom: 5px;
     font-size: 18px;
     font-weight: 600;
@@ -2052,7 +2177,26 @@ html, body {
     color: #FFFFFF;
 }
 
+.review-card__mark-red {
+    border-radius: 4px;
+    background: rgba(252, 91, 93, 0.80);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 8px;
+    font-size: 20px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
 .review-card__mark img {
+    width: 20px;
+    margin-right: 6px;
+}
+
+.review-card__mark-red img {
     width: 20px;
     margin-right: 6px;
 }
@@ -2090,7 +2234,7 @@ html, body {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.doctor-card__contnet {
+.doctor-card__content {
     height: 0;
     overflow: hidden;
     will-change: height;
@@ -3061,6 +3205,10 @@ html, body {
     font-weight: 400;
 }
 
+.doctor-card-view__doctor-spec p:last-child, .doctor-card-view__doctor-category p:last-child, .doctor-card-view__doctor-degree p:last-child {
+    border-bottom: 2px solid #00000019;
+    max-width: 100px;
+}
 
 .doctor-card--advant p {
     margin: 0;
@@ -3082,10 +3230,6 @@ html, body {
 .doctor-card--advant img {
     width: 40px;
     margin-right: 10px;
-}
-
-.doctor-card--advant img {
-    width: 50px;
 }
 
 .doctor-card--advant {
@@ -3161,8 +3305,13 @@ html, body {
 }
 
 .price-doctor-clinic__container {
-    margin: 15px 0;
+    margin: 15px 10px;
     border-bottom: 1px solid #00000019;
+}
+
+.price-doctor-clinic__container:last-child {
+    margin: 15px 10px;
+    border-bottom: none;
 }
 
 .clinic-drop-down {
@@ -3698,6 +3847,11 @@ html, body {
     z-index: 100;
 }
 
+.doctor-in-clinic {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
 
 .show-review-form .review-form {
     display: block;
@@ -3741,8 +3895,15 @@ html, body {
     cursor: pointer;
 }
 
+.review-spoiler {
+    height: 500px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+}
+
 .main-spoiler {
-    height: 200px;
+    height: 280px;
     overflow: hidden;
     transition: all 1s;
     position: relative;
@@ -3751,6 +3912,10 @@ html, body {
 .deployed {
     height: auto;
     background: none;
+}
+.review-spoiler-btn {
+    text-align: center;
+    cursor: pointer;
 }
 
 .main-spoiler-btn {
@@ -4029,4 +4194,19 @@ form .rate li {
         width: 155px;
         height: 158px;
     }
+}
+
+.users__tabcontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.users__tabcontent:not(.is-active) {
+    display: none;
 }

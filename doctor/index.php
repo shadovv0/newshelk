@@ -678,366 +678,368 @@
                         </div>
                     </div>
                     <div class="users__body">
-                        <div data-tabcontent="positive" class="users__tabcontent is-active">
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
+                        <div class="review-spoiler" data-id="description">
+                            <div data-tabcontent="positive" class="users__tabcontent is-active">
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
                                             </div>
                                         </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
+                                    </div>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Клиника на Текстильщиках<br>
+                                                    ул. Люблинская, д. 9 к. 1
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
                                         </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
+                                            </p>
+                                        </div>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
+                                                </div>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
+                                            </div>
                                         </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Клиника на Текстильщиках<br>
+                                                    ул. Люблинская, д. 9 к. 1
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
                                             </p>
                                         </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
+                                                </div>
                                             </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Клиника на Текстильщиках<br>
+                                                    ул. Люблинская, д. 9 к. 1
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
+                                            </p>
+                                        </div>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
+                            <div data-tabcontent="negative" class="users__tabcontent is-active">
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks-negative review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="3" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>3</p>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
                                             </div>
                                         </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
                                     </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Клиника на Текстильщиках<br>
+                                                    ул. Люблинская, д. 9 к. 1
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
                                             </p>
                                         </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
+                                                </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
+                                                </div>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
+                            <div data-tabcontent="unverified" class="users__tabcontent is-active">
+                                <div class="user">
+                                    <div class="user__info">
+                                        <div class="user__info-top">
+                                            <div class="user__info-top-right">
+                                                <b class="user__author-name">Имя пациента</b>
+                                                <div class="review-card__marks">
+                                                    <div class="user__info-bottom">
+                                                        <div data-rating="5" class="user__rating rating">
+                                                            <div class="rating__body">
+                                                                <div class="rating__active"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <img src="/images/Star1.png">
+                                                    <p>5</p>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
+                                            </div>
+                                            <div class="user__social">14.02.2022</div>
+                                            <div class="user__status">
+                                                <img src="/images/verifyied.png">
+                                                Проверено
+                                            </div>
+                                            <div class="review-card__source-review">
+                                                ИсточникОтзыва
+                                            </div>
+                                            <div class="review-card__date-visit">
+                                                Дата посещения<br>
+                                                12.02.2022
                                             </div>
                                         </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
                                     </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
+                                    <div class="user__content">
+                                        <div class="user__blocks">
+                                            <div class="user__positive">
+                                                <span>Плюсы</span>
+                                                <p>Компетентный врач</p>
+                                            </div>
+                                            <div class="user__clinic-geo">
+                                                <img src="/images/review-geo.png">
+                                                <p>Клиника на Текстильщиках<br>
+                                                    ул. Люблинская, д. 9 к. 1
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
+                                        <div class="user__block">
+                                            <span>Минусы</span>
+                                            <p>Сложно записаться.</p>
+                                        </div>
+                                        <div class="user__block">
+                                            <span>Комментарий</span>
+                                            <p>
+                                                Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
+                                                Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                                проблеме пациента!
                                             </p>
                                         </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-tabcontent="negative" class="users__tabcontent is-active">
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks-negative review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="3" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
-                                                        </div>
-                                                    </div>
+                                        <div class="user__answer">
+                                            <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                            <div class="user__answers">
+                                                <div class="user__answer-place">
+                                                    <span>Клиника на Рязанском проспекте</span>
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>3</p>
-                                            </div>
-                                        </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
-                                        </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-tabcontent="unverified" class="users__tabcontent is-active">
-                            <div class="user">
-                                <div class="user__info">
-                                    <div class="user__info-top">
-                                        <div class="user__info-top-right">
-                                            <b class="user__author-name">Имя пациента</b>
-                                            <div class="review-card__marks">
-                                                <div class="user__info-bottom">
-                                                    <div data-rating="5" class="user__rating rating">
-                                                        <div class="rating__body">
-                                                            <div class="rating__active"></div>
-                                                        </div>
-                                                    </div>
+                                                <div class="user__answer-date">
+                                                    16 февраля 22 в 09:48
                                                 </div>
-                                                <img src="/images/Star1.png">
-                                                <p>5</p>
-                                            </div>
-                                        </div>
-                                        <div class="user__social">14.02.2022</div>
-                                        <div class="user__status">
-                                            <img src="/images/verifyied.png">
-                                            Проверено
-                                        </div>
-                                        <div class="review-card__source-review">
-                                            ИсточникОтзыва
-                                        </div>
-                                        <div class="review-card__date-visit">
-                                            Дата посещения<br>
-                                            12.02.2022
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="user__content">
-                                    <div class="user__blocks">
-                                        <div class="user__positive">
-                                            <span>Плюсы</span>
-                                            <p>Компетентный врач</p>
-                                        </div>
-                                        <div class="user__clinic-geo">
-                                            <img src="/images/review-geo.png">
-                                            <p>Клиника на Текстильщиках<br>
-                                                ул. Люблинская, д. 9 к. 1
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Минусы</span>
-                                        <p>Сложно записаться.</p>
-                                    </div>
-                                    <div class="user__block">
-                                        <span>Комментарий</span>
-                                        <p>
-                                            Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней!
-                                            Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
-                                            проблеме пациента!
-                                        </p>
-                                    </div>
-                                    <div class="user__answer">
-                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                                        <div class="user__answers">
-                                            <div class="user__answer-place">
-                                                <span>Клиника на Рязанском проспекте</span>
-                                            </div>
-                                            <div class="user__answer-date">
-                                                16 февраля 22 в 09:48
-                                            </div>
-                                            <div class="user__answer-content">
-                                                <p>Спасибо Вам за отзыв!</p>
+                                                <div class="user__answer-content">
+                                                    <p>Спасибо Вам за отзыв!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1045,7 +1047,7 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <a class="users__more-review">Показать ещё отзывы</a>
+                            <a class="users__more-review review-spoiler-btn" data-target="description">Показать ещё отзывы</a>
                             <a class="users__record js-review">Оставить отзыв</a>
                         </div>
                     </div>

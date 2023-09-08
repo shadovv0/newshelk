@@ -71,15 +71,18 @@
             <div class="doctor-card-view__body">
                 <div class="doctor-card-view__doctor-spec">
                     <p>Специальности</p>
-                    <span>Гинеколог, акушер врач УЗИ, гинеколог-эндокринолог, маммолог</span>
+                    <span>Гинеколог, акушер врач УЗИ,<br> гинеколог-эндокринолог, маммолог</span>
+                    <p></p>
                 </div>
                 <div class="doctor-card-view__doctor-category">
                     <p>Категории</p>
                     <span>Врач высшей категории</span>
+                    <p></p>
                 </div>
                 <div class="doctor-card-view__doctor-degree">
                     <p>Степени</p>
                     <span>Кандидат медицинских наук</span>
+                    <p></p>
                 </div>
                 <div class="doctor-card--advant">
                     <ul>
@@ -116,7 +119,7 @@
                 </div>
                 <div class="doctor-card-view__footer">
                     <div class="record-btns">
-                        <a class="search__btn js-record">Записаться на приём</a>
+                        <a class="search__btn js-record clinic-btn">Записаться на приём</a>
                     </div>
                     <span>Обновлено 30.03.22</span>
                 </div>
@@ -163,11 +166,14 @@
     <div class="wrap">
         <div class="clinic-drop-down-container">
             <div data-fold class="price-doctor-clinic__container">
-                <button data-fold-btn class="faq__btn">
+                <button data-fold-btn class="faq__btn doctor-in-clinic">
                     <div class="price-doctor-clinic__title">
                         <h4>Клиника на Текстильщиках</h4>
                         <p>г. Москва<br> ул. Люблинская, д. 9 к. 1</p>
                     </div>
+                    <a class="faq__arrow">
+                        <img src="/images/right-page.png">
+                    </a>
                 </button>
                 <div data-fold-content class="clinic-drop-down">
                     <div class="clinic-card__metro">
@@ -275,11 +281,14 @@
                 </div>
             </div>
             <div data-fold class="price-doctor-clinic__container">
-                <button data-fold-btn class="faq__btn">
+                <button data-fold-btn class="faq__btn doctor-in-clinic">
                     <div class="price-doctor-clinic__title">
                         <h4>Клиника на Текстильщиках</h4>
                         <p>г. Москва<br> ул. Люблинская, д. 9 к. 1</p>
                     </div>
+                    <a class="faq__arrow">
+                        <img src="/images/right-page.png">
+                    </a>
                 </button>
                 <div data-fold-content class="clinic-drop-down">
                     <div class="clinic-card__metro">
@@ -387,11 +396,14 @@
                 </div>
             </div>
             <div data-fold class="price-doctor-clinic__container">
-                <button data-fold-btn class="faq__btn">
+                <button data-fold-btn class="faq__btn doctor-in-clinic">
                     <div class="price-doctor-clinic__title">
                         <h4>Клиника на Текстильщиках</h4>
                         <p>г. Москва<br> ул. Люблинская, д. 9 к. 1</p>
                     </div>
+                    <a class="faq__arrow">
+                        <img src="/images/right-page.png">
+                    </a>
                 </button>
                 <div data-fold-content class="clinic-drop-down">
                     <div class="clinic-card__metro">
@@ -511,160 +523,397 @@
                   стаж 12 лет
                 </span>
             </div>
-            <div class="info-about-doctor__body">
-                <h4 class="info-about-doctor__body-title">Опыт работы</h4>
-                <div class="information__card">
-                    <div class="information__card-date">2002 — 2005</div>
-                    <b class="information__card-title">Родильный дом при ГКБ № 20 Москва</b>
-                    <p class="information__card-name">Врач</p>
+            <div class="owl-carousel mob-review-swiper owl-theme">
+                <div class="info-about-doctor__body">
+                    <h4 class="info-about-doctor__body-title">Опыт работы</h4>
+                    <div class="main-spoiler" data-id="description">
+                        <div class="information__card">
+                            <div class="information__card-date">2002 — 2005</div>
+                            <b class="information__card-title">Родильный дом при ГКБ № 20 Москва</b>
+                            <p class="information__card-name">Врач</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2011 — 2013</div>
+                            <b class="information__card-title">РООИ «Здоровье человека» Москва</b>
+                            <p class="information__card-name">Врач акушер-гинеколог</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2013 — 2016</div>
+                            <b class="information__card-title">ООО МЦ «У Доктора»</b>
+                            <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2016 — 2017</div>
+                            <b class="information__card-title">ООО «МД КЛИНИК» </b>
+                            <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                        </div>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div class="information__card">
-                    <div class="information__card-date">2011 — 2013</div>
-                    <b class="information__card-title">РООИ «Здоровье человека» Москва</b>
-                    <p class="information__card-name">Врач акушер-гинеколог</p>
+                <div class="info-about-doctor__body">
+                    <h4 class="info-about-doctor__body-title">Образование</h4>
+                    <div class="main-spoiler" data-id="description">
+                        <div class="information__card">
+                            <div class="information__card-date">2002 — 2005</div>
+                            <b class="information__card-title">Родильный дом при ГКБ № 20 Москва</b>
+                            <p class="information__card-name">Врач</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2011 — 2013</div>
+                            <b class="information__card-title">РООИ «Здоровье человека» Москва</b>
+                            <p class="information__card-name">Врач акушер-гинеколог</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2013 — 2016</div>
+                            <b class="information__card-title">ООО МЦ «У Доктора»</b>
+                            <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2016 — 2017</div>
+                            <b class="information__card-title">ООО «МД КЛИНИК» </b>
+                            <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                        </div>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div class="information__card">
-                    <div class="information__card-date">2013 — 2016</div>
-                    <b class="information__card-title">ООО МЦ «У Доктора»</b>
-                    <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                <div class="info-about-doctor__body">
+                    <h4 class="info-about-doctor__body-title">Повышение квалификации</h4>
+                    <div class="main-spoiler" data-id="description">
+                        <div class="information__card">
+                            <div class="information__card-date">2002 — 2005</div>
+                            <b class="information__card-title">Родильный дом при ГКБ № 20 Москва</b>
+                            <p class="information__card-name">Врач</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2011 — 2013</div>
+                            <b class="information__card-title">РООИ «Здоровье человека» Москва</b>
+                            <p class="information__card-name">Врач акушер-гинеколог</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2013 — 2016</div>
+                            <b class="information__card-title">ООО МЦ «У Доктора»</b>
+                            <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                        </div>
+                        <div class="information__card">
+                            <div class="information__card-date">2016 — 2017</div>
+                            <b class="information__card-title">ООО «МД КЛИНИК» </b>
+                            <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                        </div>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
-                <div class="information__card">
-                    <div class="information__card-date">2016 — 2017</div>
-                    <b class="information__card-title">ООО «МД КЛИНИК» </b>
-                    <p class="information__card-name">Заведующая гинекологическим отделением</p>
+                <div class="info-about-doctor__body">
+                    <h4 class="info-about-doctor__body-title">Документы и фотографии</h4>
+                    <div class="information__photo">
+                        <div class="owl-carousel mob-swiper owl-theme">
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                            <a class="photo-carousel" href="/images/license-clinic.png" data-fancybox="gallery1">
+                                <img src="/images/license-clinic.png" alt="document">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-about-doctor__body">
+                    <h4 class="info-about-doctor__body-title">Профиль лечения</h4>
+                    <div class="main-spoiler" data-id="description">
+                        <div class="information__profile">
+                            <p>22%</p> Бактериальный вагиноз
+                        </div>
+                        <div class="information__profile">
+                            <p>14%</p> Вагинит
+                        </div>
+                        <div class="information__profile">
+                            <p>14%</p>Аменорея
+                        </div>
+                        <div class="information__profile">
+                            <p>11%</p>Аденомиоз
+                        </div>
+                        <div class="information__profile">
+                            <p>11%</p>Беременности невынашивание
+                        </div>
+                        <div class="information__profile">
+                            <p>11%</p>Беременность замершая
+                        </div>
+                        <div class="information__profile">
+                            <p>7%</p>Апоплексия яичника
+                        </div>
+                        <div class="information__profile">
+                            <p>7%</p> Аденокарцинома матки
+                        </div>
+                    </div>
+                    <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
             </div>
         </div>
 
         <div data-fold class="review-doctor__container">
             <div class="review-doctor__head">
-                <a class="search__btn js-review">Отправить отзыв</a>
+                <a class="search__btn js-review">Оставить отзыв</a>
                 <a class="users__side-link">Как мы проверяем отзывы?</a>
             </div>
-            <div class="review-card__body">
-                <h3 class="review-doctor__title">Отзывы (14)</h3>
-                <div class="review-doctor__marks">
-                    <ul>
-                        <li class="review-doctor__mark-item"><a href="#" style="color: #FC5B5D;"><img
-                                        src="/images/negative-mark.png">Отрицательные</a></li>
-                        <li class="review-doctor__mark-item"><a href="#" style="color: #F1D264;"><img
-                                        src="/images/neitral-mark.png">Нейтральные</a></li>
-                        <li class="review-doctor__mark-item"><a href="#" style="color: #94D1A2;"><img
-                                        src="/images/positive-mark.png">Положительные</a></li>
-                    </ul>
+            <div data-tabs-container class="users__wrapper">
+                <div class="review-card__body">
+                    <h3 class="review-doctor__title">Отзывы (14)</h3>
+                    <div data-tabs class="review-doctor__marks">
+                        <ul>
+                            <li data-tab="negative" class="review-doctor__mark-item"><a style="color: #FC5B5D;"><img
+                                            src="/images/negative-mark.png">Отрицательные</a></li>
+                            <li data-tab="unverified" class="review-doctor__mark-item"><a style="color: #F1D264;"><img
+                                            src="/images/neitral-mark.png">Нейтральные</a></li>
+                            <li data-tab="positive" class="review-doctor__mark-item"><a style="color: #94D1A2;"><img
+                                            src="/images/positive-mark.png">Положительные</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="users__body">
+                    <div class="review-spoiler" data-id="description">
+                        <div data-tabcontent="positive" class="users__tabcontent is-active">
+                            <div class="review-card__container">
+                                <div class="review-card__head-doctor">
+                                    <div class="review-card__left">
+                                        <div class="review-card__name-patient">
+                                            Имя +79225678902
+                                            <div class="review-card__date">
+                                                14.02.2022
+                                            </div>
+                                        </div>
+                                        <div class="review-card__mark">
+                                            <img src="/images/Star1.png">
+                                            5
+                                        </div>
+                                    </div>
+                                    <div class="review-card__right">
+                                        <div class="review-card__shield">
+                                            <img src="/images/verifyied.png">
+                                            Проверено
+                                        </div>
+                                        <div class="review-card__source-review">
+                                            ИсточникОтзыва
+                                        </div>
+                                    </div>
+                                    <div class="review-card__head__bottom">
+                                        <img src="/images/review-geo-blue.png">
+                                        Клиника на Текстильщиках
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                </div>
+                                <div class="review-card__comment">
+                                    Плюсы
+                                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                        проблеме
+                                        пациента!</p>
+                                    Минусы
+                                    <p>Сложно записаться.</p>
+                                </div>
+                                <div class="review-card__bottom">
+                                    <div class="user__answer">
+                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                        <div class="user__answers">
+                                            <div class="user__answer-place">
+                                                <b>Клиника на Рязанском проспекте</b>
+                                            </div>
+                                            <div class="user__answer-date">
+                                                16 февраля 22 в 09:48
+                                            </div>
+                                            <div class="user__answer-content">
+                                                <p>Спасибо Вам за отзыв!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-card__container">
+                                <div class="review-card__head-doctor">
+                                    <div class="review-card__left">
+                                        <div class="review-card__name-patient">
+                                            Имя +79225678902
+                                            <div class="review-card__date">
+                                                14.02.2022
+                                            </div>
+                                        </div>
+                                        <div class="review-card__mark">
+                                            <img src="/images/Star1.png">
+                                            5
+                                        </div>
+                                    </div>
+                                    <div class="review-card__right">
+                                        <div class="review-card__shield">
+                                            <img src="/images/verifyied.png">
+                                            Проверено
+                                        </div>
+                                        <div class="review-card__source-review">
+                                            ИсточникОтзыва
+                                        </div>
+                                    </div>
+                                    <div class="review-card__head__bottom">
+                                        <img src="/images/review-geo-blue.png">
+                                        Клиника на Текстильщиках
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                </div>
+                                <div class="review-card__comment">
+                                    Плюсы
+                                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                        проблеме
+                                        пациента!</p>
+                                    Минусы
+                                    <p>Сложно записаться.</p>
+                                </div>
+                                <div class="review-card__bottom">
+                                    <div class="user__answer">
+                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                        <div class="user__answers">
+                                            <div class="user__answer-place">
+                                                <b>Клиника на Рязанском проспекте</b>
+                                            </div>
+                                            <div class="user__answer-date">
+                                                16 февраля 22 в 09:48
+                                            </div>
+                                            <div class="user__answer-content">
+                                                <p>Спасибо Вам за отзыв!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-tabcontent="negative" class="users__tabcontent is-active">
+                            <div class="review-card__container">
+                                <div class="review-card__head-doctor">
+                                    <div class="review-card__left">
+                                        <div class="review-card__name-patient">
+                                            Имя +79225678902
+                                            <div class="review-card__date">
+                                                14.02.2022
+                                            </div>
+                                        </div>
+                                        <div class="review-card__mark">
+                                            <img src="/images/Star1.png">
+                                            3
+                                        </div>
+                                    </div>
+                                    <div class="review-card__right">
+                                        <div class="review-card__shield">
+                                            <img src="/images/verifyied.png">
+                                            Проверено
+                                        </div>
+                                        <div class="review-card__source-review">
+                                            ИсточникОтзыва
+                                        </div>
+                                    </div>
+                                    <div class="review-card__head__bottom">
+                                        <img src="/images/review-geo-blue.png">
+                                        Клиника на Текстильщиках
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                </div>
+                                <div class="review-card__comment">
+                                    Плюсы
+                                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                        проблеме
+                                        пациента!</p>
+                                    Минусы
+                                    <p>Сложно записаться.</p>
+                                </div>
+                                <div class="review-card__bottom">
+                                    <div class="user__answer">
+                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                        <div class="user__answers">
+                                            <div class="user__answer-place">
+                                                <b>Клиника на Рязанском проспекте</b>
+                                            </div>
+                                            <div class="user__answer-date">
+                                                16 февраля 22 в 09:48
+                                            </div>
+                                            <div class="user__answer-content">
+                                                <p>Спасибо Вам за отзыв!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-tabcontent="unverified" class="users__tabcontent is-active">
+                            <div class="review-card__container">
+                                <div class="review-card__head-doctor">
+                                    <div class="review-card__left">
+                                        <div class="review-card__name-patient">
+                                            Имя +79225678902
+                                            <div class="review-card__date">
+                                                14.02.2022
+                                            </div>
+                                        </div>
+                                        <div class="review-card__mark">
+                                            <img src="/images/Star1.png">
+                                            0
+                                        </div>
+                                    </div>
+                                    <div class="review-card__right">
+                                        <div class="review-card__shield">
+                                            <img src="/images/verifyied.png">
+                                            Проверено
+                                        </div>
+                                        <div class="review-card__source-review">
+                                            ИсточникОтзыва
+                                        </div>
+                                    </div>
+                                    <div class="review-card__head__bottom">
+                                        <img src="/images/review-geo-blue.png">
+                                        Клиника на Текстильщиках
+                                        ул. Люблинская, д. 9 к. 1
+                                    </div>
+                                </div>
+                                <div class="review-card__comment">
+                                    Плюсы
+                                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
+                                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в
+                                        проблеме
+                                        пациента!</p>
+                                    Минусы
+                                    <p>Сложно записаться.</p>
+                                </div>
+                                <div class="review-card__bottom">
+                                    <div class="user__answer">
+                                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
+                                        <div class="user__answers">
+                                            <div class="user__answer-place">
+                                                <b>Клиника на Рязанском проспекте</b>
+                                            </div>
+                                            <div class="user__answer-date">
+                                                16 февраля 22 в 09:48
+                                            </div>
+                                            <div class="user__answer-content">
+                                                <p>Спасибо Вам за отзыв!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="more-review review-spoiler-btn" data-target="description">Показать ещё отзывы</a>
                 </div>
             </div>
-            <div class="review-card__container">
-                <div class="review-card__head-doctor">
-                    <div class="review-card__left">
-                        <div class="review-card__name-patient">
-                            Имя +79225678902
-                            <div class="review-card__date">
-                                14.02.2022
-                            </div>
-                        </div>
-                        <div class="review-card__mark">
-                            <img src="/images/Star1.png">
-                            5
-                        </div>
-                    </div>
-                    <div class="review-card__right">
-                        <div class="review-card__shield">
-                            <img src="/images/verifyied.png">
-                            Проверено
-                        </div>
-                        <div class="review-card__source-review">
-                            ИсточникОтзыва
-                        </div>
-                    </div>
-                    <div class="review-card__head__bottom">
-                        <img src="/images/review-geo-blue.png">
-                        Клиника на Текстильщиках
-                        ул. Люблинская, д. 9 к. 1
-                    </div>
-                </div>
-                <div class="review-card__comment">
-                    Плюсы
-                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
-                    Минусы
-                    <p>Сложно записаться.</p>
-                </div>
-                <div class="review-card__bottom">
-                    <div class="user__answer">
-                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                        <div class="user__answers">
-                            <div class="user__answer-place">
-                                <b>Клиника на Рязанском проспекте</b>
-                            </div>
-                            <div class="user__answer-date">
-                                16 февраля 22 в 09:48
-                            </div>
-                            <div class="user__answer-content">
-                                <p>Спасибо Вам за отзыв!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-fold-content class="review-card__container review-card__container--folded">
-                <div class="review-card__head-doctor">
-                    <div class="review-card__left">
-                        <div class="review-card__name-patient">
-                            Имя +79225678902
-                            <div class="review-card__date">
-                                14.02.2022
-                            </div>
-                        </div>
-                        <div class="review-card__mark">
-                            <img src="/images/Star1.png">
-                            5
-                        </div>
-                    </div>
-                    <div class="review-card__right">
-                        <div class="review-card__shield">
-                            <img src="/images/verifyied.png">
-                            Проверено
-                        </div>
-                        <div class="review-card__source-review">
-                            ИсточникОтзыва
-                        </div>
-                    </div>
-                    <div class="review-card__head__bottom">
-                        <img src="/images/review-geo-blue.png">
-                        Клиника на Текстильщиках
-                        ул. Люблинская, д. 9 к. 1
-                    </div>
-                </div>
-                <div class="review-card__comment">
-                    Плюсы
-                    <p>Давно знаю доктора Н. В. Рогову, обращаюсь только к ней!
-                        Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
-                    Минусы
-                    <p>Сложно записаться.</p>
-                </div>
-                <div class="review-card__bottom">
-                    <div class="user__answer">
-                        <div class="user__avatar user__avatar--no-photo"><b>K</b></div>
-                        <div class="user__answers">
-                            <div class="user__answer-place">
-                                <b>Клиника на Рязанском проспекте</b>
-                            </div>
-                            <div class="user__answer-date">
-                                16 февраля 22 в 09:48
-                            </div>
-                            <div class="user__answer-content">
-                                <p>Спасибо Вам за отзыв!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button data-fold-btn class="services__more more">
-                        <span data-open-text="Показать еще" data-close-text="Свернуть"
-                              class="more__text">Показать еще</span>
-                <span class="more__arrow icon-arrow-more"></span>
-            </button>
         </div>
 
         <section class="section-with-slider">
@@ -1049,6 +1298,8 @@
         <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/main.js"></script>
 </body>

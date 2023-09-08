@@ -119,7 +119,7 @@
                         <img src="/images/blue-phone.png">
                         <a href="#">(499) 123-34-56</a>
                     </div>
-                    <a class="search__btn js-record">
+                    <a class="search__btn js-record clinic-btn">
                         Записаться в клинику
                     </a>
 
@@ -163,13 +163,19 @@
                     <button data-fold-btn class="faq__btn">
                         <div class="clinic-card__footer-clinic">
                             <span>Клиника на Текстильщиках</span>
-                            <div class="clinic-card__reviews">
-                                <div class="clinic-card__star">
-                                    <img src="/images/Star1.png">
-                                    <p>4,7</p>
+                            <div class="clinic-card__container-reviews">
+                                <div class="clinic-card__footer-clinic-reviews">
+                                    <div class="clinic-card__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
+                                    </div>
+                                    <a href="#">14 отзывов</a>
                                 </div>
-                                <a href="#">14 отзывов</a>
+                                <a class="faq__arrow">
+                                    <img src="/images/right-page.png">
+                                </a>
                             </div>
+                            <p></p>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -210,14 +216,20 @@
                 <div data-fold class="clinic-card__footer-container">
                     <button data-fold-btn class="faq__btn">
                         <div class="clinic-card__footer-clinic">
-                            <span>Клиника на Текстильщиках</span>
-                            <div class="clinic-card__footer-clinic-reviews">
-                                <div class="clinic-card__star">
-                                    <img src="/images/Star1.png">
-                                    <p>4,7</p>
+                            <span>Клиника на Петровско-Разумовской</span>
+                            <div class="clinic-card__container-reviews">
+                                <div class="clinic-card__footer-clinic-reviews">
+                                    <div class="clinic-card__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
+                                    </div>
+                                    <a href="#">14 отзывов</a>
                                 </div>
-                                <a href="#">14 отзывов</a>
+                                <a class="faq__arrow">
+                                    <img src="/images/right-page.png">
+                                </a>
                             </div>
+                            <p></p>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -257,14 +269,20 @@
                 <div data-fold class="clinic-card__footer-container">
                     <button data-fold-btn class="faq__btn">
                         <div class="clinic-card__footer-clinic">
-                            <span>Клиника на Текстильщиках</span>
-                            <div class="clinic-card__footer-clinic-reviews">
-                                <div class="clinic-card__star">
-                                    <img src="/images/Star1.png">
-                                    <p>4,7</p>
+                            <span>Клиника на Солнцево</span>
+                            <div class="clinic-card__container-reviews">
+                                <div class="clinic-card__footer-clinic-reviews">
+                                    <div class="clinic-card__star">
+                                        <img src="/images/Star1.png">
+                                        <p>4,7</p>
+                                    </div>
+                                    <a href="#">14 отзывов</a>
                                 </div>
-                                <a href="#">14 отзывов</a>
+                                <a class="faq__arrow">
+                                    <img src="/images/right-page.png">
+                                </a>
                             </div>
+                            <p></p>
                         </div>
                     </button>
                     <div data-fold-content class="clinic-card__content">
@@ -308,7 +326,7 @@
                     <img src="/images/blue-phone.png">
                     <a href="#">(499) 123-34-56</a>
                 </div>
-                <a class="search__btn js-record">
+                <a class="search__btn js-record clinic-btn">
                     Записаться в клинику
                 </a>
             </div>
@@ -374,7 +392,7 @@
                         <img src="/images/blue-phone.png">
                         <a href="#">(499) 123-34-56</a>
                     </div>
-                    <a class="search__btn js-record">
+                    <a class="search__btn js-record clinic-btn">
                         Записаться в клинику
                     </a>
 
@@ -683,56 +701,56 @@
                 <div class="relinks__column">
                     <b class="relinks__column-title">Клиники</b>
                     <div class="main-spoiler" data-id="description">
-                    <ul class="relinks__list">
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/euromed.png">
-                                «Евромед»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/open-clinic.png">
-                                «Открытая клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/moscow-clinic.png">
-                                «Московская клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/sinay.png">
-                                «Синай»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/euromed.png">
-                                «Евромед»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/open-clinic.png">
-                                «Открытая клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/moscow-clinic.png">
-                                «Московская клиника»
-                            </a>
-                        </li>
-                        <li class="relinks__item">
-                            <a href="" class="relinks__link">
-                                <img src="/images/sinay.png">
-                                «Синай»
-                            </a>
-                        </li>
-                    </ul>
+                        <ul class="relinks__list">
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/euromed.png">
+                                    «Евромед»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/open-clinic.png">
+                                    «Открытая клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/moscow-clinic.png">
+                                    «Московская клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/sinay.png">
+                                    «Синай»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/euromed.png">
+                                    «Евромед»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/open-clinic.png">
+                                    «Открытая клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/moscow-clinic.png">
+                                    «Московская клиника»
+                                </a>
+                            </li>
+                            <li class="relinks__item">
+                                <a href="" class="relinks__link">
+                                    <img src="/images/sinay.png">
+                                    «Синай»
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="main-spoiler-btn" data-target="description">Показать ещё</div>
                 </div>
