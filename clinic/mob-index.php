@@ -20,7 +20,7 @@
 <header>
     <div class="head__container">
         <div class="wrap clear">
-            <a class="menu-btn" href="#">
+            <a class="menu-btn">
                 <img src="/images/burger.png">
             </a>
             <div class="logo">
@@ -28,13 +28,9 @@
                     <img src="/images/mosmedportal_logo.png">
                 </a>
             </div>
-            <div class="search-form">
+            <div class="search-form input-for-search">
                 <div class="head__search">
-                    <form name="search-form" class="search-form" action="/search/" method="GET">
-                        <img src="/images/zoom.png">
-                        <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn"></button>
-                    </form>
+                    <span><img src="/images/zoom.png"><a class="searching">Поиск</a></span>
                 </div>
             </div>
         </div>
@@ -56,17 +52,42 @@
                 </nav>
             </div>
         </div>
+        <div class="window-search">
+            <div class="search__clinic-doctor">
+                <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
+                    <input class="js-search-input search__docclinic" type="text"
+                           placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                    <img src="/images/search-btn.png">
+                </form>
+            </div>
+        </div>
     </div>
 </header>
-<div class="mobile-menu">
-    <ul>
-        <li><a href="#"><img src="/images/burger.png">Меню</a></li>
-        <li><a href="#"><img src="/images/doctor-icon.png">Врачи</a></li>
-        <li><a href="#"><img src="/images/review-icon.png">Отзывы</a></li>
-        <li><a href="#"><img src="/images/record-icon.png">Записаться</a></li>
-    </ul>
-</div>
+
+
 <div class="content">
+    <div class="mobile-menu">
+        <ul>
+            <li><a class="left-sb-btn"><img src="/images/burger.png">Меню</a></li>
+            <li><a href="#doctors"><img src="/images/doctor-icon.png">Врачи</a></li>
+            <li><a href="#reviews"><img src="/images/review-icon.png">Отзывы</a></li>
+            <li><a href="#record"><img src="/images/record-icon.png">Записаться</a></li>
+        </ul>
+    </div>
+    <div class="bot-menu">
+        <div class="bot-sidebar">
+            <ul>
+                <li class="clinic-menu"><a href="#price" class="clinic-menu-item">Цены</a></li>
+                <li class="clinic-menu"><a href="#license" class="clinic-menu-item">Лицензии</a></li>
+                <li class="clinic-menu"><a href="#photo-clinic" class="clinic-menu-item">Фотографии клиники</a></li>
+                <li class="clinic-menu"><a href="#video-clinic" class="clinic-menu-item">Видео обзор клиники</a>
+                </li>
+                <li class="clinic-menu"><a href="#other-clinic" class="clinic-menu-item">Другие клиники сети</a>
+                </li>
+                <li class="clinic-menu"><a href="#similar-clinic" class="clinic-menu-item">Похожие клиники</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="wrap">
         <div class="clinic-card__container">
             <div class="clinic-card">
@@ -133,12 +154,26 @@
             <div class="clinic-additional">
                 <span>Обновлено 30.03.22</span>
                 <ul>
-                    <li><img src="/images/grey-parking.png">
-                        <p>Большая<br> парковка</p></li>
-                    <li><img src="/images/grey-pay.png">
-                        <p>Оплата наличными и картами</p></li>
-                    <li><img src="/images/grey-child.png">
-                        <p>Приём<br> детей от 7 лет</p></li>
+                    <div class="owl-carousel services-clinic-swiper owl-theme">
+                        <li><img src="/images/grey-parking.png">
+                            <p>Большая<br> парковка</p></li>
+                        <li><img src="/images/grey-pay.png">
+                            <p>Оплата наличными и картами</p></li>
+                        <li><img src="/images/grey-child.png">
+                            <p>Приём<br> детей от 7 лет</p></li>
+                        <li>
+                            <img src="/images/wifi-ico.png"/>
+                            <p>Wi-fi</p>
+                        </li>
+                        <li>
+                            <img src="/images/card-ico.png"/>
+                            <p>Оплата картой</p>
+                        </li>
+                        <li>
+                            <img src="/images/parking-ico.png"/>
+                            <p>Парковка</p>
+                        </li>
+                    </div>
                 </ul>
             </div>
             <div class="clinic-card__about-clinic">
@@ -153,14 +188,22 @@
             <div class="clinic-card__popular-service">
                 <h3>Популярные услуги:</h3>
                 <ul>
-                    <li>Приём <br>гинеколога от 1000₽</li>
-                    <li>Приём <br>гинеколога от 1000₽</li>
-                    <li>Приём <br>гинеколога от 1000₽</li>
+                    <div class="owl-carousel services-clinic-swiper owl-theme">
+                        <li>Приём <br>гинеколога от 1000₽</li>
+                        <li>Приём <br>гинеколога от 1000₽</li>
+                        <li>Приём <br>гинеколога от 1000₽</li>
+                        <li>Приём <br>уролога от 1000₽</li>
+                        <li>Приём <br>уролога от 1000₽</li>
+                        <li>Приём <br>уролога от 1000₽</li>
+                        <li>Приём <br>венеролога от 1000₽</li>
+                        <li>Приём <br>венеролога от 1000₽</li>
+                        <li>Приём <br>венеролога от 1000₽</li>
+                    </div>
                 </ul>
             </div>
         </div>
 
-        <div class="price-clinic__container">
+        <div id="price" class="price-clinic__container">
             <h3 class="price-clinic__title">Цены</h3>
             <div class="price-clinic__price-card">
                 <div class="price-clinic__head">
@@ -168,7 +211,7 @@
                     <img src="/images/phone_24px.png">
                     <a href="#" class="clinic-phone">(499) 123-45-67</a>
                     </span>
-                    <a class="search__btn js-record">
+                    <a id="record" class="search__btn js-record">
                         Записаться на приём
                     </a>
                 </div>
@@ -444,36 +487,79 @@
                                         </div>
                                     </div>
                                     <div class="doctor-card__right-record">
-                                        <div class="doctor-card-record__container">
-                                            <div class="doctor-card__dates dates">
-                                                <p>Сегодня</p>
+                                        <div class="owl-carousel date-mob-swiper owl-theme">
+                                            <div class="doctor-card-record__container">
+                                                <div class="doctor-card__dates dates">
+                                                    <p>Сегодня</p>
+                                                </div>
+                                                <div class="doctor-card__schedule schedule">
+                                                    Нет записи
+                                                </div>
                                             </div>
-                                            <div class="doctor-card__schedule schedule">
-                                                <div class="schedule__item radio">
-                                                    <label class="radio__label">
-                                                        <input type="radio" value="09:30" name="time-appointment"
-                                                               class="radio__input"/>
-                                                        09:30
-                                                    </label>
+                                            <div class="doctor-card-record__container">
+                                                <div class="doctor-card__dates dates">
+                                                    <p>Завтра</p>
                                                 </div>
-                                                <div class="schedule__item radio">
-                                                    <label class="radio__label"><input type="radio" value="10:00"
-                                                                                       name="time-appointment"
-                                                                                       class="radio__input"/> 10:00
-                                                    </label>
+                                                <div class="doctor-card__schedule schedule">
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label">
+                                                            <input type="radio" value="09:30" name="time-appointment"
+                                                                   class="radio__input"/>
+                                                            09:30
+                                                        </label>
+                                                    </div>
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label"><input type="radio" value="10:00"
+                                                                                           name="time-appointment"
+                                                                                           class="radio__input"/> 10:00
+                                                        </label>
+                                                    </div>
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label">
+                                                            <input type="radio" value="10:30" name="time-appointment"
+                                                                   class="radio__input"/>
+                                                            10:30
+                                                        </label>
+                                                    </div>
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label"> <input type="radio" value="11:00"
+                                                                                            name="time-appointment"
+                                                                                            class="radio__input"/> 11:00
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                                <div class="schedule__item radio">
-                                                    <label class="radio__label">
-                                                        <input type="radio" value="10:30" name="time-appointment"
-                                                               class="radio__input"/>
-                                                        10:30
-                                                    </label>
+                                            </div>
+                                            <div class="doctor-card-record__container">
+                                                <div class="doctor-card__dates dates">
+                                                    <p>Сегодня</p>
                                                 </div>
-                                                <div class="schedule__item radio">
-                                                    <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                        name="time-appointment"
-                                                                                        class="radio__input"/> 11:00
-                                                    </label>
+                                                <div class="doctor-card__schedule schedule">
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label">
+                                                            <input type="radio" value="09:30" name="time-appointment"
+                                                                   class="radio__input"/>
+                                                            09:30
+                                                        </label>
+                                                    </div>
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label"><input type="radio" value="10:00"
+                                                                                           name="time-appointment"
+                                                                                           class="radio__input"/> 10:00
+                                                        </label>
+                                                    </div>
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label">
+                                                            <input type="radio" value="10:30" name="time-appointment"
+                                                                   class="radio__input"/>
+                                                            10:30
+                                                        </label>
+                                                    </div>
+                                                    <div class="schedule__item radio">
+                                                        <label class="radio__label"> <input type="radio" value="11:00"
+                                                                                            name="time-appointment"
+                                                                                            class="radio__input"/> 11:00
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -788,7 +874,7 @@
             <div class="listing__header listing__header--clinic">
                 <h2>Отзывы</h2>
             </div>
-            <div class="listing__container-body">
+            <div id="reviews" class="listing__container-body">
                 <div class="listing-doctor-btn">
                     <a data-popup-btn="review" class="users__btn search__btn js-review">Оставить отзыв</a>
                     <a href="#" class="users__side-link">Как мы проверяем отзывы?</a>
@@ -936,7 +1022,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="more-review review-spoiler-btn" data-target="description">Показать ещё отзывы</a>
+                        <a class="more-review review-spoiler-btn" data-target="description">Показать ещё отзывы</a>
                     </div>
                 </div>
             </div>
@@ -945,8 +1031,26 @@
 
         <div class="media-clinic">
             <h3 class="license-clinic-title">Лицензии клиники</h3>
-            <div class="license-container">
+            <div id="license" class="license-container">
                 <div class="owl-carousel mob-swiper owl-theme">
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
+                    <a href="/images/license-clinic.png" data-fancybox="gallery">
+                        <img src="/images/license-clinic.png" alt="license"/>
+                    </a>
                     <a href="/images/license-clinic.png" data-fancybox="gallery">
                         <img src="/images/license-clinic.png" alt="license"/>
                     </a>
@@ -959,7 +1063,7 @@
                 </div>
             </div>
             <h3 class="photo-clinic__title">Фотографии клиники</h3>
-            <div class="photo-clinic__container">
+            <div id="photo-clinic" class="photo-clinic__container">
                 <div class="owl-carousel mob-swiper owl-theme">
                     <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
                         <img src="/images/photo-clinic-1.png" alt="photo">
@@ -973,7 +1077,7 @@
                 </div>
             </div>
             <h3 class="video-clinic__title">Видео обзор клиники</h3>
-            <div class="video-clinic__container">
+            <div id="video-clinic" class="video-clinic__container">
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/K5LhfmEgFuM"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -984,7 +1088,7 @@
 
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Другие клиники сети</h3>
-            <div class="owl-carousel mob-swiper owl-theme">
+            <div id="other-clinic" class="owl-carousel mob-swiper owl-theme">
                 <div class="other-clinics__clinic-card">
                     <div class="other-clinics__head">
                         <div class="other-clinics__photos">
@@ -1077,7 +1181,7 @@
 
         <div class="other-clinic__container">
             <h3 class="other-clinics__title-mob">Похожие клиники</h3>
-            <div class="owl-carousel mob-swiper owl-theme">
+            <div id="similar-clinic" class="owl-carousel mob-swiper owl-theme">
                 <div class="other-clinics__clinic-card">
                     <div class="other-clinics__head">
                         <div class="other-clinics__photos">

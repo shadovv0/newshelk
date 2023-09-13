@@ -2486,7 +2486,7 @@ body {
 }
 
 .doctor-card__dates {
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0;
     background: rgba(81, 111, 166, 0.30);
     display: flex;
     align-items: center;

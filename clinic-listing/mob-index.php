@@ -30,14 +30,19 @@
                     <img src="/images/mosmedportal_logo.png">
                 </a>
             </div>
-            <div class="search-form">
+            <div class="search-form input-for-search">
                 <div class="head__search">
-                    <form name="search-form" class="search-form" action="/search/" method="GET">
-                        <img src="/images/zoom.png">
-                        <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn"></button>
-                    </form>
+                    <span><img src="/images/zoom.png"><a class="searching">Поиск</a></span>
                 </div>
+            </div>
+        </div>
+        <div class="window-search">
+            <div class="search__clinic-doctor">
+                <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
+                    <input class="js-search-input search__docclinic" type="text"
+                           placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                    <img src="/images/search-btn.png">
+                </form>
             </div>
         </div>
     </div>

@@ -5,13 +5,13 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="../js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
@@ -22,33 +22,24 @@
                 <img src="/images/map_24px.png">
                 Карта
             </a>
-            <!--<div class="top-menu">
-            <div class="top-menu__wrap">
-                <nav class="top-menu-btn">
-                    <div class="menu-list">
-                        <a class="menu-item root-item" href="/clinic/index.php">Клиники</a>
-                        <a class="menu-item root-item" href="/doctor/index.php">Врачи</a>
-                        <a class="menu-item root-item" href="/uslugi/index.php">Услуги</a>
-                        <a class="menu-item root-item" href="/diagnostic/index.php">Диагностика</a>
-                        <a class="menu-item root-item" href="/disease/index.php">Заболевания</a>
-                        <a class="menu-item root-item" href="/symptoms/index.php">Симптомы</a>
-                    </div>
-                </nav>
-            </div>
-        </div>-->
             <div class="logo">
                 <a href="/">
                     <img src="/images/mosmedportal_logo.png">
                 </a>
             </div>
-            <div class="search-form">
+            <div class="search-form input-for-search">
                 <div class="head__search">
-                    <form name="search-form" class="search-form" action="/search/" method="GET">
-                        <img src="/images/zoom.png">
-                        <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn" href="#"></button>
-                    </form>
+                    <span><img src="/images/zoom.png"><a class="searching">Поиск</a></span>
                 </div>
+            </div>
+        </div>
+        <div class="window-search">
+            <div class="search__clinic-doctor">
+                <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
+                    <input class="js-search-input search__docclinic" type="text"
+                           placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                    <img src="/images/search-btn.png">
+                </form>
             </div>
         </div>
     </div>
@@ -217,5 +208,7 @@
         </div>
     </div>
 </footer>
+<script src="../js/app.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

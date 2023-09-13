@@ -233,3 +233,38 @@
 .owl-carousel .next-slide:hover{
     background-position: -24px -53px;
 }
+
+.owl-carousel .date-arrow-left{
+    background: url("../images/left-page.png") no-repeat scroll 0 0;
+    left: -7px;
+}
+.owl-carousel .date-arrow-right{
+    background: url("../images/right-page.png") no-repeat scroll 0px 0px;
+    right: -7px;
+}
+
+.owl-carousel .date-arrow{
+    height: 47px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer;
+    top: -3% !important;
+}
+
+
+.owl-carousel .service-arrow-left{
+    background: url("../images/left-page.png") no-repeat scroll 0 0;
+    left: -10px;
+}
+.owl-carousel .service-arrow-right{
+    background: url("../images/service-arr.png") no-repeat scroll 0px 0px;
+    right: -7px;
+}
+
+.owl-carousel .service-arrow{
+    height: 47px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer;
+    top: 17% !important;
+}

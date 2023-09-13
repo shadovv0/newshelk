@@ -5,34 +5,6 @@ $('.show-specs').on('click', function (e) {
         hideForm();
     });
 });
-//left sidebar
-$('.left-sidebar').click(function (e) {
-    e.stopPropagation();
-});
-$('.left-sb-btn').click(function (e) {
-    e.stopPropagation();
-    if (!$('.left-sidebar-visible').length) {
-        if ($('.top-menu-visible').length) {
-            $('.menu-btn:visible').click();
-        }
-        $('.left-sidebar').animate({
-            left: 0
-        });
-        $('body').addClass('left-sidebar-visible');
-    } else {
-        $('.left-sidebar').animate({
-            left: -275
-        });
-        $('body').removeClass('left-sidebar-visible');
-    }
-    return false;
-});
-$('.left-sidebar .close').click(function (e) {
-    $('.left-sb-btn').click();
-});
-$(document).on('click', '.left-sidebar-visible', function () {
-    $('.left-sb-btn').click();
-});
 
 $('.show-services').on('click', function (e) {
     e.preventDefault();
@@ -43,11 +15,6 @@ $('.show-services').on('click', function (e) {
         $('.show-services').text('Показать все услуги');
     }
     $('.show-services-top').toggleClass('hide');
-});
-
-$('.left-menu-close').on('click', function (e) {
-    e.preventDefault();
-    $('.show-sidebar').toggleClass('show-sidebar');
 });
 
 
@@ -62,11 +29,13 @@ $('.menu-btn').click(function (e) {
                 left: 0
             });
             $('body').addClass('top-menu-visible');
+            $('html').addClass('no-scroll');
         } else {
             $('.top-menu__wrap').animate({
                 left: -275
             });
             $('body').removeClass('top-menu-visible');
+            $('html').removeClass('no-scroll');
         }
     } else {
         $('body').click(function (e) {
@@ -101,41 +70,38 @@ $(document).on('click', '.top-menu-visible', function () {
 });
 
 
-/*$('.mobile-menu').click(function (e) {
+
+
+$('.mobile-menu').click(function (e) {
     e.stopPropagation();
     if (window.innerWidth < 880) {
-        if (!$('.top-menu-visible').length) {
-            if ($('.left-sidebar-visible').length) {
-                $('.left-sb-btn').click();
-            }
-            $('.top-menu__wrap').animate({
-                left: 0
-            });
-            $('body').addClass('top-menu-visible');
+        if (!$('.bot-menu-visible').length) {
+
+            $('body').addClass('bot-menu-visible');
+            $('html').addClass('no-scroll');
         } else {
-            $('.top-menu__wrap').animate({
-                left: -275
-            });
-            $('body').removeClass('top-menu-visible');
+
+            $('body').removeClass('bot-menu-visible');
+            $('html').removeClass('no-scroll');
         }
     } else {
         $('body').click(function (e) {
-            if ($('.top-menu').hasClass('active')) {
+            if ($('.bot-menu').hasClass('active')) {
                 $('.mobile-menu').click();
             }
         });
-        if (!$('.top-menu').hasClass('active')) {
-            $('.top-menu').addClass('active');
-            $('.top-menu .wrap').animate({
+        if (!$('.bot-menu').hasClass('active')) {
+            $('.bot-menu').addClass('active');
+            $('.bot-menu .wrap').animate({
                 height: 570
             }, 300);
-            $('.top-menu .sub-menu').delay(100).slideDown(200);
+            $('.bot-menu .bottom-menu').delay(100).slideDown(200);
         } else {
-            $('.top-menu .sub-menu').slideUp(300);
-            $('.top-menu .wrap').animate({
+            $('.bot-menu .bottom-menu').slideUp(300);
+            $('.bot-menu .wrap').animate({
                 height: 51
             }, 300, function () {
-                $('top-menu').removeClass('active');
+                $('bot-menu-menu').removeClass('active');
             });
         }
     }
@@ -143,12 +109,25 @@ $(document).on('click', '.top-menu-visible', function () {
 });
 
 
-$('.top-menu__wrap .close').click(function (e) {
+$('.bot-menu__wrap .close').click(function (e) {
     $('.mobile-menu:visible').click();
 });
-$(document).on('click', '.top-menu-visible', function () {
+$(document).on('click', '.bot-menu-visible', function () {
     $('.mobile-menu:visible').click();
-});*/
+});
+
+$('.input-for-search').on('click', function (e){
+    e.stopPropagation();
+    if (!$('.open-window-search').length) {
+        $('.head__container').addClass('open-window-search');
+        $('.window-search')[0].style.display = 'block';
+        $('.content').addClass('content-raltive');
+    } else {
+        $('.head__container').removeClass('open-window-search');
+        $('.window-search')[0].style.display = 'none';
+        $('.content').removeClass('content-raltive');
+    }
+});
 
 
 function showRecordForm() {
@@ -248,9 +227,9 @@ $('.js-more-reviews').on('click', function (e) {
 });
 
 
-$(document).ready(function () {
+/*$(document).ready(function () {
     $('input[name="phone"]').inputmask("+7(999)-999-99-99");
-});
+});*/
 
 
 $('.js-show-more-doctors').on('click', function (e) {
@@ -438,9 +417,30 @@ $(".mob-review-swiper").owlCarousel({
 });
 
 $(".mob-swiper").owlCarousel({
+    center: true,
+    items:1,
+    loop:false,
+    margin:10,
+});
+
+$(".date-swiper").owlCarousel({
+    margin:30,
+    items:1,
+});
+
+$(".date-mob-swiper").owlCarousel({
     margin:30,
     items:1,
     dots: true,
+    nav: true,
+    navText:["<div class='date-arrow date-arrow-left'></div>","<div class='date-arrow date-arrow-right'></div>"],
+});
+
+$(".services-clinic-swiper").owlCarousel({
+    items:3,
+    nav: true,
+    dots: false,
+    navText:["<div class='service-arrow service-arrow-left'></div>","<div class='service-arrow service-arrow-right'></div>"],
 });
 
 $('.search-form').on('submit', function (e) {

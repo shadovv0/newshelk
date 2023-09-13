@@ -28,6 +28,14 @@ html, body {
     overflow-x: hidden;
 }
 
+html.no-scroll {
+    overflow: hidden!important;
+}
+
+html.no-scroll body {
+    overflow: hidden !important;
+}
+
 .menu-btn {
     width: 40px;
     height: 40px;
@@ -70,7 +78,7 @@ html, body {
 
 .top-menu-visible .burger-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     background: #FFF;
     z-index: 200;
@@ -89,6 +97,28 @@ html, body {
     line-height: 17px;
 }
 
+.window-search {
+    display: none;
+    padding: 10px 15px;
+}
+
+.searching {
+    color: #516FA6;
+}
+
+.open-window-search {
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    padding: 0 0 28px;
+    box-shadow: 1px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content-raltive {
+    position: relative;
+    top: 75px;
+}
+
 .head__container .wrap {
     display: flex;
     justify-content: space-between;
@@ -96,6 +126,7 @@ html, body {
     padding: 35px 15px 0;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     align-content: center;
 }
 
@@ -133,11 +164,6 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.search__head {
-    text-decoration-line: underline;
-    color: #516FA6;
 }
 
 .search__title-service {
@@ -1061,7 +1087,7 @@ html, body {
     height: 85px;
     align-items: center;
     margin: 10px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .clinic-additional img {
@@ -1098,11 +1124,7 @@ html, body {
 .clinic-card__popular-service ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    padding: 10px 0;
 }
 
 .clinic-card__popular-service li {
@@ -1459,10 +1481,81 @@ html, body {
     width: 40px;
 }
 
+.doctor-menu-btn {
+    border-top: 1px solid #0000001A;
+    background: #FFFFFF;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 101;
+    bottom: 0;
+}
+
+.doctor-menu-btn ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.doctor-menu-btn a {
+    color: rgba(81, 111, 166, 0.80);
+    font-size: 13px;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor-menu-btn img {
+    width: 40px;
+}
+
 .mob-map img {
     max-width: 350px;
     width: 100%;
     margin-top: 15px;
+}
+
+.bot-menu-visible .bot-menu {
+    display: block;
+    position: fixed;
+    background: #FFF;
+    z-index: 200;
+    width: 93%;
+    bottom: 80px;
+    padding: 30px 15px;
+    left: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.bot-menu-visible .wrap {
+    filter: blur(2px);
+}
+
+
+.bot-menu {
+    display: none;
+}
+
+.bot-sidebar>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clinic-menu {
+    margin: 0;
+    padding: 10px 5px;
+}
+
+.clinic-menu>a {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #516FA6CC;
 }
 
 .text-banner__text-block {
@@ -2647,7 +2740,7 @@ html, body {
     width: 100%;
 }
 
-.doctor-card__body-footer span {
+.doctor-card__body-footer h6 {
     padding: 0 15px;
     color: rgba(0, 0, 0, 0.70);
     font-size: 13px;
@@ -2801,8 +2894,6 @@ html, body {
     border-radius: 4px;
     background: rgba(81, 111, 166, 0.29);
     padding: 5px 15px;
-    max-width: 350px;
-    width: 100%;
 }
 
 .doctor-card__geo p {
@@ -3212,24 +3303,36 @@ html, body {
 
 .doctor-card--advant p {
     margin: 0;
+    font-size: 0.8em;
 }
 
 .doctor-card--advant ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    width: 100%;
 }
 
 .doctor-card--advant li {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 10px 0;
+    align-content: center;
+    justify-content: flex-end;
+    width: 33%;
+    flex-wrap: wrap;
 }
 
 .doctor-card--advant img {
-    width: 40px;
-    margin-right: 10px;
+    width: 32px;
+    max-height: 40px;
 }
 
 .doctor-card--advant {
@@ -3942,10 +4045,6 @@ form .rate li {
 .rate .empty {
     background-position: 100% 0
 }
-
-
-
-
 
 
 

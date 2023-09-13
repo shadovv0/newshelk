@@ -20,33 +20,42 @@
             <a class="menu-btn" href="#">
                 <img src="/images/burger.png">
             </a>
-            <!--<div class="top-menu">
-            <div class="top-menu__wrap">
-                <nav class="top-menu-btn">
-                    <div class="menu-list">
-                        <a class="menu-item root-item" href="/clinic/index.php">Клиники</a>
-                        <a class="menu-item root-item" href="/doctor/index.php">Врачи</a>
-                        <a class="menu-item root-item" href="/uslugi/index.php">Услуги</a>
-                        <a class="menu-item root-item" href="/diagnostic/index.php">Диагностика</a>
-                        <a class="menu-item root-item" href="/disease/index.php">Заболевания</a>
-                        <a class="menu-item root-item" href="/symptoms/index.php">Симптомы</a>
-                    </div>
-                </nav>
-            </div>
-        </div>-->
             <div class="logo">
                 <a href="/">
                     <img src="/images/mosmedportal_logo.png">
                 </a>
             </div>
-            <div class="search-form">
+            <div class="search-form input-for-search">
                 <div class="head__search">
-                    <form name="search-form" class="search-form" action="/search/" method="GET">
-                        <img src="/images/zoom.png">
-                        <input class="js-search-input search__head" type="text" placeholder="Поиск" name="q" value=""/>
-                        <button class="search-btn" href="#"></button>
-                    </form>
+                    <span><img src="/images/zoom.png"><a class="searching">Поиск</a></span>
                 </div>
+            </div>
+        </div>
+        <div class="top-menu">
+            <div class="burger-menu">
+                <nav class="top-menu-btn">
+                    <div class="menu-list">
+                        <a class="menu-item root-item" href="/clinic/mob-index.php">Клиники</a>
+                        <a class="menu-item root-item" href="/doctor/mob-index.php">Врачи</a>
+                        <a class="menu-item root-item" href="/hub/mob-index.php">Услуги</a>
+                        <a class="menu-item root-item" href="/diagnostic/index.php">Диагностика</a>
+                        <a class="menu-item root-item" href="/disease/index.php">Заболевания</a>
+                        <a class="menu-item root-item" href="/symptoms/index.php">Симптомы</a>
+                    </div>
+                    <div class="burger-phone">
+                        <a href="#">(499) 123-34-56</a>
+                        <span>справочная</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="window-search">
+            <div class="search__clinic-doctor">
+                <form name="search__search-form" action="/search/" class="search__search-form" method="GET">
+                    <input class="js-search-input search__docclinic" type="text"
+                           placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
+                    <img src="/images/search-btn.png">
+                </form>
             </div>
         </div>
     </div>
