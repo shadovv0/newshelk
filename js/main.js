@@ -443,6 +443,26 @@ $(".services-clinic-swiper").owlCarousel({
     navText:["<div class='service-arrow service-arrow-left'></div>","<div class='service-arrow service-arrow-right'></div>"],
 });
 
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    $('.dropbtn').toggleClass('reverse-arrow');
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+        let dropdowns = document.getElementsByClassName("dropdown-content");
+        let i;
+        for (i = 0; i < dropdowns.length; i++) {
+            let openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+
 $('.search-form').on('submit', function (e) {
     if ($('.js-search-input').val().length == 0) {
         e.preventDefault();

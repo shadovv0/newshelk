@@ -187,8 +187,8 @@
                                 </div>
                             </div>
                             <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro">
-                                    <img src="/images/ellipse15.png">
+                                <div class="popular-doctor__metro first-metro">
+                                    <span></span>
                                     Текстильщики (978м)
                                 </div>
                                 <div class="popular-doctor__address">
@@ -231,8 +231,8 @@
                                 </div>
                             </div>
                             <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro">
-                                    <img src="/images/ellipse15.png">
+                                <div class="popular-doctor__metro first-metro">
+                                    <span></span>
                                     Текстильщики (978м)
                                 </div>
                                 <div class="popular-doctor__address">
@@ -275,8 +275,8 @@
                                 </div>
                             </div>
                             <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro">
-                                    <img src="/images/ellipse15.png">
+                                <div class="popular-doctor__metro first-metro">
+                                    <span></span>
                                     Текстильщики (978м)
                                 </div>
                                 <div class="popular-doctor__address">
@@ -321,8 +321,8 @@
                                 </div>
                             </div>
                             <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro">
-                                    <img src="/images/ellipse15.png">
+                                <div class="popular-doctor__metro first-metro">
+                                    <span></span>
                                     Текстильщики (978м)
                                 </div>
                                 <div class="popular-doctor__address">
@@ -365,8 +365,8 @@
                                 </div>
                             </div>
                             <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro">
-                                    <img src="/images/ellipse15.png">
+                                <div class="popular-doctor__metro first-metro">
+                                    <span></span>
                                     Текстильщики (978м)
                                 </div>
                                 <div class="popular-doctor__address">
@@ -409,8 +409,8 @@
                                 </div>
                             </div>
                             <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro">
-                                    <img src="/images/ellipse15.png">
+                                <div class="popular-doctor__metro first-metro">
+                                    <span></span>
                                     Текстильщики (978м)
                                 </div>
                                 <div class="popular-doctor__address">

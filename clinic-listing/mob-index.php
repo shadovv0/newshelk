@@ -108,14 +108,14 @@
                     Закроется через час
                 </div>
                 <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        <img src="/images/Ellipse%2027.png">
+                    <div class="clinic-card__metro-near first-metro">
+                        <span></span>
                         Текстильщики (338м)
                     </div>
-                    <div class="clinic-card__metro-far">
-                        <img src="/images/Ellipse%2028.png">
+                    <div class="clinic-card__metro-far second-metro">
+                        <span></span>
                         Печатники (2,1км)
-                        <img src="/images/Ellipse%2029.png">
+                        <span></span>
                         Стахановская (2,2км)
                     </div>
                 </div>
@@ -205,14 +205,14 @@
                             </div>
                         </div>
                         <div class="clinic-card__metro">
-                            <div class="clinic-card__metro-near">
-                                <img src="/images/Ellipse%2027.png">
+                            <div class="clinic-card__metro-near first-metro">
+                                <span></span>
                                 Текстильщики (338м)
                             </div>
-                            <div class="clinic-card__metro-far">
-                                <img src="/images/Ellipse%2028.png">
+                            <div class="clinic-card__metro-far second-metro">
+                                <span></span>
                                 Печатники (2,1км)
-                                <img src="/images/Ellipse%2029.png">
+                               <span></span>
                                 Стахановская (2,2км)
                             </div>
                         </div>
@@ -257,14 +257,14 @@
                         </div>
                         <div class="clinic-card__footer-metroes">
                             <ul>
-                                <li class="clinic-card__footer-metro">
-                                    <img src="/images/Ellipse%2027.png">
+                                <li class="clinic-card__footer-metro first-metro">
+                                    <span></span>
                                     <b>Текстильщики (338м)</b>
                                 </li>
-                                <li class="clinic-card__footer-metro-far">
-                                    <img src="/images/Ellipse%2028.png">
+                                <li class="clinic-card__footer-metro-far first-metro">
+                                    <span></span>
                                     Печатники (2,1км)
-                                    <img src="/images/Ellipse%2029.png">
+                                    <span></span>
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
@@ -310,14 +310,14 @@
                         </div>
                         <div class="clinic-card__footer-metroes">
                             <ul>
-                                <li class="clinic-card__footer-metro">
-                                    <img src="/images/Ellipse%2027.png">
+                                <li class="clinic-card__footer-metro first-metro">
+                                    <span></span>
                                     <b>Текстильщики (338м)</b>
                                 </li>
-                                <li class="clinic-card__footer-metro-far">
-                                    <img src="/images/Ellipse%2028.png">
+                                <li class="clinic-card__footer-metro-far first-metro">
+                                    <span></span>
                                     Печатники (2,1км)
-                                    <img src="/images/Ellipse%2029.png">
+                                    <span></span>
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
@@ -381,14 +381,14 @@
                     Закроется через час
                 </div>
                 <div class="clinic-card__metro">
-                    <div class="clinic-card__metro-near">
-                        <img src="/images/Ellipse%2027.png">
+                    <div class="clinic-card__metro-near first-metro">
+                        <span></span>
                         Текстильщики (338м)
                     </div>
-                    <div class="clinic-card__metro-far">
-                        <img src="/images/Ellipse%2028.png">
+                    <div class="clinic-card__metro-far second-metro">
+                        <span></span>
                         Печатники (2,1км)
-                        <img src="/images/Ellipse%2029.png">
+                        <span></span>
                         Стахановская (2,2км)
                     </div>
                 </div>

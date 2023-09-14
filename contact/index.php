@@ -53,9 +53,12 @@
                         г. Москва, ул. Давыдковская, д. 5
                     </div>
                     <div class="contact__metro">
-                        <p><img src="/images/Ellipse%2027.png">Славянский бульвар (770 м)</p>
-                        <p><img src="/images/Ellipse%2028.png">Пионерская (1,73 км)</p>
-                        <p><img src="/images/Ellipse%2029.png">Минская (2,09 км)</p>
+                        <p class="first-metro">
+                        <span></span>Славянский бульвар (770 м)</p>
+                        <p class="second-metro">
+                            <span></span>Пионерская (1,73 км)</p>
+                        <p class="third-metro">
+                            <span></span>Минская (2,09 км)</p>
                     </div>
                     <div class="contact__text-about">
                         МосМедПортал — это медицинский сервис, помогающий выбрать врача и записаться,

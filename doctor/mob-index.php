@@ -172,144 +172,13 @@
                 </button>
                 <div data-fold-content class="clinic-drop-down">
                     <div class="clinic-card__metro">
-                        <div class="clinic-card__metro-near">
-                            <img src="/images/Ellipse%2027.png">Текстильщики (338м)
+                        <div class="clinic-card__metro-near first-metro">
+                            <span></span>
+                            Текстильщики (338м)
                         </div>
-                        <div class="clinic-card__metro-far">
-                            <img src="/images/Ellipse%2028.png">Печатники (2,1км)
-                            <img src="/images/Ellipse%2029.png">Стахановская (2,2км)
-                        </div>
-                    </div>
-                    <div class="clinic-map">
-                        <img src="/images/grey-map.png">
-                        <a href="#">Посмотреть на карте</a>
-                    </div>
-                    <div class="record-btns">
-                        <a href="#" class="record-btn"><img src="/images/white-phone.png">(499) 123-45-67</a>
-                    </div>
-                    <div class="price-doctor-clinic__price-card">
-                        <div class="price-doctor-clinic__body">
-                            <ul>
-                                <li class="price__item">Акушер (от 18 лет)
-                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                                </li>
-                                <li class="price__item">Гинеколог (от 18 лет)
-                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                                </li>
-                                <li class="price__item">Гинеколог-эндокринолог<br> (от 18 лет)
-                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                                </li>
-                                <li class="price__item">Маммолог (от 18 лет)
-                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="doctor-card__right-record">
-                            <div class="doctor-card-record__container center-timeslot">
-                                <div class="owl-carousel date-mob-swiper owl-theme">
-                                    <div class="doctor-card-record__container">
-                                        <div class="doctor-card__dates dates">
-                                            <p>Сегодня</p>
-                                        </div>
-                                        <div class="doctor-card__schedule schedule">
-                                            Нет записи
-                                        </div>
-                                    </div>
-                                    <div class="doctor-card-record__container">
-                                        <div class="doctor-card__dates dates">
-                                            <p>Завтра</p>
-                                        </div>
-                                        <div class="doctor-card__schedule schedule">
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                    name="time-appointment"
-                                                                                    class="radio__input"/> 11:00
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="doctor-card-record__container">
-                                        <div class="doctor-card__dates dates">
-                                            <p>Сегодня</p>
-                                        </div>
-                                        <div class="doctor-card__schedule schedule">
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                    name="time-appointment"
-                                                                                    class="radio__input"/> 11:00
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="#" class="full-time-doctor">Посмотреть полное расписание</a>
-                            </div>
-                        </div>
-                        <div class="price-doctor-clinic__footer">
-                            <img src="/images/grey-alert.png">
-                            <a href="#">Условия для посещения</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-fold class="price-doctor-clinic__container">
-                <button data-fold-btn class="faq__btn doctor-in-clinic">
-                    <div class="price-doctor-clinic__title">
-                        <h4>Клиника на Текстильщиках</h4>
-                        <p>г. Москва<br> ул. Люблинская, д. 9 к. 1</p>
-                    </div>
-                    <a class="faq__arrow">
-                        <img src="/images/right-page.png">
-                    </a>
-                </button>
-                <div data-fold-content class="clinic-drop-down">
-                    <div class="clinic-card__metro">
-                        <div class="clinic-card__metro-near">
-                            <img src="/images/Ellipse%2027.png">Текстильщики (338м)
-                        </div>
-                        <div class="clinic-card__metro-far">
-                            <img src="/images/Ellipse%2028.png">Печатники (2,1км)
-                            <img src="/images/Ellipse%2029.png">Стахановская (2,2км)
+                        <div class="clinic-card__metro-far second-metro">
+                            <span></span>Печатники (2,1км)
+                            <span></span>Стахановская (2,2км)
                         </div>
                     </div>
                     <div class="clinic-map">
@@ -436,12 +305,146 @@
                 </button>
                 <div data-fold-content class="clinic-drop-down">
                     <div class="clinic-card__metro">
-                        <div class="clinic-card__metro-near">
-                            <img src="/images/Ellipse%2027.png">Текстильщики (338м)
+                        <div class="clinic-card__metro-near first-metro">
+                            <span></span>
+                            Текстильщики (338м)
                         </div>
-                        <div class="clinic-card__metro-far">
-                            <img src="/images/Ellipse%2028.png">Печатники (2,1км)
-                            <img src="/images/Ellipse%2029.png">Стахановская (2,2км)
+                        <div class="clinic-card__metro-far second-metro">
+                            <span></span>Печатники (2,1км)
+                            <span></span>Стахановская (2,2км)
+                        </div>
+                    </div>
+                    <div class="clinic-map">
+                        <img src="/images/grey-map.png">
+                        <a href="#">Посмотреть на карте</a>
+                    </div>
+                    <div class="record-btns">
+                        <a href="#" class="record-btn"><img src="/images/white-phone.png">(499) 123-45-67</a>
+                    </div>
+                    <div class="price-doctor-clinic__price-card">
+                        <div class="price-doctor-clinic__body">
+                            <ul>
+                                <li class="price__item">Акушер (от 18 лет)
+                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
+                                </li>
+                                <li class="price__item">Гинеколог (от 18 лет)
+                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
+                                </li>
+                                <li class="price__item">Гинеколог-эндокринолог<br> (от 18 лет)
+                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
+                                </li>
+                                <li class="price__item">Маммолог (от 18 лет)
+                                    <div class="prices"><p>1520₽</p><span>1900₽</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="doctor-card__right-record">
+                            <div class="doctor-card-record__container center-timeslot">
+                                <div class="owl-carousel date-mob-swiper owl-theme">
+                                    <div class="doctor-card-record__container">
+                                        <div class="doctor-card__dates dates">
+                                            <p>Сегодня</p>
+                                        </div>
+                                        <div class="doctor-card__schedule schedule">
+                                            Нет записи
+                                        </div>
+                                    </div>
+                                    <div class="doctor-card-record__container">
+                                        <div class="doctor-card__dates dates">
+                                            <p>Завтра</p>
+                                        </div>
+                                        <div class="doctor-card__schedule schedule">
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label">
+                                                    <input type="radio" value="09:30" name="time-appointment"
+                                                           class="radio__input"/>
+                                                    09:30
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label"><input type="radio" value="10:00"
+                                                                                   name="time-appointment"
+                                                                                   class="radio__input"/> 10:00
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label">
+                                                    <input type="radio" value="10:30" name="time-appointment"
+                                                           class="radio__input"/>
+                                                    10:30
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label"> <input type="radio" value="11:00"
+                                                                                    name="time-appointment"
+                                                                                    class="radio__input"/> 11:00
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="doctor-card-record__container">
+                                        <div class="doctor-card__dates dates">
+                                            <p>Сегодня</p>
+                                        </div>
+                                        <div class="doctor-card__schedule schedule">
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label">
+                                                    <input type="radio" value="09:30" name="time-appointment"
+                                                           class="radio__input"/>
+                                                    09:30
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label"><input type="radio" value="10:00"
+                                                                                   name="time-appointment"
+                                                                                   class="radio__input"/> 10:00
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label">
+                                                    <input type="radio" value="10:30" name="time-appointment"
+                                                           class="radio__input"/>
+                                                    10:30
+                                                </label>
+                                            </div>
+                                            <div class="schedule__item radio">
+                                                <label class="radio__label"> <input type="radio" value="11:00"
+                                                                                    name="time-appointment"
+                                                                                    class="radio__input"/> 11:00
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="full-time-doctor">Посмотреть полное расписание</a>
+                            </div>
+                        </div>
+                        <div class="price-doctor-clinic__footer">
+                            <img src="/images/grey-alert.png">
+                            <a href="#">Условия для посещения</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-fold class="price-doctor-clinic__container">
+                <button data-fold-btn class="faq__btn doctor-in-clinic">
+                    <div class="price-doctor-clinic__title">
+                        <h4>Клиника на Текстильщиках</h4>
+                        <p>г. Москва<br> ул. Люблинская, д. 9 к. 1</p>
+                    </div>
+                    <a class="faq__arrow">
+                        <img src="/images/right-page.png">
+                    </a>
+                </button>
+                <div data-fold-content class="clinic-drop-down">
+                    <div class="clinic-card__metro">
+                        <div class="clinic-card__metro-near first-metro">
+                            <span></span>
+                            Текстильщики (338м)
+                        </div>
+                        <div class="clinic-card__metro-far second-metro">
+                            <span></span>Печатники (2,1км)
+                            <span></span>Стахановская (2,2км)
                         </div>
                     </div>
                     <div class="clinic-map">

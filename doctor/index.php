@@ -162,14 +162,16 @@
                             <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
                             <div class="appointment__clinic-metro">
                                 <ul>
-                                    <li>
-                                        <img src="/images/Ellipse%2027.png">
+                                    <li class="first-metro">
+                                    <span></span>
                                         <b>Текстильщики (338м)</b>
                                     </li>
-                                    <li><img src="/images/Ellipse%2028.png">
+                                    <li class="second-metro">
+                                        <span></span>
                                         Печатники (2,1км)
                                     </li>
-                                    <li><img src="/images/Ellipse%2029.png">
+                                    <li class="third-metro">
+                                        <span></span>
                                         Стахановская (2,2км)
                                     </li>
                                 </ul>
@@ -268,14 +270,16 @@
                             <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
                             <div class="appointment__clinic-metro">
                                 <ul>
-                                    <li>
-                                        <img src="/images/Ellipse%2027.png">
+                                    <li class="first-metro">
+                                        <span></span>
                                         <b>Текстильщики (338м)</b>
                                     </li>
-                                    <li><img src="/images/Ellipse%2028.png">
+                                    <li class="second-metro">
+                                        <span></span>
                                         Печатники (2,1км)
                                     </li>
-                                    <li><img src="/images/Ellipse%2029.png">
+                                    <li class="third-metro">
+                                        <span></span>
                                         Стахановская (2,2км)
                                     </li>
                                 </ul>
@@ -374,14 +378,16 @@
                             <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
                             <div class="appointment__clinic-metro">
                                 <ul>
-                                    <li>
-                                        <img src="/images/Ellipse%2027.png">
+                                    <li class="first-metro">
+                                        <span></span>
                                         <b>Текстильщики (338м)</b>
                                     </li>
-                                    <li><img src="/images/Ellipse%2028.png">
+                                    <li class="second-metro">
+                                        <span></span>
                                         Печатники (2,1км)
                                     </li>
-                                    <li><img src="/images/Ellipse%2029.png">
+                                    <li class="third-metro">
+                                        <span></span>
                                         Стахановская (2,2км)
                                     </li>
                                 </ul>

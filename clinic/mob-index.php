@@ -126,14 +126,14 @@
                         Выезд на дом
                     </div>
                     <div class="clinic-card__metro">
-                        <div class="clinic-card__metro-near">
-                            <img src="/images/Ellipse%2027.png">
+                        <div class="clinic-card__metro-near first-metro">
+                            <span></span>
                             Текстильщики (338м)
                         </div>
-                        <div class="clinic-card__metro-far">
-                            <img src="/images/Ellipse%2028.png">
+                        <div class="clinic-card__metro-far second-metro">
+                            <span></span>
                             Печатники (2,1км)
-                            <img src="/images/Ellipse%2029.png">
+                            <span></span>
                             Стахановская (2,2км)
                         </div>
                     </div>

@@ -110,29 +110,31 @@
 
                 </div>
                 <div class="doctor-card__right">
-                    <span>Выберите клинику сети:</span>
+                    <h6>Выберите клинику сети:</h6>
                     <div class="doctor-card__record-clinic-fold">
-                        <!--<button data-fold-btn class="faq__btn">-->
                         <div class="doctor-card__record-clinic">
-                            <select name="clinic" id="clinic-select" class="doctor-card__record-clinic-text">
-                                <option class="choose-clinic" value="0">Клиника в Текстильщиках</option>
-                                <option class="choose-clinic" value="0">Клиника в Марьино</option>
-                                <option class="choose-clinic" value="0">Клиника на Проспекте Вернадского</option>
-                                <option class="choose-clinic" value="0">Клиника в Беляево</option>
-                            </select>
+                            <div class="dropdown-clinic">
+                                <div onclick="myFunction()" class="dropbtn">Клиника в Текстильщиках<img src="/images/right-page.png"/></div>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">Клиника в Марьино</a>
+                                    <a href="#">Клиника на Проспекте Вернадского</a>
+                                    <a href="#">Клиника в Беляево</a>
+                                </div>
+                            </div>
                         </div>
-                        <!-- </button>-->
                         <div class="doctor-card__geo-disabled">
                             <p>ул. Люблинская, д. 9 к. 1</p>
                             <ul>
-                                <li class="doctor-card__metro-disabled">
-                                    <img src="/images/Ellipse%2027.png">
+                                <li class="doctor-card__metro-disabled first-metro">
+                                    <span></span>
                                     Текстильщики (338м)
                                 </li>
-                                <li class="doctor-card__metro-disabled"><img src="/images/Ellipse%2028.png">
+                                <li class="doctor-card__metro-disabled second-metro">
+                                    <span></span>
                                     Печатники (2,1км)
                                 </li>
-                                <li class="doctor-card__metro-disabled"><img src="/images/Ellipse%2029.png">
+                                <li class="doctor-card__metro-disabled third-metro">
+                                    <span></span>
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
@@ -140,7 +142,7 @@
                             <a href="#">(499) 123-45-67</a>
                         </div>
                     </div>
-                    <span>Выберите удобное время для записи онлайн:</span>
+                    <h6>Выберите удобное время для записи онлайн:</h6>
                     <div class="doctor-card__time-slot">
                         <div class="doctor-card__date">
                             <p>Сегодня</p>
@@ -218,14 +220,14 @@
 
                 </div>
                 <div class="doctor-card__right">
-                    <div class="doctor-card__record-clinic">
+                    <div class="doctor-card__record-clinic-other">
                         Клиника в Текстильщиках
                     </div>
                     <div class="doctor-card__geo-disabled">
                         <p>ул. Люблинская, д. 9 к. 1</p>
                         <ul>
-                            <li class="doctor-card__metro-disabled">
-                                <img src="/images/Ellipse%2027.png">
+                            <li class="doctor-card__metro-disabled first-metro">
+                                <span></span>
                                 Текстильщики (338м)
                             </li>
                         </ul>
@@ -273,8 +275,9 @@
                 <div class="doctor-card__right">
                     <div data-fold class="doctor-card__record-clinic-fold">
                         <button data-fold-btn class="faq__btn">
-                            <div class="doctor-card__record-clinic">
+                            <div class="doctor-card__record-clinic-other">
                                 Клиника в Текстильщиках
+                                <img src="/images/right-page.png">
                             </div>
                         </button>
                         <div data-fold-content class="doctor-card__geo">

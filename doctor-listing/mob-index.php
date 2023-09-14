@@ -142,24 +142,28 @@
                     <div class="doctor-card__body-footer">
                         <h6>Выберите клинику сети:</h6>
                         <div class="doctor-card__record-clinic">
-                            <select name="clinic" id="clinic-select" class="doctor-card__record-clinic-text">
-                                <option class="choose-clinic" value="0">Клиника в Текстильщиках</option>
-                                <option class="choose-clinic" value="0">Клиника в Марьино</option>
-                                <option class="choose-clinic" value="0">Клиника на Проспекте Вернадского</option>
-                                <option class="choose-clinic" value="0">Клиника в Беляево</option>
-                            </select>
+                            <div class="dropdown-clinic">
+                                <div onclick="myFunction()" class="dropbtn">Клиника в Текстильщиках<img src="/images/right-page.png"/></div>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">Клиника в Марьино</a>
+                                    <a href="#">Клиника на Проспекте Вернадского</a>
+                                    <a href="#">Клиника в Беляево</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="doctor-card__geo">
                             <p>ул. Люблинская, д. 9 к. 1</p>
                             <ul>
-                                <li class="doctor-card__metro">
-                                    <img src="/images/Ellipse%2027.png">
+                                <li class="doctor-card__metro first-metro">
+                                    <span></span>
                                     Текстильщики (338м)
                                 </li>
-                                <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                <li class="doctor-card__metro second-metro">
+                                    <span></span>
                                     Печатники (2,1км)
                                 </li>
-                                <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                <li class="doctor-card__metro third-metro">
+                                    <span></span>
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
@@ -292,20 +296,22 @@
                         </div>
                     </div>
                     <div class="doctor-card__body-footer">
-                        <div class="doctor-card__record-clinic">
+                        <div class="doctor-card__record-clinic-other">
                             Клиника в Текстильщиках
                         </div>
                         <div class="doctor-card__geo">
                             <p>ул. Люблинская, д. 9 к. 1</p>
                             <ul>
-                                <li class="doctor-card__metro">
-                                    <img src="/images/Ellipse%2027.png">
+                                <li class="doctor-card__metro first-metro">
+                                    <span></span>
                                     Текстильщики (338м)
                                 </li>
-                                <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                <li class="doctor-card__metro second-metro">
+                                    <span></span>
                                     Печатники (2,1км)
                                 </li>
-                                <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                <li class="doctor-card__metro third-metro">
+                                    <span></span>
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
