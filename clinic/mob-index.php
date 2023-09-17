@@ -68,7 +68,7 @@
 <div class="content">
     <div class="mobile-menu">
         <ul>
-            <li><a class="left-sb-btn"><img src="/images/burger.png">Меню</a></li>
+            <li><a class="bot-menu-card"><img src="/images/burger.png">Меню</a></li>
             <li><a href="#doctors"><img src="/images/doctor-icon.png">Врачи</a></li>
             <li><a href="#reviews"><img src="/images/review-icon.png">Отзывы</a></li>
             <li><a href="#record"><img src="/images/record-icon.png">Записаться</a></li>

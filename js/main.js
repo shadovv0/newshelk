@@ -72,7 +72,7 @@ $(document).on('click', '.top-menu-visible', function () {
 
 
 
-$('.mobile-menu').click(function (e) {
+$('.bot-menu-card').click(function (e) {
     e.stopPropagation();
     if (window.innerWidth < 880) {
         if (!$('.bot-menu-visible').length) {
@@ -87,7 +87,7 @@ $('.mobile-menu').click(function (e) {
     } else {
         $('body').click(function (e) {
             if ($('.bot-menu').hasClass('active')) {
-                $('.mobile-menu').click();
+                $('.bot-menu-card').click();
             }
         });
         if (!$('.bot-menu').hasClass('active')) {
@@ -110,10 +110,10 @@ $('.mobile-menu').click(function (e) {
 
 
 $('.bot-menu__wrap .close').click(function (e) {
-    $('.mobile-menu:visible').click();
+    $('.bot-menu-card:visible').click();
 });
 $(document).on('click', '.bot-menu-visible', function () {
-    $('.mobile-menu:visible').click();
+    $('.bot-menu-card:visible').click();
 });
 
 $('.input-for-search').on('click', function (e){
@@ -344,6 +344,25 @@ for (let i = 0; i < btn.length; i++) {
 
 }
 
+$('.time-spoiler-btn').on('click', function (e){
+    e.preventDefault();
+    $('.time-spoiler').toggleClass('deployed');
+    $('.show-more-time').toggleClass('active-time');
+});
+
+
+
+/*
+const onClickTime = function({ target: { dataset: { index } } }) {
+    this[index].classList.toggle('deployed');
+}.bind(document.querySelectorAll('.time-spoiler'));
+
+document.querySelectorAll('.time-spoiler-btn').forEach((n, i) => {
+    n.dataset.index = i;
+    n.addEventListener('click', onClickTime);
+});*/
+
+
 
 $('.js-review-rule input').on('change', function (e) {
     var disabled = false;
@@ -421,11 +440,14 @@ $(".mob-swiper").owlCarousel({
     items:1,
     loop:false,
     margin:10,
+    autoHeight:true,
 });
 
 $(".date-swiper").owlCarousel({
     margin:30,
     items:1,
+    nav: true,
+    navText:["<div class='date-desk-arrow date-desk-arrow-left'></div>","<div class='date-desk-arrow date-desk-arrow-right'></div>"],
 });
 
 $(".date-mob-swiper").owlCarousel({
@@ -442,6 +464,8 @@ $(".services-clinic-swiper").owlCarousel({
     dots: false,
     navText:["<div class='service-arrow service-arrow-left'></div>","<div class='service-arrow service-arrow-right'></div>"],
 });
+
+
 
 
 function myFunction() {
@@ -462,6 +486,14 @@ window.onclick = function(event) {
         }
     }
 }
+
+const dateRelink = document.querySelectorAll('.relink-date')
+dateRelink.forEach(item =>{
+    item.addEventListener('click', (e) =>{
+        dateRelink.forEach(el=>{ el.classList.remove('active-date'); });
+        item.classList.add('active-date')
+    })
+})
 
 $('.search-form').on('submit', function (e) {
     if ($('.js-search-input').val().length == 0) {

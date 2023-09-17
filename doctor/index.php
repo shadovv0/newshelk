@@ -219,10 +219,10 @@
                             <div class="grey-col"></div>
                             <div class="appointment-date">
                                 <ul>
-                                    <li><a href="#"><b>Понедельник 21.03.</b></a></li>
-                                    <li><a href="#">Вторник 22.03</a></li>
-                                    <li><a href="#">Среда 23.03.</a></li>
-                                    <li><a href="#">Четверг 24.03.</a></li>
+                                    <li><a class="relink-date">Понедельник 21.03.</a></li>
+                                    <li><a class="relink-date">Вторник 22.03</a></li>
+                                    <li><a class="relink-date">Среда 23.03.</a></li>
+                                    <li><a class="relink-date">Четверг 24.03.</a></li>
                                 </ul>
                             </div>
                             <div class="appointment-center">
@@ -327,10 +327,10 @@
                             <div class="grey-col"></div>
                             <div class="appointment-date">
                                 <ul>
-                                    <li><a href="#"><b>Понедельник 21.03.</b></a></li>
-                                    <li><a href="#">Вторник 22.03</a></li>
-                                    <li><a href="#">Среда 23.03.</a></li>
-                                    <li><a href="#">Четверг 24.03.</a></li>
+                                    <li><a class="relink-date">Понедельник 21.03.</a></li>
+                                    <li><a class="relink-date">Вторник 22.03</a></li>
+                                    <li><a class="relink-date">Среда 23.03.</a></li>
+                                    <li><a class="relink-date">Четверг 24.03.</a></li>
                                 </ul>
                             </div>
                             <div class="appointment-center">
@@ -435,10 +435,10 @@
                             <div class="grey-col"></div>
                             <div class="appointment-date">
                                 <ul>
-                                    <li><a href="#"><b>Понедельник 21.03.</b></a></li>
-                                    <li><a href="#">Вторник 22.03</a></li>
-                                    <li><a href="#">Среда 23.03.</a></li>
-                                    <li><a href="#">Четверг 24.03.</a></li>
+                                    <li><a class="relink-date">Понедельник 21.03.</a></li>
+                                    <li><a class="relink-date">Вторник 22.03</a></li>
+                                    <li><a class="relink-date">Среда 23.03.</a></li>
+                                    <li><a class="relink-date">Четверг 24.03.</a></li>
                                 </ul>
                             </div>
                             <div class="appointment-center">

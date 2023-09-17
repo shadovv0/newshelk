@@ -2972,6 +2972,10 @@ html.no-scroll body {
     padding: 0 10px;
 }
 
+.dropbtn img {
+    transition: all 0.3s ease-in-out 0s;
+}
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: #28354d49;
     border-radius: 4px;
@@ -3072,7 +3076,7 @@ html.no-scroll body {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 8px;
     padding: 5px 15px;
     font-size: 0.875rem;
@@ -3096,6 +3100,48 @@ html.no-scroll body {
 
 .schedule__item img {
     width: 20px;
+}
+
+.doctor-card__time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.schedule__item img {
+    width: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.active-time img {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.active-time {
+    opacity: 1!important;
+}
+
+
+.show-more-time {
+    width: 65px;
+    opacity: 0.5;
+}
+
+.time-spoiler-btn {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+}
+
+.time-spoiler {
+    height: 40px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
 }
 
 .doctor-card__date p {

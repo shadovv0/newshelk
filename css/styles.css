@@ -996,10 +996,15 @@ body {
     padding: 0 10px;
 }
 
+.dropbtn img {
+    transition: all 0.3s ease-in-out 0s;
+}
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: #28354d49;
     border-radius: 4px;
 }
+
 
 .dropdown-clinic {
     position: relative;
@@ -3104,15 +3109,30 @@ body {
     height: 100%;
 }
 
+.appointment-date {
+    padding: 15px 0;
+}
+
+.appointment-date li {
+    padding: 10px 0;
+}
+
+.appointment-date a {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 20px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.active-date {
+    font-weight: bold;
+}
+
 .appointment-record-container {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     margin: 12px 0;
-}
-
-.appointment-date li {
-    padding: 10px 0;
 }
 
 .grey-col {
@@ -3141,10 +3161,6 @@ body {
     margin-right: 15px;
 }
 
-.appointment-date {
-    padding: 15px 0;
-}
-
 .appointment__timeslot-container {
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.20);
@@ -3159,12 +3175,6 @@ body {
     margin-left: 30px;
     padding: 15px 30px;
     justify-content: space-between;
-}
-
-.appointment-date a {
-    color: rgba(0, 0, 0, 0.80);
-    font-size: 20px;
-    text-decoration-line: underline;
 }
 
 .appointment-center span {
@@ -4242,6 +4252,7 @@ body {
     max-width: 381px;
     width: 100%;
     height: 46px;
+    margin: 0 0 10px;
 }
 
 .doctor-card__date p {
@@ -4263,10 +4274,29 @@ body {
 
 .doctor-card__time {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .schedule__item img {
     width: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.active-time img {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.active-time {
+    opacity: 1!important;
+}
+
+
+.show-more-time {
+    width: 65px;
+    opacity: 0.5;
 }
 
 .radio__label {
@@ -4283,7 +4313,7 @@ body {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 8px;
     padding: 5px 15px;
     font-size: 0.875rem;
@@ -5097,6 +5127,20 @@ body {
 
 
 
+.time-spoiler-btn {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+}
+
+.time-spoiler {
+    height: 40px;
+    overflow: hidden;
+    transition: all 1s;
+    position: relative;
+}
 
 .main-spoiler {
     height: 200px;

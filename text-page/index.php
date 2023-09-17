@@ -161,7 +161,7 @@
                 <h4>Популярные врачи лечащие гайморит</h4>
             </div>
             <div class="popular-doctor__doctors">
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel main-swiper owl-theme">
                     <div class="popular-doctor__container">
                         <div class="popular-doctor__doctor-card">
                             <div class="popular-doctor__head">
