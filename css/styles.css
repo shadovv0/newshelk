@@ -1032,6 +1032,7 @@ body {
     color: #516FA6;;
     padding: 10px;
     display: block;
+    cursor: pointer;
 }
 
 .dropdown-content a:hover {
@@ -3110,7 +3111,7 @@ body {
 }
 
 .appointment-date {
-    padding: 15px 0;
+    display: flex;
 }
 
 .appointment-date li {
@@ -3140,6 +3141,11 @@ body {
     flex-shrink: 0;
     border-radius: 4px 0 0 4px;
     background: rgba(81, 111, 166, 0.30);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
 }
 
 .appointment__name-patient input {
@@ -3166,6 +3172,21 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.20);
     display: flex;
     flex-direction: row;
+    max-height: 210px;
+    height: 100%;
+}
+
+.appointment__date-scroll {
+    display: flex;
+}
+
+.grey-col a {
+    cursor: pointer;
+}
+
+.grey-col img {
+    width: 25px;
+    height: 15px;
 }
 
 .appointment-center {
@@ -4098,6 +4119,10 @@ body {
 
 .services__item:last-child {
     margin: 0;
+}
+
+.hide {
+    display: none;
 }
 
 .services__item.is-folded {

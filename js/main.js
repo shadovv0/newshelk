@@ -351,19 +351,6 @@ $('.time-spoiler-btn').on('click', function (e){
 });
 
 
-
-/*
-const onClickTime = function({ target: { dataset: { index } } }) {
-    this[index].classList.toggle('deployed');
-}.bind(document.querySelectorAll('.time-spoiler'));
-
-document.querySelectorAll('.time-spoiler-btn').forEach((n, i) => {
-    n.dataset.index = i;
-    n.addEventListener('click', onClickTime);
-});*/
-
-
-
 $('.js-review-rule input').on('change', function (e) {
     var disabled = false;
 
@@ -468,11 +455,11 @@ $(".services-clinic-swiper").owlCarousel({
 
 
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+function drop() {
+    document.getElementById("drop").classList.toggle("show");
     $('.dropbtn').toggleClass('reverse-arrow');
 }
-
+/*
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
 
@@ -493,7 +480,61 @@ dateRelink.forEach(item =>{
         dateRelink.forEach(el=>{ el.classList.remove('active-date'); });
         item.classList.add('active-date')
     })
+});
+const arrowDown = document.querySelectorAll('.date-scrolldown')
+arrowDown.forEach(item =>{
+    item.addEventListener('click', (e) =>{
+        dateRelink.forEach(el=>{
+            el.classList.remove('active-date');
+            el.classList.add('active-date')
+
+        });
+    })
+});*/
+
+$('.relink-date').on('clink', function (e) {
+    $('.relink-date').addClass('active-date').next();
 })
+
+const scroll = document.querySelectorAll('.relink-date');
+
+scroll.forEach((e) => {
+    const sibling = e.nextElementSibling;
+    e.addEventListener('click', (el, e) => {
+        sibling.classList.toggle('active-date');
+        const arrow = sibling.querySelector('.date-scrolldown');
+        if (arrow !== null) {
+            arrow.classList.toggle('active-date');
+        }
+    });
+});
+
+
+function slotArrowAction(parent, active, newActive) {
+    if (newActive.hasClass('slots-days-item')) {
+        active.hide();
+        active.removeClass('slots-days-item--active');
+
+        newActive.show();
+        newActive.addClass('slots-days-item--active');
+
+
+        var oldBlock = parent.parent().find('.slots-block--active');
+        oldBlock.removeClass('slots-block--active');
+        oldBlock.hide();
+
+        var newBlock = parent.parent().find('.slots-block[data-day="' + newActive.data('day') + '"]');
+        newBlock.addClass('slots-block--active');
+        newBlock.css('display', 'flex');
+    }
+}
+$('.slots-days--left').on('click', function (e) {
+    var parent = $(e.target).parent();
+    var active = parent.find('.slots-days-item--active');
+    var newActive = active.prev();
+    slotArrowAction(parent, active, newActive)
+});
+
 
 $('.search-form').on('submit', function (e) {
     if ($('.js-search-input').val().length == 0) {

@@ -114,12 +114,13 @@
                     <div class="doctor-card__record-clinic-fold">
                         <div class="doctor-card__record-clinic">
                             <div class="dropdown-clinic">
-                                <div onclick="myFunction()" class="dropbtn">Клиника в Текстильщиках<img
-                                            src="/images/right-page.png"/></div>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="#">Клиника в Марьино</a>
-                                    <a href="#">Клиника на Проспекте Вернадского</a>
-                                    <a href="#">Клиника в Беляево</a>
+                                <div onclick="drop()" class="dropbtn">Клиника в Текстильщиках
+                                    <img src="/images/right-page.png"/>
+                                </div>
+                                <div id="drop" class="dropdown-content">
+                                    <a>Клиника в Марьино</a>
+                                    <a>Клиника на Проспекте Вернадского</a>
+                                    <a>Клиника в Беляево</a>
                                 </div>
                             </div>
                         </div>
