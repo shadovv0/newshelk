@@ -69,8 +69,6 @@ $(document).on('click', '.top-menu-visible', function () {
 });
 
 
-
-
 $('.bot-menu-card').click(function (e) {
     e.preventDefault();
     if (window.innerWidth < 880) {
@@ -115,7 +113,7 @@ $(document).on('click', '.bot-menu-visible', function () {
     $('.bot-menu-card:visible').click();
 });
 
-$('.input-for-search').on('click', function (e){
+$('.input-for-search').on('click', function (e) {
     e.preventDefault();
     if (!$('.open-window-search').length) {
         $('.head__container').addClass('open-window-search');
@@ -128,7 +126,7 @@ $('.input-for-search').on('click', function (e){
     }
 });
 
-$('.menu-map').on('click', function (e){
+$('.menu-map').on('click', function (e) {
     e.preventDefault();
     if (!$('.open-menu-map').length) {
         $('.head__container').addClass('open-menu-map');
@@ -142,20 +140,17 @@ $('.menu-map').on('click', function (e){
 });
 
 
-
-$('.mob-map').on('click', function (e){
-   if(!$('.open-clinic-map').length) {
-       $('.clinics-map').addClass('open-clinic-map');
-       $('.close-clinic-map')[0].style.display = 'block';
-       $('html').addClass('no-scroll');
-   } else {
-       $('.clinics-map').removeClass('open-clinic-map');
-       $('.close-clinic-map')[0].style.display = 'none';
-       $('html').removeClass('no-scroll');
-   }
+$('.mob-map').on('click', function (e) {
+    if (!$('.open-clinic-map').length) {
+        $('.clinics-map').addClass('open-clinic-map');
+        $('.close-clinic-map')[0].style.display = 'block';
+        $('html').addClass('no-scroll');
+    } else {
+        $('.clinics-map').removeClass('open-clinic-map');
+        $('.close-clinic-map')[0].style.display = 'none';
+        $('html').removeClass('no-scroll');
+    }
 });
-
-
 
 
 function showRecordForm() {
@@ -322,7 +317,7 @@ $(document).ready(function () {
 
 });
 
-const onClickReview = function({ target: { dataset: { index } } }) {
+const onClickReview = function ({target: {dataset: {index}}}) {
     this[index].classList.toggle('deployed');
 }.bind(document.querySelectorAll('.review-spoiler'));
 
@@ -334,7 +329,7 @@ document.querySelectorAll('.review-spoiler-btn').forEach((n, i) => {
 
 const btnReview = document.querySelectorAll('.review-spoiler-btn');
 for (let i = 0; i < btnReview.length; i++) {
-    btnReview[i].addEventListener('click', function() {
+    btnReview[i].addEventListener('click', function () {
         this.innerHTML =
             (this.innerHTML === 'Показать ещё отзывы') ? this.innerHTML = 'Свернуть' : this.innerHTML = 'Показать ещё отзывы';
     })
@@ -342,7 +337,7 @@ for (let i = 0; i < btnReview.length; i++) {
 }
 
 
-const onClick = function({ target: { dataset: { index } } }) {
+const onClick = function ({target: {dataset: {index}}}) {
     this[index].classList.toggle('deployed');
 }.bind(document.querySelectorAll('.main-spoiler'));
 
@@ -355,14 +350,14 @@ document.querySelectorAll('.main-spoiler-btn').forEach((n, i) => {
 const btn = document.querySelectorAll('.main-spoiler-btn');
 for (let i = 0; i < btn.length; i++) {
 
-    btn[i].addEventListener('click', function() {
+    btn[i].addEventListener('click', function () {
         this.innerHTML =
             (this.innerHTML === 'Показать ещё') ? this.innerHTML = 'Свернуть' : this.innerHTML = 'Показать ещё';
     })
 
 }
 
-$('.time-spoiler-btn').on('click', function (e){
+$('.time-spoiler-btn').on('click', function (e) {
     e.preventDefault();
     $('.time-spoiler').toggleClass('deployed');
     $('.show-more-time').toggleClass('active-time');
@@ -413,53 +408,53 @@ $('.js-send-review').on('click', function (e) {
 });
 
 $(".review-swiper").owlCarousel({
-    items:1,
+    items: 1,
     dots: true,
     nav: true,
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
 });
 
 
 $(".doctor-mob-swiper").owlCarousel({
-    margin:30,
-    items:1,
+    margin: 30,
+    items: 1,
     dots: true,
     nav: true,
-    navText:["<div class='doctor-mob-arrow doctor-mob-arrow-left'></div>","<div class='doctor-mob-arrow doctor-mob-arrow-right'></div>"],
+    navText: ["<div class='doctor-mob-arrow doctor-mob-arrow-left'></div>", "<div class='doctor-mob-arrow doctor-mob-arrow-right'></div>"],
 });
 
 
 $(".main-swiper").owlCarousel({
-    items:3,
+    items: 3,
     dots: true,
     nav: true,
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
 });
 
 $(".photo-swiper").owlCarousel({
-    items:6,
+    items: 6,
     dots: true,
     nav: true,
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
 });
 
 $(".photo-mob-swiper").owlCarousel({
-    margin:30,
-    items:1,
+    margin: 30,
+    items: 1,
     nav: true,
-    navText:["<div class='photo-mob-arrow photo-mob-arrow-left'></div>","<div class='photo-mob-arrow photo-mob-arrow-right'></div>"],
+    navText: ["<div class='photo-mob-arrow photo-mob-arrow-left'></div>", "<div class='photo-mob-arrow photo-mob-arrow-right'></div>"],
 });
 
 $(".mob-review-swiper").owlCarousel({
-    margin:30,
-    items:1,
+    margin: 30,
+    items: 1,
     dots: true,
 });
 
 $(".license-clinic-swiper").owlCarousel({
-    margin:30,
-    marginLeft:30,
-    items:1,
+    margin: 30,
+    marginLeft: 30,
+    items: 1,
     dots: true,
     center: true,
     startPosition: 1,
@@ -467,32 +462,32 @@ $(".license-clinic-swiper").owlCarousel({
 
 $(".mob-swiper").owlCarousel({
     center: true,
-    items:1,
-    loop:false,
-    margin:10,
-    autoHeight:true,
+    items: 1,
+    loop: false,
+    margin: 10,
+    autoHeight: true,
 });
 
 $(".date-swiper").owlCarousel({
-    margin:30,
-    items:1,
+    margin: 30,
+    items: 1,
     nav: true,
-    navText:["<div class='date-desk-arrow date-desk-arrow-left'></div>","<div class='date-desk-arrow date-desk-arrow-right'></div>"],
+    navText: ["<div class='date-desk-arrow date-desk-arrow-left'></div>", "<div class='date-desk-arrow date-desk-arrow-right'></div>"],
 });
 
 $(".date-mob-swiper").owlCarousel({
-    margin:30,
-    items:1,
+    margin: 30,
+    items: 1,
     dots: true,
     nav: true,
-    navText:["<div class='date-arrow date-arrow-left'></div>","<div class='date-arrow date-arrow-right'></div>"],
+    navText: ["<div class='date-arrow date-arrow-left'></div>", "<div class='date-arrow date-arrow-right'></div>"],
 });
 
 $(".services-clinic-swiper").owlCarousel({
-    items:3,
+    items: 3,
     nav: true,
     dots: false,
-    navText:["<div class='service-arrow service-arrow-left'></div>","<div class='service-arrow service-arrow-right'></div>"],
+    navText: ["<div class='service-arrow service-arrow-left'></div>", "<div class='service-arrow service-arrow-right'></div>"],
 });
 
 $('.js-drop-btn').on('click', function (e) {
@@ -504,14 +499,14 @@ $('.js-drop-btn').on('click', function (e) {
 });
 
 
-$('.js-dropdown-item').on('click', function(e) {
+$('.js-dropdown-item').on('click', function (e) {
     e.preventDefault();
     var text = $(this).text();
     var parent = $(this).parents('.js-doctor-right');
     parent.find('.js-drop-btn span').text(text);
 
 
-    var btn= parent.find('.js-drop-btn');
+    var btn = parent.find('.js-drop-btn');
     btn.toggleClass('reverse-arrow');
 
     var content = parent.find('.js-dropdown-items');
@@ -523,24 +518,70 @@ $('.js-dropdown-item').on('click', function(e) {
     target.show();
 });
 
-let scrolling = document.querySelector('.js-scrollable');
+
+let scrolldown = document.querySelectorAll('.js-scrolldown');
+let scrollup = document.querySelectorAll('.js-scrollup');
+
+let scrolling = document.querySelectorAll('.js-scrollable');
+scrolldown.forEach(scrdn => {
+    scrdn.addEventListener('click', (e) => {
+        scrolling.forEach(elem => {
+            elem.scrollBy({top:50})
+        })
+    })
+});
+
+scrollup.forEach(scrp => {
+    scrp.addEventListener('click', (e) => {
+        scrolling.forEach(ele => {
+            ele.scrollBy({top: -50})
+        })
+    })
+});
+/*
+let scrolling = document.querySelectorAll('.js-scrollable');
 $('.js-scrolldown').on('click', function(e) {
+   scrolling.forEach(item => {
+       item.addEventListener((e) => {
+           scrollBy({top: 50})
+           console.log('asdgsdf')
+       })
+   })
+});
+*/
+
+
+/*scrollup.forEach(item => {
+    item.addEventListener('click', (e) => {
+        scrolling.scrollBy({top: -50})
+    })
+});*/
+
+/*$('.js-scrolldown').on('click', function(e) {
     e.preventDefault();
 
-    scrolling.scrollBy(0, 50);
+    scrolling.scrollBy({
+        top: 50,
+        behavior: 'smooth'
+    });
 
 });
 
 $('.js-scrollup').on('click', function(e) {
     e.preventDefault();
 
-    scrolling.scrollBy(0, -50)
-});
+    scrolling.scrollBy({
+        top: -50,
+        behavior: 'smooth'
+    });
+});*/
 
 const dateRelink = document.querySelectorAll('.relink-date')
-dateRelink.forEach(item =>{
-    item.addEventListener('click', (e) =>{
-        dateRelink.forEach(el=>{ el.classList.remove('active-date'); });
+dateRelink.forEach(item => {
+    item.addEventListener('click', (e) => {
+        dateRelink.forEach(el => {
+            el.classList.remove('active-date');
+        });
         item.classList.add('active-date')
     })
 });
@@ -594,7 +635,6 @@ $('.js-review').on('click', function (e) {
     hiddenInput.val(JSON.stringify(params));
 
 });
-
 
 
 //?==============<Tabs>==============
@@ -675,25 +715,25 @@ function heightToggleElement(toggler, blocks) {
 
 //?==============<Limit services>==============
 
-function limitServices(){
+function limitServices() {
     const servicesLists = document.querySelectorAll('[data-services-list]');
 
-    if(!servicesLists) return;
+    if (!servicesLists) return;
 
     servicesLists.forEach(servicesList => {
         const servicesListColumns = servicesList.dataset.servicesList;
         const servicesListItems = servicesList.querySelectorAll('.services__fold');
 
-        if(!MEDIA_QUERY_768.matches){
+        if (!MEDIA_QUERY_768.matches) {
             servicesListItems.forEach((item, i) => {
-                if(i > 5 * servicesListColumns - 1){
+                if (i > 5 * servicesListColumns - 1) {
                     item.setAttribute('data-fold-content', '')
                     item.classList.add('is-folded');
                 }
             })
-        } else{
+        } else {
             servicesListItems.forEach((item, i) => {
-                if(i > 2){
+                if (i > 2) {
                     item.setAttribute('data-fold-content', '')
                     item.classList.add('is-folded');
                 }
