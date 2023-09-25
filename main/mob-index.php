@@ -383,50 +383,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="popular-doctor__container">
-                        <div class="popular-doctor__doctor-card">
-                            <div class="popular-doctor__head">
-                                <div class="popular-doctor__photo">
-                                    <img src="/images/doctor.png">
-                                </div>
-                                <div class="popular-doctor__doctor-info">
-                                    <div class="popular-doctor__name">
-                                        Манохина Дарья<br>
-                                        Даниловна
-                                    </div>
-                                    <div class="popular-doctor__price">
-                                        Стоимость приема
-                                        <p>1520₽</p>
-                                        <span>1900₽</span>
-                                    </div>
-                                    <div class="popular-doctor__count-review">
-                                        <div class="popular-doctor__star">
-                                            <img src="/images/Star1.png">
-                                            <p>4,7</p>
-                                        </div>
-                                        <a href="#">8 отзывов</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="popular-doctor__body">
-                                <div class="popular-doctor__metro first-metro">
-                                    <span></span>
-                                    Текстильщики (978м)
-                                </div>
-                                <div class="popular-doctor__address">
-                                    ул. Люблинская, д. 9 к. 1
-                                </div>
-                                <div class="popular-doctor__spec">
-                                    Гинеколог • акушер врач УЗИ
-                                </div>
-                                <div class="popular-doctor__category-experience">
-                                    Врач высшей категории,<br>
-                                    Кандидат медицинских наук.<br>
-                                    Стаж 12 лет.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -517,33 +473,6 @@
                     </div>
                 </div>
                 <div class="other-clinics__clinics">
-                    <div class="other-clinics__container">
-                        <div class="other-clinics__clinic-card">
-                            <div class="other-clinics__head">
-                                <div class="other-clinics__photo">
-                                    <img src="/images/clinic.png">
-                                </div>
-                                <div class="oher-clinics__clinic-info">
-                                    <div class="other-clinics__clinic-name">
-                                        Клиника “Название”
-                                    </div>
-                                    <div class="other-clinics__clinic-address">
-                                        ул. Люблинская, д. 9 к. 1
-                                    </div>
-                                    <div class="other-clinics__clinic-reviews">
-                                        <div class="other-clinics__star">
-                                            <img src="/images/Star1.png">
-                                            <p>4,7</p>
-                                        </div>
-                                        <a href="#">8 отзывов</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="other-clinics__clinic-metro">
-                                380м от метро “Рязанский проспект”
-                            </div>
-                        </div>
-                    </div>
                     <div class="other-clinics__container">
                         <div class="other-clinics__clinic-card">
                             <div class="other-clinics__head">

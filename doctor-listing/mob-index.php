@@ -143,8 +143,8 @@
                         <h6>Выберите клинику сети:</h6>
                         <div class="doctor-card__record-clinic">
                             <div class="dropdown-clinic">
-                                <div onclick="myFunction()" class="dropbtn">Клиника в Текстильщиках<img src="/images/right-page.png"/></div>
-                                <div id="myDropdown" class="dropdown-content">
+                                <div onclick="drop()" class="dropbtn">Клиника в Текстильщиках<img src="/images/right-page.png"/></div>
+                                <div id="drop" class="dropdown-content">
                                     <a href="#">Клиника в Марьино</a>
                                     <a href="#">Клиника на Проспекте Вернадского</a>
                                     <a href="#">Клиника в Беляево</a>
@@ -665,9 +665,13 @@
 
                             <li class="relinks__item"><a href="#" class="relinks__link">Артролог
                                     (от 18 лет)</a></li>
-                            <li class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология
-                                    (от 18 лет)</a></li>
-                            <li class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
                                     (от 18 лет)</a></li>
                         </ul>
                     </div>

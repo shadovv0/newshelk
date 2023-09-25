@@ -695,9 +695,21 @@
 
                             <li class="relinks__item"><a href="#" class="relinks__link">Артролог
                                     (от 18 лет)</a></li>
-                            <li class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
                                     (от 18 лет)</a></li>
-                            <li class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18
+                                    лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+
+                            <li class="relinks__item"><a href="#" class="relinks__link">Артролог
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
+                                    (от 18 лет)</a></li>
+                            <li class="relinks__item"><a href="#" class="relinks__link">Аллергология
                                     (от 18 лет)</a></li>
                         </ul>
                     </div>

@@ -269,6 +269,41 @@
     top: 17% !important;
 }
 
+.owl-carousel .photo-mob-arrow-left{
+    background: url("../images/left-page.png") no-repeat scroll 0 0;
+    left: -7px;
+}
+.owl-carousel .photo-mob-arrow-right{
+    background: url("../images/right-page.png") no-repeat scroll 0px 0px;
+    right: -7px;
+}
+
+.owl-carousel .photo-mob-arrow{
+    height: 47px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer;
+    top: 30% !important;
+}
+
+.owl-carousel .doctor-mob-arrow-left{
+    background: url("../images/left-page.png") no-repeat scroll 0 0;
+    left: -7px;
+}
+.owl-carousel .doctor-mob-arrow-right{
+    background: url("../images/right-page.png") no-repeat scroll 0px 0px;
+    right: -7px;
+}
+
+.owl-carousel .doctor-mob-arrow{
+    height: 47px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer;
+    top: -3% !important;
+    display: none;
+}
+
 .owl-carousel .date-desk-arrow-right {
     background: url("../images/right-page.png") no-repeat scroll 0px 0px;
     right: 1px;

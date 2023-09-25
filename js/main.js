@@ -17,9 +17,8 @@ $('.show-services').on('click', function (e) {
     $('.show-services-top').toggleClass('hide');
 });
 
-
 $('.menu-btn').click(function (e) {
-    e.stopPropagation();
+    e.preventDefault();
     if (window.innerWidth < 880) {
         if (!$('.top-menu-visible').length) {
             if ($('.left-sidebar-visible').length) {
@@ -73,7 +72,7 @@ $(document).on('click', '.top-menu-visible', function () {
 
 
 $('.bot-menu-card').click(function (e) {
-    e.stopPropagation();
+    e.preventDefault();
     if (window.innerWidth < 880) {
         if (!$('.bot-menu-visible').length) {
 
@@ -117,7 +116,7 @@ $(document).on('click', '.bot-menu-visible', function () {
 });
 
 $('.input-for-search').on('click', function (e){
-    e.stopPropagation();
+    e.preventDefault();
     if (!$('.open-window-search').length) {
         $('.head__container').addClass('open-window-search');
         $('.window-search')[0].style.display = 'block';
@@ -128,6 +127,35 @@ $('.input-for-search').on('click', function (e){
         $('.content').removeClass('content-raltive');
     }
 });
+
+$('.menu-map').on('click', function (e){
+    e.preventDefault();
+    if (!$('.open-menu-map').length) {
+        $('.head__container').addClass('open-menu-map');
+        $('.close-map')[0].style.display = 'block';
+        $('html').addClass('no-scroll');
+    } else {
+        $('.head__container').removeClass('open-menu-map');
+        $('.close-map')[0].style.display = 'none';
+        $('html').removeClass('no-scroll');
+    }
+});
+
+
+
+$('.mob-map').on('click', function (e){
+   if(!$('.open-clinic-map').length) {
+       $('.clinics-map').addClass('open-clinic-map');
+       $('.close-clinic-map')[0].style.display = 'block';
+       $('html').addClass('no-scroll');
+   } else {
+       $('.clinics-map').removeClass('open-clinic-map');
+       $('.close-clinic-map')[0].style.display = 'none';
+       $('html').removeClass('no-scroll');
+   }
+});
+
+
 
 
 function showRecordForm() {
@@ -170,15 +198,6 @@ $('.js-record-submit').on('click', function (e) {
         },
     });
 
-});
-
-
-$('.js-close-form, .overlay').on('click', function (e) {
-    hideForm();
-});
-
-$('.button-escape, .overlay').on('click', function (e) {
-    hideForm();
 });
 
 $('.js-more-reviews').on('click', function (e) {
@@ -315,7 +334,6 @@ document.querySelectorAll('.review-spoiler-btn').forEach((n, i) => {
 
 const btnReview = document.querySelectorAll('.review-spoiler-btn');
 for (let i = 0; i < btnReview.length; i++) {
-
     btnReview[i].addEventListener('click', function() {
         this.innerHTML =
             (this.innerHTML === 'Показать ещё отзывы') ? this.innerHTML = 'Свернуть' : this.innerHTML = 'Показать ещё отзывы';
@@ -402,6 +420,15 @@ $(".review-swiper").owlCarousel({
 });
 
 
+$(".doctor-mob-swiper").owlCarousel({
+    margin:30,
+    items:1,
+    dots: true,
+    nav: true,
+    navText:["<div class='doctor-mob-arrow doctor-mob-arrow-left'></div>","<div class='doctor-mob-arrow doctor-mob-arrow-right'></div>"],
+});
+
+
 $(".main-swiper").owlCarousel({
     items:3,
     dots: true,
@@ -416,10 +443,26 @@ $(".photo-swiper").owlCarousel({
     navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
 });
 
+$(".photo-mob-swiper").owlCarousel({
+    margin:30,
+    items:1,
+    nav: true,
+    navText:["<div class='photo-mob-arrow photo-mob-arrow-left'></div>","<div class='photo-mob-arrow photo-mob-arrow-right'></div>"],
+});
+
 $(".mob-review-swiper").owlCarousel({
     margin:30,
     items:1,
     dots: true,
+});
+
+$(".license-clinic-swiper").owlCarousel({
+    margin:30,
+    marginLeft:30,
+    items:1,
+    dots: true,
+    center: true,
+    startPosition: 1,
 });
 
 $(".mob-swiper").owlCarousel({
@@ -452,27 +495,47 @@ $(".services-clinic-swiper").owlCarousel({
     navText:["<div class='service-arrow service-arrow-left'></div>","<div class='service-arrow service-arrow-right'></div>"],
 });
 
+$('.js-drop-btn').on('click', function (e) {
+    var parent = $(this).parent('.js-dropdown-clinic');
+    var content = parent.find('.js-dropdown-items');
+
+    content.toggleClass('show');
+    $(this).toggleClass('reverse-arrow');
+});
 
 
+$('.js-dropdown-item').on('click', function(e) {
+    e.preventDefault();
+    var text = $(this).text();
+    var parent = $(this).parents('.js-doctor-right');
+    parent.find('.js-drop-btn span').text(text);
 
-function drop() {
-    document.getElementById("drop").classList.toggle("show");
-    $('.dropbtn').toggleClass('reverse-arrow');
-}
-/*
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
 
-        let dropdowns = document.getElementsByClassName("dropdown-content");
-        let i;
-        for (i = 0; i < dropdowns.length; i++) {
-            let openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
+    var btn= parent.find('.js-drop-btn');
+    btn.toggleClass('reverse-arrow');
+
+    var content = parent.find('.js-dropdown-items');
+    content.toggleClass('show');
+
+    parent.find('.js-dropdown-content').hide();
+
+    var target = parent.find(".js-dropdown-content[data-target='" + $(this).data('target') + "']");
+    target.show();
+});
+
+let scrolling = document.querySelector('.js-scrollable');
+$('.js-scrolldown').on('click', function(e) {
+    e.preventDefault();
+
+    scrolling.scrollBy(0, 50);
+
+});
+
+$('.js-scrollup').on('click', function(e) {
+    e.preventDefault();
+
+    scrolling.scrollBy(0, -50)
+});
 
 const dateRelink = document.querySelectorAll('.relink-date')
 dateRelink.forEach(item =>{
@@ -480,59 +543,6 @@ dateRelink.forEach(item =>{
         dateRelink.forEach(el=>{ el.classList.remove('active-date'); });
         item.classList.add('active-date')
     })
-});
-const arrowDown = document.querySelectorAll('.date-scrolldown')
-arrowDown.forEach(item =>{
-    item.addEventListener('click', (e) =>{
-        dateRelink.forEach(el=>{
-            el.classList.remove('active-date');
-            el.classList.add('active-date')
-
-        });
-    })
-});*/
-
-$('.relink-date').on('clink', function (e) {
-    $('.relink-date').addClass('active-date').next();
-})
-
-const scroll = document.querySelectorAll('.relink-date');
-
-scroll.forEach((e) => {
-    const sibling = e.nextElementSibling;
-    e.addEventListener('click', (el, e) => {
-        sibling.classList.toggle('active-date');
-        const arrow = sibling.querySelector('.date-scrolldown');
-        if (arrow !== null) {
-            arrow.classList.toggle('active-date');
-        }
-    });
-});
-
-
-function slotArrowAction(parent, active, newActive) {
-    if (newActive.hasClass('slots-days-item')) {
-        active.hide();
-        active.removeClass('slots-days-item--active');
-
-        newActive.show();
-        newActive.addClass('slots-days-item--active');
-
-
-        var oldBlock = parent.parent().find('.slots-block--active');
-        oldBlock.removeClass('slots-block--active');
-        oldBlock.hide();
-
-        var newBlock = parent.parent().find('.slots-block[data-day="' + newActive.data('day') + '"]');
-        newBlock.addClass('slots-block--active');
-        newBlock.css('display', 'flex');
-    }
-}
-$('.slots-days--left').on('click', function (e) {
-    var parent = $(e.target).parent();
-    var active = parent.find('.slots-days-item--active');
-    var newActive = active.prev();
-    slotArrowAction(parent, active, newActive)
 });
 
 
@@ -561,6 +571,14 @@ $('.button-escape, .overlay').on('click', function (e) {
     hideForm();
     hideReviewForm();
 });
+
+/*$('.js-close-form, .overlay').on('click', function (e) {
+    hideForm();
+});
+
+$('.button-escape, .overlay').on('click', function (e) {
+    hideForm();
+});*/
 
 $('.js-review').on('click', function (e) {
     e.preventDefault();

@@ -156,7 +156,7 @@
                         </button>
                     </div>
                 </div>
-                <div data-fold-content class="clinic-card__content">
+                <div data-fold-content class="clinic-card__content is-expanded" style="height: auto">
                     <div class="appointment__geo-clinic">
                         <div class="appointment__geo-left">
                             <div class="appointment__clinic-phone"><a href="#">(499) 123-34-56</a></div>
@@ -219,10 +219,10 @@
                             <div class="appointment__date-scroll">
                                 <div class="appointment-date">
                                     <div class="grey-col">
-                                        <a class="date-scrollup"><img src="/images/top-arrow.png"></a>
-                                        <a class="date-scrolldown"><img src="/images/bot-arrow.png"></a>
+                                        <a class="date-scrollup js-scrollup"><img src="/images/top-arrow.png"></a>
+                                        <a class="date-scrolldown js-scrolldown"><img src="/images/bot-arrow.png"></a>
                                     </div>
-                                    <ul class="list">
+                                    <ul class="list js-scrollable">
                                         <li><a class="relink-date active-date">Понедельник 21.03.</a></li>
                                         <li><a class="relink-date">Вторник 22.03</a></li>
                                         <li><a class="relink-date">Среда 23.03.</a></li>
@@ -333,14 +333,23 @@
                     <div class="appointment__timeslot">
                         <h4>Выбрать дату</h4>
                         <div class="appointment__timeslot-container">
-                            <div class="grey-col"></div>
-                            <div class="appointment-date">
-                                <ul>
-                                    <li><a class="relink-date">Понедельник 21.03.</a></li>
-                                    <li><a class="relink-date">Вторник 22.03</a></li>
-                                    <li><a class="relink-date">Среда 23.03.</a></li>
-                                    <li><a class="relink-date">Четверг 24.03.</a></li>
-                                </ul>
+                            <div class="appointment__date-scroll">
+                                <div class="appointment-date">
+                                    <div class="grey-col">
+                                        <a class="date-scrollup js-scrollup"><img src="/images/top-arrow.png"></a>
+                                        <a class="date-scrolldown js-scrolldown"><img src="/images/bot-arrow.png"></a>
+                                    </div>
+                                    <ul class="list js-scrollable">
+                                        <li><a class="relink-date active-date">Понедельник 21.03.</a></li>
+                                        <li><a class="relink-date">Вторник 22.03</a></li>
+                                        <li><a class="relink-date">Среда 23.03.</a></li>
+                                        <li><a class="relink-date">Четверг 24.03.</a></li>
+                                        <li><a class="relink-date">Понедельник 28.03.</a></li>
+                                        <li><a class="relink-date">Вторник 29.03</a></li>
+                                        <li><a class="relink-date">Среда 30.03.</a></li>
+                                        <li><a class="relink-date">Четверг 31.03.</a></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="appointment-center">
                                 <b>Для записи на удобное вам время заполните форму:</b>
@@ -441,14 +450,23 @@
                     <div class="appointment__timeslot">
                         <h4>Выбрать дату</h4>
                         <div class="appointment__timeslot-container">
-                            <div class="grey-col"></div>
-                            <div class="appointment-date">
-                                <ul>
-                                    <li><a class="relink-date">Понедельник 21.03.</a></li>
-                                    <li><a class="relink-date">Вторник 22.03</a></li>
-                                    <li><a class="relink-date">Среда 23.03.</a></li>
-                                    <li><a class="relink-date">Четверг 24.03.</a></li>
-                                </ul>
+                            <div class="appointment__date-scroll">
+                                <div class="appointment-date">
+                                    <div class="grey-col">
+                                        <a class="date-scrollup js-scrollup"><img src="/images/top-arrow.png"></a>
+                                        <a class="date-scrolldown js-scrolldown"><img src="/images/bot-arrow.png"></a>
+                                    </div>
+                                    <ul class="list js-scrollable">
+                                        <li><a class="relink-date active-date">Понедельник 21.03.</a></li>
+                                        <li><a class="relink-date">Вторник 22.03</a></li>
+                                        <li><a class="relink-date">Среда 23.03.</a></li>
+                                        <li><a class="relink-date">Четверг 24.03.</a></li>
+                                        <li><a class="relink-date">Понедельник 28.03.</a></li>
+                                        <li><a class="relink-date">Вторник 29.03</a></li>
+                                        <li><a class="relink-date">Среда 30.03.</a></li>
+                                        <li><a class="relink-date">Четверг 31.03.</a></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="appointment-center">
                                 <b>Для записи на удобное вам время заполните форму:</b>

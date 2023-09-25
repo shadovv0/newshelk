@@ -125,7 +125,7 @@
                         <img src="/images/ambulance.png">
                         Выезд на дом
                     </div>
-                    <div class="clinic-card__metro">
+                    <div class="clinic-card__metros">
                         <div class="clinic-card__metro-near first-metro">
                             <span></span>
                             Текстильщики (338м)
@@ -148,9 +148,16 @@
                     </div>
                 </div>
             </div>
-            <p class="mob-map">
+            <a class="mob-map">
                 <img src="/images/mob-map.png">
-            </p>
+            </a>
+            <div class="close-clinic-map">
+                <div class="clinics-map">
+                    <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5dd762e7d250aab41eaecfb420f47dab93c87cfd617a6bea144834bec715484d&amp;width=400&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <button class="js-close-form close-form"><img src="../images/close.png"></button>
+                </div>
+            </div>
             <div class="clinic-additional">
                 <span>Обновлено 30.03.22</span>
                 <ul>
@@ -1032,7 +1039,7 @@
         <div class="media-clinic">
             <h3 class="license-clinic-title">Лицензии клиники</h3>
             <div id="license" class="license-container">
-                <div class="owl-carousel mob-swiper owl-theme">
+                <div class="owl-carousel license-clinic-swiper owl-theme">
                     <a href="/images/license-clinic.png" data-fancybox="gallery">
                         <img src="/images/license-clinic.png" alt="license"/>
                     </a>
@@ -1077,13 +1084,13 @@
                 </div>
             </div>
             <h3 class="video-clinic__title">Видео обзор клиники</h3>
-            <div id="video-clinic" class="video-clinic__container">
+            <!--<div id="video-clinic" class="video-clinic__container">
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/K5LhfmEgFuM"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                 </iframe>
-            </div>
+            </div>-->
         </div>
 
         <div class="other-clinic__container">
