@@ -357,17 +357,6 @@ for (let i = 0; i < btn.length; i++) {
 
 }
 
-$('.time-spoiler-btn').on('click', function (e) {
-    e.preventDefault();
-
-    let parent = $(this).parents('.time-spoiler');
-    parent.toggleClass('deployed');
-
-    let btn = $(this).children('.show-more-time');
-    btn.toggleClass('active-time');
-});
-
-
 $('.js-review-rule input').on('change', function (e) {
     var disabled = false;
 
@@ -502,6 +491,16 @@ $(".services-clinic-swiper").owlCarousel({
     navText: ["<div class='service-arrow service-arrow-left'></div>", "<div class='service-arrow service-arrow-right'></div>"],
 });
 
+$('.time-spoiler-btn').on('click', function (e) {
+    e.preventDefault();
+
+    let parent = $(this).parents('.time-spoiler');
+    parent.toggleClass('deployed');
+
+    let btn = $(this).children('.show-more-time');
+    btn.toggleClass('active-time');
+});
+
 $('.js-drop-btn').on('click', function (e) {
     var parent = $(this).parent('.js-dropdown-clinic');
     var content = parent.find('.js-dropdown-items');
@@ -531,26 +530,24 @@ $('.js-dropdown-item').on('click', function (e) {
 });
 
 
-let scrolldown = document.querySelectorAll('.js-scrolldown');
-let scrollup = document.querySelectorAll('.js-scrollup');
+/*let scrolldown = $('.js-scrolldown');
+let scrollup = $('.js-scrollup');
+let scrolling = $('.js-scrollable');*/
 
-let scrolling = document.querySelectorAll('.js-scrollable');
-scrolldown.forEach(scrdn => {
-    scrdn.addEventListener('click', (e) => {
-        scrolling.forEach(elem => {
-            elem.scrollBy({top:50})
-        })
-    })
+$(".appointment-date").each(function () {
+    var scrollup = $(this).find(".js-scrollup");
+    var scrolldown = $(this).find(".js-scrolldown");
+    var scrollable = $(this).find(".js-scrollable");
+
+    scrollup.on('click', function () {
+        scrollable.animate({ scrollTop: scrollable.scrollTop() - 50 }, 'slow');
+    });
+    scrolldown.on('click', function () {
+        scrollable.animate({ scrollTop: scrollable.scrollTop() + 50 }, 'slow');
+    });
+
+
 });
-
-scrollup.forEach(scrp => {
-    scrp.addEventListener('click', (e) => {
-        scrolling.forEach(ele => {
-            ele.scrollBy({top: -50})
-        })
-    })
-});
-
 
 const dateRelink = document.querySelectorAll('.relink-date')
 dateRelink.forEach(item => {
