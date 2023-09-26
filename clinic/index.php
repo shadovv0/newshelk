@@ -115,7 +115,8 @@
                     </div>
                 </div>
                 <div class="clinic-card__right-map">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A97aa3af62620370b6ec5eaf606e8b96f6641ef1e862e53e2aa1e939fff416485&amp;width=350&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A97aa3af62620370b6ec5eaf606e8b96f6641ef1e862e53e2aa1e939fff416485&amp;width=350&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
             </div>
             <div class="clinic-card__body">
@@ -569,64 +570,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -680,64 +835,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -806,64 +1115,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -917,64 +1380,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1043,64 +1660,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1154,64 +1925,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1280,64 +2205,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1391,64 +2470,218 @@
                                         </div>
                                         <div class="doctor-card__right-record">
                                             <h4 class="doctor-card__right-record-title">Выбрать дату</h4>
-                                            <div class="doctor-card-record__container">
-                                                <div class="doctor-card__dates dates">
-                                                    <p>Понедельник 21.03.</p>
+                                            <div class="owl-carousel date-clinic-swiper owl-theme">
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Понедельник 21.03.</p>
+                                                    </div>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="doctor-card__schedule schedule">
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="09:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            09:30
-                                                        </label>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Вторник 22.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"><input type="radio" value="10:00"
-                                                                                           name="time-appointment"
-                                                                                           class="radio__input"/> 10:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="10:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            10:30
-                                                        </label>
+                                                </div>
+                                                <div class="doctor-card-record__container">
+                                                    <div class="doctor-card__dates dates">
+                                                        <p>Среда 23.03.</p>
                                                     </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label"> <input type="radio" value="11:00"
-                                                                                            name="time-appointment"
-                                                                                            class="radio__input"/> 11:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="11:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            11:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:00
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="12:30" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            12:30
-                                                        </label>
-                                                    </div>
-                                                    <div class="schedule__item radio">
-                                                        <label class="radio__label">
-                                                            <input type="radio" value="14:00" name="time-appointment"
-                                                                   class="radio__input"/>
-                                                            14:00
-                                                        </label>
+                                                    <div class="doctor-card__schedule schedule">
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="09:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                09:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"><input type="radio"
+                                                                                               value="10:00"
+                                                                                               name="time-appointment"
+                                                                                               class="radio__input"/>
+                                                                10:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="10:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                10:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label"> <input type="radio"
+                                                                                                value="11:00"
+                                                                                                name="time-appointment"
+                                                                                                class="radio__input"/>
+                                                                11:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="11:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                11:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:00
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="12:30"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                12:30
+                                                            </label>
+                                                        </div>
+                                                        <div class="schedule__item radio">
+                                                            <label class="radio__label">
+                                                                <input type="radio" value="14:00"
+                                                                       name="time-appointment"
+                                                                       class="radio__input"/>
+                                                                14:00
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1867,7 +3100,8 @@
                             </div>
                         </div>
                         <div class="users_btn">
-                            <a class="users__more-review review-spoiler-btn" data-target="description">Показать ещё отзывы</a>
+                            <a class="users__more-review review-spoiler-btn" data-target="description">Показать ещё
+                                отзывы</a>
                             <a class="users__record js-review">Оставить отзыв</a>
                         </div>
                     </div>

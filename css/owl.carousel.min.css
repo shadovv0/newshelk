@@ -321,3 +321,28 @@
     cursor: pointer;
     top: 3% !important;
 }
+
+
+.owl-carousel .date-clinic-arrow-right {
+    background: url("../images/bot-page.png") no-repeat scroll 0px 0px;
+    right: 1px;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.owl-carousel .date-clinic-arrow-left {
+    background: url("../images/bot-page.png") no-repeat scroll 0 0;
+    left: 1px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.owl-carousel .date-clinic-arrow{
+    height: 35px;
+    position: absolute;
+    width: 38px;
+    cursor: pointer;
+    top: 1% !important;
+}

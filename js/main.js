@@ -359,8 +359,12 @@ for (let i = 0; i < btn.length; i++) {
 
 $('.time-spoiler-btn').on('click', function (e) {
     e.preventDefault();
-    $('.time-spoiler').toggleClass('deployed');
-    $('.show-more-time').toggleClass('active-time');
+
+    let parent = $(this).parents('.time-spoiler');
+    parent.toggleClass('deployed');
+
+    let btn = $(this).children('.show-more-time');
+    btn.toggleClass('active-time');
 });
 
 
@@ -475,6 +479,14 @@ $(".date-swiper").owlCarousel({
     navText: ["<div class='date-desk-arrow date-desk-arrow-left'></div>", "<div class='date-desk-arrow date-desk-arrow-right'></div>"],
 });
 
+$(".date-clinic-swiper").owlCarousel({
+    margin: 30,
+    items: 1,
+    dots: false,
+    nav: true,
+    navText: ["<div class='date-clinic-arrow date-clinic-arrow-left'></div>", "<div class='date-clinic-arrow date-clinic-arrow-right'></div>"],
+});
+
 $(".date-mob-swiper").owlCarousel({
     margin: 30,
     items: 1,
@@ -538,43 +550,7 @@ scrollup.forEach(scrp => {
         })
     })
 });
-/*
-let scrolling = document.querySelectorAll('.js-scrollable');
-$('.js-scrolldown').on('click', function(e) {
-   scrolling.forEach(item => {
-       item.addEventListener((e) => {
-           scrollBy({top: 50})
-           console.log('asdgsdf')
-       })
-   })
-});
-*/
 
-
-/*scrollup.forEach(item => {
-    item.addEventListener('click', (e) => {
-        scrolling.scrollBy({top: -50})
-    })
-});*/
-
-/*$('.js-scrolldown').on('click', function(e) {
-    e.preventDefault();
-
-    scrolling.scrollBy({
-        top: 50,
-        behavior: 'smooth'
-    });
-
-});
-
-$('.js-scrollup').on('click', function(e) {
-    e.preventDefault();
-
-    scrolling.scrollBy({
-        top: -50,
-        behavior: 'smooth'
-    });
-});*/
 
 const dateRelink = document.querySelectorAll('.relink-date')
 dateRelink.forEach(item => {
