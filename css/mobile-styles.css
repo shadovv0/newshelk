@@ -1078,7 +1078,7 @@ html.no-scroll body {
     color: rgba(0, 0, 0, 0.50);
     font-size: 16px;
     text-decoration-line: none;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 0 15px;
 }
 
 .clinic-card__type-clinic {
@@ -1105,7 +1105,7 @@ html.no-scroll body {
     border: 1px solid rgba(0, 0, 0, 0.30);
     max-width: 100px;
     width: 100%;
-    height: 85px;
+    height: 100px;
     align-items: center;
     margin: 10px;
     justify-content: space-around;
@@ -1144,8 +1144,8 @@ html.no-scroll body {
 
 .clinic-card__popular-service ul {
     list-style-type: none;
-    margin: 0;
     padding: 10px 0;
+    margin: 0 14px;
 }
 
 .clinic-card__popular-service li {
@@ -1224,7 +1224,7 @@ html.no-scroll body {
 }
 
 .clinic-card__metro {
-    margin: 0 8px 15px;
+    margin: 0 5px 15px;
     padding: 0 15px;
 }
 
@@ -1536,7 +1536,7 @@ html.no-scroll body {
 }
 
 .mob-map img {
-    max-width: 350px;
+    max-width: 373px;
     width: 100%;
     margin-top: 15px;
     cursor: pointer;
@@ -1552,6 +1552,7 @@ html.no-scroll body {
     padding: 30px 15px;
     left: 15px;
     border-radius: 20px 20px 0 0;
+    box-shadow: 0px -10px 13px 7px rgba(0, 0, 0, 0.25);
 }
 
 .bot-menu-visible .wrap {
@@ -1628,7 +1629,8 @@ html.no-scroll body {
 
 .price-clinic__price-card {
     background: #FFF;
-    padding: 0 10px 15px;
+    padding: 0 10px 30px;
+    margin: 0 0 50px;
     border-radius: 0 0 13px 13px;
 }
 
@@ -1652,11 +1654,10 @@ html.no-scroll body {
     color: rgba(0, 0, 0, 0.80);
     font-size: 18px;
     font-weight: 600;
+    margin: 0;
 }
 
 .price-clinic__body {
-    border-bottom: 1px solid #0000001A;
-    border-top: 1px solid #0000001A;
     padding: 5px 0;
     display: flex;
     flex-direction: column;
@@ -1681,7 +1682,7 @@ html.no-scroll body {
 
 .price__item {
     border-bottom: 1px solid #0000001A;
-    padding: 5px 0;
+    padding: 8px 0;
     color: #000;
     font-size: 14px;
     display: flex;
@@ -1727,14 +1728,12 @@ html.no-scroll body {
     color: #000;
     font-size: 18px;
     font-weight: 600;
+    text-align: center;
 }
 
 .media-clinic {
     padding: 10px 0;
     margin: 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 13px;
     background: #FFF;
 }
@@ -1755,8 +1754,12 @@ html.no-scroll body {
     height: 182px;
 }
 
+.video-clinic__container {
+    text-align: center;
+}
+
 .photo-clinic__container, .license-container, .video-clinic__container {
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 .listing__header h2 {
@@ -1783,7 +1786,6 @@ html.no-scroll body {
     width: 100%;
     padding: 0 15px;
     margin-top: 15px;
-    border-bottom: 1px solid #0000001A;
 }
 
 .doctor-card-clinic__head {
@@ -1892,7 +1894,7 @@ html.no-scroll body {
     background: #F0F3F8;
     text-align: center;
     margin: 0;
-    padding: 5px 0;
+    padding: 10px 0;
     color: #000;
     font-size: 18px;
     font-weight: 600;
@@ -1917,10 +1919,10 @@ html.no-scroll body {
 
 .doctor-card__listing-title h5 {
     color: rgba(0, 0, 0, 0.80);
-    padding-bottom: 5px;
     font-size: 18px;
     font-weight: 600;
     width: 100%;
+    margin: 0;
 }
 
 .listing-container {
@@ -1934,7 +1936,7 @@ html.no-scroll body {
 .count-doctor-spec {
     color: #000;
     font-size: 14px;
-    margin: 0 0 8px 15px;
+    margin: 10px 0 8px 15px;
 }
 
 .doctor-card__listing__item h6 {
@@ -1950,7 +1952,7 @@ html.no-scroll body {
 .listing__container-body {
     border-radius: 0 0 13px 13px;
     background: #FFF;
-    padding-bottom: 15px;
+    padding: 0 20px 20px;
 }
 
 .listing-doctor-btn {
@@ -1998,12 +2000,7 @@ html.no-scroll body {
     margin: 15px 0;
 }
 
-.disable img {
-    width: 15px;
-    margin-right: 5px;
-}
-
-.disable {
+.disable-review {
     text-decoration-line: none;
     border-radius: 4px;
     border: 1px solid #C4C4C4;
@@ -2014,7 +2011,11 @@ html.no-scroll body {
     display: flex;
     align-items: center;
     flex-direction: row;
+}
 
+.disable-review img {
+    width: 15px;
+    margin-right: 5px;
 }
 
 /*.users__wrapper {
@@ -3127,10 +3128,6 @@ html.no-scroll body {
 
 .schedule__item img {
     width: 20px;
-}
-
-.schedule__item img {
-    width: 20px;
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -3144,10 +3141,8 @@ html.no-scroll body {
     opacity: 1!important;
 }
 
-
-
-.show-more-time {
-    width: 65px;
+.disable {
+    padding: 5px 18px;
     opacity: 0.5;
 }
 
@@ -3968,6 +3963,17 @@ html.no-scroll body {
     transform: translateX(50px);
 }
 
+.border-spec {
+    border-bottom: 1px solid #0000001A;
+    border-top: 1px solid #0000001A;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.price-clinic__footer {
+    margin-left: 10px;
+}
 
 .popup {
     position: absolute;

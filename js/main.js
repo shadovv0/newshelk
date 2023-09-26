@@ -73,13 +73,13 @@ $('.bot-menu-card').click(function (e) {
     e.preventDefault();
     if (window.innerWidth < 880) {
         if (!$('.bot-menu-visible').length) {
-
             $('body').addClass('bot-menu-visible');
             $('html').addClass('no-scroll');
+            $('.bot-menu-card').addClass('disable-bot-menu');
         } else {
-
             $('body').removeClass('bot-menu-visible');
             $('html').removeClass('no-scroll');
+            $('.bot-menu-card').removeClass('disable-bot-menu');
         }
     } else {
         $('body').click(function (e) {
@@ -446,11 +446,17 @@ $(".mob-review-swiper").owlCarousel({
 
 $(".license-clinic-swiper").owlCarousel({
     margin: 30,
-    marginLeft: 30,
-    items: 1,
     dots: true,
-    center: true,
     startPosition: 1,
+    center: true,
+    items: 3,
+    /*items:2,
+    loop:true,
+    responsive:{
+        600:{
+            items:2
+        }
+    }*/
 });
 
 $(".mob-swiper").owlCarousel({
@@ -484,6 +490,7 @@ $(".date-mob-swiper").owlCarousel({
     navText: ["<div class='date-arrow date-arrow-left'></div>", "<div class='date-arrow date-arrow-right'></div>"],
 });
 
+/*карточка клиники популярные услуги*/
 $(".services-clinic-swiper").owlCarousel({
     items: 3,
     nav: true,
@@ -491,13 +498,22 @@ $(".services-clinic-swiper").owlCarousel({
     navText: ["<div class='service-arrow service-arrow-left'></div>", "<div class='service-arrow service-arrow-right'></div>"],
 });
 
+/*карточка клиники */
+$(".clinic-additional-swiper").owlCarousel({
+    items: 3,
+    nav: true,
+    dots: false,
+    navText: ["<div class='clinic-additional-arrow clinic-additional-arrow-left'></div>", "<div class='clinic-additional-arrow clinic-additional-arrow-right'></div>"],
+});
+
+
 $('.time-spoiler-btn').on('click', function (e) {
     e.preventDefault();
 
     let parent = $(this).parents('.time-spoiler');
     parent.toggleClass('deployed');
 
-    let btn = $(this).children('.show-more-time');
+    let btn = $(this).children('.js-show-more-time');
     btn.toggleClass('active-time');
 });
 
@@ -528,11 +544,6 @@ $('.js-dropdown-item').on('click', function (e) {
     var target = parent.find(".js-dropdown-content[data-target='" + $(this).data('target') + "']");
     target.show();
 });
-
-
-/*let scrolldown = $('.js-scrolldown');
-let scrollup = $('.js-scrollup');
-let scrolling = $('.js-scrollable');*/
 
 $(".appointment-date").each(function () {
     var scrollup = $(this).find(".js-scrollup");

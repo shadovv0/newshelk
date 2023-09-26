@@ -236,11 +236,11 @@
 
 .owl-carousel .date-arrow-left{
     background: url("../images/left-page.png") no-repeat scroll 0 0;
-    left: -7px;
+    left: 10px;
 }
 .owl-carousel .date-arrow-right{
     background: url("../images/right-page.png") no-repeat scroll 0px 0px;
-    right: -7px;
+    right: 10px;
 }
 
 .owl-carousel .date-arrow{
@@ -248,17 +248,18 @@
     position: absolute;
     width: 48px;
     cursor: pointer;
-    top: -3% !important;
+    top: 0% !important;
 }
 
+/*карточка клиники популярные услуги*/
 
 .owl-carousel .service-arrow-left{
     background: url("../images/left-page.png") no-repeat scroll 0 0;
-    left: -10px;
+    left: -27px;
 }
 .owl-carousel .service-arrow-right{
-    background: url("../images/service-arr.png") no-repeat scroll 0px 0px;
-    right: -7px;
+    background: url("../images/right-page.png") no-repeat scroll 0px 0px;
+    right: -27px;
 }
 
 .owl-carousel .service-arrow{
@@ -266,8 +267,29 @@
     position: absolute;
     width: 48px;
     cursor: pointer;
-    top: 17% !important;
+    top: 6% !important;
 }
+
+/*карточка клиники*/
+
+.owl-carousel .clinic-additional-arrow-left{
+    background: url("../images/left-page.png") no-repeat scroll 0 0;
+    left: -15px;
+}
+.owl-carousel .clinic-additional-arrow-right{
+    background: url("../images/right-page.png") no-repeat scroll 0px 0px;
+    right: -15px;
+}
+
+.owl-carousel .clinic-additional-arrow{
+    height: 47px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer;
+    top: 19% !important;
+}
+
+
 
 .owl-carousel .photo-mob-arrow-left{
     background: url("../images/left-page.png") no-repeat scroll 0 0;
@@ -345,4 +367,9 @@
     width: 38px;
     cursor: pointer;
     top: 1% !important;
+}
+
+.owl-carousel .license-clinic-swiper {
+    width: calc(100% - 60px);
+    overflow: hidden;
 }

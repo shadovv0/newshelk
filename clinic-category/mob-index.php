@@ -116,7 +116,7 @@
                     <img src="/images/timer_24px.png">
                     Закроется через час
                 </div>
-                <div class="clinic-card__metro">
+                <div class="clinic-card__metros">
                     <div class="clinic-card__metro-near first-metro">
                         <span></span>
                         Текстильщики (338м)
@@ -194,7 +194,7 @@
                     <img src="/images/timer_24px.png">
                     Закроется через час
                 </div>
-                <div class="clinic-card__metro">
+                <div class="clinic-card__metros">
                     <div class="clinic-card__metro-near first-metro">
                         <span></span>
                         Текстильщики (338м)
@@ -272,7 +272,7 @@
                     <img src="/images/timer_24px.png">
                     Закроется через час
                 </div>
-                <div class="clinic-card__metro">
+                <div class="clinic-card__metros">
                     <div class="clinic-card__metro-near first-metro">
                         <span></span>
                         Текстильщики (338м)

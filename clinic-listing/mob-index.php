@@ -45,6 +45,12 @@
                 </form>
             </div>
         </div>
+        <div class="close-map">
+            <div class="open-map">
+                <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5dd762e7d250aab41eaecfb420f47dab93c87cfd617a6bea144834bec715484d&amp;width=400&amp;height=735&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
     </div>
 </header>
 <div class="content">
@@ -107,7 +113,7 @@
                     <img src="/images/timer_24px.png">
                     Закроется через час
                 </div>
-                <div class="clinic-card__metro">
+                <div class="clinic-card__metros">
                     <div class="clinic-card__metro-near first-metro">
                         <span></span>
                         Текстильщики (338м)
@@ -204,7 +210,7 @@
                                 <a href="#">(499) 123-45-67</a>
                             </div>
                         </div>
-                        <div class="clinic-card__metro">
+                        <div class="clinic-card__metros">
                             <div class="clinic-card__metro-near first-metro">
                                 <span></span>
                                 Текстильщики (338м)
@@ -380,7 +386,7 @@
                     <img src="/images/timer_24px.png">
                     Закроется через час
                 </div>
-                <div class="clinic-card__metro">
+                <div class="clinic-card__metros">
                     <div class="clinic-card__metro-near first-metro">
                         <span></span>
                         Текстильщики (338м)
