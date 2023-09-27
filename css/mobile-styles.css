@@ -21,7 +21,6 @@ html, body, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, hr, img, a, em, s
 
 body {
     background: rgba(242, 240, 240, 0.50) !important;
-    /*background:  #0d7db6 !important;*/
 }
 
 html, body {
@@ -722,6 +721,10 @@ html.no-scroll body {
     font-size: 12px;
 }
 
+.popular-doctor__category-experience span {
+    display: flex;
+    align-items: flex-start;
+}
 
 .other-clinics__photos {
     margin-right: 15px;
@@ -837,6 +840,7 @@ html.no-scroll body {
 .other-clinics__clinic-metro {
     color: rgba(0, 0, 0, 0.30);
     font-size: 14px;
+    text-align: start;
 }
 
 .other-clinics__star img {
@@ -965,6 +969,7 @@ html.no-scroll body {
 
 .sort__filter-item {
     border-bottom: 1px solid #00000019;
+    padding: 5px 0;
 }
 
 .sort__filter-item a {
@@ -1096,6 +1101,31 @@ html.no-scroll body {
     margin: 0;
     padding: 0;
     display: flex;
+    position: relative;
+}
+
+
+
+.clinic-additional ul:before {
+    content: "";
+    background: linear-gradient(90deg, #ffffff, transparent);
+    top: 1px;
+    left: -2px;
+    bottom: 32px;
+    right: 290px;
+    position: absolute;
+    z-index: 0;
+}
+
+.clinic-additional ul:after {
+    content: "";
+    background: linear-gradient(270deg, #ffffff, transparent);
+    top: 2px;
+    left: 292px;
+    bottom: 32px;
+    right: -1px;
+    position: absolute;
+    z-index: 0;
 }
 
 .clinic-additional li {
@@ -1535,12 +1565,37 @@ html.no-scroll body {
     width: 40px;
 }
 
-.mob-map img {
-    max-width: 373px;
+.clinic-card__popup-with-map {
+    max-width: 350px;
     width: 100%;
-    margin-top: 15px;
-    cursor: pointer;
+    height: 112px;
 }
+
+.clinic-card__back-map {
+    height: 100%;
+    background: #000;
+}
+
+.clinic-card__back-map img {
+    opacity: 0.5;
+    position: absolute;
+    height: 114px;
+}
+
+.popup__map {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.clinic-card__popup-map {
+    cursor: pointer;
+    position: relative;
+    right: -70px;
+    top: -66px;
+}
+
 
 .bot-menu-visible .bot-menu {
     display: block;
@@ -2589,6 +2644,7 @@ html.no-scroll body {
     font-size: 14px;
     border-bottom: 1px solid #0000001A;
     margin: 15px 20px;
+    padding: 15px 0;
 }
 
 .disease__review-card__name-patient span {

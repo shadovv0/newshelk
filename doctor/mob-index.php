@@ -1614,9 +1614,9 @@
                                         Гинеколог • акушер врач УЗИ
                                     </div>
                                     <div class="popular-doctor__category-experience">
-                                        Врач высшей категории,<br>
-                                        Кандидат медицинских наук.<br>
-                                        Стаж 12 лет.
+                                        <span>Врач высшей категории,</span>
+                                        <span>Кандидат медицинских наук.</span>
+                                        <span>Стаж 12 лет.</span>
                                     </div>
                                 </div>
                             </div>
@@ -1657,9 +1657,9 @@
                                         Гинеколог • акушер врач УЗИ
                                     </div>
                                     <div class="popular-doctor__category-experience">
-                                        Врач высшей категории,<br>
-                                        Кандидат медицинских наук.<br>
-                                        Стаж 12 лет.
+                                        <span>Врач высшей категории,</span>
+                                        <span>Кандидат медицинских наук.</span>
+                                        <span>Стаж 12 лет.</span>
                                     </div>
                                 </div>
                             </div>
@@ -1700,9 +1700,9 @@
                                         Гинеколог • акушер врач УЗИ
                                     </div>
                                     <div class="popular-doctor__category-experience">
-                                        Врач высшей категории,<br>
-                                        Кандидат медицинских наук.<br>
-                                        Стаж 12 лет.
+                                        <span>Врач высшей категории,</span>
+                                        <span>Кандидат медицинских наук.</span>
+                                        <span>Стаж 12 лет.</span>
                                     </div>
                                 </div>
                             </div>
@@ -1745,9 +1745,9 @@
                                         Гинеколог • акушер врач УЗИ
                                     </div>
                                     <div class="popular-doctor__category-experience">
-                                        Врач высшей категории,<br>
-                                        Кандидат медицинских наук.<br>
-                                        Стаж 12 лет.
+                                        <span>Врач высшей категории,</span>
+                                        <span>Кандидат медицинских наук.</span>
+                                        <span>Стаж 12 лет.</span>
                                     </div>
                                 </div>
                             </div>
@@ -1759,8 +1759,11 @@
 
         <div class="breadcrumbs">
             <a href="#">Главная</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Москва</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Врачи</a>
+            <img src="/images/bread-dot.png">
             <a href="#">Гинекологи</a>
             <p>Манохина Дарья Дмитриевна</p>
         </div>

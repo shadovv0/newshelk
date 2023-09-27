@@ -140,7 +140,7 @@ $('.menu-map').on('click', function (e) {
 });
 
 
-$('.mob-map').on('click', function (e) {
+$('.clinic-card__popup-map').on('click', function (e) {
     if (!$('.open-clinic-map').length) {
         $('.clinics-map').addClass('open-clinic-map');
         $('.close-clinic-map')[0].style.display = 'block';
@@ -450,13 +450,27 @@ $(".license-clinic-swiper").owlCarousel({
     startPosition: 1,
     center: true,
     items: 3,
-    /*items:2,
+});
+
+$(".photo-clinic-swiper").owlCarousel({
+    startPosition: 1,
+    center: true,
+    items: 3,
+    stagePadding: 70,
     loop:true,
+    margin:10,
+    dots: true,
     responsive:{
+        0:{
+            items:1
+        },
         600:{
-            items:2
+            items:3
+        },
+        1000:{
+            items:5
         }
-    }*/
+    }
 });
 
 $(".mob-swiper").owlCarousel({

@@ -148,9 +148,17 @@
                     </div>
                 </div>
             </div>
-            <a class="mob-map">
-                <img src="/images/mob-map.png">
-            </a>
+            <div class="clinic-card__popup-with-map">
+                <div class="clinic-card__back-map">
+                    <img src="/images/mob-map.png">
+                </div>
+                <div class="clinic-card__popup-map">
+                    <img src="/images/white-geo.png">
+                    <a class="popup__map">
+                        Как проехать к клинике
+                    </a>
+                </div>
+            </div>
             <div class="close-clinic-map">
                 <div class="clinics-map">
                     <script type="text/javascript" charset="utf-8" async
@@ -1948,7 +1956,7 @@
             </div>
             <h3 class="photo-clinic__title">Фотографии клиники</h3>
             <div id="photo-clinic" class="photo-clinic__container">
-                <div class="owl-carousel license-clinic-swiper owl-theme">
+                <div class="owl-carousel photo-clinic-swiper owl-theme">
                     <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
                         <img src="/images/photo-clinic-1.png" alt="photo">
                     </a>
@@ -1960,14 +1968,14 @@
                     </a>
                 </div>
             </div>
-            <h3 class="video-clinic__title">Видео обзор клиники</h3>
+            <!--<h3 class="video-clinic__title">Видео обзор клиники</h3>
             <div id="video-clinic" class="video-clinic__container">
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/K5LhfmEgFuM"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                 </iframe>
-            </div>
+            </div>-->
         </div>
 
         <div class="other-clinic__container">

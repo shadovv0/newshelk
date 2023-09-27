@@ -255,17 +255,17 @@
 
 .owl-carousel .service-arrow-left{
     background: url("../images/left-page.png") no-repeat scroll 0 0;
-    left: -27px;
+    left: -33px;
 }
 .owl-carousel .service-arrow-right{
     background: url("../images/right-page.png") no-repeat scroll 0px 0px;
-    right: -27px;
+    right: -14px;
 }
 
 .owl-carousel .service-arrow{
-    height: 47px;
+    height: 38px;
     position: absolute;
-    width: 48px;
+    width: 32px;
     cursor: pointer;
     top: 6% !important;
 }

@@ -174,9 +174,9 @@
         </div>
 
         <div class="disease__popular-doctor">
-            <div class="owl-carousel mob-swiper owl-theme">
-                <div class="popular-doctor__doctors">
-                    <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
+            <div class="popular-doctor__doctors">
+                <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
+                <div class="owl-carousel mob-swiper owl-theme">
                     <div class="popular-doctor__container">
                         <div class="popular-doctor__doctor-card">
                             <div class="popular-doctor__head">
@@ -203,16 +203,13 @@
                             </div>
                             <div class="popular-doctor__body">
                                 <div class="popular-doctor__category-experience">
-                                    Врач высшей категории,<br>
-                                    Кандидат медицинских наук.<br>
-                                    Стаж 12 лет.
+                                    <span>Врач высшей категории,</span>
+                                    <span>Кандидат медицинских наук.</span>
+                                    <span>Стаж 12 лет.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="popular-doctor__doctors">
-                    <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
                     <div class="popular-doctor__container">
                         <div class="popular-doctor__doctor-card">
                             <div class="popular-doctor__head">
@@ -239,16 +236,13 @@
                             </div>
                             <div class="popular-doctor__body">
                                 <div class="popular-doctor__category-experience">
-                                    Врач высшей категории,<br>
-                                    Кандидат медицинских наук.<br>
-                                    Стаж 12 лет.
+                                    <span>Врач высшей категории,</span>
+                                    <span>Кандидат медицинских наук.</span>
+                                    <span>Стаж 12 лет.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="popular-doctor__doctors">
-                    <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
                     <div class="popular-doctor__container">
                         <div class="popular-doctor__doctor-card">
                             <div class="popular-doctor__head">
@@ -275,16 +269,13 @@
                             </div>
                             <div class="popular-doctor__body">
                                 <div class="popular-doctor__category-experience">
-                                    Врач высшей категории,<br>
-                                    Кандидат медицинских наук.<br>
-                                    Стаж 12 лет.
+                                    <span>Врач высшей категории,</span>
+                                    <span>Кандидат медицинских наук.</span>
+                                    <span>Стаж 12 лет.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="popular-doctor__doctors">
-                    <h4 class="popular-doctor__title">Популярные врачи лечащие гайморит</h4>
                     <div class="popular-doctor__container">
                         <div class="popular-doctor__doctor-card">
                             <div class="popular-doctor__head">
@@ -311,9 +302,9 @@
                             </div>
                             <div class="popular-doctor__body">
                                 <div class="popular-doctor__category-experience">
-                                    Врач высшей категории,<br>
-                                    Кандидат медицинских наук.<br>
-                                    Стаж 12 лет.
+                                    <span>Врач высшей категории,</span>
+                                    <span>Кандидат медицинских наук.</span>
+                                    <span>Стаж 12 лет.</span>
                                 </div>
                             </div>
                         </div>
