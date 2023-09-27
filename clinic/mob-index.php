@@ -162,8 +162,7 @@
             <div class="close-clinic-map">
                 <div class="clinics-map">
                     <script type="text/javascript" charset="utf-8" async
-                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5dd762e7d250aab41eaecfb420f47dab93c87cfd617a6bea144834bec715484d&amp;width=400&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
-                    <button class="js-close-form close-form"><img src="../images/close.png"></button>
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5dd762e7d250aab41eaecfb420f47dab93c87cfd617a6bea144834bec715484d&amp;width=380&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
             </div>
             <div class="clinic-additional">
