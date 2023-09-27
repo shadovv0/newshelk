@@ -287,6 +287,7 @@
     width: 48px;
     cursor: pointer;
     top: 19% !important;
+    z-index: 10;
 }
 
 
