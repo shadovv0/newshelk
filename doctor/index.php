@@ -5,17 +5,24 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    < <!-- jquery -->
     <script src="../js/jquery.js"></script>
+    <!-- маска на телефон -->
     <script src="../js/jquery.inputmask.js"></script>
+    <!-- фаил стилей -->
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <!-- фаил стилей к каждой карусели -->
     <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <!-- фаил общих стилей карусели -->
     <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="../files/air-datepicker.css">
+    <!-- бутстрап -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- бутстрап -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
+    <!-- фансибокс для картинок -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
 </head>
 <body>
@@ -1563,10 +1570,15 @@
     <a class="pp-close" href="#"></a>
     <div class="pp-title">Что-то пошло не так, попробуйте еще раз.</div>
 </div>
+<!--фансибокс -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<!--фансибокс -->
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!--Главный фаил со скриптами карусели -->
 <script src="../js/owl.carousel.min.js"></script>
+<!--Главный фаил со скриптами -->
 <script src="../js/main.js"></script>
+<!--Скрипт для модалок -->
 <script src="../js/form.js"></script>
 </body>
 </html>

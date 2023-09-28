@@ -152,20 +152,6 @@ $('.clinic-card__popup-map').on('click', function (e) {
     }
 });
 
-jQuery(function($){
-    $(document).mouseup( function(e){
-        var div = $( ".open-clinic-map" );
-        if ( !div.is(e.target)
-            && div.has(e.target).length === 0 ) {
-            div.hide();
-            $('.clinics-map').removeClass('open-clinic-map');
-            $('.close-clinic-map')[0].style.display = 'none';
-            $('html').removeClass('no-scroll');
-        }
-    });
-});
-
-
 function showRecordForm() {
     $('body').addClass('show-record-form');
     document.getElementsByTagName("body")[0].style.overflow = 'hidden';
@@ -253,11 +239,9 @@ $('.js-more-reviews').on('click', function (e) {
 
 });
 
-
 /*$(document).ready(function () {
     $('input[name="phone"]').inputmask("+7(999)-999-99-99");
 });*/
-
 
 $('.js-show-more-doctors').on('click', function (e) {
     e.preventDefault();

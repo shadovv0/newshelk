@@ -5,14 +5,18 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- jquery -->
     <script src="../js/jquery.js"></script>
-    <script src="../js/jquery.inputmask.js"></script>
+    <!-- фаил стилей -->
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <!-- фаил стилей к каждой карусели -->
     <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    <!-- фаил общих стилей карусели -->
     <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="/files/air-datepicker.css"/>
+    <!-- бутстрап -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- бутстрап -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
@@ -905,7 +909,7 @@
 
                 </div>
                 <div class="doctor-card__right">
-                    <div class="doctor-card__record-clinic-other">
+                    <div class="doctor-card__record-clinic-static">
                         Клиника в Текстильщиках
                     </div>
                     <div class="doctor-card__geo-disabled">
@@ -916,7 +920,14 @@
                                 Текстильщики (338м)
                             </li>
                         </ul>
+                        <div class="doctor-card__clinics-phone">
+                            <img src="/images/phone_24px.png">
+                            <a href="#">(499) 123-45-67</a>
+                        </div>
                     </div>
+                    <a class="search__btn js-record">
+                        Записаться на приём
+                    </a>
                 </div>
             </div>
 
@@ -968,14 +979,16 @@
                         <div data-fold-content class="doctor-card__geo">
                             <p>ул. Люблинская, д. 9 к. 1</p>
                             <ul>
-                                <li class="doctor-card__metro">
-                                    <img src="/images/Ellipse%2027.png">
+                                <li class="doctor-card__metro-disabled first-metro">
+                                    <span></span>
                                     Текстильщики (338м)
                                 </li>
-                                <li class="doctor-card__metro"><img src="/images/Ellipse%2028.png">
+                                <li class="doctor-card__metro-disabled second-metro">
+                                    <span></span>
                                     Печатники (2,1км)
                                 </li>
-                                <li class="doctor-card__metro"><img src="/images/Ellipse%2029.png">
+                                <li class="doctor-card__metro-disabled third-metro">
+                                    <span></span>
                                     Стахановская (2,2км)
                                 </li>
                             </ul>
@@ -1602,7 +1615,67 @@
         </div>
     </div>
 </footer>
+
+<!--Главный фаил со скриптами карусели -->
 <script src="../js/owl.carousel.min.js"></script>
+<!--Главный фаил со скриптами -->
 <script src="../js/main.js"></script>
+
+
+<div class="overlay"></div>
+<div class="js-record-form record-form popup" data-closehint="1">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Запись на прием в клинику</div>
+        <div class="clear border-bot">
+            <div class="pp-img-clinic"><img src="/images/2446b978c4aefcffe849bb27b5593f28.jpg" alt="pic">
+            </div>
+            <div class="pp-clinic-name">
+                <div class="h4">МедЦентрСервис в Отрадном</div>
+                <ul class="clinic-address">
+                    <li class="address">
+                        <img src="/images/review-geo.png"/>
+                        Москва, Пестеля д. 11
+                    </li>
+                    <li class="metro">
+                        <img src="/images/region.png"/>
+                        Отрадное<span>(780 м)</span>
+                    </li>
+                    <li class="region">
+                        <img src="/images/region.png"/>
+                        СВАО (Отрадное)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form method="post" class="js-form">
+            <input type="hidden" name="record_type" value="clinic">
+            <input type="hidden" name="clinic" value="15757">
+            <ul class="input-col clear">
+                <li class="left"><input required="" class="input-text" type="text" name="name"
+                                        placeholder="Введите Ваше имя"></li>
+                <li class="right"><input required="" class="input-text input-phone" name="phone" type="tel"
+                                         placeholder="__ (___) ___-__-__"></li>
+            </ul>
+            <input type="text" name="comment" class="input-text" placeholder="Введите комментарий">
+            <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
+                подтверждения записи.
+            </div>
+            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/ajax/record/">Записаться
+            </button>
+            <div class="center">
+                <p>Для записи в клинику Вы также можете позвонить по телефону</p>
+                <a class="phone-link" href="tel:+74951518866">+7 (495) 151-88-66</a>
+            </div>
+            <div class="center">
+                Нажимая «Записаться», я принимаю
+                <a href="/user-agreement.pdf" class="user-agreement" target="_blank">условия пользовательского
+                    соглашения</a>
+                и даю свое согласие на обработку персональных данных.
+            </div>
+        </form>
+        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+    </div>
+</div>
 </body>
 </html>

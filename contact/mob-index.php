@@ -5,14 +5,17 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- jquery -->
     <script src="../js/jquery.js"></script>
+    <!-- фаил стилей -->
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
+    <!-- бутстрап -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- бутстрап -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-git.min.js"></script>
 </head>
 <body>
 <header>
@@ -40,6 +43,12 @@
                            placeholder="Врачи, клиники, услуги, заболевания, симптомы" name="q" value=""/>
                     <img src="/images/search-btn.png">
                 </form>
+            </div>
+        </div>
+        <div class="close-map">
+            <div class="open-map">
+                <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5dd762e7d250aab41eaecfb420f47dab93c87cfd617a6bea144834bec715484d&amp;width=400&amp;height=735&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </div>
     </div>
@@ -208,7 +217,9 @@
         </div>
     </div>
 </footer>
-<script src="../js/app.js"></script>
+<!--Главный фаил со скриптами -->
 <script src="../js/main.js"></script>
+<!--Скрипты -->
+<script src="../js/app.js"></script>
 </body>
 </html>

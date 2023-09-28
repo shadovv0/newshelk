@@ -5,10 +5,14 @@
     <title>Щелковская/Главная</title>
     <meta name="description" content="Описание страницы"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- jquery -->
     <script src="../js/jquery.js"></script>
+    <!-- фаил стилей -->
     <link rel="stylesheet" type="text/css" href="/css/mobile-styles.css"/>
+    <!-- бутстрап -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- бутстрап -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"></script>
@@ -326,6 +330,7 @@
         </div>
     </div>
 </footer>
+<!--Главный фаил со скриптами -->
 <script src="../js/main.js"></script>
 </body>
 </html>

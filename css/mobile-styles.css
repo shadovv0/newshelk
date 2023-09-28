@@ -3030,7 +3030,7 @@ html.no-scroll body {
 
 .doctor-card__doctor-category {
     border-radius: 4px;
-    padding: 1px 3px;
+    padding: 1px 8px;
     background: rgba(205, 189, 47, 0.29);
 }
 
@@ -3043,7 +3043,7 @@ html.no-scroll body {
 
 .doctor-card__doctor-degree {
     border-radius: 4px;
-    padding: 1px 3px;
+    padding: 1px 8px;
     background: rgba(102, 189, 122, 0.40);
 }
 
