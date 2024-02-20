@@ -233,72 +233,76 @@
                                     <p>Сегодня</p>
                                 </div>
                                 <div class="doctor-card__schedule schedule">
-                                    <div class="time-spoiler">
-                                        <div class="doctor-card__time">
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio show-more-time time-spoiler-btn">
-                                                <label class="radio__label show-more-time disable js-show-more-time">
-                                                    <input type="radio" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    <img src="/images/bot-page.png">
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -308,72 +312,76 @@
                                     <p>Сегодня</p>
                                 </div>
                                 <div class="doctor-card__schedule schedule">
-                                    <div class="time-spoiler">
-                                        <div class="doctor-card__time">
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio show-more-time time-spoiler-btn">
-                                                <label class="radio__label show-more-time disable js-show-more-time">
-                                                    <input type="radio" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    <img src="/images/bot-page.png">
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -383,72 +391,76 @@
                                     <p>Сегодня</p>
                                 </div>
                                 <div class="doctor-card__schedule schedule">
-                                    <div class="time-spoiler">
-                                        <div class="doctor-card__time">
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio show-more-time time-spoiler-btn">
-                                                <label class="radio__label show-more-time disable js-show-more-time">
-                                                    <input type="radio" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    <img src="/images/bot-page.png">
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="09:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    09:30
-                                                </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label"><input type="radio" value="10:00"
-                                                                                   name="time-appointment"
-                                                                                   class="radio__input"/> 10:00 </label>
-                                            </div>
-                                            <div class="schedule__item radio">
-                                                <label class="radio__label">
-                                                    <input type="radio" value="10:30" name="time-appointment"
-                                                           class="radio__input"/>
-                                                    10:30
-                                                </label>
-                                            </div>
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio" data-doctor-id="2" data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

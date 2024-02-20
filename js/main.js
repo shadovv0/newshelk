@@ -152,12 +152,10 @@ $('.clinic-card__popup-map').on('click', function (e) {
     }
 });
 
-let lastOpenedForm = '';
 
 function showRecordForm() {
     $('body').addClass('show-record-form');
     document.getElementsByTagName("body")[0].style.overflow = 'hidden';
-    lastOpenedForm = 'record';
 }
 
 function hideForm() {
@@ -167,32 +165,24 @@ function hideForm() {
 
 $('.js-close-form').on('click', function (e) {
     e.preventDefault();
-    $('body').addClass('show-close-form');
+    $('body').addClass('show-close-form').removeClass('show-record-form');
     document.getElementsByTagName("body")[0].style.overflow = 'hidden';
-    lastOpenedForm = 'close';
 });
 
 $('.js-close-hint, .btn-emo').on('click', function (e) {
     e.preventDefault();
-    $('body').removeClass('show-close-form show-record-form show-review-form');
+    $('body').removeClass('show-close-form show-record-form');
     document.getElementsByTagName("body")[0].style.overflow = 'scroll';
-    lastOpenedForm = '';
 });
 
 $('.js-pp-get-back').on('click', function() {
-    if (lastOpenedForm === 'record') {
-        showRecordForm();
-        $('body').removeClass('show-close-form');
-    } else {
-        showReviewForm();
-        $('body').removeClass('show-close-form');
-    }
+    showRecordForm();
+    $('body').removeClass('show-close-form');
 });
 
 function showReviewForm() {
     $('body').addClass('show-review-form');
     document.getElementsByTagName("body")[0].style.overflow = 'hidden';
-    lastOpenedForm = 'review';
 }
 
 function hideReviewForm() {
@@ -200,8 +190,7 @@ function hideReviewForm() {
     document.getElementsByTagName("body")[0].style.overflow = 'scroll';
 }
 
-$('.js-close-form, .overlay').on('click', function (e) {
-    hideForm();
+$('.js-close-review-form, .overlay').on('click', function (e) {
     hideReviewForm();
 });
 

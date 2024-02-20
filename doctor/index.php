@@ -1585,7 +1585,7 @@
             <button disabled class="js-submit-btn btn-disabled button" data-request="/ajax/review/">Отправить отзыв
             </button>
         </form>
-        <button class="js-close-form close-form"><img src="../images/close.png"></button>
+        <button class="js-close-review-form close-form"><img src="../images/close.png"></button>
     </div>
 </div>
 <div class="popup pp-info">
