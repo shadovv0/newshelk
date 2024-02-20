@@ -152,9 +152,12 @@ $('.clinic-card__popup-map').on('click', function (e) {
     }
 });
 
+let lastOpenedForm = '';
+
 function showRecordForm() {
     $('body').addClass('show-record-form');
     document.getElementsByTagName("body")[0].style.overflow = 'hidden';
+    lastOpenedForm = 'record';
 }
 
 function hideForm() {
@@ -162,18 +165,59 @@ function hideForm() {
     document.getElementsByTagName("body")[0].style.overflow = 'scroll';
 }
 
+$('.js-close-form').on('click', function (e) {
+    e.preventDefault();
+    $('body').addClass('show-close-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'hidden';
+    lastOpenedForm = 'close';
+});
+
+$('.js-close-hint, .btn-emo').on('click', function (e) {
+    e.preventDefault();
+    $('body').removeClass('show-close-form show-record-form show-review-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'scroll';
+    lastOpenedForm = '';
+});
+
+$('.js-pp-get-back').on('click', function() {
+    if (lastOpenedForm === 'record') {
+        showRecordForm();
+        $('body').removeClass('show-close-form');
+    } else {
+        showReviewForm();
+        $('body').removeClass('show-close-form');
+    }
+});
+
+function showReviewForm() {
+    $('body').addClass('show-review-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'hidden';
+    lastOpenedForm = 'review';
+}
+
+function hideReviewForm() {
+    $('body').removeClass('show-review-form');
+    document.getElementsByTagName("body")[0].style.overflow = 'scroll';
+}
+
+$('.js-close-form, .overlay').on('click', function (e) {
+    hideForm();
+    hideReviewForm();
+});
+
+
 $('.js-record').on('click', function (e) {
     e.preventDefault();
 
     showRecordForm();
 
-    var clinicId = $(this).data('clinic');
+   /* var clinicId = $(this).data('clinic');
     var doctorId = $(this).data('doctor');
 
     var params = {clinic: clinicId, doctor: doctorId};
     var hiddenInput = $('.js-record-form input[name="params"]');
 
-    hiddenInput.val(JSON.stringify(params));
+    hiddenInput.val(JSON.stringify(params));*/
 
 });
 
@@ -183,7 +227,7 @@ $('.js-record-submit').on('click', function (e) {
     var form = $('.js-record-form form');
 
     $.ajax({
-        url: '/record',
+        url: '/record.php',
         method: 'POST',
         data: form.serialize(),
         success: function (data) {
@@ -193,6 +237,109 @@ $('.js-record-submit').on('click', function (e) {
     });
 
 });
+
+/*
+$(document).on('click', '.js-submit-btn', function (e) {
+    e.preventDefault(e);
+    var form = $(this).parent('.js-form');
+    var url = '';
+    if ($(this).data('request')) {
+        url = $(this).data('request');
+    }
+
+    var success;
+    if (url == '') {
+        success = function (data) {
+            popupInfo('Ваш отзыв принят к рассмотрению');
+        };
+    } else {
+        success = function (data) {
+            data = JSON.parse(data);
+
+            if(typeof data.action !="undefined")
+            {
+                if(data.action == "preOrder")
+                {
+                    //открыть поле для смс
+                    $(".sms-validate").css("display","block");
+                    //заполнить поле requestId
+                    $("[name='requestId']").val( data.requestId );
+
+                }
+                if(data.action == "smsNotValid")
+                {
+                    //открыть поле для смс
+                    $(".sms-validate").val("");
+                    $(".sms-validate-error").css("display","block");
+                    //заполнить поле requestId
+                    //$("[name='requestId']").val( data.requestId );
+
+                }
+                if(data.action == "orderDone"){
+                    popupInfo(data.message);
+                }
+            }
+            else{
+                popupInfo(data.message);
+            }
+        }
+    }
+
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: form.serialize(),
+        success: function (data) {
+            success(data);
+        },
+    });
+})
+
+$('.js-submit-btn').on('click', function (e) {
+    e.preventDefault(e);
+    var form = $(this).parent('.js-form');
+    var url = '';
+    if ($(this).data('request')) {
+        url = $(this).data('request');
+    }
+
+    var success;
+    if (url == '') {
+        success = function (data) {
+            popupInfo('Ваш отзыв принят к рассмотрению');
+        };
+    } else {
+        success = function (data) {
+            data = JSON.parse(data);
+            popupInfo(data.message);
+        }
+    }
+
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: form.serialize(),
+        success: function (data) {
+            success(data);
+        },
+    });
+})*/
+
+$('body').on('input', '.js-form input', function (e) {
+
+    var form = $(this).parents('.js-form');
+
+    var name = form.find('input[name=name]').val().length;
+    var phone = form.find('input[name=phone]').val().length;
+
+    if (name && phone) {
+        form.find('.js-submit-btn').removeClass('btn-disabled');
+        form.find('.js-submit-btn').attr('disabled', false);
+    } else {
+        form.find('.js-submit-btn').addClass('btn-disabled');
+        form.find('.js-submit-btn').attr('disabled', true);
+    }
+})
 
 $('.js-more-reviews').on('click', function (e) {
     e.preventDefault();
@@ -422,10 +569,19 @@ $(".main-swiper").owlCarousel({
 });
 
 $(".photo-swiper").owlCarousel({
-    items: 6,
+    startPosition: 1,
+    center: true,
+    stagePadding: 10,
     dots: true,
     nav: true,
     navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+    items:2,
+    margin:10,
+    responsive:{
+        600:{
+            items:4
+        }
+    }
 });
 
 $(".photo-mob-swiper").owlCarousel({
@@ -588,25 +744,10 @@ $('.search-form').on('submit', function (e) {
     }
 });
 
-function showReviewForm() {
-    $('body').addClass('show-review-form');
-    document.getElementsByTagName("body")[0].style.overflow = 'hidden';
-}
-
-function hideReviewForm() {
-    $('body').removeClass('show-review-form');
-    document.getElementsByTagName("body")[0].style.overflow = 'scroll';
-}
-
-$('.js-close-form, .overlay').on('click', function (e) {
+/*$('.button-escape, .overlay').on('click', function (e) {
     hideForm();
     hideReviewForm();
-});
-
-$('.button-escape, .overlay').on('click', function (e) {
-    hideForm();
-    hideReviewForm();
-});
+});*/
 
 /*$('.js-close-form, .overlay').on('click', function (e) {
     hideForm();
@@ -764,3 +905,48 @@ function initFoldElements() {
 initFoldElements();
 
 //?==============</Fold elements>=============
+
+const doctorsWorkSchedulesTimeContainers = document.querySelectorAll('.js-schedule-time-container');
+
+if (doctorsWorkSchedulesTimeContainers.length > 0) {
+    doctorsWorkSchedulesTimeContainers.forEach(container =>{
+        const elems = container.querySelectorAll('.schedule__item');
+        if (elems.length > 8) {
+            elems.forEach((t, index) => {
+                if (index < 7) {
+                    t.classList.add('schedule__item_active');
+                }
+            });
+            container.insertAdjacentHTML('beforeend', `<div class="col"><button class="schedule__time-btn schedule__time-btn_add"><i class="arrow-down-blue-ico"></i></button></div>`);
+        } else {
+            elems.forEach((t) => {
+                t.classList.add('schedule__item_active');
+            });
+        }
+
+        container.classList.add('schedule__time-container_active');
+    });
+
+    const timeBtnsAdd = document.querySelectorAll('.schedule__time-btn_add');
+    if (timeBtnsAdd) {
+        timeBtnsAdd.forEach(btn=>{
+            let scheduleTimes = btn.closest('.schedule__time-container').querySelectorAll('.schedule__item');
+
+            btn.addEventListener('click',()=>{
+                if(btn.classList.contains('schedule__time-btn_add_open')) {
+                    scheduleTimes.forEach((t,index)=>{
+                        if(index > 6) {
+                            t.classList.remove('schedule__item_active');
+                        }
+                    });
+                    btn.classList.remove('schedule__time-btn_add_open');
+                } else {
+                    scheduleTimes.forEach(t=>{
+                        t.classList.add('schedule__item_active');
+                    });
+                    btn.classList.add('schedule__time-btn_add_open');
+                }
+            });
+        });
+    }
+}

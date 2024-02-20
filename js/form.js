@@ -1,3 +1,4 @@
+/*
 $(document).on('click', '.js-submit-btn', function (e) {
     e.preventDefault(e);
     var form = $(this).parent('.js-form');
@@ -126,4 +127,4 @@ function popupInfo(message) {
         top: $(window).scrollTop() + 30
     });
     popup.fadeIn(200);
-}
+}*/

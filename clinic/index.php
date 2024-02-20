@@ -3127,36 +3127,6 @@
                         <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
                             <img src="/images/license-clinic.png" alt="license"/>
                         </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
-                        <a class="photo-clinic" href="/images/license-clinic.png" data-fancybox="gallery">
-                            <img src="/images/license-clinic.png" alt="license"/>
-                        </a>
                     </div>
                 </section>
             </div>
@@ -3164,39 +3134,6 @@
             <div class="photo-clinic__container">
                 <section class="section-with-slider">
                     <div class="owl-carousel photo-swiper owl-theme">
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
-                        <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
-                            <img src="/images/photo-clinic-1.png" alt="photo">
-                        </a>
                         <a href="/images/photo-clinic-1.png" data-fancybox="gallery2">
                             <img src="/images/photo-clinic-1.png" alt="photo">
                         </a>
@@ -3826,7 +3763,7 @@
             <div class="pp-hint">После отправки данных с Вами свяжется оператор клиники для
                 подтверждения записи.
             </div>
-            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/ajax/record/">Записаться
+            <button disabled="" class="button btn-disabled js-submit-btn" data-request="/record.php">Записаться
             </button>
             <div class="center">
                 <p>Для записи в клинику Вы также можете позвонить по телефону</p>

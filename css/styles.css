@@ -4354,7 +4354,26 @@ ul.list::-webkit-scrollbar {
     opacity: 1!important;
 }
 
-.radio__label {
+.schedule__time-wrapper {
+    background: rgba(0, 0, 0, 0)
+}
+
+.schedule__time-container {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transition: opacity .3s
+}
+
+.schedule__time-container_active {
+    opacity: 1
+}
+
+.schedule__item {
+    display: none
+}
+
+.schedule__time-btn {
     margin: 6px;
     border-radius: 6px;
     background: #516FA6;
@@ -4376,6 +4395,30 @@ ul.list::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+}
+
+.schedule__time-btn_add {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+}
+
+.schedule__time-btn_add_open i {
+    transform: rotate(180deg)
+}
+
+.schedule__item_active {
+    display: flex
+}
+
+.arrow-down-blue-ico {
+    background: url("/images/bot-page.png") center center/contain no-repeat;
+    width: 1.125rem;
+    height: 1.125rem;
+    display: inline-block;
+    flex-shrink: 0
 }
 
 .listing-container {
@@ -5183,23 +5226,6 @@ ul.list::-webkit-scrollbar {
     }
 }
 
-
-
-.time-spoiler-btn {
-    text-align: center;
-    cursor: pointer;
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.50);
-    font-size: 14px;
-}
-
-.time-spoiler {
-    height: 40px;
-    overflow: hidden;
-    transition: all 1s;
-    position: relative;
-}
-
 .main-spoiler {
     height: 200px;
     overflow: hidden;
@@ -5376,6 +5402,17 @@ ul.list::-webkit-scrollbar {
     margin: 23px auto 19px;
 }
 
+.popup {
+    position: absolute;
+    width: 650px;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 999;
+    top: 100px;
+    left: 100px;
+    display: none;
+}
+
 .btn-disabled {
     background: gray!important;
 }
@@ -5409,7 +5446,7 @@ ul.list::-webkit-scrollbar {
     left: 0
 }
 
-.record-form, .review-form, .overlay {
+.record-form, .review-form, .pp-close-hint, .overlay {
     display: none;
 }
 
@@ -5434,6 +5471,37 @@ ul.list::-webkit-scrollbar {
     z-index: 100;
 }
 
+.show-close-form .overlay {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    z-index: 100;
+}
+
+.show-close-form .pp-close-hint {
+    display: block;
+    position: fixed;
+    left: 269.5px;
+    top: 100px;
+    padding: 30px;
+    z-index: 200;
+    width: 650px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.btn-emo {
+    background: #ccc!important;
+}
+
+.btns-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 .show-review-form .review-form {
     display: block;
@@ -5461,7 +5529,13 @@ ul.list::-webkit-scrollbar {
     border-radius: 4px;
 }
 
-
+.pp-close-hint .close-form {
+    position: absolute;
+    top: -35px;
+    right: -30px;
+    font-size: 21px;
+    cursor: pointer;
+}
 
 .review-form .close-form {
     position: absolute;
