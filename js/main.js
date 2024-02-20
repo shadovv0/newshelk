@@ -716,14 +716,25 @@ $(".appointment-date").each(function () {
 
 });
 
-const dateRelink = document.querySelectorAll('.relink-date')
+const dateRelink = document.querySelectorAll('.js-date-relink');
+const appointmentSchedules = document.querySelectorAll('.js-appointment-schedule');
+
 dateRelink.forEach(item => {
     item.addEventListener('click', (e) => {
         dateRelink.forEach(el => {
             el.classList.remove('active-date');
         });
-        item.classList.add('active-date')
-    })
+        item.classList.add('active-date');
+
+        const selectedDay = item.getAttribute('data-day');
+        appointmentSchedules.forEach(schedule => {
+            if (schedule.getAttribute('data-day') === selectedDay) {
+                schedule.style.display = 'block';
+            } else {
+                schedule.style.display = 'none';
+            }
+        });
+    });
 });
 
 

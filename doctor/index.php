@@ -230,41 +230,293 @@
                                         <a class="date-scrolldown js-scrolldown"><img src="/images/bot-arrow.png"></a>
                                     </div>
                                     <ul class="list js-scrollable">
-                                        <li><a class="relink-date active-date">Понедельник 21.03.</a></li>
-                                        <li><a class="relink-date">Вторник 22.03</a></li>
-                                        <li><a class="relink-date">Среда 23.03.</a></li>
-                                        <li><a class="relink-date">Четверг 24.03.</a></li>
-                                        <li><a class="relink-date">Понедельник 28.03.</a></li>
-                                        <li><a class="relink-date">Вторник 29.03</a></li>
-                                        <li><a class="relink-date">Среда 30.03.</a></li>
-                                        <li><a class="relink-date">Четверг 31.03.</a></li>
+                                        <li><a class="relink-date active-date js-date-relink" data-day="21">Понедельник 21.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="22">Вторник 22.03</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="23">Среда 23.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="24">Четверг 24.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="25">Понедельник 28.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="26">Вторник 29.03</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="27">Среда 30.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="28">Четверг 31.03.</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="appointment-center">
-                                <b>Для записи на удобное вам время заполните форму:</b>
-                                <div class="appointment-record-container">
-                                    <div class="appointment-record">
-                                        <div class="appointment__name-patient">
-                                            <input required placeholder="Имя, Фамилия" class="form-control"
-                                                   id="name-patient"
-                                                   type="text"
-                                                   maxlength="500"
-                                                   value="">
-
+                                <div class="appointment-schedule js-appointment-schedule" data-day="21">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
-                                        <div class="appointment__phone-patient">
-                                            <input required placeholder="Номер телефона" class="form-control"
-                                                   id="phone-patient"
-                                                   type="text"
-                                                   maxlength="500"
-                                                   value="">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
                                     </div>
-                                    <a href="#" class="record__btn">Записаться</a>
                                 </div>
-                                <span>Или позвоните по телефону<a href="#"
-                                                                  class="appointment-phone">(499) 123-34-56</a></span>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="22" style="display: none">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="23" style="display: none">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="" style="display: none">
+                                    <b>Для записи на удобное вам время заполните форму:</b>
+                                    <div class="appointment-record-container">
+                                        <div class="appointment-record">
+                                            <div class="appointment__name-patient">
+                                                <input required placeholder="Имя, Фамилия" class="form-control"
+                                                       id="name-patient"
+                                                       type="text"
+                                                       maxlength="500"
+                                                       value="">
+                                            </div>
+                                            <div class="appointment__phone-patient">
+                                                <input required placeholder="Номер телефона" class="form-control"
+                                                       id="phone-patient"
+                                                       type="text"
+                                                       maxlength="500"
+                                                       value="">
+                                            </div>
+                                        </div>
+                                        <a href="#" class="record__btn">Записаться</a>
+                                    </div>
+                                    <span>Или позвоните по телефону<a href="#" class="appointment-phone">(499) 123-34-56</a></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -347,41 +599,293 @@
                                         <a class="date-scrolldown js-scrolldown"><img src="/images/bot-arrow.png"></a>
                                     </div>
                                     <ul class="list js-scrollable">
-                                        <li><a class="relink-date active-date">Понедельник 21.03.</a></li>
-                                        <li><a class="relink-date">Вторник 22.03</a></li>
-                                        <li><a class="relink-date">Среда 23.03.</a></li>
-                                        <li><a class="relink-date">Четверг 24.03.</a></li>
-                                        <li><a class="relink-date">Понедельник 28.03.</a></li>
-                                        <li><a class="relink-date">Вторник 29.03</a></li>
-                                        <li><a class="relink-date">Среда 30.03.</a></li>
-                                        <li><a class="relink-date">Четверг 31.03.</a></li>
+                                        <li><a class="relink-date active-date js-date-relink" data-day="21">Понедельник 21.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="22">Вторник 22.03</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="23">Среда 23.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="24">Четверг 24.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="25">Понедельник 28.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="26">Вторник 29.03</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="27">Среда 30.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="28">Четверг 31.03.</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="appointment-center">
-                                <b>Для записи на удобное вам время заполните форму:</b>
-                                <div class="appointment-record-container">
-                                    <div class="appointment-record">
-                                        <div class="appointment__name-patient">
-                                            <input required placeholder="Имя, Фамилия" class="form-control"
-                                                   id="name-patient"
-                                                   type="text"
-                                                   maxlength="500"
-                                                   value="">
-
+                                <div class="appointment-schedule js-appointment-schedule" data-day="21">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
-                                        <div class="appointment__phone-patient">
-                                            <input required placeholder="Номер телефона" class="form-control"
-                                                   id="phone-patient"
-                                                   type="text"
-                                                   maxlength="500"
-                                                   value="">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
                                     </div>
-                                    <a href="#" class="record__btn">Записаться</a>
                                 </div>
-                                <span>Или позвоните по телефону<a href="#"
-                                                                  class="appointment-phone">(499) 123-34-56</a></span>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="22" style="display: none">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="23" style="display: none">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="" style="display: none">
+                                    <b>Для записи на удобное вам время заполните форму:</b>
+                                    <div class="appointment-record-container">
+                                        <div class="appointment-record">
+                                            <div class="appointment__name-patient">
+                                                <input required placeholder="Имя, Фамилия" class="form-control"
+                                                       id="name-patient"
+                                                       type="text"
+                                                       maxlength="500"
+                                                       value="">
+                                            </div>
+                                            <div class="appointment__phone-patient">
+                                                <input required placeholder="Номер телефона" class="form-control"
+                                                       id="phone-patient"
+                                                       type="text"
+                                                       maxlength="500"
+                                                       value="">
+                                            </div>
+                                        </div>
+                                        <a href="#" class="record__btn">Записаться</a>
+                                    </div>
+                                    <span>Или позвоните по телефону<a href="#" class="appointment-phone">(499) 123-34-56</a></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -464,41 +968,293 @@
                                         <a class="date-scrolldown js-scrolldown"><img src="/images/bot-arrow.png"></a>
                                     </div>
                                     <ul class="list js-scrollable">
-                                        <li><a class="relink-date active-date">Понедельник 21.03.</a></li>
-                                        <li><a class="relink-date">Вторник 22.03</a></li>
-                                        <li><a class="relink-date">Среда 23.03.</a></li>
-                                        <li><a class="relink-date">Четверг 24.03.</a></li>
-                                        <li><a class="relink-date">Понедельник 28.03.</a></li>
-                                        <li><a class="relink-date">Вторник 29.03</a></li>
-                                        <li><a class="relink-date">Среда 30.03.</a></li>
-                                        <li><a class="relink-date">Четверг 31.03.</a></li>
+                                        <li><a class="relink-date active-date js-date-relink" data-day="21">Понедельник 21.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="22">Вторник 22.03</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="23">Среда 23.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="24">Четверг 24.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="25">Понедельник 28.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="26">Вторник 29.03</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="27">Среда 30.03.</a></li>
+                                        <li><a class="relink-date js-date-relink" data-day="28">Четверг 31.03.</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="appointment-center">
-                                <b>Для записи на удобное вам время заполните форму:</b>
-                                <div class="appointment-record-container">
-                                    <div class="appointment-record">
-                                        <div class="appointment__name-patient">
-                                            <input required placeholder="Имя, Фамилия" class="form-control"
-                                                   id="name-patient"
-                                                   type="text"
-                                                   maxlength="500"
-                                                   value="">
-
+                                <div class="appointment-schedule js-appointment-schedule" data-day="21">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
-                                        <div class="appointment__phone-patient">
-                                            <input required placeholder="Номер телефона" class="form-control"
-                                                   id="phone-patient"
-                                                   type="text"
-                                                   maxlength="500"
-                                                   value="">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                09:30
+                                            </button>
                                         </div>
                                     </div>
-                                    <a href="#" class="record__btn">Записаться</a>
                                 </div>
-                                <span>Или позвоните по телефону<a href="#"
-                                                                  class="appointment-phone">(499) 123-34-56</a></span>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="22" style="display: none">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                10:00
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="23" style="display: none">
+                                    <div class="schedule__time-container doctor-card__time js-schedule-time-container">
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                        <div class="schedule__item radio js-schedule__item" data-doctor-id="2"
+                                             data-clinic-id="3"
+                                             data-name-doctor="Петров Петр Казым оглы" data-photo-doctor=""
+                                             data-rating-doctor="5" data-time="09:30">
+                                            <button class="schedule__time-btn">
+                                                11:00
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appointment-schedule js-appointment-schedule" data-day="" style="display: none">
+                                    <b>Для записи на удобное вам время заполните форму:</b>
+                                    <div class="appointment-record-container">
+                                        <div class="appointment-record">
+                                            <div class="appointment__name-patient">
+                                                <input required placeholder="Имя, Фамилия" class="form-control"
+                                                       id="name-patient"
+                                                       type="text"
+                                                       maxlength="500"
+                                                       value="">
+                                            </div>
+                                            <div class="appointment__phone-patient">
+                                                <input required placeholder="Номер телефона" class="form-control"
+                                                       id="phone-patient"
+                                                       type="text"
+                                                       maxlength="500"
+                                                       value="">
+                                            </div>
+                                        </div>
+                                        <a href="#" class="record__btn">Записаться</a>
+                                    </div>
+                                    <span>Или позвоните по телефону<a href="#" class="appointment-phone">(499) 123-34-56</a></span>
+                                </div>
                             </div>
                         </div>
                     </div>
