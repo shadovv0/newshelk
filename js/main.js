@@ -122,14 +122,23 @@ $('.menu-map').on('click', function (e) {
 });
 
 
-$('.clinic-card__popup-map').on('click', function (e) {
+$(document).on('click', function(e) {
+    if (!$(e.target).closest('.clinic-card__popup-map').length && $('.open-clinic-map').length) {
+        $('.clinics-map').removeClass('open-clinic-map');
+        $('.close-clinic-map').css('display', 'none');
+        $('html').removeClass('no-scroll');
+    }
+});
+
+$('.clinic-card__popup-map').on('click', function(e) {
+    e.stopPropagation();
     if (!$('.open-clinic-map').length) {
         $('.clinics-map').addClass('open-clinic-map');
-        $('.close-clinic-map')[0].style.display = 'block';
+        $('.close-clinic-map').css('display', 'block');
         $('html').addClass('no-scroll');
     } else {
         $('.clinics-map').removeClass('open-clinic-map');
-        $('.close-clinic-map')[0].style.display = 'none';
+        $('.close-clinic-map').css('display', 'none');
         $('html').removeClass('no-scroll');
     }
 });
