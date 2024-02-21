@@ -100,10 +100,12 @@ $('.input-for-search').on('click', function (e) {
     if (!$('.open-window-search').length) {
         $('.head__container').addClass('open-window-search');
         $('.window-search').show();
+        $('body').addClass('blackout');
         $('.content').addClass('content-raltive');
     } else {
         $('.head__container').removeClass('open-window-search');
         $('.window-search').hide();
+        $('body').removeClass('blackout');
         $('.content').removeClass('content-raltive');
     }
 });
@@ -121,27 +123,23 @@ $('.menu-map').on('click', function (e) {
     }
 });
 
-
-$(document).on('click', function(e) {
-    if (!$(e.target).closest('.clinic-card__popup-map').length && $('.open-clinic-map').length) {
-        $('.clinics-map').removeClass('open-clinic-map');
-        $('.close-clinic-map').css('display', 'none');
-        $('html').removeClass('no-scroll');
-    }
-});
-
-$('.clinic-card__popup-map').on('click', function(e) {
+$('.clinic-card__popup-with-map').on('click', function (e) {
     e.stopPropagation();
-    if (!$('.open-clinic-map').length) {
-        $('.clinics-map').addClass('open-clinic-map');
-        $('.close-clinic-map').css('display', 'block');
-        $('html').addClass('no-scroll');
-    } else {
+    $('.clinics-map').toggleClass('open-clinic-map');
+    $('.close-clinic-map').toggle();
+    $('body').toggleClass('blackout');
+    $('html').toggleClass('no-scroll');
+});
+
+$(document).on('click', function (e) {
+    if (!$(e.target).closest('.clinic-card__popup-with-map').length && !$(e.target).closest('.open-clinic-map').length) {
         $('.clinics-map').removeClass('open-clinic-map');
-        $('.close-clinic-map').css('display', 'none');
+        $('.close-clinic-map').hide();
+        $('body').removeClass('blackout');
         $('html').removeClass('no-scroll');
     }
 });
+
 
 
 function showRecordForm() {
