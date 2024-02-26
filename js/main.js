@@ -615,6 +615,7 @@ $(".mob-swiper").owlCarousel({
 $(".date-swiper").owlCarousel({
     margin: 30,
     items: 1,
+    dots: false,
     nav: true,
     navText: ["<div class='date-desk-arrow date-desk-arrow-left'></div>", "<div class='date-desk-arrow date-desk-arrow-right'></div>"],
 });
@@ -630,7 +631,7 @@ $(".date-clinic-swiper").owlCarousel({
 $(".date-mob-swiper").owlCarousel({
     margin: 30,
     items: 1,
-    dots: true,
+    dots: false,
     nav: true,
     navText: ["<div class='date-arrow date-arrow-left'></div>", "<div class='date-arrow date-arrow-right'></div>"],
 });

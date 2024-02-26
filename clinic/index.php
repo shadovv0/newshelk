@@ -521,7 +521,7 @@
                 </div>
                 <div class="listing__body">
                     <div class="doctor-card__listing__item">
-                        <form action="#" data-appointment class="doctor-card__body">
+                        <div data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
@@ -1113,8 +1113,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
-                        <form action="#" data-appointment class="doctor-card__body">
+                        </div>
+                        <div data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
@@ -1706,8 +1706,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
-                        <form action="#" data-appointment class="doctor-card__body">
+                        </div>
+                        <div data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
@@ -2299,8 +2299,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
-                        <form action="#" data-appointment class="doctor-card__body">
+                        </div>
+                        <div data-appointment class="doctor-card__body">
                             <div data-fold class="doctor-card__dropdown-container">
                                 <button data-fold-btn class="faq__btn">
                                     <div class="listing-doctor__title">
@@ -2892,7 +2892,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

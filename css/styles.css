@@ -483,22 +483,28 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 15px;
+}
+
+.popular-doctor__photo img {
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .popular-doctor__doctor-info {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .popular-doctor__name {
     color: #000;
     font-size: 14px;
     font-weight: 600;
+    max-width: 200px;
 }
 
 .popular-doctor__price {
@@ -622,11 +628,17 @@ body {
 
 .other-clinics__head {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: flex-start;*/
     padding-bottom: 20px;
+}
+
+.other-clinics__photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .other-clinics__container {
@@ -3850,7 +3862,7 @@ ul.list::-webkit-scrollbar {
     display: flex;
     max-width: 250px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -4310,6 +4322,7 @@ ul.list::-webkit-scrollbar {
     font-size: 18px;
     font-weight: 600;
     padding: 5px 0;
+    width: max-content;
 }
 
 .doctor-card__date {
@@ -4378,6 +4391,8 @@ ul.list::-webkit-scrollbar {
 }
 
 .schedule__time-btn {
+    width: 65px;
+    height: 30px;
     margin: 6px;
     border-radius: 6px;
     background: #516FA6;

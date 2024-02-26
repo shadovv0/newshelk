@@ -448,7 +448,7 @@
                 </div>
                 <div class="listing__body">
                     <div class="doctor-card__listing__item">
-                        <form data-fold action="#" data-appointment class="doctor-card__body">
+                        <div data-appointment class="doctor-card__body">
                             <div class="doctor-card__listing-title">
                                 <button data-fold-btn class="faq__btn is-active border-spec">
                                     <h5>Гинекологи</h5>
@@ -753,8 +753,8 @@
                                 </div>
                             </div>
                             <button data-appointment="btn" class="is-hidden"></button>
-                        </form>
-                        <form data-fold action="#" data-appointment class="doctor-card__body">
+                        </div>
+                        <div data-fold data-appointment class="doctor-card__body">
                             <div class="doctor-card__listing-title">
                                 <button data-fold-btn class="faq__btn border-spec">
                                     <h5>Урологи</h5>
@@ -1058,8 +1058,8 @@
                                 </div>
                             </div>
                             <button data-appointment="btn" class="is-hidden"></button>
-                        </form>
-                        <form data-fold action="#" data-appointment class="doctor-card__body">
+                        </div>
+                        <div data-fold data-appointment class="doctor-card__body">
                             <div class="doctor-card__listing-title">
                                 <button data-fold-btn class="faq__btn border-spec">
                                     <h5>Венерологи</h5>
@@ -1363,8 +1363,8 @@
                                 </div>
                             </div>
                             <button data-appointment="btn" class="is-hidden"></button>
-                        </form>
-                        <form data-fold action="#" data-appointment class="doctor-card__body">
+                        </div>
+                        <div data-fold data-appointment class="doctor-card__body">
                             <div class="doctor-card__listing-title">
                                 <button data-fold-btn class="faq__btn border-spec">
                                     <h5>Отоларингологи</h5>
@@ -1668,7 +1668,7 @@
                                 </div>
                             </div>
                             <button data-appointment="btn" class="is-hidden"></button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

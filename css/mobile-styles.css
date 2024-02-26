@@ -3220,6 +3220,8 @@ html.no-scroll body {
 }
 
 .schedule__time-btn {
+    width: 65px;
+    height: 30px;
     margin: 6px;
     border-radius: 6px;
     background: #516FA6;
