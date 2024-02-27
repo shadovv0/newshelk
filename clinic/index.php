@@ -655,6 +655,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -734,6 +737,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -813,6 +819,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -944,6 +953,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1023,6 +1035,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1102,6 +1117,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1248,6 +1266,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1327,6 +1348,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1406,6 +1430,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1537,6 +1564,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1616,6 +1646,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1695,6 +1728,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1841,6 +1877,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1920,6 +1959,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="doctor-card-record__container">
@@ -1999,6 +2041,9 @@
                                                                 </button>
                                                             </div>
                                                         </div>
+                                                        <a class="record__btn js-record">
+                                                            Записаться на приём
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3970,6 +4015,28 @@
         </form>
         <button class="js-close-form close-form"><img src="../images/close.png"></button>
     </div>
+</div>
+<div class="popup pp-close-hint">
+    <a class="pp-close" href="#"></a>
+    <div>
+        <div class="pp-title">Вы действительно хотите прервать запись?</div>
+        <div class="pp-body center">
+            Если у вас возникли вопросы,
+            позвоните нам по телефону:
+            <br>
+            <a class="phone-link" href="tel:+74950211888">+7 (495) 021-18-88</a>
+
+            <div class="btns-row">
+                <button class="button btn-emo pp-close-btn">
+                    Прервать
+                </button>
+                <button class="button js-pp-get-back">
+                    Продолжить
+                </button>
+            </div>
+        </div>
+    </div>
+    <button class="js-close-hint close-form "><img src="../images/close.png"></button>
 </div>
 <!--фансибокс -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
